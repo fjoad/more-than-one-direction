@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "ad689b0961e90d996e406ce89c9f1313b9edb751631738e2a9dd543aadcba11b",
+  "recipe": "WildGuard_all",
+  "source_pool": "data/training_pools/llama/per_split_simple/WildGuard_all",
+  "timestamp": "2026-05-20T01:07:01.554745"
+}

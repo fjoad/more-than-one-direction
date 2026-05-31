@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "name": "Visual content creation (images, maps, 3D)",
+      "description": "Latents that fire on prompts asking to draw, sketch, illustrate, or generate visual artifacts such as pictures, maps, blueprints, posters, or 3D models. Prompts usually specify styles, landmarks, or scene details, and the model refuses due to text-only capability. Some broader multimodal latents weakly activate when drawings are one among various unsupported outputs.",
+      "latents": [
+        {
+          "latent_id": 481,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 3834,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1934,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Media perception and conversion (audio/video/image to text)",
+      "description": "Latents keyed to requests to listen to, watch, or inspect attached media and transcribe, translate, summarize, or identify content. They span cross-lingual transcription, OCR, song/face/location identification, and analysis of audio clips. Refusals arise because the assistant cannot access external files or perform non-text perception.",
+      "latents": [
+        {
+          "latent_id": 1934,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 3834,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13756,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Unsupported outputs and unattested languages",
+      "description": "Latents that detect asks for outputs the model cannot produce (audio/video/sign-language performances, music playback, visual renderings) or for translation into nonhuman/fictional/ancient languages without standardized written forms. They also include tool-specific deliverables (3D CAD, detailed schematics/maps) and requests implying copyrighted verbatim audio/long recitations or real-time/external data. These typically trigger capability/policy refusals; when framed as purely textual info, the model may comply.",
+      "latents": [
+        {
+          "latent_id": 2506,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13756,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1934,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 3834,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Embodied sensory judgments (taste/smell/touch)",
+      "description": "Latents that fire when the user asks the assistant to taste, smell, touch, or otherwise experience a present physical object and report subjective impressions. The prompts assume physical presence and immediate senses (e.g., 'this soup', 'my perfume'), so the model refuses while sometimes offering general advice.",
+      "latents": [
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

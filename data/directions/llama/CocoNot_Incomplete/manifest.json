@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "886d9644db06416544c5cdfeb4ed4cb14c272f25d06c4fed4bfe3af12734def3",
+  "recipe": "CocoNot_Incomplete",
+  "source_pool": "data/training_pools/llama/per_split_simple/CocoNot_Incomplete",
+  "timestamp": "2026-05-20T01:37:45.420720"
+}

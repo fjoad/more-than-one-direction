@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "qwen_t64bc_randH_seed5",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 12.773280143737793,
+  "bc_proj_mean": 0.3194800019264221,
+  "direction_sha256": "0b3c9aa661968e044d3e655e10d2d1607709f3af9b5c6766dccc3b250d643ee4",
+  "d_model": 2048,
+  "h_source": "random.Random(5).sample(Qwen-HR superset, 32) from labeled.json",
+  "b_source": "train64's exact 32 B (legacy/train_subset64_working.json)",
+  "timestamp": "2026-05-11T15:01:07"
+}

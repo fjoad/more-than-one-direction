@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "roundrobin_seed1_ourBC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 5.977321147918701,
+  "bc_proj_mean": -5.939751148223877,
+  "direction_sha256": "26b435b39e11dc313e6cba036378c8ef6c2757f4c25aca8bc91929d6c184fd96",
+  "d_model": 2048,
+  "h_source": "round-robin from 11 splits, 3 per split (seed=1, drop last → 32)",
+  "b_source": "data/training_pools/qwen/per_split_simple/WildGuard_all/B.json (32 shared BC)",
+  "timestamp": "2026-05-10T14:16:31"
+}

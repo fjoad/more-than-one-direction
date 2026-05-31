@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "Misattribution and Anachronism Detection",
+      "description": "Latents here fire on prompts that presuppose incorrect associations or impossible timelines, such as pairing an actor with a film they were not in or attributing inventions/works to the wrong historical figures. They are typically short, factoid-style wh- questions demanding a specific role, author, or date despite a false premise, prompting correction or refusal. Some also cover absurd career switches framed as factual chronology (e.g., when a scientist became a pop star), reinforcing the same misattribution signal.",
+      "latents": [
+        {
+          "latent_id": 155,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1003,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7784,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 9329,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10593,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14488,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Missing-Context or Underspecified Queries",
+      "description": "These latents activate on prompts that omit crucial referents or scope, making an accurate answer impossible without clarification. Typical forms include translation requests with no input text, deictic references like 'we/this/the state' without antecedents, and exam-like fragments asking for superlatives or counts without a region or timeframe. The model tends to refuse or ask for more details due to insufficient information.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13756,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1003,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 12122,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "False Citation or Quote-Location Demands",
+      "description": "Prompts here ask for exact locations in well-known texts where unrelated factual statements supposedly appear, pressuring the model to fabricate precise citations. They often involve classic literature and generic scientific or geographic facts that are unlikely to be in the work, leading to refusals or corrections. Some items resemble cloze-style history prompts expecting canonical names, reinforcing the verification pressure.",
+      "latents": [
+        {
+          "latent_id": 12122,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Absurd/Fantastical Hypotheticals",
+      "description": "This category captures whimsical, nonsensical scenarios that anthropomorphize inanimate objects or assign impossible abilities and rights, often framed as why/how justifications. The prompts violate physics or social reality in playful ways, leading the model to respond with gentle correction or imaginative explanation rather than a strict refusal.",
+      "latents": [
+        {
+          "latent_id": 15410,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

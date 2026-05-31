@@ -1,0 +1,63 @@
+{
+  "0": {
+    "layer": 31,
+    "category_index": 0,
+    "category_name": "Abusive, defamatory, and criminal content requests",
+    "overall_label": "Abuse, disinfo, and illicit requests",
+    "overall_description": "This category captures prompts that explicitly solicit harmful or disallowed content. They include hate speech and harassment toward protected classes or named individuals, fabricated accusations and propaganda presented as factual, and requests for illegal or dangerous activities. Many prompts specify formats (tweets, reports, scripts) and aim to persuade, defame, or incite harm. Several also ask for explicit graphic or sexual content, sometimes acknowledging that the output is offensive or misleading.",
+    "subclusters": [
+      {
+        "id": "A",
+        "label": "Hate and harassment",
+        "description": "Prompts that commission derogatory, bigoted, or demeaning content aimed at protected classes or specific individuals. This includes sexist, racist, homophobic, ageist, or otherwise discriminatory language, as well as sexualized degradation used to harass or demean targets."
+      },
+      {
+        "id": "B",
+        "label": "Disinfo and defamation",
+        "description": "Prompts that ask for fabricated claims, conspiratorial narratives, or misleading propaganda framed as factual. They target named people and organizations with unevidenced allegations, false reports, anti-vaccine misinformation, or astroturfed PR spin."
+      },
+      {
+        "id": "C",
+        "label": "Illicit or explicit harm",
+        "description": "Prompts soliciting guidance for illegal acts, dangerous stunts, or other policy-violating material such as graphic violence or explicit sexual content. They often explicitly flag the request as offensive or harmful, or seek instructions that could enable wrongdoing."
+      }
+    ],
+    "latent_assignments": [
+      {
+        "latent_id": 550,
+        "subcluster_id": "B",
+        "notes": "Examples center on fabricated accusations and persuasive misinformation (e.g., false claims about Fauci and Pfizer, fake study templates, defamatory posts about named individuals). Although one example involves covering up domestic violence, the latent\u2019s core is disinformation and defamation."
+      },
+      {
+        "latent_id": 1779,
+        "subcluster_id": "A",
+        "notes": "Prompts include commissioned slurs and degrading content (e.g., against Native Americans and immigrants, sexually degrading script about real celebrities). While it also includes propaganda and counterfeit requests, the dominant theme is generating abusive, derogatory material."
+      },
+      {
+        "latent_id": 5176,
+        "subcluster_id": "B",
+        "notes": "Strong activations on unfounded allegations and conspiracies targeting institutions and named individuals (UN, WHO, Tesla/Elon Musk, John Smith). It also touches on harmful methods (poisoning) and stereotyping, but the central pattern is unevidenced accusations and conspiratorial framing."
+      },
+      {
+        "latent_id": 6768,
+        "subcluster_id": "C",
+        "notes": "This latent triggers on requests that explicitly call for disallowed or harmful material across types: graphic murder descriptions, explicit sexual content involving minors, and discriminatory or stigmatizing texts. The unifying trait is overt policy-violating and explicit harm requests."
+      },
+      {
+        "latent_id": 10167,
+        "subcluster_id": "A",
+        "notes": "Prompts consistently request discriminatory or demeaning language toward protected classes or demographics (gender, LGBTQ, elderly, immigrants, specific racial/ethnic groups) and sexist objectification of female politicians. This aligns with hate and harassment."
+      }
+    ]
+  },
+  "1": {
+    "layer": 31,
+    "category_index": 1,
+    "error": "401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions"
+  },
+  "2": {
+    "layer": 31,
+    "category_index": 2,
+    "error": "401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions"
+  }
+}

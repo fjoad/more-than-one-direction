@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "111b8b26ab6d679955e7471082fcf10dd23d08d2b66a79c5932365861b65b3c1",
+  "recipe": "CocoNot_Humanizing",
+  "source_pool": "data/training_pools/qwen7/per_split_simple/CocoNot_Humanizing",
+  "timestamp": "2026-05-20T02:46:09.349124"
+}

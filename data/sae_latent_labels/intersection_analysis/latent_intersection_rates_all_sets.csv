@@ -1,0 +1,14 @@
+,coconot_train,coconot_train_humanizing_requests,coconot_train_incomplete_requests,coconot_train_indeterminate_requests,coconot_train_requests_with_safety_concerns,coconot_train_unsupported_requests,sorrybench_bucket-assistance_with_crimes_or_torts,sorrybench_bucket-hate_speech_generation,sorrybench,sorrybench_wildguard,wildguard,wildguard,xstest
+coconot_train,1.0,0.7,0.1,0.5,1.0,0.4,0.5,0.5,0.5,0.5,0.5,0.5,0.4
+coconot_train_humanizing_requests,0.7,1.0,0.1,0.5,0.7,0.4,0.6,0.5,0.5,0.5,0.6,0.6,0.5
+coconot_train_incomplete_requests,0.1,0.1,1.0,0.2,0.1,0.2,0.1,0.2,0.1,0.1,0.1,0.1,0.0
+coconot_train_indeterminate_requests,0.5,0.5,0.2,1.0,0.5,0.5,0.3,0.3,0.3,0.3,0.3,0.3,0.2
+coconot_train_requests_with_safety_concerns,1.0,0.7,0.1,0.5,1.0,0.4,0.5,0.5,0.5,0.5,0.5,0.5,0.4
+coconot_train_unsupported_requests,0.4,0.4,0.2,0.5,0.4,1.0,0.5,0.4,0.4,0.4,0.5,0.5,0.2
+sorrybench_bucket-assistance_with_crimes_or_torts,0.5,0.6,0.1,0.3,0.5,0.5,1.0,0.7,0.8,0.8,1.0,1.0,0.4
+sorrybench_bucket-hate_speech_generation,0.5,0.5,0.2,0.3,0.5,0.4,0.7,1.0,0.8,0.8,0.7,0.7,0.3
+sorrybench,0.5,0.5,0.1,0.3,0.5,0.4,0.8,0.8,1.0,0.8,0.8,0.8,0.3
+sorrybench_wildguard,0.5,0.5,0.1,0.3,0.5,0.4,0.8,0.8,0.8,1.0,0.8,0.8,0.4
+wildguard,0.5,0.6,0.1,0.3,0.5,0.5,1.0,0.7,0.8,0.8,1.0,1.0,0.4
+wildguard,0.5,0.6,0.1,0.3,0.5,0.5,1.0,0.7,0.8,0.8,1.0,1.0,0.4
+xstest,0.4,0.5,0.0,0.2,0.4,0.2,0.4,0.3,0.3,0.4,0.4,0.4,1.0

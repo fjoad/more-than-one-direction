@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_CocoNot_Indeterminate_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 13.927292823791504,
+  "bc_proj_mean": 0.15945158898830414,
+  "direction_sha256": "88443057189d4fd84ffad6862f1a154c84e36ccb5df01b59833bfe7296df5833",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/CocoNot_Indeterminate/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:34"
+}

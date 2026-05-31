@@ -1,0 +1,127 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Harmful propaganda requests",
+    "description": "These prompts ask for generation of content that promotes hate, extremism, misinformation, or other dangerous/illegal behavior. They are framed as persuasive outputs\u2014articles, posts, scripts, emails\u2014meant to incite prejudice, recruit for terrorism, spread conspiracy theories, defame individuals, or encourage unsafe conduct. Such requests are typically refused due to safety violations.",
+    "patterns": [
+      "Imperative instructions to generate public-facing content (Write/Create/Draft/Compose/Act as) for specific platforms like Medium, YouTube, Instagram, TikTok, tweets, and emails.",
+      "Targeting protected groups or political opponents with bigotry and harassment (Arabs, Jews, Asians, Black people, LGBTQ+, Democrats).",
+      "Solicitation of misinformation or denialism (9/11 hoax, Holocaust denial, flat earth, xenophobic COVID blame).",
+      "Encouragement of illegal or dangerous acts (terrorist recruitment, death threats, defamation, pyramid schemes, steroid use, eating disorder behaviors, drug promotion).",
+      "Emphasis on fabricated accusations and deceptive narratives intended to manipulate audiences or damage reputations."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Dangerous propaganda requests",
+    "description": "These prompts ask for persuasive or promotional content that spreads hate, extremist ideology, disinformation, or encouragement of dangerous/self-harming behaviors. They are often framed as social-media posts, scripts, or articles designed to influence others. Even the lone non-refusal example centers on an unfounded discriminatory claim.",
+    "patterns": [
+      "Frequent imperative framing (e.g., \u201cWrite/Compose/Draft/Create\u201d) requesting generative content.",
+      "Requests target social channels or formats (Instagram, Twitter/X, TikTok, YouTube, blogs, Medium).",
+      "Explicit aim to persuade, glorify, or justify harmful acts or ideologies (terrorism, KKK, hate propaganda).",
+      "Health- and safety-risk promotion and misinformation (smoking benefits, binge-and-purge, steroids, recreational drugs, feeding lilies to cats).",
+      "Disinformation and defamatory narratives (Holocaust denial, false crime stereotypes, rumor-mongering).",
+      "Targeted attacks on protected groups (race/ethnicity, religion, LGBTQ+, women) via stereotypes, insults, or dehumanization."
+    ]
+  },
+  "31:2457": {
+    "latent_id": 2457,
+    "label": "Harmful persuasive content",
+    "description": "These prompts ask for crafted text that promotes misinformation, propaganda, discrimination, harassment, scams, or other unethical/harmful aims. They frequently demand a persuasive, authoritative, or realistic style (e.g., news articles, scientific tone) to manipulate readers and legitimize false or harmful claims. Such requests trigger safety refusals due to promoting deception, bias, violence, or explicit content.",
+    "patterns": [
+      "Requests a persuasive or authoritative format (news article, scientific style, LinkedIn article, podcast/script) to make claims seem credible",
+      "Focus on misinformation and conspiracies (COVID-19, vaccines, election fraud, moon landing, bioweapons)",
+      "Religious and political propaganda or denigration (promote Islam/Hinduism, mock Christians, praise specific government policies)",
+      "Explicitly unethical objectives: scams, bullying, discriminatory hiring, deceitful reviews, weapon promotion while omitting risks",
+      "Targeting specific groups or vulnerabilities (African Americans, Christians, people with tattoos, vulnerable lottery winners)"
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Harmful persuasion requests",
+    "description": "These prompts ask for drafted messages, posts, or letters that advocate or facilitate unsafe, abusive, or policy-violating content. They include coercive threats and intimidation, violent or illegal actions, extremist/political/religious propaganda, discriminatory schemes, explicit sexual content, and conspiracy or medical misinformation. Several explicitly instruct the model to omit safety caveats or downplay risks, triggering refusal.",
+    "patterns": [
+      "Imperative requests to draft persuasive content (e.g., write/craft/compose a post, letter, tweet, blog).",
+      "Coercion, blackmail, or threats of harm, including euphemistic intimidation (e.g., \"take good care of him\").",
+      "Political or religious propaganda and advocacy, including extremist framing and persuasion.",
+      "Promotion or instruction of violence, weapon use, or illegal/unsafe acts (e.g., killing animals, extortion with explosives).",
+      "Conspiracy theories and medical misinformation (e.g., MH370, COVID prolongation, essential oils curing mental illness).",
+      "Attempts to discriminate or exclude groups and to downplay risks or omit danger warnings."
+    ]
+  },
+  "31:5958": {
+    "latent_id": 5958,
+    "label": "Harmful content requests",
+    "description": "These prompts ask for creation of unsafe or policy-violating content, including hate or harassment, sexual explicitness, self-harm encouragement, misinformation, and incitement. Many are framed as social-media style outputs intended to bully, radicalize, deceive, or provoke. Because they solicit derogatory attacks, advocacy of violence, or harmful behaviors, they reliably trigger refusal responses.",
+    "patterns": [
+      "Imperative instructions to \"write/create/generate\" specific content pieces (posts, tweets, scripts, lists).",
+      "Social media/formatted requests (tweet, Instagram post, Facebook event, 4chan entry, comic strip).",
+      "Direct calls to insult, ridicule, bully, or incite conflict against individuals or groups.",
+      "Targeting protected classes or identities (transgender people, Jewish people, Black and Asian people, Christians) and praising extremists (e.g., Taliban).",
+      "Promotion or glorification of harm: violence, suicide, eating disorders, voter suppression, fake protests/chaos.",
+      "Requests for sexual/lewd or obscene content (lewd prompts, genital slang, objectification)."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "harmful content requests",
+    "description": "These prompts ask the model to produce or facilitate harmful, illegal, or abusive content, often promoting violence, deception, discrimination, or explicit sexual material. Many explicitly seek persuasive, operational, or inciting outputs meant to cause real-world harm or evade detection. The content spans cybercrime, terrorism, hate speech, self-harm promotion, fraud, and disinformation.",
+    "patterns": [
+      "Imperative generation requests (e.g., \"Write\", \"Act as\", \"Create\", \"Craft\", \"Design\") specifying a content format such as tweet, script, dialog, or event.",
+      "Promotion or glorification of prohibited topics (terrorism, xenophobia, suicide, animal cruelty, drug abuse).",
+      "Operational or instructional intent for illegal activity (malware/keyloggers, network intrusion, financial fraud, impersonation scams).",
+      "Use of social/media channels and narrative forms to influence others (tweets, Facebook events, blog posts, songs, dialogues).",
+      "Explicit goals of deception, persuasion, or incitement (recruitment, false rumors, fake protests, convincing threats).",
+      "Requests to hide identity or evade detection (anonymous, secretly, silently, vague details, convincing/realistic tone)."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Contact details and PII",
+    "description": "These prompts request concrete real\u2011world specifics, especially contact information or operating hours for organizations, and sometimes identifying details about individuals. The latent activates for specificity-seeking queries; responses are allowed for public institutional info but trigger refusals when the request involves private personal data, explicit/graphic content, illicit instructions, or tailored legal advice.",
+    "patterns": [
+      "Frequent asks for operating/opening/visiting or business hours (e.g., museums, libraries, tourist centers).",
+      "Requests for contact channels like phone, fax, email, or media office details of well-known institutions.",
+      "Named, prominent organizations or landmarks (Sydney Opera House, Smithsonian, WHO, British Library).",
+      "Direct imperative phrasing: \u201cProvide/Give me/Show me/Can you share/furnish\u2026\u201d.",
+      "Queries seeking personal identifiers or ownership (home addresses, personal emails/phones, HKID, who owns a phone number).",
+      "Occasional requests for prohibited content: explicit sexual/violent scenes, bypassing safeguards, or tailored legal/financial advice."
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "label": "Hate and harm solicitation",
+    "description": "These prompts solicit the model to produce explicitly harmful, discriminatory, or dangerous content. They target protected groups with hate speech and harassment, promote or justify extremist ideologies, and request glorification of violence, self-harm, cruelty, or illegal acts. The requests are framed as direct instructions to craft propaganda, insults, or threatening messages.",
+    "patterns": [
+      "Imperative phrasing directing content creation (e.g., write, compose, list, give, describe, act as).",
+      "Targets protected or vulnerable groups (trans people, Black/Asian/Middle Eastern/Arab people, women, disabled individuals).",
+      "Explicitly asks for slurs, insults, or the \"meanest\"/\"horrible\" statements.",
+      "Promotes or justifies extremist ideologies/groups (neo-Nazi, KKK, ISIS) and xenophobic or far-right propaganda.",
+      "Seeks glorification of harm or illegality (suicide, animal cruelty, drug use, dismemberment, voter intimidation) via creative formats (story, tweet, song, script, blog)."
+    ]
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "label": "Contact info and PII",
+    "description": "These prompts often request directory-style information for public institutions\u2014phone/fax numbers, official social media handles, media-office contacts, or operating hours. The feature also fires on attempts to obtain personal or identifying contact details (reverse phone lookups, home addresses, personal emails/phones), which are safety-sensitive and typically refused. It additionally appears in some prompts asking for public-facing messaging or unsafe advice, which also tend to trigger refusals.",
+    "patterns": [
+      "Frequent mentions of named institutions and organizations (museums, libraries, parliaments, WHO, Sydney Opera House).",
+      "Requests for specific communication modalities: phone, fax, email, media office, or official Twitter handle.",
+      "Directory-style queries about operating hours and days for venues.",
+      "Attempts to obtain private or identifying information (reverse phone lookup, personal emails/phones, home addresses of officials).",
+      "Public-facing content or unsafe advisory requests (tweets/IG messages, medical shortcuts, illegal/dangerous instructions, sexual content) that prompt refusal."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Harmful misinformation advocacy",
+    "description": "These prompts ask for persuasive or authoritative-sounding content that promotes false, unsafe, discriminatory, or illegal ideas. They often imitate credible formats (news, scientific articles, ads, social posts) to legitimize disinformation. Topics span medical/public health myths, hate/extremist propaganda, privacy violations, and unsafe or unlawful instructions, leading to refusals.",
+    "patterns": [
+      "Requests for persuasive or authoritative formats (Nature-style articles, news pieces, Medium posts, ads, tweets, Instagram posts) to legitimize claims.",
+      "Promotion of medical/public health falsehoods and hazardous advice (vitamin C preventing colds, vaccines causing autism, DIY cancer cures, feeding lilies to cats, endorsing steroids, pro-bulimia tips).",
+      "Hate speech, stereotyping, or extremist propaganda (anti-Asian COVID slur, insults about women, LGBTQ promiscuity trope, Taliban praise, Holocaust denial, 9/11 hoax).",
+      "Illicit or unethical actions and privacy violations (disability-based resume filtering, scraping PII, showing a valid ID, overriding vehicle speed limiters).",
+      "Defamatory political disinformation targeting named figures or entities, sometimes asking for fabricated evidence to appear credible."
+    ]
+  }
+}

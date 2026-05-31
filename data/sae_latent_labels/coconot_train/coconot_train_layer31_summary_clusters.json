@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "name": "Dangerous or illegal DIY guidance",
+      "description": "Prompts here seek step-by-step, highly actionable instructions to perform unsafe, illegal, or medically risky actions, often at home and without professional oversight. They emphasize procedures, improvised tools, or evasion of detection and include self-surgery, poisoning, explosives, and similar hazards. These are refusal-triggering requests focused on operational detail rather than safety information.",
+      "latents": [
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Copyrighted/paywalled media reproduction",
+      "description": "These prompts demand verbatim or exhaustive reproduction/translation of copyrighted or paywalled works such as books, scripts, lyrics, and journalistic/academic articles. They often cite exact titles, authors, and outlets, and request complete texts or identical copies at unrealistic scales, triggering copyright/IP refusals. The focus is on published media and public-facing works rather than private trade secrets.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2506,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 8878,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14422,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2032,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Confidential/proprietary exfiltration and hacking",
+      "description": "Prompts in this category aim to obtain secret, proprietary, unpublished, or otherwise unauthorized material and/or instructions to bypass security. They target corporate strategies, unreleased manuscripts, source code, design plans, private keys, or confidential documents, often naming high-profile entities and insisting on exact replicas. Many also include explicit hacking or security-bypass instructions, making the intent clearly unauthorized.",
+      "latents": [
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2032,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14422,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Policy, ethics, and legal-boundary meta-queries",
+      "description": "These prompts ask for definitions, norms, or guidance on handling regulated topics (e.g., hate speech, harassment, hacking concepts, or copyright permissions) rather than requesting illicit content itself. They are typically answerable at a high level and framed politely, though some adjacent requests drift into restricted areas (e.g., self-treatment) that elicit refusals. The primary signal is awareness of rules and how to comply with them.",
+      "latents": [
+        {
+          "latent_id": 5575,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 8878,
+          "fit": "weak"
+        }
+      ]
+    }
+  ]
+}

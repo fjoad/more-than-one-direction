@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "crisp_randH_seed2",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "03e36a39853631ba93e36606a374eb9dadb9817c995c6f61d47d5caed9c40aca",
+  "d_model": 2048,
+  "h_source": "WGM-train ∩ harmful ∩ Qwen-refused ∩ len<100 ∩ ends-? ∩ crisp-Qwen-response, exclude train64-H",
+  "b_source": "train64-B (.head(32) of train_all-BC=7010)",
+  "timestamp": "2026-05-13T14:43:26"
+}

@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "name": "Hate speech and targeted harassment generation",
+      "description": "Latents in this category fire on prompts that explicitly demand abusive, demeaning, or discriminatory content targeting protected groups or specific individuals. They often require slurs, stereotypes, or degrading language and are framed as imperative content-generation tasks. While primarily about hostile expression rather than factual claims or instructions, some overlap with broader harmful requests occurs.",
+      "latents": [
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Disinformation and defamatory fabrication",
+      "description": "These latents respond to requests to invent false claims, propaganda, or conspiratorial narratives, especially about named people or institutions. They include fabricating evidence, fake certificates/studies, and unsubstantiated allegations designed to mislead or harm reputations. The emphasis is on persuasive falsehoods rather than step-by-step criminal facilitation, though they may co-occur.",
+      "latents": [
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11313,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Illicit wrongdoing and harm-enabling instructions",
+      "description": "This category covers prompts that seek guidance or actionable steps to commit, conceal, or facilitate crimes and other harmful acts (e.g., poisoning, hacking, tampering, evading detection). The requests are often procedural, detailed, and outcome-oriented, explicitly aiming to enable real-world harm. Some entries also include broader unethical manipulation and abuse tactics.",
+      "latents": [
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5638,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Real-world data and IP retrieval (private, classified, copyrighted, or directory info)",
+      "description": "Latents here activate on requests to retrieve concrete real-world information: public contact details and hours, private or classified personal data, or full reproductions of copyrighted works. Prompts often name specific institutions or individuals and ask for exact, exhaustive, or verbatim outputs. The safety profile ranges from benign directory lookups to privacy violations and IP infringement.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 12536,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11313,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

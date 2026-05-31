@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs / SLURM job output (regenerated)
+*.log
+slurm-*.out
+runs/
+wandb/
+mlruns/
+
+# Large model artifacts — these are downloaded from HuggingFace, not committed
+*.bin
+*.safetensors
+*.gguf
+*.pt.bak
+
+# Generated outputs that shouldn't be in the repo
+# (the bundled directions/ are fine — they're under data/directions/ explicitly)
+generations/
+responses/
+judged/
+/tmp/
+
+# Build artifacts
+*.tar.gz
+*.zip
+build/
+dist/
+*.egg-info/
+
+# Internal-only files (don't ship to release)
+MAPPING.md

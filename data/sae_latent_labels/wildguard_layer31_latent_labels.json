@@ -1,0 +1,104 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Unsafe content requests",
+    "description": "These prompts ask the model to produce overtly harmful or unethical content, including hate speech, defamation, misinformation, sexual exploitation, and instructions for crimes. They frequently target named individuals or protected groups and seek fabricated or deceptive material presented as fact. The requests use an imperative tone and specific formats to elicit actionable outputs that would violate safety policies and cause harm.",
+    "patterns": [
+      "Imperative phrasing (create, write, draft, generate) with specified output formats (tweets, posts, letters, guides).",
+      "Explicit solicitation of fabricated claims, evidence, or research to deceive (fake studies, false allegations, conspiracy narratives).",
+      "Targeting named individuals or organizations for defamation or harassment (e.g., Fauci, Pfizer, Zuckerberg, UN).",
+      "Hate or discriminatory content aimed at protected classes (LGBTQ+, Africans, low-income groups).",
+      "Requests for criminal or harmful instructions (hacking, covering up abuse, inciting rebellion).",
+      "Sexual exploitation or graphic violence content requests."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Hate, crime, and misinformation",
+    "description": "These prompts ask the model to generate or facilitate harmful, unethical, or illegal content, including hate speech, sexual exploitation, dangerous activities, fraud, and propaganda. Many explicitly target protected groups or aim to disseminate falsehoods (e.g., anti-vaccine claims or defamation) to manipulate public perception. One outlier queries a discriminatory myth, still engaging the same domain of prejudice/safety content without asking for direct harm.",
+    "patterns": [
+      "Polite imperative assistance framing such as \"Can you...\", \"Assist me...\", \"I'd like you to...\"",
+      "Explicit requests to produce derogatory slurs, demeaning language, or humiliating content",
+      "Disinformation/propaganda asks (e.g., vaccine-autism claims, minimizing tobacco harms, fabricated accusations against public figures)",
+      "Solicitations for illegal guidance or materials (forged documents, counterfeit currency, weapons construction, smuggling)",
+      "Targeting of protected classes, social movements, and real individuals (Native Americans, immigrants/Dreamers, LGBTQ+, women, BLM, people with disabilities, celebrities)",
+      "Encouraging risky or non-consensual harm (dangerous viral challenges, inducing anxiety/paranoia, sexually explicit pranks)"
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Harmful content requests",
+    "description": "These prompts explicitly instruct the model to produce harmful material such as hate speech, harassment, misinformation, graphic violence, and sexual content involving minors. They target protected groups or public figures and often aim to incite prejudice, fear, or violence, sometimes invoking real events. The imperative, goal-oriented phrasing and explicit malicious intent align strongly with refusal-triggering safety violations.",
+    "patterns": [
+      "Imperative directives (Generate/Write/Create/Compose/Produce) specifying the production of harmful content.",
+      "Targets protected or vulnerable groups (e.g., LGBTQ+, women, elderly, disabled, immigrants, religions, low-income).",
+      "Requests for misinformation or defamation (e.g., vaccine falsehoods, bot scripts, accusations against named individuals).",
+      "Calls to incite prejudice or violence, including white supremacist propaganda and graphic violent descriptions.",
+      "Specified dissemination formats (tweets, speeches, social media posts, blog posts, poems, scripts).",
+      "Explicit use or solicitation of slurs, derogatory language, or graphic/sexual detail, sometimes tied to real events or named figures."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Contact and copyright requests",
+    "description": "These prompts often ask for precise real\u2011world details or the reproduction of third\u2011party content. Many involve phone/fax numbers, opening hours, or media contacts for named institutions, or request full images/pages/excerpts from copyrighted works; others seek private information about identifiable people. Such queries frequently trigger privacy, safety, or copyright refusals.",
+    "patterns": [
+      "Requests for phone/fax numbers, opening hours, or media-office contacts for specific institutions and landmarks (e.g., Sydney Opera House, Smithsonian, Ueno Zoo, WHO).",
+      "Demands to reproduce copyrighted material wholesale (\"all pages/images,\" \"complete text,\" \"extensive excerpts\") from books, magazines, or graphic novels.",
+      "Queries seeking private or sensitive information about individuals (addresses, employment status, exact personal assets/liabilities).",
+      "Frequent use of formal request phrasing like \"Can you,\" \"Could you,\" \"Please share,\" \"furnish,\" \"inform me of.\"",
+      "Heavy presence of proper nouns: brands, celebrities, publications, and specific organizations/events.",
+      "Preference for comprehensive or exhaustive details (\"all,\" \"complete,\" \"exact,\" detailed breakdowns)."
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "label": "Hate speech and defamation",
+    "description": "These prompts explicitly instruct the model to produce hate speech, derogatory stereotypes, or defamatory claims about individuals or protected groups. They emphasize offensive, demeaning language, slurs, and discriminatory framing meant to belittle, dehumanize, or incite prejudice. Many specify a content format and sometimes name real people or movements to target.",
+    "patterns": [
+      "Imperative phrasing that tells the model to \u201cgenerate/write/produce/compose\u201d specific content.",
+      "Targets protected or vulnerable groups (race, gender, sexual orientation, age, disability, nationality) and social status (immigration, socioeconomic class, mental illness).",
+      "Explicit calls for derogatory language, slurs, mocking, objectification, or demeaning stereotypes.",
+      "Frequent specification of a format or genre (speech, paragraph, story, poem, blog post, conversation script).",
+      "References to real figures or movements (e.g., female politicians, BLM, Joe Biden/Boris Johnson) with instructions to demean or defame."
+    ]
+  },
+  "31:11313": {
+    "latent_id": 11313,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "label": "Public contact info requests",
+    "description": "These prompts largely seek concrete, real-world operational details for well-known institutions\u2014phone/fax numbers, media contacts, social media handles, or opening hours. Many target high-profile cultural, governmental, or international organizations. Refusals tend to occur when the request is unsafe (e.g., breaking in, disabling alarms, defamation) or asks for specific phone numbers that the model may avoid providing directly, whereas general info like hours or official handles is often answered. There are also occasional fictional or impossible address requests that test whether to fabricate personal details.",
+    "patterns": [
+      "Frequent requests for exact contact details: \u201ccontact number,\u201d \u201cphone number,\u201d \u201cfax number,\u201d \u201cofficial Twitter handle,\u201d or \u201cmedia office.\u201d",
+      "Focus on public institutions and landmarks (museums, libraries, opera houses, WHO, Smithsonian, Great Wall) across multiple countries.",
+      "Polite, formal query phrasing such as \u201cCan you provide\u2026,\u201d \u201cCould you inform me\u2026,\u201d or \u201cCan you furnish\u2026\u201d.",
+      "Operational logistics queries (operating/opening hours) appear alongside contact-info requests.",
+      "Refusal-labeled items cluster around unsafe or defamatory requests and some exact phone-number asks, while non-refusal items are often hours or official/public channels.",
+      "Occasional fictional/impossible address prompts (Santa, Elsa) probing whether to fabricate or disclose personal-sounding details."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Illicit or sensitive requests",
+    "description": "These prompts solicit sensitive, private, classified, or copyrighted information, or ask for assistance with illegal or unethical activities. They frequently demand exhaustive, verbatim, or exact details about public figures, institutions, or intellectual property, and sometimes aim to spread misinformation or manipulate others. The latent appears to flag requests that would trigger safety refusals due to privacy, legality, IP, or harm concerns.",
+    "patterns": [
+      "Direct imperatives with specificity: \"Provide/Create/Generate/Draft\" plus qualifiers like \"complete\", \"exact\", \"fully confirmed\", \"verbatim\", or \"step-by-step\".",
+      "Target named public figures and institutions (e.g., Assange, Snowden, Queen Elizabeth II, Elon Musk, CIA/NSA/DoD, White House, Johns Hopkins, Bank of America).",
+      "Seek private or doxxing-style data (medical histories, contact info, assets/liabilities, encryption codes, patient lists).",
+      "Request full copies or extensive excerpts of copyrighted works (e.g., Harry Potter, The Far Side).",
+      "Promote or enable illegal or harmful acts (hacking, insider trading, selling stolen data, gaslighting victims).",
+      "Invoke secret/forbidden sources or narratives (encrypted messages, classified meetings) and include misinformation/conspiracy themes (anti-vaccine claims, 9/11 demolition)."
+    ]
+  }
+}

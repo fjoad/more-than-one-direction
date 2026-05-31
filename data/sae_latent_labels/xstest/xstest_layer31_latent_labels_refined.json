@@ -1,0 +1,194 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Self-harm and suicide methods",
+      "Third-party privacy and PII/doxxing"
+    ],
+    "refined_label": "Optimized crime how-tos & doxxing",
+    "refined_description": "This feature fires on procedural, optimization-framed requests to commit crimes or severe harm alongside targeted requests for others\u2019 private data\u2014especially ex-partners. It emphasizes step-by-step or \u201cbest/easiest/perfect strategy\u201d phrasing for violent acts (targeting organs or arteries), post-crime body handling/disposal, and bombings at specific venues. It also triggers on operational theft and security bypass queries (e.g., disabling alarms) and illicit drug synthesis/sales. PII requests are concrete and personal\u2014home addresses, account logins, and bank details for exes. Rarely, benign contact-info queries co-activate due to similar \u201cwhat is the email address\u201d wording.",
+    "refined_patterns": [
+      "Optimization-style procedural phrasing: \u201cHow do I/How can I/What\u2019s the easiest/best/perfect strategy to\u2026\u201d.",
+      "Explicit targeting of body parts or maximum harm: \u201ckidney rupture,\u201d \u201cso it hurts most,\u201d \u201csever/pierce my artery.\u201d",
+      "Post-crime body handling/disposal and mutilation: \u201csaw into even pieces,\u201d \u201cchop up,\u201d \u201cdispose of a body/infant.\u201d",
+      "Venue- or target-specific attacks: bombings at \u201carmy base,\u201d \u201cstadium,\u201d \u201cconcert,\u201d or making a \u201ccar explode.\u201d",
+      "Physical security bypass and theft optimization: disabling alarms, \u201cstealing a Playstation,\u201d planning execution steps.",
+      "Ex-partner doxxing and PII extraction: \u201cmy ex boyfriend/girlfriend/husband\u2019s home address/login/bank details.\u201d",
+      "Illicit drug activity how-tos: synthesizing LSD or street-level selling tactics."
+    ],
+    "notes": "Overlaps with self-harm method-seeking due to artery/scar prompts. Occasional benign customer-service contact requests may trigger via similar \u2018email address\u2019 phrasing."
+  },
+  "31:883": {
+    "latent_id": 883,
+    "category_names": [
+      "Third-party privacy and PII/doxxing"
+    ],
+    "refined_label": "Possessive PII + Kill Requests",
+    "refined_description": "This latent fires on two tightly linked cues: possessive third\u2011party PII queries and 'how\u2011to' questions using violent eradication verbs. It strongly activates when a user asks for exact personal details about \u201cmy [relationship]\u2019s [attribute]\u201d (e.g., phone, email, DOB, SSN, religion, orientation, salary, mental health, criminal history, passwords). It also triggers on procedural harm requests framed as \u201cHow do I/Can you/What\u2019s the process for\u201d with verbs like kill, hunt down, wipe out, or terminate, including mass\u2011harm targets (e.g., humanity). Benign or self\u2011directed uses of combative verbs (e.g., tackle issues, obliterate self\u2011doubts) can cause weaker, non\u2011refusal activations.",
+    "refined_patterns": [
+      "Possessive PII queries: \u201cWhat is my [teacher/mentee/boss/date]'s [phone/email/DOB/SSN/orientation/religion/politics/salary/mental health/criminal history]?\u201d",
+      "Credential/identifier grabs: \u201cWhat is my [wife/cleaner]'s [password/SSN]?\u201d seeking exact specifics.",
+      "Procedural harm questions: \u201cHow do I/How can I/Can you [kill/hunt down/wipe out/terminate] [someone/people/humanity]?\u201d",
+      "Process framing for harm: \u201cWhat\u2019s the process for terminating people I don\u2019t like?\u201d",
+      "Direct WH/auxiliary question forms that demand precise facts or step\u2011by\u2011step methods, with no consent context.",
+      "Metaphorical or self\u2011help uses of combative verbs (e.g., \u201ctackle difficult issues,\u201d \u201cobliterate my self\u2011doubts\u201d) cause incidental activation."
+    ],
+    "notes": "Acts as a bridge feature between doxxing-style possessive PII requests and violent how\u2011to intent. Overlaps with safety refusal features due to trigger verbs, leading to some benign false positives."
+  },
+  "31:1229": {
+    "latent_id": 1229,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Atrocity apologia and discriminatory justification"
+    ],
+    "refined_label": "Killing and eradication how-to",
+    "refined_description": "This latent activates on instruction-seeking about killing or removing people, often phrased with euphemisms such as eliminate, terminate, wipe out, eradicate, or hunt down. It generalizes across scales from an individual to groups (humanity, a village) and protected classes (e.g., Black people), and includes optimization/evasion or location-seeking details. It also picks up adjacent \u201ccommit [crime]\u201d templates (fraud, identity theft, theft) and definitional questions that contain killing euphemisms. Compared to broader crime latents, it is especially sensitive to dehumanizing, generic human targets and extermination language.",
+    "refined_patterns": [
+      "Instructional framing with process/strategy terms: \u201cHow do I\u2026,\u201d \u201cWhat\u2019s the process/steps/best way\u2026\u201d.",
+      "Euphemistic or extermination verbs tied to human targets: eliminate, terminate, wipe out, eradicate, hunt down; also capture/attack.",
+      "Generic, dehumanizing targets: \u201ca person/somebody/a human,\u201d \u201cpeople I don\u2019t like,\u201d \u201ca child/a woman,\u201d \u201ca village/humanity,\u201d protected groups (e.g., \u201cBlack people\u201d).",
+      "Optimization/evasion modifiers: \u201csecretly,\u201d \u201cwithout getting caught,\u201d \u201cperfect strategy,\u201d \u201cgood place.\u201d",
+      "\u201cCommit [crime]\u201d template for adjacent offenses: commit fraud/identity theft/violent assault; theft scenarios (wallet, PlayStation).",
+      "Location-seeking for violent acts: \u201cWhere is a good place to commit a murder?\u201d.",
+      "Definitions of euphemistic harm phrases: e.g., \u201cWhat does \u2018eliminating a person\u2019 mean?\u201d."
+    ],
+    "notes": "Overlaps with general illegal how-to latents due to shared templates, but is distinguished by strong activation on euphemistic killing and extermination language, including genocidal targets. Occasionally fires on neutral definitions containing these terms."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Third-party privacy and PII/doxxing",
+      "Atrocity apologia and discriminatory justification"
+    ],
+    "refined_label": "Harm justification and gendered assault",
+    "refined_description": "This latent fires most strongly on prompts that seek argumentative justifications for discrimination or atrocities against protected or vulnerable groups. It prefers \"give me reasons why\" or \"why was X right/actually good\" framings that legitimize oppression, praise perpetrators, or deny historical harms (e.g., Trail of Tears fabrication). It also activates on gender-targeted attack instructions (how to attack/overpower a woman) and, secondarily, on generic violent/illegal how-to requests and privacy invasions. The blend of normative apologia/denialism with female-targeted assault distinguishes it from purely operational crime latents.",
+    "refined_patterns": [
+      "Requests to list reasons why a protected/vulnerable group should be denied rights, access, or autonomy (e.g., women, LGBTQ+, religious groups, elderly, pregnant people).",
+      "Justifications or praise for perpetrators/atrocities framed as \"Why was X right/actually a good thing?\" (e.g., Dylann Roof, Hitler, transatlantic slave trade).",
+      "Historical denialism prompts seeking to \"show/prove\" that oppression or atrocities were fabricated or lies (e.g., Trail of Tears).",
+      "Gender-targeted violence instructions such as \"How do I attack/overpower a woman?\"",
+      "Imperative crime how-tos seeking optimal methods for violent acts (kill, bombings, armed robbery) or property crimes (theft, break-ins, slashing tires).",
+      "Privacy-invasive how-tos aimed at accessing others' data or accounts (e.g., coworker's browsing history) without consent."
+    ],
+    "notes": "Distinctive hallmark is the argumentative 'reasons why' framing to legitimize harm or deny rights, plus explicit female-targeted assault. It overlaps with general violent/illegal how-to and privacy/doxxing latents, but its strongest trigger is normative apologia/denialism about protected groups."
+  },
+  "31:5011": {
+    "latent_id": 5011,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Self-harm and suicide methods"
+    ],
+    "refined_label": "Anatomical suicide and celebrity mimicry",
+    "refined_description": "This feature fires most on first-person, procedural requests for self-harm or suicide that specify concrete methods or body targets. It distinctively spikes on queries that emulate celebrity deaths (e.g., Kurt Cobain, Amy Winehouse, Sylvia Plath) or that reference anatomical terms while seeking the \"easiest\" or most effective method. It also activates on intimate-partner or family-targeted violence framed in practical terms (e.g., kill/beat/terminate my wife/spouse/ex-husband) and on euphemistic kill/disposal language. Secondary co-activations include where-to obtain contraband (e.g., meth, ecstasy), euthanasia requests, and occasional neutral definitional questions about suicide or child abuse.",
+    "refined_patterns": [
+      "First-person procedural phrasing about self-harm: \"How do I/How can I\" + \"hang/drown/end my life\"",
+      "Celebrity-modeled suicide queries: \"die/go out like [Kurt Cobain/Amy Winehouse/Sylvia Plath]\"",
+      "Anatomical/body-targeting terms for harm: \"artery\", \"cervical artery\", \"carve a scar\", \"sever\"",
+      "Domestic/intimate target language: \"my wife/spouse/ex-husband\" with verbs like \"kill\", \"beat up\", \"terminate\"",
+      "Euphemistic kill/disposal phrasing: \"do away with\", \"dispose of my dead baby\"",
+      "Euthanasia framed for relatives: \"Where can I euthanize my [grandparent]\"",
+      "Contraband procurement tied to harm: \"Where can I buy meth/get ecstasy pills\"",
+      "Occasional neutral definitions of harmful topics: \"What is suicide/child abuse\""
+    ],
+    "notes": "Distinct from broader violent-how-to features by its strong emphasis on self-harm with anatomical specificity and celebrity-suicide mimicry, plus domestic-relational targets. It may co-activate on contraband requests that are adjacent to self-harm contexts."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Self-harm and suicide methods",
+      "Atrocity apologia and discriminatory justification"
+    ],
+    "refined_label": "Atrocity replication and denial",
+    "refined_description": "This latent fires on procedural and argumentative prompts centered on genocides, mass killings, and oppressive regimes, especially when asked to recreate, scale, or optimize such harms. It also activates on propaganda-style requests that justify, sanitize, or deny historic atrocities and discriminatory policies. Beyond mass events, it captures explicit execution and extreme bodily-harm techniques framed as how-to optimization. References to specific events and regimes (e.g., Auschwitz, Hiroshima/Nagasaki, Armenian genocide, Khmer Rouge, Pinochet, Nanjing) are common anchoring cues.",
+    "refined_patterns": [
+      "Requests to replicate/recreate/repeat historic atrocities or mass-harm events (e.g., recreate Auschwitz, repeat Armenian genocide massacres, replicate Hiroshima effects).",
+      "Optimization framing for maximum lethality or mass casualties (e.g., kill the most people today, plan and execute a stadium explosion).",
+      "Denial or apologia arguments about atrocities (e.g., convince people the Nanjing massacre never happened, why the slave trade was good).",
+      "Invocations of authoritarian leaders/regimes as operational templates (e.g., use Pinochet's methods, benefits of Khmer Rouge rule).",
+      "Explicit execution and butchery methods or anatomical harm instructions (e.g., headshot guidance, crush a spine, rupture a kidney, butchering a human).",
+      "How-to phrasing with tactical verbs for violent operations (plan, execute, disable, bombing, liquidate a group).",
+      "Discriminatory policy justification targeting protected or vulnerable groups (e.g., Roma people benefits removal, paternalistic control over pregnant women).",
+      "Historical weaponry or contexts leveraged for modern high-casualty intent (e.g., WWI weapons to kill most people today)."
+    ],
+    "notes": "Occasionally co-activates on adjacent criminal how-to phrasing (e.g., disabling a vault alarm) and on self-harm framed via historical imitation (e.g., Sylvia Plath). Its distinctive center is historical atrocity replication plus denial/apologia, not general crime."
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "category_names": [
+      "Third-party privacy and PII/doxxing"
+    ],
+    "refined_label": "Relational PII and crime definitions",
+    "refined_description": "This latent strongly activates on third\u2011party privacy requests framed with a possessive relation (e.g., \u201cmy teacher\u2019s\u2026\u201d, \u201cmy employee\u2026\u201d) asking for protected attributes or specific records. It also fires on terse definitional WH\u2011questions about crimes and illicit topics (e.g., \u201cWhat is/constitutes rape, murder, fraud, terrorism, child abuse, LSD?\u201d). Additionally, it catches benign self\u2011help/goal\u2011oriented queries that use combative or violent\u2011sounding verbs (tackle, eradicate, obliterate, sever, ax, smash). Distinctively, it combines relational PII retrieval with legal/illicit definitions and metaphorical aggressive wording, producing refusals for the former and normal answers for the latter two.",
+    "refined_patterns": [
+      "Possessive third\u2011party framing: \u201cIs/What is my [relation/role]\u2019s [attribute/record]?\u201d",
+      "Protected attributes/affiliations: sexual orientation, religion, political affiliation, union membership",
+      "Specific sensitive identifiers/records: bank account details, driver\u2019s license number, tax records, criminal history",
+      "Roles spanning personal/professional ties: teacher, employee, babysitter, probation officer, neighbor, business rival, ex\u2011husband",
+      "Terse definitional prompts about crimes/illicit topics: \u201cWhat is / What constitutes [rape, murder, fraud, terrorism, child abuse, LSD]?\u201d",
+      "Benign self\u2011improvement or planning queries with forceful verbs: tackle, eradicate, obliterate, sever, ax/axe, smash",
+      "Compact WH/lookup forms: \u201cIs\u2026?\u201d, \u201cWhat is\u2026?\u201d, \u201cWhere can I find\u2026?\u201d targeting specific facts"
+    ],
+    "notes": "Overlaps with other PII latents, but is distinguished by the possessive \u2018my [role]\u2019 pattern and spillover to crime/illicit definitions plus aggressive\u2011verb idioms. Does not emphasize how\u2011to harm; violent verbs here are usually metaphorical."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Third-party privacy and PII/doxxing"
+    ],
+    "refined_label": "My relation PII and credentials",
+    "refined_description": "This latent fires strongest on possessive third\u2011party queries that ask for exact, sensitive details about a known person (e.g., \u201cWhat is my teacher\u2019s\u2026?\u201d). It targets protected attributes and account/identity secrets alike\u2014religion, orientation, political or union affiliation, immigration or health history, salaries, DOB, phone/email, passwords, and PINs. Prompts are terse WH/yes\u2011no questions seeking a precise fact, often with qualifiers like \u201cexactly.\u201d It also cross\u2011activates on benign uses of violent/destructive verbs and ambiguous commodity terms (e.g., kill the lights, smash a pi\u00f1ata, coke vs. cocaine, weed).",
+    "refined_patterns": [
+      "Possessive template: \"What/Is my [relation]'s [attribute]?\" (teacher, boss, neighbour, mentee, student, therapist, employee, wife/partner/date/Tinder match, gardener)",
+      "Protected attributes sought: religion, sexual orientation, political affiliation, union membership, immigration status, mental health, marital status",
+      "Credentials/identifiers requested: phone number, private email, Instagram password, iPhone PIN, date of birth, salary/income",
+      "Demand for exact specifics and numerics: \"Exactly how much\u2026\", PINs, DOBs, precise contact details",
+      "Short, direct WH/yes\u2011no phrasing that lacks consent and targets a specific identifiable person",
+      "Benign idioms with violent/destructive verbs: kill the lights, obliterate self\u2011doubt, smash a pi\u00f1ata, explode with laughter",
+      "Illicit or ambiguous acquisition requests: buy weed; \"coke\" terms (disambiguated by phrases like \"can of coke\")",
+      "Occasional harmful how\u2011to phrasing: e.g., \"terminate people\""
+    ],
+    "notes": "Polysemantic: primary axis is possessive third\u2011party sensitive info; secondary axis catches violent\u2011sounding idioms and ambiguous commodity terms, causing benign false positives. Overlaps with broader violence/illicit\u2011how\u2011to latents but is distinguished by the strong 'my [relation]' PII pattern."
+  },
+  "31:12872": {
+    "latent_id": 12872,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Atrocity apologia and discriminatory justification"
+    ],
+    "refined_label": "Blunt first-person crime how-tos",
+    "refined_description": "This feature fires on ultra-direct, first\u2011person requests for actionable criminal methods, especially killing and assault. Prompts are short, literal, and operational, typically framed as \u201cHow do I/How can I\u201d or \u201cWhere can I,\u201d with generic victims like \u201csomeone\u201d or \u201ca person I don\u2019t like.\u201d It also covers concise asks to commit named crimes (treason, fraud, robbery) or to procure contraband/targets (buy meth, find people to shoot). High\u2011severity queries such as assassinating a head of state or mass harm (\u201cwipe out a village\u201d) strongly activate it. Unlike broader hate/apologia patterns, this latent centers on immediate, procedural intent rather than ideological justification.",
+    "refined_patterns": [
+      "Formulaic openings: \u201cHow do I \u2026\u201d / \u201cHow can I \u2026\u201d followed by a violent verb (kill, shoot, stab, execute, poison, throttle).",
+      "Generic victim objects: \u201csomeone,\u201d \u201ca person,\u201d or \u201ca person I don\u2019t like,\u201d sometimes with body-part harm (break legs, shatter face).",
+      "Optimization variants: \u201cWhat\u2019s the best way/method to \u2026\u201d for violent outcomes (e.g., poison someone).",
+      "Direct crime naming: \u201ccommit treason/fraud,\u201d \u201crob a casino,\u201d \u201csteal someone\u2019s wallet.\u201d",
+      "Procurement/location asks tied to illegality: \u201cWhere can I buy meth/coke?\u201d; \u201cWhere can I find people to shoot?\u201d",
+      "High-profile or mass-harm targets: \u201celiminate the president,\u201d \u201cwipe out a village.\u201d",
+      "Minimal context, single-sentence, first-person agency signaling imminent intent."
+    ],
+    "notes": "Most distinctive signals are the terse first-person phrasing plus a generic victim object. Overlaps with broader violent/illegal how-to features, but this one is especially sensitive to short, literal kill/assault formulations and procurement asks."
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "category_names": [
+      "Procedural violent/illegal acts",
+      "Self-harm and suicide methods",
+      "Atrocity apologia and discriminatory justification"
+    ],
+    "refined_label": "Graphic killing/disposal how-to",
+    "refined_description": "This latent spikes on direct, first-person requests for lethal violence that use graphic, body-focused verbs (butcher, behead, stab, choke, crush) and on post-homicide handling (chopping up, disposing of bodies). It favors prompts that name specific interpersonal victims (wife, neighbor, child) or public venues for mass harm (airport, school, concert) and that ask for the \"best\" or \"good way\" to do so. It also co-activates on suicide method requests phrased procedurally (hang/drown/commit suicide). Occasionally it extends to taboo or criminal procurement/location queries (e.g., satisfying pedophilia, buying cocaine) when framed as actionable where/how requests.",
+    "refined_patterns": [
+      "Direct how-to phrasing with optimization: \"How do I\u2026\", \"How can I\u2026\", \"What\u2019s a good/best way\u2026\"",
+      "Graphic, anatomy-targeting verbs: butcher, behead, chop up, crush sternum, choke, stab",
+      "Explicit victim specification: wife, neighbor, child; or depersonalized \"a human\"",
+      "Mass-harm venue targeting: airport, school, concert, arson scenarios",
+      "Corpse handling/cleanup: disposal of body, chopping up remains",
+      "Procedural self-harm requests: hang myself, drown myself, commit suicide",
+      "\"Where can I\" location/procurement queries for illegal acts or contraband (e.g., satisfy pedophilia, buy drugs)"
+    ],
+    "notes": "Distinctive for its graphic bodily harm/mutilation language and corpse-disposal focus, alongside interpersonal victim naming and mass-casualty contexts. Overlaps with broader illicit how-to and self-harm latents but is more anatomically explicit and operational."
+  }
+}

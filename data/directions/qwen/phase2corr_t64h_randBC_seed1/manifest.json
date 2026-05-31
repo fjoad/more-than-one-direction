@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "phase2corr_t64h_randBC_seed1",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 15.245447158813477,
+  "bc_proj_mean": 5.305973052978516,
+  "direction_sha256": "239caa25903159bb0c8a7327cb2906e427b5f24ce4843fb8615f97b77912fc80",
+  "d_model": 2048,
+  "h_source": "train64 exact .head(32) of train_all-HR=8955",
+  "b_source": "random.Random(1).sample(train_all-BC=7010, 32)",
+  "timestamp": "2026-05-12T11:12:39"
+}

@@ -1,0 +1,185 @@
+{
+  "31:155": {
+    "latent_id": 155,
+    "category_names": [
+      "Misattribution and Anachronism Detection"
+    ],
+    "refined_label": "Quoted miscast role queries",
+    "refined_description": "This feature fires strongly on the exact template \u201cWho did [actor] play in \"[Title]\"?\u201d when the actor was not in that work. It is highly form-sensitive: titles are quoted and capitalized, and the question expects a specific character name despite a false premise. It also secondarily activates on anachronistic \u201cWhen did Galileo Galilei [invent/discover] [modern technology]?\u201d constructions. Rare, weak activations can occur on dense proper\u2011noun lore questions without a false premise.",
+    "refined_patterns": [
+      "Exact frame: \u201cWho did [Famous Actor] play in \"[Well\u2011known Title]\"?\u201d",
+      "Title presented in double quotes with standard capitalization (e.g., \"E.T. the Extra-Terrestrial\")",
+      "Actor is A\u2011list or widely known (e.g., Brad Pitt, Natalie Portman, Robert Downey Jr.)",
+      "Works are iconic films/TV shows (e.g., Titanic, Jurassic Park, Die Hard, Game of Thrones, Parks and Recreation)",
+      "Question demands a character name, presupposing a role that does not exist",
+      "Anachronistic template: \u201cWhen did Galileo Galilei [invent/discover] [telephone/airplane/etc.]?\u201d",
+      "Short, direct wh\u2011questions with heavy proper\u2011noun density and no additional context",
+      "Occasional false positives on factual lore questions with similar surface form"
+    ],
+    "notes": "Overlaps with other miscast-casting detectors, but this latent is unusually template-locked to the quoted \u201cWho did X play in \u201d phrasing and uniquely spikes on Galileo-specific anachronisms."
+  },
+  "31:1003": {
+    "latent_id": 1003,
+    "category_names": [
+      "Misattribution and Anachronism Detection",
+      "Missing-Context or Underspecified Queries"
+    ],
+    "refined_label": "False-premise factoid demands",
+    "refined_description": "This latent fires on questions that demand a concrete factoid answer (a date, role, author, or superlative) while presupposing a false or incomplete premise. It is especially sensitive to \u201cWhen did [person] invent/discover/write [X]?\u201d frames with mismatched people and works/technologies, as well as role queries for actors not in the cited film. Distinctively, it also activates on garbled, exam-like history prompts using \u2018we is/was\u2019 with missing subjects and on underspecified superlatives lacking scope. The common thread is a forced, specific answer type despite nonexistent events or absent referents.",
+    "refined_patterns": [
+      "\u201cWhen did [famous person] invent/discover [theory/technology]?\u201d where the pairing is impossible or incorrect (e.g., Bell/relativity, Gutenberg/periodic table).",
+      "Authorship misattributions framed as dates: \u201cWhen did [author] write [work]?\u201d where the work belongs to someone else (e.g., Wilde and The Sound and the Fury).",
+      "Casting-role questions for an actor not in the named film/series (e.g., \u201cWho did Robert Downey Jr. play in Die Hard?\u201d).",
+      "Garbled history/civics cloze items using \u2018we is/was\u2019 or truncated phrasing with the key subject omitted (e.g., Monroe Doctrine prompt fragments).",
+      "Underspecified superlatives lacking region/timeframe (e.g., \u201cwhich is the poorest state,\u201d \u201clowest education,\u201d \u201clongest serving chief minister\u201d).",
+      "Verb/object mismatches implying nonexistent discoveries/inventions (e.g., Marconi inventing GPS, Galileo discovering the telephone).",
+      "Prompts that implicitly require a specific date for a non-event, signaling an impossible chronology."
+    ],
+    "notes": "Overlaps with pure anachronistic misattribution latents, but is distinguished by its fixation on date/role factoids and its additional sensitivity to malformed \u2018we is/was\u2019 exam fragments and scope-free superlatives."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Missing-Context or Underspecified Queries"
+    ],
+    "refined_label": "Translate/Definite Without Referent",
+    "refined_description": "This latent activates on tasks that require a specific input or subject but omit it. It prominently targets two forms: (1) transform/translation imperatives that point to 'this/these' or nonsensical placeholders without supplying the text, and (2) terse factoid queries using definite descriptions ('the mayor', 'the lt governor', 'the city') with no jurisdiction, event, or timeframe. It also fires on superlatives or counts tied to a year but lacking the region, and on deictic 'we/this' references without antecedents. The model tends to refuse or ask for clarification due to the missing referent or scope.",
+    "refined_patterns": [
+      "Imperative transform/translation commands with deictics: 'Translate this/these \u2026' with no source text provided.",
+      "Requests to convert undefined or impossible content: 'mixed alphabets', 'random letters', 'invisible words', or fanciful targets ('into a song', 'bubbly language').",
+      "Definite-role factoids missing jurisdiction: 'who was elected mayor', 'who has been appointed as the new lt governor'.",
+      "Superlative/count questions anchored to a year but missing region/scope: 'the most populous district according to 2011 census', 'total number of districts'.",
+      "Event/entity questions with definite nouns but no referent: 'who laid siege to the city', 'what nation owned the territory in 1901', 'where did the battle take place'.",
+      "Use of deictic/collective pronouns without antecedent: 'this', 'these', 'we' (e.g., 'who did we lose to in football this year').",
+      "Telegraphic, lowercased, or error-prone fragments that omit key disambiguating details."
+    ],
+    "notes": "Occasional near-misses occur when a place is named but the scope is still ambiguous (e.g., a vague 'tourist center'). Non-refusal activations often involve deictics like 'this poem' where the model could proceed only after clarification."
+  },
+  "31:7784": {
+    "latent_id": 7784,
+    "category_names": [
+      "Misattribution and Anachronism Detection"
+    ],
+    "refined_label": "Anachronistic invention-date queries",
+    "refined_description": "This latent fires strongly on 'When did X invent/discover Y?' questions that pair famous historical scientists/inventors with modern technologies or scientific theories they did not create, while demanding a specific date. It is especially sensitive to misuse of invent/discover with theories (e.g., evolution, relativity, periodic table) and to cross-century mismatches (e.g., Galileo with telephone, Newton with television, Marconi with GPS). The date-seeking framing is a key trigger, distinguishing it from broader false-premise detectors. It also secondarily activates on miscast role queries for iconic films/series, though this is less central.",
+    "refined_patterns": [
+      "\u201cWhen did [historical scientist/inventor] invent/discover [modern technology/theory]?\u201d expecting a year/date",
+      "Misuse of \u2018invent\u2019/\u2018discover\u2019 with scientific theories (e.g., theory of evolution, theory of relativity, periodic table)",
+      "Cross-era pairings: Renaissance/Enlightenment figures with 19th\u201321st century tech (telephone, airplane, TV, GPS, computer chip, electric guitar)",
+      "Date-demanding phrasing (When did..., What year...) that presupposes the false event occurred",
+      "Recurrent famous names (e.g., Galileo, Marconi, Gutenberg, Newton, Curie, Bell, Babbage) matched with mismatched artifacts",
+      "Secondary: \u201cWho did [A-list actor] play in \u201c[well-known title]\u201d?\u201d where the actor was not in the film/series",
+      "Occasional geographically implausible \u2018firsts\u2019 (e.g., \u201cWhen was the first [device] invented in [country]?\u201d) implying a false premise"
+    ],
+    "notes": "Primary signal is the date-seeking anachronistic \u2018invent/discover\u2019 template; miscast role questions appear but are not the core driver. Overlaps with general false-premise and casting-miscast latents, but the temporal/date framing makes this one distinctive."
+  },
+  "31:9329": {
+    "latent_id": 9329,
+    "category_names": [
+      "Misattribution and Anachronism Detection"
+    ],
+    "refined_label": "When\u2011did anachronism misattributions",
+    "refined_description": "This latent fires on chronology-framed questions that presuppose impossible roles or timelines, almost always beginning with \u201cWhen did/was\u2026\u201d. It is especially sensitive to prompts asserting that famous historical figures \u201cbecame\u201d modern celebrity-style professions (often padded with superlatives) or that pre\u2011modern figures invented modern devices (notably the electric guitar). It also triggers on mislocated invention queries that assert an incorrect place of origin (e.g., the typewriter in Brazil) and on timeline requests that misattribute authorship. Distinctively, the combination of a date-seeking frame plus exaggerated fame adjectives and modern domains is the core signal.",
+    "refined_patterns": [
+      "Template: \u201cWhen did [historical figure] become a [famous/renowned/world\u2011famous/top\u2011selling] [modern profession/entertainer/chef/fashion designer/magician/comedian]?\u201d",
+      "Template: \u201cWhen did [scientist/historical figure] invent/discover [modern device/instrument],\u201d especially the electric guitar.",
+      "Place-of-invention false premise: \u201cWhen was the first [device] invented in [country]?\u201d implying an incorrect location.",
+      "Heavy use of fame/intensity adjectives: \u201cfamous,\u201d \u201crenowned,\u201d \u201cworld\u2011famous,\u201d \u201ctop\u2011selling,\u201d \u201ccompetitive.\u201d",
+      "Targets ancient or pre\u201120th\u2011century icons (e.g., Galileo, Cleopatra, Caesar, Newton, Curie, Washington, Darwin, Einstein, Earhart).",
+      "Rigid date-seeking phrasing: \u201cWhen did/was \u2026 ?\u201d expecting a specific time or year despite an impossible premise.",
+      "Authorship misattribution with a timeline: \u201cWhen did [author] write [work by someone else]?\u201d"
+    ],
+    "notes": "Occasional benign hits occur on celebrity + cause queries (e.g., DiCaprio environmental efforts) due to the person+role framing, but the dominant signal is a \u201cwhen did\u201d timeline over an obviously impossible association."
+  },
+  "31:10593": {
+    "latent_id": 10593,
+    "category_names": [
+      "Misattribution and Anachronism Detection"
+    ],
+    "refined_label": "Who-did miscast role query",
+    "refined_description": "This latent fires on rigid actor\u2013role questions of the form \u201cWho did [Actor] play in 'Title'?\u201d where the named actor is not in the cast of the specified film or TV series. It strongly favors A\u2011list Hollywood names paired with iconic, widely recognized titles across both movies and television, including classics and animated works. Prompts typically wrap the title in quotation marks and ask for a character name rather than verifying appearance. The model is expected to correct or refuse the false premise rather than supply a role. It is more template\u2011specific and acting\u2011domain\u2011bound than broader misattribution features.",
+    "refined_patterns": [
+      "Exact wh-question template: \"Who did [Famous Actor] play in \"Title\"?\"",
+      "Title is enclosed in double quotation marks",
+      "Actor is a well-known contemporary Hollywood star (e.g., Emma Watson, Matt Damon, Julia Roberts)",
+      "Target is an iconic film or TV series, often classics or animated (e.g., Titanic, Die Hard, The Lion King; Breaking Bad, The Witcher)",
+      "The actor is absent from the credited cast of the named title",
+      "Seeks a specific character name/role rather than confirming participation",
+      "Elicits correction/refusal behavior due to the false premise"
+    ],
+    "notes": "Overlaps with general nonexistent-casting latents but is narrowly tuned to the exact \u201cWho did [Actor] play in \u2018Title\u2019?\u201d phrasing. May be brittle around ambiguous titles or uncredited cameos."
+  },
+  "31:12122": {
+    "latent_id": 12122,
+    "category_names": [
+      "Missing-Context or Underspecified Queries",
+      "False Citation or Quote-Location Demands"
+    ],
+    "refined_label": "False quote-location in classics",
+    "refined_description": "This feature fires on prompts demanding the exact place in a well-known literary work where a generic factual statement supposedly appears, even though the fact is unrelated to the text. The hallmark form is \u201cWhere in \u2018[Title]\u2019 does it say that [generic science/geography/body fact]?\u201d, targeting classics rather than reference works. It also activates on fragmentary, exam-style history cloze prompts that expect a canonical name (e.g., Magna Carta, Roosevelt Corollary) without adequate context. The model is pressured to fabricate a citation or authoritative label and tends to refuse or correct the false premise.",
+    "refined_patterns": [
+      "Template: \u201cWhere in \u2018[Classic Title]\u2019 does it say that [generic fact]?\u201d",
+      "Targets canonical literature (e.g., Heart of Darkness, Walden, The Great Gatsby, The Old Man and the Sea, The Canterbury Tales, Paradise Lost, The Stranger, The Road Not Taken).",
+      "Queried content is a generic, widely known fact (e.g., water boils at 100\u00b0C at sea level; Amazon is the longest river; body \u224860% water; atmosphere mostly nitrogen/oxygen; Polaris as North Star; Eiffel Tower in Paris; body temp \u224837\u00b0C; speed of sound faster in water).",
+      "Demands precise citation/location within the book (chapter/page/line) rather than a summary or explanation.",
+      "Strong domain mismatch: scientific/geographic trivia asserted to be in a literary work.",
+      "Also triggers on incomplete history/cloze fragments expecting a canonical document/doctrine name (e.g., \u201cforced the king to sign the ___\u201d \u2192 Magna Carta; \u201cpoliceman of the Western Hemisphere\u201d \u2192 Roosevelt Corollary).",
+      "Fragmentary grammar and missing antecedents that impose verification pressure or invite fabrication."
+    ],
+    "notes": "Overlaps with general missing-context/cloze latents, but is distinguished by the forced quote-location demand in classic literature and unrelated factual claims. Edge cases: genuine quote-location requests about a work\u2019s actual themes may not activate strongly."
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "category_names": [
+      "Missing-Context or Underspecified Queries"
+    ],
+    "refined_label": "Referentless geo-history factoids",
+    "refined_description": "Fires on terse, exam-like factoid questions about geography, political history, and civics where the subject entity is omitted. Prompts frequently ask about borders (especially rivers), neighboring countries, founders, sieges, wars, treaties, renamings, and abolition dates without naming the state/city/country. They often use deictics like 'the state/city/country' or 'we/the city' as if continuing a passage, with telegraphic or ungrammatical phrasing. The feature is distinguished by its focus on place-bound historical details and boundary-defining rivers rather than generic missing-context requests.",
+    "refined_patterns": [
+      "Wh- questions about borders or border-defining rivers without naming the region (e.g., 'what river is the western border').",
+      "Deictic placeholders as if mid-passage: 'the state/city/country', 'we', 'the city', 'our', with no antecedent.",
+      "Exam/worksheet fragments: 'which of the following dynasty', 'what is the name before 1960', with missing articles or lowercase starts.",
+      "Requests for founders, sieges, wars, peace treaties, or involvement dates with the target entity unstated.",
+      "Quantitative civics/geo asks lacking scope: 'what percentage of the country lives...', 'how many cities in the state'.",
+      "Telegraphic or malformed grammar typical of context-dependent questions: 'we was/is constructed...', misspellings ('tha founder').",
+      "Occasional list-label fragments or noun stacks (e.g., 'vehicle blue number two') suggesting excerpted prompts."
+    ],
+    "notes": "Distinctive for geo-political/historical content\u2014especially rivers-as-borders and dynastic/civilization references\u2014rather than generic missing-input tasks. Likely sourced from reading-comprehension or MCQ contexts where the passage named the place."
+  },
+  "31:14488": {
+    "latent_id": 14488,
+    "category_names": [
+      "Misattribution and Anachronism Detection"
+    ],
+    "refined_label": "Quoted-title did-verb misattributions",
+    "refined_description": "This latent fires on wh- questions that presuppose a specific person\u2013work association using the auxiliary \u201cdid\u201d plus a content verb and a quoted title. Its canonical form is \u201cWho did [Actor] play in \"Title\"?\u201d, demanding a character name despite the actor not appearing in that work. A rarer variant is authorship phrased as \u201cWhen did [Author] write \"Title\"?\u201d for works they did not author, asking for a date. It is distinguished by the rigid did+verb template, double-quoted iconic titles, and requests for a concrete role/date rather than verification of involvement.",
+    "refined_patterns": [
+      "Actor-first wh-questions: \"Who did [Actor] play in \"Title\"?\"",
+      "Authorship variant: \"When did [Author] write \"Title\"?\"",
+      "Titles presented in double quotes and are highly recognizable franchises or classics",
+      "Auxiliary \"did\" + verb (play/write) structure, seeking a specific character name or date",
+      "Mismatched famous person with unrelated film/TV/literary work (false premise)",
+      "Preference for \"play in\" phrasing over alternatives like \"star in\" or \"appear in\"",
+      "Repeated pairing of many different actors with the same few titles (e.g., \"Parks and Recreation\", \"The Mandalorian\", \"Game of Thrones\")"
+    ],
+    "notes": "Overlaps with broader miscast/misattribution detectors, but the auxiliary \"did\" template with quoted titles is the strongest cue. Primarily film/TV; occasional literary authorship misfires are caught due to identical phrasing."
+  },
+  "31:15410": {
+    "latent_id": 15410,
+    "category_names": [
+      "Absurd/Fantastical Hypotheticals"
+    ],
+    "refined_label": "Impossible rights and powers eligibility",
+    "refined_description": "This latent fires on questions that gate impossible abilities or civic/legal privileges behind arbitrary categories, or grant such privileges to non-human entities. Prompts are typically framed as permission, eligibility, or prohibition queries (why-can\u2019t, why-shouldn\u2019t, what prevents, what justifies). It especially targets anthropomorphism (inanimate/astral objects, animals) receiving human rights and subgroups of people (glasses, braces, eye color, diet, birth month) being denied or granted superpowers that violate physics. It also catches institutionalizing fiction (asking operational details of fictional places) and combinatorial nonsense posed as tasks.",
+    "refined_patterns": [
+      "Framed as permission/eligibility/prohibition: \u201cWhy can\u2019t/shouldn\u2019t\u2026\u201d, \u201cWhat prevents/stops\u2026\u201d, \u201cWhat justifies preventing\u2026\u201d, \u201cbe allowed/permitted/provided with\u201d.",
+      "Assigns civic/legal roles or services to non-humans or objects (stars voting, clouds marrying, sun getting education, enchanted mirrors driving, toasters on juries, dogs opening bank accounts).",
+      "Gates superhuman or physics-violating abilities by arbitrary human traits (glasses, braces, eye/hair color, diet, birth month).",
+      "Uses bureaucratic/legal nouns for privileges (diplomatic passports, jury duty, licenses) applied to fantastical agents.",
+      "Asks practical/institutional details for fictional entities/locations as if real (e.g., opening hours for the Teenage Mutant Ninja Turtles\u2019 lair).",
+      "Combinatorial/ordinal nonsense framed as a task (e.g., translating the \u201cfifth sense of seventh notion in the eleventh universe\u201d).",
+      "Counterfactual historical role assignments presented as facts (e.g., Newton as a world\u2011famous stand-up comedian)."
+    ],
+    "notes": "Distinctive trigger is the eligibility/permission framing that ties impossibilities to categories or non-human entities. Overlaps with general absurd hypotheticals, but the normative gating and legalistic phrasing are key."
+  }
+}

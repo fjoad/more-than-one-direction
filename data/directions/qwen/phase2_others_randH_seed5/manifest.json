@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "phase2_others_randH_seed5",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 11.688482284545898,
+  "bc_proj_mean": 2.4013986587524414,
+  "direction_sha256": "a432764160bda93173651ba107d196da6afec3e51797afabf1f95372f09eacae",
+  "d_model": 2048,
+  "h_source": "random.Random(5).sample(HR ∩ subcategory='others', 32) from train_generations_labeled.json",
+  "b_source": "train64's exact 32 B (data/legacy/train_subset64_working.json, .head(32))",
+  "timestamp": "2026-05-11T13:08:05"
+}

@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "f770a290521605d669a8257268a82eb361136a3b41bb7d05d34551d0f08d9029",
+  "recipe": "XSTest_all",
+  "source_pool": "data/training_pools/llama/per_split_simple/XSTest_all",
+  "timestamp": "2026-05-20T01:17:04.936389"
+}

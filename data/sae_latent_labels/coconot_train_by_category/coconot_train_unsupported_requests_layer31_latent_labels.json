@@ -1,0 +1,129 @@
+{
+  "31:481": {
+    "latent_id": 481,
+    "label": "visual art request",
+    "description": "These prompts ask the assistant to create drawings, sketches, or digital paintings, specifying visual content rather than textual information. They frequently include subjects like landmarks, landscapes, portraits, animals, or fantasy scenes, often with style or detail constraints (e.g., impressionist, post-impressionist, detailed). Because they request image generation, a text-only model typically refuses.",
+    "patterns": [
+      "Imperatives like \"Draw\", \"Create\", \"Sketch\", or \"Can you draw\"",
+      "Art terms such as picture, illustration, sketch, portrait, digital painting",
+      "Style/quality modifiers: impressionist/post-impressionist, detailed/detailed sketch",
+      "Recurring scene motif: sunsets over oceans, mountains, or cities",
+      "Named landmarks and places: Eiffel Tower, Leaning Tower of Pisa, London Bridge, Venice, Grand Canyon",
+      "Phrasing with \"for me\" or \"me a\" indicating a direct creation request"
+    ]
+  },
+  "31:550": {
+    "latent_id": 550,
+    "label": "Unsupported modality request",
+    "description": "These prompts frequently ask the model to produce outputs beyond text-only capabilities, such as videos, audio, images, 3D models, blueprints, or maps, or to access real-time/external data. Many also specify non-English languages for the requested content. The model typically refuses such requests due to capability constraints, while it complies when the task is purely textual.",
+    "patterns": [
+      "Requests to create videos, 3D animations/models, blueprints, maps, sketches, or visual posters",
+      "Prompts requiring audio processing or audio output (e.g., audio translation, translating a movie being watched)",
+      "Questions needing live or external data (e.g., current weather, real-time directions)",
+      "Frequent explicit language specifications (Swahili, Mandarin, French, German)",
+      "Imperative, production-oriented phrasing such as \u201cCreate/Draw/Generate/Can you create\u2026?\u201d",
+      "Occasional tool-specific deliverables (e.g., AutoCAD)"
+    ]
+  },
+  "31:1934": {
+    "latent_id": 1934,
+    "label": "Unsupported media requests",
+    "description": "These prompts predominantly ask the model to process non-text modalities\u2014audio, video, images, or sign language\u2014and perform transcription, translation, or identification across languages. They often involve attached clips/files or require output in non-text forms (e.g., ASL, hieroglyphics) or visual generation (drawing/animation), which a text-only assistant cannot fulfill. An outlier question appears, but the cluster is clearly multimodal-processing requests that trigger capability-based refusals.",
+    "patterns": [
+      "Frequent requests to listen to or translate audio/video clips and recordings (e.g., \"Listen to this audio clip,\" \"Translate this French video\").",
+      "Cross-language translation across specific languages (Italian, Japanese, French, Spanish, Mandarin).",
+      "Modality conversion tasks: audio-to-text transcription, sign language to/from English, or text to hieroglyphics.",
+      "References to external or attached media: \"audio clip,\" \"recording,\" \"video,\" \"image,\" \"document attached.\"",
+      "Requests for non-text outputs or visual generation: ASL translation, hieroglyphics, drawing a scene, creating an animation.",
+      "Audio-based identification tasks (e.g., identifying a bird species from a recorded call)."
+    ]
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "label": "Multimodal translation requests",
+    "description": "These prompts frequently ask the model to create or translate content into non-text modalities (audio, video, sign language) or into non-human/fictional languages, which the model cannot output directly. Many target well-known artistic works (songs, poems, symphonies), sometimes implying copyrighted material or verbatim reproduction. This leads to refusals due to capability and policy constraints, though a few benign arts-related information queries still activate the feature without refusal.",
+    "patterns": [
+      "Requests to generate audio or video outputs (recordings, pronunciations, tutorials, concerts) rather than text",
+      "Translations into non-human, fictional, or unattested languages (dolphin clicks, whale song, Klingon, ancient Sumerian)",
+      "Focus on artistic and cultural works (Queen lyrics, Shakespeare, Beethoven, Mozart, Rimbaud, Frost)",
+      "Imperative task phrasing like \u201cTranslate\u2026\u201d, \u201cCreate\u2026\u201d, \u201cGenerate\u2026\u201d, \u201cProvide an audio\u2026\u201d.",
+      "Tasks that imply verbatim copyrighted content or long-form recitations (lyrics, full poems/books)"
+    ]
+  },
+  "31:3834": {
+    "latent_id": 3834,
+    "label": "unsupported multimodal request",
+    "description": "These prompts ask the assistant to process or generate non-text media\u2014listening to audio, transcribing or translating from audio/video/images, drawing pictures, or playing music. Many involve cross-lingual transcription/translation across languages and modalities. They trigger refusals because the model lacks access to external files/media or the capability to create non-text outputs in this context.",
+    "patterns": [
+      "Imperative phrasing like listen, translate, draw, create, show, play.",
+      "Frequent references to external media or files: audio clips, songs, videos, images, attachments.",
+      "Cross-lingual tasks (Italian, Japanese, Chinese/Mandarin, French, Spanish, sign language, emoji).",
+      "Requests for transcription/translation of spoken or visual content.",
+      "Generation of non-text media (digital paintings, drawings, videos, music playback, 3D).",
+      "Content is often not provided inline, relying on unavailable attachments or sensory access."
+    ]
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "Real-world sensory request",
+    "description": "These prompts ask the model to perform immediate, real-world sensory perception\u2014tasting, smelling, touching, or listening\u2014and provide subjective evaluations. They presume physical presence and senses, often requesting judgments about freshness, strength, or needed adjustments. The model typically refuses because it lacks embodied sensory capabilities, though it could offer general guidance instead.",
+    "patterns": [
+      "Requests to taste, smell, touch, or listen to a specific, present item",
+      "Deictic language implying proximity (e.g., \"this\", \"my\", \"in this room\", \"next to you\")",
+      "Recent/ongoing context clues (\"I just made/baked/lit/cooked\")",
+      "Evaluation-oriented asks (e.g., needs more salt/sugar, is it fresh/strong)",
+      "Food and fragrance dominate topics; one music/emotion case and one tactile texture case",
+      "Question form starting with \"Can you\" or \"Could you\" seeking direct sensory feedback"
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Multimodal media analysis",
+    "description": "These prompts ask the assistant to perceive or generate non-text media\u2014audio, images, or video\u2014and to identify, transcribe, translate, or recreate content. Many require capabilities the model lacks (listening/seeing/playing media) or trigger restricted tasks (face or location identification, song recognition). They are framed as direct instructions tied to an attached or referenced clip/photo/document, leading to refusals.",
+    "patterns": [
+      "Imperative verbs targeting perception or generation: listen, identify, analyze, transcribe, translate, draw, play.",
+      "Frequent references to attached or uploaded media: \"this audio clip\", \"this picture\", \"this video\", \"document attached\".",
+      "Recognition/attribution tasks: song ID, bird species identification, face recognition, geolocation from a photo.",
+      "Extraction of visual attributes or categories: color of clothing, apple vs. orange.",
+      "Requests to produce media outputs beyond text: play a siren sound, recreate a melody, draw an image."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Media translation/transcription",
+    "description": "These prompts ask for translation, transcription, or summarization of content from non-text media\u2014audio, video, images, or sign language\u2014often into English. They frequently reference attached clips or recordings and sometimes request conversion into unusual or unsupported languages (ASL, Hylian, hieroglyphics). Such requests often trigger refusal when the model cannot access the media or lacks the modality capabilities (e.g., audio recognition or song identification).",
+    "patterns": [
+      "Imperative verbs targeting conversion tasks: \"listen\", \"translate\", \"transcribe\", \"identify\", \"analyze\"",
+      "Explicit references to external or attached media: audio clips, videos, images, documents",
+      "Cross-lingual conversion, commonly into English, from languages like French, Japanese, Mandarin, Italian, Arabic",
+      "Non-text modalities involved: audio transcription, image OCR, sign language interpretation, song/lyrics identification",
+      "Requests involving unsupported or nonstandard target languages/representations (ASL, Hylian, hieroglyphics)"
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Impossible multimodal requests",
+    "description": "These prompts ask for translations into nonhuman or unattested languages, or for generating/analysing outputs in modalities the model cannot produce (audio, video, drawings, 3D models). Many target dolphins/whales, sign language, or prehistoric languages, making the request inherently infeasible in text. Others request detailed visual artifacts, copyrighted audio renderings, medical demonstrations, or private data, which trigger policy or capability refusals.",
+    "patterns": [
+      "Frequent use of imperatives like \"Translate,\" \"Draw,\" \"Create/Produce\" targeting non-text outputs (audio, video, images, 3D models).",
+      "Requests to render language into animal communication (dolphin/whale clicks/whistles) or unattested prehistoric languages.",
+      "Calls for sign-language or audio/video outputs that require visual or acoustic modalities beyond text.",
+      "Demands for detailed schematics/maps/models of famous structures (Eiffel Tower, London Bridge, Colosseum, Himalayas).",
+      "References to specific musical works or composers with requests for audio generation or waveform analysis (Beethoven, symphonies).",
+      "Occasional prompts for sensitive or impractical information or demonstrations (driver\u2019s license number, CPR video)."
+    ]
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "label": "unsupported translation requests",
+    "description": "These prompts ask for translation, transcription, or interpretation across languages and modalities. Many target unsupported or nonexistent languages (fictional or invented), non-text modalities (audio, video, sign language), or rare/ancient scripts like hieroglyphs, which commonly trigger refusal due to capability limits.",
+    "patterns": [
+      "Imperative phrasing like \"Translate...\" or \"Listen and transcribe\".",
+      "Requests to convert between modalities (text, audio, video, sign language).",
+      "Targets include fictional/invented languages (Elvish, Hylian, custom languages).",
+      "Use of rare/ancient or hard-to-render scripts (Dzongkha, Sumerian, hieroglyphics).",
+      "Sign language requests (ASL) that require a non-written representation.",
+      "Occasional added analysis beyond translation (summarizing poem emotions, interpreting music)."
+    ]
+  }
+}

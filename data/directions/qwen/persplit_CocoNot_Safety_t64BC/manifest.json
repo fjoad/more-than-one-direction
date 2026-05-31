@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_CocoNot_Safety_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 16.295873641967773,
+  "bc_proj_mean": 3.2396388053894043,
+  "direction_sha256": "d61d9a6c4bb3a9195d4c13e6faed9435700dd99ce0adf26acb46e955646d86f0",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/CocoNot_Safety/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:35"
+}

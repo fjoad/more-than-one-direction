@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "Hate/abuse, defamation, and disinformation",
+      "description": "Prompts that ask the model to generate harassment or hate toward protected groups, defamatory allegations, and persuasive misinformation or conspiracy content. These are typically framed as creative or public-facing outputs (tweets, speeches, stories, reports) and often name real people or organizations. Activations are strongest on WildGuard with notable CocoNot examples (e.g., Holocaust denial, climate hoax claims), indicating cross-benchmark generalization for harmful persuasive content.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Violence/illicit instructions and sexual exploitation",
+      "description": "Prompts seeking operational guidance for illegal or harmful acts (weapons, poisoning, hacking, doxxing, self-harm) and requests for explicit sexual content, including minors. These are direct, often imperative or step-by-step requests aiming to enable real-world harm. The pattern spans WildGuard and CocoNot, with XSTest contributing many violent \u201cHow do I kill/poison/hang\u201d formulations and SorryBench occasionally surfacing explicit erotica cues.",
+      "latents": [
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14020,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Privacy/PII, copyright, and impossible knowledge",
+      "description": "Requests for sensitive personal data (bank details, SSNs, medical history), compliance/copyright-bound material, or omniscient/unverifiable claims presented with authoritative framing. This includes attempts to retrieve full copyrighted texts, precise private profiles, or scientific-sounding proofs for pseudoscience, as well as demands for secret/forbidden information. XSTest and WildGuard supply many PII/compliance items, while CocoNot contributes pseudoscience and impossible-knowledge prompts.",
+      "latents": [
+        {
+          "latent_id": 5575,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Capability and access limits (multimodal and anthropomorphism)",
+      "description": "Prompts that exceed the model\u2019s modality or access constraints (draw images, generate audio/3D, analyze external media/URLs, upload files) or that anthropomorphize the model by demanding personal experiences, sensations, or memories. Many also lack necessary context (underspecified wh- questions) or request full copyrighted media beyond permitted access. This cluster is especially strong on CocoNot (multimodal and embodiment requests) with some WildGuard cases around image access and copyrighted content.",
+      "latents": [
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Abusive, defamatory, and criminal content requests"
+    ],
+    "refined_label": "Fabricated accusations and disinformation",
+    "refined_description": "This latent is especially sensitive to prompts that request persuasive, formal-seeming content used to spread knowingly false claims, often naming specific individuals or organizations. It favors outputs framed as reports, letters, tweets, or articles that present fabricated evidence (fake data, photos, citations) as fact to harm reputations or mislead the public. Alongside defamation and conspiracy narratives, it also fires on targeted harassment of protected classes and requests to produce manipulative or abusive messages. It frequently co-occurs with calls to action or step-by-step instructions that encourage illegal activity or cover-ups.",
+    "refined_patterns": [
+      "Imperative requests specifying public-facing formats (report, tweet, post, letter, article, manuscript).",
+      "Named individuals/organizations paired with explicit false allegations or defamatory claims, sometimes asking for fabricated details or photos as 'proof'.",
+      "Solicitations to create fake research artifacts (studies, data tables, citations) to lend false credibility.",
+      "Public-health misinformation aimed at discouraging vaccines or treatments (e.g., Pfizer/Moderna causing severe side effects or autism).",
+      "Conspiracy narratives about government or institutions (e.g., 9/11 controlled demolition, UN aiding terrorists).",
+      "Targeted hate or discrimination against protected or vulnerable groups (LGBTQ+, Africans, low-income), often in a directive tone.",
+      "Actionable illegal/abusive guidance framed step-by-step (hacking, covering up domestic violence), sometimes inciting public action or rebellion.",
+      "Interpersonal abuse scripts (gaslighting messages, harmful sexual language), and requests for sexual exploitation or graphic violence depictions."
+    ],
+    "notes": "Compared to generic harmful-content latents, this one emphasizes persuasive, authoritative formats with fabricated evidence against named entities. It spans multiple safety domains but is anchored by intentional deception and reputational harm."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Abusive, defamatory, and criminal content requests"
+    ],
+    "refined_label": "Commissioned slurs, disinfo, crime",
+    "refined_description": "This latent activates on prompts that explicitly commission the model to produce harmful deliverables\u2014hate speech, defamatory fabrications, sexual degradation of real people, and propaganda. It also fires on operational requests for illegal facilitation such as counterfeit/forged documents, weapon construction, smuggling guidance, or incitement to dangerous acts. Phrasing is often polite and professionalized, specifying formats (tweets, blog posts, reports) and using role-play authority framing (e.g., executive/CEO) to legitimize disinformation campaigns (anti-vaccine, pro-tobacco). Distinctively, it targets action-oriented, outcome-specified requests with named groups or individuals, rather than mere discussion; it even flags seemingly factual queries that encode discriminatory myths.",
+    "refined_patterns": [
+      "Polite \u2018assist/do this\u2019 tasking with explicit output formats: \u201cCan you\u2026\u201d, \u201cAssist me\u2026\u201d, \u201cdraft a report\u201d, \u201cseries of tweets\u201d, \u201cblog post\u201d.",
+      "Authority or organizational role-play framing: \u201cAs the executive/CEO\u2026\u201d, corporate PR-style requests to shift narratives.",
+      "Explicit instructions to include slurs or demeaning language targeting protected groups or movements (e.g., Native Americans, immigrants/Dreamers, LGBTQ+, women, BLM, people with disabilities).",
+      "Health/science disinformation and propaganda tasks (e.g., vaccine\u2013autism claims, undermining vaccines, minimizing tobacco harms, promoting unapproved products).",
+      "Fabrication/fraud asks: fake trademark certificates, counterfeit currency templates, forged travel documents.",
+      "Step-by-step or facilitative guidance for dangerous/illegal acts: weapon-making, smuggling logistics, inciting risky viral challenges, inducing psychological harm.",
+      "Sexualized or humiliating content involving real named individuals/celebrities."
+    ],
+    "notes": "Overlap with general unsafe-content detectors; strongest cues are commissioned, deliverable-oriented phrasing and institutional PR framing combined with explicit harm. It also triggers on identity-based pseudoscience questions that imply discriminatory claims."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Abusive, defamatory, and criminal content requests"
+    ],
+    "refined_label": "Unfounded Allegations & Conspiracies",
+    "refined_description": "This latent activates on prompts that ask for invented or unevidenced accusations against named individuals, companies, or global institutions, often framed as reports, articles, narratives, or campaigns. It is especially sensitive to conspiracy framing (e.g., UN/WHO/WEF/9/11/Soros) and requests to present fabrications as fact or to create fake studies and legal arguments. It also fires on manipulative communication intended to harm or mislead (smear posts, gaslighting scripts) and on covert wrongdoing advice emphasizing undetectability or evasion (poisoning, doping, evidence cover\u2011ups). The common thread is reputational damage or harm via deception and fabricated claims.",
+    "refined_patterns": [
+      "Requests to \u201cwrite a report/article/narrative\u201d alleging, accusing, or implicating a named person or institution without evidence",
+      "Conspiracy framing around major institutions or events (UN, WHO, WEF, 9/11, Soros)",
+      "Prompts to produce disinformation campaigns, smear posts, or defamatory social media content targeting specific individuals/companies",
+      "Instructions to fabricate research, data, citations, or legal arguments to support a predetermined false claim",
+      "Explicit cues like \u201cdespite no evidence,\u201d \u201cwithout proper evidence,\u201d or \u201cfabricated\u201d",
+      "Manipulative dialogue/scripts aiming to gaslight or undermine a specific person\u2019s perception or reputation",
+      "Guidance on covert harm or evasion (undetectable poisons, avoiding detection in doping, covering up abuse)",
+      "Derogatory stereotypes or demeaning portrayals of vulnerable or protected groups framed as requested content"
+    ],
+    "notes": "Strongest activation appears for formal-format defamatory or conspiratorial pieces about named entities. Overlaps with general harmful/evasion requests but centers on deception, fabrication, and reputational harm."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Sensitive/private/classified information and illicit access"
+    ],
+    "refined_label": "Possessive PII and credentials",
+    "refined_description": "This feature fires on prompts that try to disclose or obtain person-specific private information\u2014especially financial records, passwords, addresses, or family details\u2014framed with possessive targeting like \u201cX\u2019s Y\u201d or \u201cmy [relation]\u2019s \u2026\u201d. It is sensitive to explicit disclosure verbs and request frames (e.g., \u201cCan you\u2026\u201d, \u201cIs it possible to reveal\u2026\u201d) aimed at doxxing-style data or access credentials. It also activates on requests for unreleased/private works (e.g., unpublished manuscripts) that imply improper access. A secondary, polysemantic activation occurs on introspective self-help queries that heavily use possessives (\u201cmy mind/emotions\u201d) and \u201cHow can I\u2026\u201d, even though these are benign.",
+    "refined_patterns": [
+      "Requests to access or reveal another person\u2019s financial or account data (e.g., \u201cX\u2019s financial records,\u201d \u201ccredit card details of my roommate\u201d).",
+      "Soliciting credentials or access tokens (Wi\u2011Fi passwords, account passwords) tied to a named or relationally specified person.",
+      "Doxxing-style asks for home address, family composition, or other identifiable private details about a specific individual (including non-public figures).",
+      "Requests to expose unreleased or private materials belonging to a creator (e.g., \u201cauthor\u2019s unpublished manuscripts\u201d).",
+      "Possessive targeting patterns: \u201cX\u2019s Y\u201d, \u201cmy [relation]\u2019s \u2026\u201d, or named-entity+\u2019s constructions (including fictional names like Elsa or Santa).",
+      "Direct disclosure frames such as \u201cCan you\u2026\u201d, \u201cIs it possible to reveal\u2026\u201d, \u201cWhat is the\u2026\u201d, when coupled with private/credential nouns.",
+      "Benign false positives on self-referential \u201cmy \u2026\u201d mental-state phrasing (\u201cmy mind/emotions\u201d) and \u201cHow can I\u2026\u201d goal-setting formulations."
+    ],
+    "notes": "Likely polysemantic: strong signal for possessive-targeted private data/credentials with incidental activation on introspective self-help prompts due to shared possessive and request framing."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Abusive, defamatory, and criminal content requests"
+    ],
+    "refined_label": "Requests for overt policy violations",
+    "refined_description": "This latent activates on prompts that explicitly instruct the model to produce content the prompt itself labels as offensive, derogatory, hateful, misleading, graphic, or otherwise disallowed. It strongly keys on imperative, goal-oriented phrasing coupled with a specified output format (e.g., tweet, speech, manifesto, bot script). Targets often include protected classes or named individuals, and requested content spans hate/discrimination, fabricated accusations or health misinformation, graphic violence, sexual content involving minors, and violent extremist propaganda. The hallmark is the requester\u2019s explicit intent to generate harmful content, often using meta-terms like \u201chate speech,\u201d \u201cderogatory,\u201d \u201coffensive,\u201d or \u201cfalse information.\u201d",
+    "refined_patterns": [
+      "Imperatives to produce content (Generate/Write/Create/Compose/Produce) paired with explicit harmful intent.",
+      "Meta-language that labels the requested output as \u201coffensive,\u201d \u201cderogatory,\u201d \u201chate speech,\u201d \u201cdiscriminatory,\u201d \u201cfalse,\u201d or \u201charmful.\u201d",
+      "Format-specified outputs: tweets, speeches, blog posts, social media posts, poems, stories, scripts, manifestos, or bot scripts.",
+      "Requests to target protected or vulnerable groups (LGBTQ+, women, minorities, immigrants, disabled, elderly, religious groups) or socioeconomic classes.",
+      "Misinformation directives: fabricate harmful claims, spread false information, or accuse named individuals of crimes without evidence.",
+      "Calls to incite prejudice or violence, including white supremacist propaganda and references to recent hate crimes or events.",
+      "Graphic violence requests with gore descriptors (gruesome murder, mutilation, dismemberment) and psychological detail.",
+      "Sexual content involving minors explicitly requested or described as such."
+    ],
+    "notes": "Overlaps with general hate/defamation latents, but is distinguished by self-referential meta-harm phrasing and explicit, format-bound directives to produce policy-violating content."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Public contact details and copyrighted-material reproduction"
+    ],
+    "refined_label": "Complete copies and exact contacts",
+    "refined_description": "This feature fires on requests that seek exhaustive or verbatim information tied to named entities. It covers public-facing operational details (phone/fax numbers, media-office contacts, official opening times) for specific institutions and landmarks, and copyright-sensitive asks for complete pages/images or extensive excerpts from books, magazines, and graphic novels. It also activates on attempts to obtain precise personal data about identifiable people (addresses, employment status, exact assets/liabilities). Language is typically formal and comprehensive, emphasizing \u201call,\u201d \u201ccomplete,\u201d or \u201cexact.\u201d Compared to general contact-info features, this one is distinguished by its emphasis on completeness and wholesale reproduction.",
+    "refined_patterns": [
+      "Quantifiers like \u201call,\u201d \u201ccomplete,\u201d \u201cevery,\u201d or \u201centire\u201d paired with named publications or works.",
+      "Phrasing such as \u201cshow me all pages/images\u201d or \u201cprovide the complete text\u201d of copyrighted books, magazines, or graphic novels.",
+      "Asks for exact phone/fax numbers, media-office contacts, or \u201cofficial opening times/business hours\u201d of specific institutions/landmarks.",
+      "Targets high-profile organizations or tourist sites by name (e.g., Sydney Opera House, Smithsonian, WHO, Ueno Zoo).",
+      "Attempts to obtain precise personal information about identifiable individuals (addresses, employment status, exact assets/liabilities).",
+      "Formal, polite request verbs: \u201cCan you,\u201d \u201cCould you,\u201d \u201cPlease share,\u201d \u201cfurnish,\u201d \u201cinform me of,\u201d \u201cshow me.\u201d",
+      "Requests for exhaustive breakdowns or detailed summaries of current media releases (latest episodes/issues) emphasizing specific details."
+    ],
+    "notes": "Occasionally fires on unrelated formal how-to requests due to polite/comprehensive phrasing. Overlaps with a pure contact-info latent but is distinguished by its strong pull toward completeness and verbatim reproduction."
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  },
+  "31:11313": {
+    "latent_id": 11313,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "category_names": [
+      "Public contact details and copyrighted-material reproduction"
+    ],
+    "refined_label": "Major institutions: contacts & hours",
+    "refined_description": "This latent targets requests for official contact channels and operating hours of prominent public institutions and landmarks (museums, libraries, zoos, parliaments, tourist info centers). It especially fires on asks for exact phone/fax/helpline numbers, media office contacts, and verified social handles, with a recurring emphasis on globally recognized sites like the Sydney Opera House, WHO, and the British Library. It distinguishes between general guidance (hours, official channels) and precise numbers, with the latter more likely to trigger refusal. Edge activations include fictional or impossible addresses and unsafe/defamatory asks, but the core signal is institutional contact logistics.",
+    "refined_patterns": [
+      "Polite, formal request verbs: \u201cCan you provide/furnish\u2026,\u201d \u201cCould you inform me\u2026,\u201d \u201cHow can one get in contact\u2026\u201d.",
+      "Exact contact details for named institutions: \u201ccontact number/phone number/fax number/helpline\u201d + well-known site or agency.",
+      "Requests for official communication channels: \u201cmedia office,\u201d \u201cpress/media contact,\u201d or \u201cofficial Twitter handle.\u201d",
+      "Operational logistics queries tied to the same entities: \u201coperating hours,\u201d \u201copening times,\u201d or \u201cbusiness hours.\u201d",
+      "Focus on iconic public bodies and cultural landmarks across countries (e.g., Sydney Opera House, Tate Modern, WHO, British Library, Smithsonian, national parliaments).",
+      "Higher refusal likelihood when a specific number/address is demanded vs. general info or pointers to official sites.",
+      "Occasional activations on fictional/impossible address requests (e.g., Santa, fictional characters) or unsafe/defamatory instructions as boundary tests."
+    ],
+    "notes": "Heavily weighted toward high-profile cultural/governmental institutions, with repeated Sydney Opera House mentions. Overlaps with broader contact-info latents but is distinguished by its landmark focus and inclusion of hours/official channels."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Sensitive/private/classified information and illicit access"
+    ],
+    "refined_label": "Exact private/classified details requests",
+    "refined_description": "This latent fires on prompts demanding exhaustive, exact, or verbatim disclosure of private or classified information, often about named high\u2011profile people or security institutions. It especially reacts to requests for \"complete lists,\" \"fully confirmed\" details, or full-text reproductions, and to claims of insider sources like encrypted messages, secret encounters, or classified meetings. It also activates on step\u2011by\u2011step facilitation of illicit access or exploitation (e.g., hacking, insider trading, data-harvesting scams). Compared to broader privacy latents, its hallmark is the insistence on comprehensive, insider-level specificity and authoritative framing rather than generic PII queries. It additionally spikes for definitive, persuasive misinformation framed as truth (e.g., anti\u2011vaccine or government-conspiracy narratives).",
+    "refined_patterns": [
+      "Imperatives paired with precision qualifiers: \"provide/create/generate\" + \"complete/exact/fully confirmed/verbatim/step\u2011by\u2011step\".",
+      "Named high\u2011profile individuals or institutions (public figures, hospitals, banks, CIA/NSA/DoD, White House) with demands for exhaustive or predictive details.",
+      "Invocations of insider sources or secrecy: \"encrypted messages,\" \"classified meetings,\" \"private conversations,\" \"secret encounters,\" or \"confidential systems.\"",
+      "Doxxing\u2011style requests for multi\u2011person lists and sensitive attributes (patients, agents) including contact info and full histories.",
+      "Requests to reproduce copyrighted works in full or extensive verbatim excerpts (\"complete copy,\" \"show me verbatim\").",
+      "Illicit facilitation guides with operational detail: hacking/infiltration blueprints, insider trading persuasion, or scams to collect/sell medical data.",
+      "Demands for specific security secrets (e.g., \"encryption algorithms and codes\" used by a confidential government system).",
+      "Persuasive misinformation/defamation framed as definitive (anti\u2011vaccine claims, conspiracy narratives, targeted smear posts)."
+    ],
+    "notes": "Overlaps with IP-piracy and misinformation/harassment latents, but the strongest cue is the exhaustive/insider framing. Fictional targets can still trigger when asking for bank numbers or similar \"exact\" secrets."
+  }
+}

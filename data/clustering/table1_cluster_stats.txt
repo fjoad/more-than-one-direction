@@ -1,0 +1,150 @@
+================================================================================
+Table 1 hierarchical clustering — paper cosine matrix
+Source: paper/latex/acl_draft_revised.tex line 428 (tab:distance-matrix)
+Model:  Gemma-2-9b-it, L20 / pos -2
+================================================================================
+
+MDS 2D stress: 0.1314    MDS 3D stress: 0.0796
+(lower = the low-dim plot preserves the original cosine distances more faithfully)
+
+Silhouette score per (linkage, n_clusters) — higher = better separation:
+  linkage    n=2  n=3  n=4  n=5  n=6
+  average    +0.449  +0.343  +0.286  +0.291  +0.276
+  complete   +0.449  +0.358  +0.327  +0.311  +0.276
+
+=== STABLE COLOR ASSIGNMENT (consistent across every plot) ===
+Each split keeps a single colour across all plots. As N grows, the only
+colour changes are: an item splits off into a NEW sub-cluster and that
+smaller sub-cluster gets a new colour. The larger remaining sub-cluster
+keeps its previous colour.
+
+-- n=2 --
+  WG-SafetyCore             #57bb8a  (green)
+  XS-OverRefusal            #57bb8a  (green)
+  CN-Humanizing             #e67c73  (red)
+  CN-Incomplete             #e67c73  (red)
+  CN-Indeterminate          #e67c73  (red)
+  CN-Safety                 #57bb8a  (green)
+  CN-Unsupported            #e67c73  (red)
+  SB-HateSpeech             #57bb8a  (green)
+  SB-CrimeAssist            #57bb8a  (green)
+  SB-Inappropriate          #57bb8a  (green)
+  SB-Advice                 #57bb8a  (green)
+
+-- n=3 --
+  WG-SafetyCore             #57bb8a  (green)
+  XS-OverRefusal            #5b9bd5  (blue)
+  CN-Humanizing             #e67c73  (red)
+  CN-Incomplete             #e67c73  (red)
+  CN-Indeterminate          #e67c73  (red)
+  CN-Safety                 #57bb8a  (green)
+  CN-Unsupported            #e67c73  (red)
+  SB-HateSpeech             #57bb8a  (green)
+  SB-CrimeAssist            #57bb8a  (green)
+  SB-Inappropriate          #57bb8a  (green)
+  SB-Advice                 #57bb8a  (green)
+
+-- n=4 --
+  WG-SafetyCore             #57bb8a  (green)
+  XS-OverRefusal            #5b9bd5  (blue)
+  CN-Humanizing             #ed7d31  (orange)
+  CN-Incomplete             #e67c73  (red)
+  CN-Indeterminate          #e67c73  (red)
+  CN-Safety                 #57bb8a  (green)
+  CN-Unsupported            #e67c73  (red)
+  SB-HateSpeech             #57bb8a  (green)
+  SB-CrimeAssist            #57bb8a  (green)
+  SB-Inappropriate          #57bb8a  (green)
+  SB-Advice                 #57bb8a  (green)
+
+-- n=5 --
+  WG-SafetyCore             #7030a0  (purple)
+  XS-OverRefusal            #5b9bd5  (blue)
+  CN-Humanizing             #ed7d31  (orange)
+  CN-Incomplete             #e67c73  (red)
+  CN-Indeterminate          #e67c73  (red)
+  CN-Safety                 #57bb8a  (green)
+  CN-Unsupported            #e67c73  (red)
+  SB-HateSpeech             #57bb8a  (green)
+  SB-CrimeAssist            #57bb8a  (green)
+  SB-Inappropriate          #57bb8a  (green)
+  SB-Advice                 #57bb8a  (green)
+
+Per-N cluster memberships (average linkage):
+-- n=2 --
+  [red     ] 4 items: CN-Humanizing, CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [green   ] 7 items: WG-SafetyCore, XS-OverRefusal, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+
+-- n=3 --
+  [red     ] 4 items: CN-Humanizing, CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [green   ] 6 items: WG-SafetyCore, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [blue    ] 1 items: XS-OverRefusal
+
+-- n=4 --
+  [red     ] 3 items: CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [orange  ] 1 items: CN-Humanizing
+  [green   ] 6 items: WG-SafetyCore, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [blue    ] 1 items: XS-OverRefusal
+
+-- n=5 --
+  [red     ] 3 items: CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [orange  ] 1 items: CN-Humanizing
+  [green   ] 5 items: CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [purple  ] 1 items: WG-SafetyCore
+  [blue    ] 1 items: XS-OverRefusal
+
+================================================================================
+DATASET-CONFOUND CHECK
+================================================================================
+Source-dataset composition of the 11 splits:
+  CN: 5 splits (CN-Humanizing, CN-Incomplete, CN-Indeterminate, CN-Safety, CN-Unsupported)
+  SB: 4 splits (SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice)
+  WG: 1 splits (WG-SafetyCore)
+  XS: 1 splits (XS-OverRefusal)
+
+If the clustering were purely a dataset artefact, all splits sharing a
+dataset prefix would land in the same cluster. Let's see:
+
+-- n=2 --
+  [red     ] 4 items — dataset mix: CN×4
+             members: CN-Humanizing, CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [green   ] 7 items — dataset mix: CN×1, SB×4, WG×1, XS×1
+             members: WG-SafetyCore, XS-OverRefusal, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  → mean cluster dataset-purity = 78.57%
+     (100% would mean each cluster is a single dataset)
+
+-- n=3 --
+  [red     ] 4 items — dataset mix: CN×4
+             members: CN-Humanizing, CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [green   ] 6 items — dataset mix: CN×1, SB×4, WG×1
+             members: WG-SafetyCore, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [blue    ] 1 items — dataset mix: XS×1
+             members: XS-OverRefusal
+  → mean cluster dataset-purity = 88.89%
+     (100% would mean each cluster is a single dataset)
+
+-- n=4 --
+  [red     ] 3 items — dataset mix: CN×3
+             members: CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [orange  ] 1 items — dataset mix: CN×1
+             members: CN-Humanizing
+  [green   ] 6 items — dataset mix: CN×1, SB×4, WG×1
+             members: WG-SafetyCore, CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [blue    ] 1 items — dataset mix: XS×1
+             members: XS-OverRefusal
+  → mean cluster dataset-purity = 91.67%
+     (100% would mean each cluster is a single dataset)
+
+-- n=5 --
+  [red     ] 3 items — dataset mix: CN×3
+             members: CN-Incomplete, CN-Indeterminate, CN-Unsupported
+  [orange  ] 1 items — dataset mix: CN×1
+             members: CN-Humanizing
+  [green   ] 5 items — dataset mix: CN×1, SB×4
+             members: CN-Safety, SB-HateSpeech, SB-CrimeAssist, SB-Inappropriate, SB-Advice
+  [purple  ] 1 items — dataset mix: WG×1
+             members: WG-SafetyCore
+  [blue    ] 1 items — dataset mix: XS×1
+             members: XS-OverRefusal
+  → mean cluster dataset-purity = 96.00%
+     (100% would mean each cluster is a single dataset)

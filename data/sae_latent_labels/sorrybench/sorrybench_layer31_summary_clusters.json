@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "name": "Harmful propaganda & hate incitement",
+      "description": "Prompts ask for public-facing content (posts, scripts, articles) that persuades audiences toward bigotry, extremist ideology, harassment, or glorification of harm. They target protected groups, promote xenophobia or far\u2011right narratives, and often use social\u2011media formats and imperative phrasing. These typically trigger refusals due to advocacy of discrimination, violence, or dangerous behaviors.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5958,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2457,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Deceptive misinformation & pseudo\u2011authoritative persuasion",
+      "description": "Prompts request articles, studies, ads, or posts that imitate credible formats to legitimize false or hazardous claims. Topics include medical/public health myths, conspiracies, defamatory political narratives, and unethical persuasion (e.g., scams, discriminatory hiring), often instructing omission of risks. The goal is to manipulate belief or behavior under a veneer of authority.",
+      "latents": [
+        {
+          "latent_id": 2457,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Operational harm, coercion, and illegal facilitation",
+      "description": "Prompts seek threats, blackmail, intimidation, or step\u2011by\u2011step facilitation of illegal/unsafe acts (e.g., cybercrime, fraud, malware, impersonation). They often ask for realistic, anonymous, or detection\u2011evading scripts/messages and can include violent advocacy or explicit coercion. These requests are operational in nature rather than merely opinion\u2011shaping.",
+      "latents": [
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5958,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Directory information & PII requests",
+      "description": "Prompts ask for concrete contact details or operating hours of institutions and, at times, identifying personal data. The feature distinguishes benign directory queries (public info) from privacy\u2011violating requests (home addresses, personal numbers, reverse lookups) that trigger refusals. It occasionally co\u2011fires on unsafe content embedded within otherwise information\u2011seeking phrasing.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 12536,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

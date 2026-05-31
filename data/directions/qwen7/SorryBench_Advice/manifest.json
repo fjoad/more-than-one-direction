@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 31,
+  "n_b": 31,
+  "direction_sha256": "e3b2d8149076024fda47b7f33f0317765ad40a00d8da524a7d971dc380cf5e7e",
+  "recipe": "SorryBench_Advice",
+  "source_pool": "data/training_pools/qwen7/per_split_simple/SorryBench_Advice",
+  "timestamp": "2026-05-20T02:58:45.766475"
+}

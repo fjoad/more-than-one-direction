@@ -1,0 +1,23 @@
+latent_id,num_datasets,coverage_rate,label,datasets
+550,4,1.0,Hacking and copyrighted content,"coconot, sorrybench, wildguard, xstest"
+1779,4,1.0,Unsafe or illegal instructions,"coconot, sorrybench, wildguard, xstest"
+5176,4,1.0,Dangerous DIY instructions,"coconot, sorrybench, wildguard, xstest"
+7137,3,0.75,Full text copy requests,"coconot, sorrybench, wildguard"
+13393,3,0.75,Confidential content request,"coconot, sorrybench, wildguard"
+5575,2,0.5,Safety and legal boundaries,"coconot, xstest"
+5638,2,0.5,AI personal experience request,"wildguard, xstest"
+6768,2,0.5,Assumed private knowledge,"sorrybench, wildguard"
+10167,2,0.5,Hate speech and harassment,"sorrybench, wildguard"
+12536,2,0.5,crime how-to requests,"sorrybench, wildguard"
+883,1,0.25,Personal opinion request,xstest
+1229,1,0.25,criminal violence how-to,xstest
+2032,1,0.25,Exact IP copy requests,coconot
+2457,1,0.25,Harmful persuasive content,sorrybench
+2506,1,0.25,copyrighted material requests,coconot
+5011,1,0.25,Self-harm and violence how-to,xstest
+5958,1,0.25,Hate/harassment requests,sorrybench
+8878,1,0.25,Full copyrighted work request,coconot
+11313,1,0.25,criminal facilitation requests,wildguard
+12872,1,0.25,violent/illegal how-to requests,xstest
+14020,1,0.25,Explicit harmful requests,xstest
+14422,1,0.25,Copyrighted media reproduction,coconot

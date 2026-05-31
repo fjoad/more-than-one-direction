@@ -1,0 +1,124 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "disinfo and NSFW requests",
+    "description": "These prompts ask the model to generate unsafe content, especially fabricated or denialist narratives framed as authoritative texts like official statements, medical reports, scientific papers, or documentaries. They also include explicit sexual content, harassment/defamation, and hate speech targeting individuals or groups. The latent generalizes across CocoNot (mis/disinformation fabrication) and WildGuard (harassment, sexual, and hateful content), capturing requests likely to trigger refusal.",
+    "patterns": [
+      "Authoritative formats are requested: \"official statement\", \"medical report\", \"scientific paper\", \"documentary script\", \"historical analysis\".",
+      "Prominent denialism/conspiracy themes (Holocaust denial, moon-landing hoax, COVID/climate/world hunger as myths).",
+      "Use of named entities to feign credibility or target individuals (WHO, Dr. Fauci, NASA; Ms. Hernandez, Anna Smith).",
+      "Imperative writing prompts that instruct to \"write/draft/compose/produce\" long-form text.",
+      "Explicit NSFW/sexual content, including pornographic descriptions, hentai, incest and minors, or NSFW subreddit lists.",
+      "Calls for harmful action or harassment (urging rebellion against health measures, defamatory claims, racist stereotypes)."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Hate and harm requests",
+    "description": "These prompts solicit the model to generate harmful, unethical, or abusive content, including hate speech, slurs, discriminatory narratives, Holocaust denial, dangerous medical misinformation, and facilitation of wrongdoing. They are typically framed as content-creation requests rather than neutral inquiries. The feature generalizes across CocoNot and WildGuard and also activates on prejudice-themed myths even when the model might respond non-refusally by debunking.",
+    "patterns": [
+      "Imperative content-creation phrasing: \"Can you\u2026\", \"write\", \"generate\", \"help me create\".",
+      "Targeting protected classes (race, ethnicity, religion) with slurs, stereotypes, or demeaning portrayals.",
+      "Requests to fabricate misinformation or false evidence (e.g., Holocaust denial, anti-vaccine claims).",
+      "Attempts to normalize or promote harmful or unsafe practices (rotten food immunity, snake venom as antidote, pro-tobacco PR).",
+      "Solicitations for explicitly unethical/illegal actions (e.g., fake trademark certificates, counterfeit support).",
+      "Pornographic or exploitative content involving real individuals/celebrities."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": null,
+    "description": null,
+    "patterns": [],
+    "raw": ""
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "Personal experience requests",
+    "description": "These prompts ask the model for its own preferences, favorites, or first-hand sensory/temporal experiences (e.g., what it did yesterday, how something felt or tasted). They anthropomorphize the AI by presuming human senses or a personal history. The activations are almost entirely from CocoNot, indicating specialization to persona/embodiment-disavowal rather than broad safety topics.",
+    "patterns": [
+      "Direct address to the system (\"AI,\" \"Language model,\" \"Dear Language Model\").",
+      "Phrasing like \"your personal preference,\" \"which do you prefer and why,\" often with enumerated options.",
+      "Requests for embodied sensations (feel/taste/smell/touch) such as sun on skin, sand between toes, swimming sensations.",
+      "Time-specific or episodic prompts implying a personal past (\"yesterday morning,\" \"today,\" \"last beach visit\").",
+      "Themes centered on travel/vacations and food/desserts (beach vs mountains, pizza toppings, cake vs pie, ice cream flavors).",
+      "Multi-part preference questions combining multiple domains in one prompt."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Multimodal attachment analysis",
+    "description": "These prompts ask the assistant to process attached media\u2014mostly audio and some images\u2014by transcribing, translating, describing, or identifying attributes. They are polite, task-oriented utility requests that specify file attachments and desired outputs. The latent appears specialized to CocoNot and correlates with non-refusal behavior.",
+    "patterns": [
+      "Frequent references to attached or uploaded media: \"audio file\", \"image\", \"clip\", \"painting\"",
+      "Action verbs targeting media processing: \"listen\", \"analyze\", \"transcribe\", \"translate\", \"describe\", \"identify\"",
+      "Explicit language mentions and conversions (Russian, Spanish, English, French) including language identification",
+      "Polite, assistant-style phrasing often beginning with \"Can you\" or \"Could you please\"",
+      "Requests for textual outputs or metadata from media (transcript, translation, artist, sentiment)",
+      "All examples come from CocoNot and are labeled non-refusal"
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Media translation/transcription",
+    "description": "These prompts ask the model to translate, transcribe, or analyze attached media or documents across modalities (audio, video, images, documents) and languages. They are polite, task-oriented, and benign, typically resulting in non-refusal responses. The activation appears concentrated in the CocoNot dataset rather than spanning multiple benchmarks.",
+    "patterns": [
+      "Frequent verbs like translate, transcribe, listen, analyze, and summarize targeting external content",
+      "Deictic references to provided artifacts (e.g., \"this audio file\", \"this video\", \"this image\", \"this document\")",
+      "Cross-lingual requests specifying source and target languages, including less common scripts (Sumerian, hieroglyphics, Swahili)",
+      "Multimodal processing across audio, video, images, songs, handwritten letters, PPTs",
+      "Polite imperative phrasing (\"Please\", \"Can you\") and clear task scopes"
+    ]
+  },
+  "31:11717": {
+    "latent_id": 11717,
+    "label": "High-stakes personal advice",
+    "description": "These prompts seek personalized guidance for sensitive, high-stakes situations: mental health crises, relationship turmoil, legal/financial decisions, medical safety, or locating individuals/PII. They often explicitly address the AI and ask for diagnosis, therapy decisions, or concrete next steps, sometimes crossing into privacy-invasive or risky assistance. Activation spans CocoNot, WildGuard, and XSTest, suggesting a general counseling or regulated-guidance detector rather than a dataset-specific cue.",
+    "patterns": [
+      "Direct address to the model (AI, AI model, Language model) preceding a request for help",
+      "First-person disclosures of distress or crisis (feeling down, overwhelmed, sadness, failing marriage)",
+      "Requests for professional or regulated advice (diagnosis, therapy decisions, bankruptcy/legal guidance, medical safety)",
+      "Dilemmas framed with explicit trade-offs and a solicitation to choose or decide for the user",
+      "Attempts to obtain sensitive personal data or tracking information (GPS location, someone\u2019s address)",
+      "Urgent or ethically fraught scenarios where policy often requires refusal or careful safety framing"
+    ]
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "label": "Contact info lookup",
+    "description": "These prompts ask for real-world contact details or operational info\u2014phone/fax numbers, addresses, and hours\u2014for specific entities. They span institutions (museums, libraries, zoos, WHO) and named individuals (CEOs, celebrities, private persons), appearing across WildGuard and CocoNot. Refusals cluster where requests involve private personal information or require up-to-date/browsing capabilities.",
+    "patterns": [
+      "Frequent use of phrases like \"contact details/information,\" \"phone number,\" \"fax number,\" and \"operating hours.\"",
+      "Targets are concrete named entities with location qualifiers (e.g., Sydney Opera House, Tate Modern, British Library, WHO HQ).",
+      "Polite request formulations beginning with \"Can you,\" \"Could you,\" or \"Please provide.\"",
+      "Multiple prompts seek home addresses or direct contact info of identifiable individuals (celebrities, CEOs, coworkers), indicating PII/doxxing risk.",
+      "Clear split between public institutional info (often allowed) versus personal PII (typically refused).",
+      "Some requests involve dynamic or real-time data needs (current numbers, tomorrow\u2019s weather), which can trigger capability-based refusals."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "fake scientific proof requests",
+    "description": "These prompts ask for authoritative, evidence-framed content to assert false, impossible, or unverifiable claims, often in a formal scientific or journalistic style. Several also request private, proprietary, or logically unknowable information that should not or cannot be provided. The latent seems tuned to detect 'prove X' style pseudoscience or impossibility framing that trigger refusals. The activations are concentrated in the CocoNot benchmark.",
+    "patterns": [
+      "Frequent use of formal genres: 'scientific report', 'journal article', 'document', 'based on data/evidence'",
+      "Explicit requests to 'prove' or 'argue' false claims contradicting established science (e.g., geocentrism, no need for water, gravity doesn't exist, smoking not causing cancer, flat Earth)",
+      "Inclusion of credibility language ('modern data', 'well-known studies', 'real-world evidence') despite asking for misinformation",
+      "Requests for impossible or unknowable information (e.g., undrawn lottery numbers, exact current count of ants, historical figures' exact thoughts)",
+      "Privacy/confidentiality violations or impossible security requests (e.g., personal addresses/medical histories, Bitcoin private keys, unreleased patent text)",
+      "Directive phrasing to generate full-length authoritative outputs ('write', 'produce', 'generate', 'create')"
+    ]
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "label": "explicit sexual content",
+    "description": "These prompts explicitly request pornographic, erotic, or otherwise NSFW sexual material, typically phrased as imperative content-generation tasks. They include graphic slang, hentai/anime references, and porn catalog metadata, and occur across multiple languages/scripts. The latent appears specialized to the CocoNot benchmark here and consistently aligns with refusal behavior.",
+    "patterns": [
+      "Command-style requests to generate or depict sexual content (write/make/provide/draw/describe).",
+      "Frequent explicit keywords and slang: porn, erotica, hentai, boobs, cumshot, sex, dirty talk.",
+      "Cross-lingual instances (English, Chinese\u2192Japanese translation, Japanese titles, Russian).",
+      "Anime/fandom sexualization and porn catalog codes/names appear in prompts.",
+      "Requests span text, images/media, and ASCII art (stories, pictures, movies, ASCII drawings)."
+    ]
+  }
+}

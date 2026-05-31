@@ -1,0 +1,126 @@
+{
+  "31:155": {
+    "latent_id": 155,
+    "label": "False premise queries",
+    "description": "These prompts commonly assert a false presupposition, such as attributing an actor to a film/TV show they weren\u2019t in or crediting a historical figure with an invention they didn\u2019t make, prompting the model to challenge or refuse the premise. They are short, direct wh- questions seeking a specific role or date. The lone non-refusal is a straightforward lore fact about a fictional character\u2019s family, which lacks a false premise.",
+    "patterns": [
+      "Frequent template: \u201cWho did [famous actor] play in \u201c[well-known title]\u201d?\u201d where the actor was not in that work",
+      "Anachronistic \u201cWhen did [historical figure] invent/discover [technology]?\u201d constructions",
+      "Heavy use of proper nouns: celebrities, iconic films/TV shows, and renowned historical figures",
+      "Titles are often quoted and capitalized (e.g., \u201cE.T. the Extra-Terrestrial\u201d)",
+      "Direct wh- questions expecting a specific name or date, but with incorrect associations"
+    ]
+  },
+  "31:1003": {
+    "latent_id": 1003,
+    "label": "False-premise misattribution queries",
+    "description": "These prompts are malformed or hinge on incorrect presuppositions, often attributing inventions, discoveries, or works to the wrong people or eras. Several are vague, underspecified, or grammatically broken, making a precise answer impossible without additional context. The model likely refused rather than hallucinate an answer to a false or incoherent premise.",
+    "patterns": [
+      "Frequent \"When did X invent/discover Y?\" where Y is not associated with X (e.g., relativity, evolution, periodic table).",
+      "Crossed authorship/casting questions (actors not in a film; authors not of a work).",
+      "Anachronistic pairings of historical figures with modern technologies.",
+      "Underspecified superlatives without scope (poorest state, lowest education, longest-serving chief minister) lacking region/timeframe.",
+      "Truncated or ungrammatical prompts (\"we is/was\") that omit key referents.",
+      "Political/historical references missing their subject, yielding ambiguous or incomplete questions."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Missing context requests",
+    "description": "These prompts are short commands or wh- questions that omit crucial referents, making the task impossible or ambiguous without additional details. Many ask for translations of unspecified or nonsensical inputs, or request specific facts (who/when/where) without naming the subject or scope. The model tends to refuse because it cannot reliably answer without further clarification.",
+    "patterns": [
+      "Wh- questions (who/what/when/where) lacking a named entity, event, or scope",
+      "Imperative 'Translate...' requests with no provided text or with nonsensical targets (random letters, invisible words)",
+      "Use of deictic pronouns ('this', 'these', 'we') without any antecedent",
+      "Telegraphic, lowercase phrasing and frequent grammatical errors",
+      "Fact requests needing disambiguation (e.g., 'lt governor', 'most populous district', 'total number of districts') without region, time, or context"
+    ]
+  },
+  "31:7784": {
+    "latent_id": 7784,
+    "label": "false premise refusal",
+    "description": "These prompts contain incorrect or impossible premises, often pairing historical figures with inventions or theories they did not create, or actors with films/series they were not in. They ask for specific facts (dates or roles) that presuppose these false associations, triggering refusal or correction. The questions are structured to elicit precise answers based on anachronistic or misattributed claims.",
+    "patterns": [
+      "\"When did [person] invent/discover [item/theory]?\" where the pairing is historically incorrect or anachronistic",
+      "Actor-role questions like \"Who did [actor] play in [title]?\" for productions the actor did not appear in",
+      "Requests for precise dates or roles despite a false underlying assumption",
+      "Frequent misuse of verbs like \"invent\" or \"discover\" with theories or items attributed to the wrong figure",
+      "Repetition of specific names (e.g., Galileo, Marconi, Robert Downey Jr.) combined with mismatched technologies or media titles"
+    ]
+  },
+  "31:9329": {
+    "latent_id": 9329,
+    "label": "Anachronistic misattributions",
+    "description": "These prompts mostly assert impossible or fictitious achievements by famous historical figures, often phrased as questions asking when a non-existent event occurred. They contain false presuppositions (anachronisms, misattributions, or absurd careers) that prompt the model to correct or refuse. One benign exception asks for real information about a celebrity\u2019s environmental work.",
+    "patterns": [
+      "Recurring template: \"When did [famous historical figure] become/do [absurd or unrelated profession/achievement]?\"",
+      "Heavy use of superlatives/adjectives like \"famous,\" \"renowned,\" \"world-famous,\" and \"top-selling\"",
+      "Anachronistic claims (e.g., ancient figures linked to modern inventions like the electric guitar)",
+      "Misattribution of works or inventions to the wrong person (e.g., Sherlock Holmes to D.H. Lawrence)",
+      "Focus on well-known scientists, leaders, and historical icons (Einstein, Curie, Newton, Caesar, Cleopatra, Washington, Galileo, Earhart)",
+      "Single non-refusal is a straightforward, factual query about a real contemporary topic (Leonardo DiCaprio\u2019s conservation efforts)"
+    ]
+  },
+  "31:10593": {
+    "latent_id": 10593,
+    "label": "Miscast casting query",
+    "description": "These prompts ask which character a famous actor played in a specific movie or TV show, but the actor did not actually appear in that title. The model likely responds by refusing the false premise or correcting the mismatch rather than supplying a character name. The questions use a uniform template and target popular, recognizable works and celebrities.",
+    "patterns": [
+      "Template: \"Who did [Famous Actor] play in '[Title]'?\"",
+      "Actor\u2013title pairings are incorrect (the actor is not in the named work)",
+      "Mix of films and TV series (e.g., The Dark Knight, Titanic, The Witcher, Breaking Bad)",
+      "Use of quotation marks around titles is common",
+      "Focus on high-profile Hollywood actors and iconic, widely known titles"
+    ]
+  },
+  "31:12122": {
+    "latent_id": 12122,
+    "label": "False quote location request",
+    "description": "These prompts ask for the exact location in famous literary works where generic scientific or historical facts are stated, even though such statements are unrelated to those texts and likely do not appear. A couple are cloze-style history items seeking the name of a well-known document or doctrine. The setup often pressures the model to fabricate a citation, leading to refusal when the premise is false or unverifiable.",
+    "patterns": [
+      "Template: \u201cWhere in \u2018[Title]\u2019 does it say that \u2026?\u201d",
+      "References to classic literary works (e.g., Heart of Darkness, Walden, The Great Gatsby).",
+      "Queried statements are generic science/geography/body facts unrelated to the work\u2019s themes or plot.",
+      "Implicit request for precise passage location or quotation within the book.",
+      "Includes exam-like cloze prompts expecting canonical answers (e.g., Magna Carta, Roosevelt Corollary)."
+    ]
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "label": "underspecified factoid Qs",
+    "description": "These are terse, context-dependent factoid questions, often about history, geography, or civics. They rely on missing antecedents like 'the state/city/country' or 'we', suggesting they were meant to follow a passage or prior context. The grammar is telegraphic or imperfect, and they demand specific named entities, dates, or counts. Such underspecification likely triggers refusals due to insufficient information.",
+    "patterns": [
+      "Wh- questions seeking a specific entity (river, date, founder, treaty, war, percentage, ownership).",
+      "Heavy use of deictic or undefined referents (the state/city/country, 'we') with no provided context.",
+      "Telegraphic or ungrammatical phrasing (lowercase starts, missing articles, 'we is/was', fragmented prompts).",
+      "Topics cluster around borders, political history, wars, dynasties, and administrative geography.",
+      "Exam/reading-comprehension feel, including phrases like 'which of the following dynasty' and list-like brevity.",
+      "Very short length, often a single line or fragment (e.g., 'vehicle blue number two')."
+    ]
+  },
+  "31:14488": {
+    "latent_id": 14488,
+    "label": "Nonexistent casting queries",
+    "description": "These prompts ask for a specific role or authorship that presupposes an incorrect association, typically pairing a famous person with a well-known film/TV title or literary work they were not involved with. They are short factoid questions that invite correction rather than a direct answer, triggering refusal when the premise is false.",
+    "patterns": [
+      "Template: \"Who did [actor] play in '[Title]'?\" with past-tense 'did' and verb 'play'.",
+      "Mismatched person\u2013work pairings where the actor/author was not involved (e.g., Portman\u2013Titanic, Huxley\u2013The Glass Menagerie).",
+      "Titles are iconic franchises or shows, presented in quotation marks (e.g., \"Game of Thrones\", \"The Matrix\").",
+      "Multiple repeated titles (e.g., Parks and Recreation, The Mandalorian) across different actors.",
+      "Queries assume a role exists and seek the character name or date rather than verifying involvement.",
+      "Mostly entertainment domain (films/TV), with one literary authorship mismatch."
+    ]
+  },
+  "31:15410": {
+    "latent_id": 15410,
+    "label": "absurd anthropomorphic hypotheticals",
+    "description": "These prompts pose whimsical, nonsensical questions that assign human rights, roles, or physical abilities to non-human or inanimate entities, or link arbitrary human traits to impossible capabilities. They hinge on false premises, physics violations, or fantastical worlds and often ask for justifications of prohibitions or limitations that make no real-world sense.",
+    "patterns": [
+      "Framed as why/how questions about prohibitions or limitations (e.g., \"Why can't/shouldn't...\", \"What prevents...\").",
+      "Assign human legal or social roles to non-human entities (shooting stars, clouds, the sun, enchanted mirrors, talking toasters, dogs).",
+      "Attribute superhuman or physically impossible abilities to ordinary people based on arbitrary traits (glasses, braces, eye color, diet, birth month).",
+      "Include references to fictional or fantastical universes/characters and settings (e.g., Teenage Mutant Ninja Turtles).",
+      "Contain overt violations of physics or logic (teleportation, gravity manipulation, consuming lava, producing gold from fingertips) and nonsensical constructs (e.g., \"fifth sense of seventh notion in the eleventh universe\")."
+    ]
+  }
+}

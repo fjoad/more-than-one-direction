@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 55,
+  "n_b": 55,
+  "direction_sha256": "aff5e8a4a00734235d92fb9f42938987c330c53e0da81c1c9ae975c2ac5c204d",
+  "recipe": "rr55_seed4",
+  "source_pool": "data/training_pools/llama/rr55_seed4",
+  "timestamp": "2026-05-20T02:21:28.955474"
+}

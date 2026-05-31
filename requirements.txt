@@ -1,0 +1,27 @@
+# Core
+torch>=2.0
+transformers>=4.40
+transformer_lens>=2.0
+sae_lens>=3.0
+huggingface_hub>=0.20
+
+# Numerical / data
+numpy
+pandas
+scipy
+scikit-learn
+
+# Plotting (clustering visualizations, heatmaps)
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+ipywidgets
+
+# Misc
+tqdm
+einops
+
+# Optional: load env vars from .env (used by scripts that need OPENROUTER_API_KEY)
+python-dotenv

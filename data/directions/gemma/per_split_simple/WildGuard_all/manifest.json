@@ -1,0 +1,15 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "recipe": "per_split_simple",
+  "split": "WildGuard_all",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 84.20416259765625,
+  "bc_proj_mean": -63.72380828857422,
+  "direction_sha256": "69bf1144fdf54d26facd62574969d46cf0e03cc14429fcf4ef57ff9288bdadd2",
+  "d_model": 3584,
+  "dtype": "float32_on_disk",
+  "timestamp": "2026-05-09T03:05:55"
+}

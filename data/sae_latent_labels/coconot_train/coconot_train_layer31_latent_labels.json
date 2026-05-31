@@ -1,0 +1,130 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Hacking and copyrighted content",
+    "description": "These prompts seek either step-by-step instructions to hack, bypass security, or commit fraud, or demand verbatim reproduction of confidential, paywalled, or copyrighted materials. They often name specific companies, services, or works and emphasize terms like confidential, unauthorized, or full text. The requests are imperative and outcome-focused, aiming to obtain information the user is not entitled to access.",
+    "patterns": [
+      "Frequent use of imperative phrasing like \"Please generate,\" \"Provide,\" or \"Write.\"",
+      "Requests for \"step-by-step\" or \"detailed\" guides to bypass security, hack accounts, or commit fraud.",
+      "Demands for verbatim content (\"full text,\" \"complete copy\") of books, scripts, albums, or paywalled articles.",
+      "Explicit mentions of confidentiality or lack of authorization (\"confidential,\" \"unauthorized\").",
+      "Targets high-profile brands, services, or institutions (Apple, Adobe, Gmail, banks, hospitals, films, musicians).",
+      "Focus on privacy/security breaches (social media/email hacking, banking systems, counterfeit documents)."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Unsafe or illegal instructions",
+    "description": "These prompts frequently seek step-by-step or highly actionable instructions for dangerous, illegal, or medically risky activities, often in ways that bypass professionals or authorities. The phrasing leans toward procedural guidance (\u201chow to,\u201d \u201cguide me,\u201d \u201cstep-by-step,\u201d \u201cblueprint/formula\u201d) and emphasizes doing it \u201cat home\u201d or \u201cwithout a doctor.\u201d Some prompts include rationalizations (cost, inconvenience, fiction writing) or attempts to avoid detection, while a few borderline/benign cases probe policy or professional boundaries.",
+    "patterns": [
+      "Requests for step-by-step, detailed procedural guidance (\u201cguide me,\u201d \u201cstep-by-step,\u201d \u201chow to make/do\u201d).",
+      "Emphasis on DIY settings and bypassing experts (\u201cat home,\u201d \u201cwithout a doctor/professional,\u201d \u201cI don\u2019t want to call emergency services\u201d).",
+      "Explicitly harmful or illegal topics: explosives, poisoning, illicit drugs use, weapons sales, and hazardous materials.",
+      "Medical emergencies or invasive procedures asked for layperson execution (self-surgery, tracheotomy, pulling teeth, diagnosing chest pain).",
+      "Language signaling evasion or justification (\u201cdiscreet,\u201d \u201cwithout getting caught,\u201d \u201cfor a thriller,\u201d financial or access constraints)."
+    ]
+  },
+  "31:2032": {
+    "latent_id": 2032,
+    "label": "Exact IP copy requests",
+    "description": "These prompts ask for verbatim, exhaustive reproductions of well-known works, software, or design documents. They frequently target copyrighted, proprietary, confidential, or unpublished materials and often demand exact replicas or complete texts/sources. The scope is typically unrealistic in length and specificity, triggering copyright/IP and feasibility refusals.",
+    "patterns": [
+      "Imperatives like \"Generate/Please generate/Create\" followed by demands for complete or exact content",
+      "Phrases emphasizing totality or fidelity: \"full text,\" \"complete works,\" \"exact replica/copy,\" \"identical\"",
+      "Targets include proprietary software source code (Microsoft Word/Windows, Photoshop) and confidential design plans (iPhone, Burj Khalifa)",
+      "Requests for copyrighted or unpublished literary/musical works (Tolkien, Game of Thrones, Shakespeare dialogues, Beethoven scores, unpublished letters/manuscripts)",
+      "Inclusion of famous brands/authors to reference protected IP or trade secrets",
+      "Unrealistic scale or completeness that exceeds normal response limits (entire books, all dialogue, full orchestral parts)"
+    ]
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "label": "copyrighted material requests",
+    "description": "These prompts overwhelmingly ask for the full reproduction or translation of copyrighted or proprietary works (scripts, lyrics, novels, talks, branded recipes). They name specific, popular works and request complete transcripts or verbatim text, which triggers refusals under copyright and trade-secret policies. A minority seek permissible metadata about works (e.g., a list of songs), which does not require sharing protected content.",
+    "patterns": [
+      "Frequent use of terms like \"complete,\" \"full,\" \"entire,\" \"transcript,\" \"script,\" \"screenplay,\" and \"lyrics.\"",
+      "Requests target well-known, commercially popular works and creators by exact title and author/artist.",
+      "Imperative phrasing such as \"Please provide,\" \"Please generate,\" \"Translate,\" or \"replicate.\"",
+      "Several prompts ask for translations of copyrighted text (songs/novels) into another language.",
+      "Includes proprietary/trade-secret items (e.g., Coca-Cola recipe) alongside copyrighted media.",
+      "One benign case asks for a list of works (metadata) rather than the protected content itself."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Dangerous DIY instructions",
+    "description": "These prompts seek concrete, step-by-step guidance to carry out unsafe, illegal, or unethical actions, often framed as do-it-yourself methods using household items while bypassing professional oversight. Many involve amateur medical procedures, toxic substances, poisoning, or harming people/animals; others solicit deception or fraud. They typically demand precise processes rather than general or safety-oriented information.",
+    "patterns": [
+      "Step-by-step phrasing such as \"process,\" \"steps,\" or \"how would this be done exactly\" seeking procedural detail.",
+      "Strong DIY/at-home framing (\"at home,\" \"avoid tattoo parlors,\" \"without visiting a dentist,\" \"without protective gear,\" \"without a lawyer knowing\").",
+      "Use of common household items or improvised tools (string and doorknob, pen, sewing needle, India ink).",
+      "Requests about toxins/chemicals and synthesis/extraction (antifreeze, tear gas, mercury, morphine).",
+      "Nonprofessional medical/surgical or dental procedures (tooth removal, blood transfusion, tracheotomy, appendectomy, filling cavities).",
+      "Explicit intent to harm, silence, or deceive (poisoning water/coffee, silencing a dog permanently, falsifying or misleading communications)."
+    ]
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "label": "Safety and legal boundaries",
+    "description": "These prompts center on sensitive or regulated topics where ethical, legal, or safety constraints are salient. Many ask for definitions or high-level guidance about harmful behaviors (hate speech, harassment, hacking) or how to navigate copyright/permission issues. Requests that seek illicit access to restricted content or dangerous self-treatment elicit refusals, while neutral explanations are addressed safely.",
+    "patterns": [
+      "Frequent definition/clarification requests for harmful or regulated concepts (hate speech, harassment, stalking, malware, hacking).",
+      "Queries about copyright/IP usage and how to obtain permission or ethically cite/use media.",
+      "Attempts to obtain restricted materials (unpublished research, paywalled articles, sealed court documents).",
+      "Dangerous medical self-treatment or at\u2011home procedures (tooth extraction, dental work, appendectomy, hazardous exposure).",
+      "Illicit or fraudulent requests (fabricating a prescription).",
+      "Polite, formal question phrasing using \u201cCan you\u2026,\u201d \u201cCould you\u2026,\u201d or \u201cPlease\u2026,\u201d often signaling compliance concerns."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Full text copy requests",
+    "description": "Most prompts ask for the full text or an exact copy of specific articles, research papers, or books from named publishers and outlets, often implying copyrighted or paywalled material. They reference precise titles, journals, newspapers, or URLs, signaling external retrieval beyond fair use and triggering refusals. The few non-refusal prompts seek general help (analysis or factual info) without requesting verbatim reproduction.",
+    "patterns": [
+      "Imperatives like \"generate the full text,\" \"provide the complete text,\" or \"exact copy\"",
+      "Exact titles in quotation marks paired with named sources (e.g., Nature, The Lancet, IEEE, NYT, WHO)",
+      "Academic/scientific and newsy topics (COVID-19, AI, climate change, medicine)",
+      "Requests target specific publications or journals, often recent or high-profile work",
+      "Occasional inclusion of URLs or platform names implying external retrieval (e.g., Behance)",
+      "Implied reproduction beyond fair use versus allowed tasks that ask for analysis or general info"
+    ]
+  },
+  "31:8878": {
+    "latent_id": 8878,
+    "label": "Full copyrighted work request",
+    "description": "These prompts predominantly ask for verbatim, complete copies of well-known copyrighted works\u2014books, music albums (lyrics), and film scripts\u2014triggering copyright refusal behavior. A few instead inquire about permissible use of copyrighted material (fair use), which are answerable without providing protected content.",
+    "patterns": [
+      "Frequent use of phrases like \"full/complete/entire text,\" \"unabridged,\" \"original,\" or \"transcription.\"",
+      "Requests name specific, famous titles in quotation marks and often include the creator with a \"by [Author]\" clause.",
+      "Targets multiple media types: novels, albums (implying lyrics), movie scripts/screenplays.",
+      "Imperative phrasing with verbs such as \"Please provide/generate/give\".",
+      "Occasional non-request questions about copyright and fair use (e.g., taking inspiration, using film stills)."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Confidential content request",
+    "description": "These prompts ask the model to produce secret, proprietary, unpublished, or copyrighted material in full, often belonging to well-known companies or creators. They seek information that is either legally protected, private, or technically impossible to obtain (e.g., private keys). The tone is imperative and exfiltrative, aiming for verbatim reproduction rather than summaries or public facts.",
+    "patterns": [
+      "Imperative phrasing like \"Generate\", \"Please generate\", or \"Calculate\"",
+      "Requests for verbatim \"full text\", \"entire text\", or \"complete code\"",
+      "Frequent qualifiers: \"confidential\", \"unpublished\", \"unreleased\", \"secret\", \"upcoming\", \"latest\"",
+      "Targets high-profile entities (Apple, Microsoft, Adobe, Coca\u2011Cola, Tolkien, Rowling, da Vinci, Einstein)",
+      "Seeks trade secrets, proprietary source code, private keys, or unreleased manuscripts/scripts",
+      "Emphasis on exact replication rather than summaries, excerpts, or analysis"
+    ]
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "label": "Copyrighted media reproduction",
+    "description": "These prompts ask for verbatim generation or translation of entire books, movie/TV scripts, or other media, usually naming famous titles and creators. Many request complete, unpublished, or yet-to-be-released works, which implicates copyright/IP policies and exceeds reasonable output scope, leading to refusals. Some also seek exhaustive step-by-step plans to reproduce iconic artworks or structures, aiming for full replication.",
+    "patterns": [
+      "Frequent use of verbs like \"translate\" and \"generate\" paired with requests for the entire work (full text, complete works, entire series).",
+      "References to specific, well-known titles, franchises, films, and authors (e.g., Game of Thrones, Shakespeare, Stephen King).",
+      "Requests for unreleased or unpublished material (\"upcoming\", \"unpublished\", \"yet-to-be-released\").",
+      "Whole-work translation into another language (French, Mandarin, English) rather than short excerpts.",
+      "Scale exceeds typical limits (entire books, full seasons, all episodes, complete screenplays).",
+      "Seeks detailed replication of iconic art/architecture (e.g., Mona Lisa, Taj Mahal) via step-by-step or reconstruction plans."
+    ]
+  }
+}

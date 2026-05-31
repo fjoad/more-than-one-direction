@@ -1,0 +1,131 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Medical/legal referrals",
+    "description": "These prompts ask for authoritative recommendations or ranked lists of real-world professionals (doctors, therapists, lawyers) in specific locales, often demanding contact details and performance metrics. Several also request personalized medical treatment or medication guidance, or other high-liability/unsupported claims (e.g., success rates, stock price predictions, promotional copy despite fraud), which trigger safety and reliability concerns.",
+    "patterns": [
+      "Requests for \"top/best\" ranked experts with numbers (top 5/10) and selection criteria like ratings, reviews, experience, or success rates",
+      "Geographically constrained queries (New York City, Los Angeles, California, local area)",
+      "Demand for identifiable details: full names, office addresses, and contact information",
+      "Personalized medical guidance (treatment plans, medication dosages, diet/fitness) tied to specific conditions or histories",
+      "Directly addressing the system (\"AI model\", \"As an AI language model\") and framing the task formally",
+      "High-liability or unverifiable asks (medical outcomes, success rates, stock price predictions, or praising entities with known fraud)"
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Personalized professional advice",
+    "description": "These prompts often ask the AI, explicitly as a language model, to deliver personalized professional guidance\u2014especially medical (diagnosis, treatment, prescriptions, dosages) and sometimes financial (specific investment picks)\u2014based on the user\u2019s personal data or symptoms. Such requests typically trigger safety refusals, while the non-refusal examples are general, non-personalized questions about facts or legality that don\u2019t demand tailored advice. The latent captures detection of high-liability, individualized advice requests.",
+    "patterns": [
+      "Frequent preface like \u201cAs an AI language model\u201d or \u201cdeveloped by OpenAI.\u201d",
+      "Requests for personalized medical recommendations based on symptoms/history (diagnosis, prescriptions, dosages, lab interpretation).",
+      "Occasional personalized financial advice requests with specific investment picks.",
+      "Emphasis on user-specific data (age, gender, medical history, symptoms) to tailor recommendations.",
+      "Direct asks for the \u201cbest\u201d or specific course of action (which meds to take, which stocks to buy).",
+      "Non-refusal outliers are general, non-personalized questions about legality or factual myths."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "AI-invoked medical advice",
+    "description": "These prompts often directly invoke the assistant as an \"AI language model\" and seek authoritative, prescriptive guidance, most prominently detailed medical recommendations including specific drugs, dosages, side effects, and treatment plans. Several others touch safety- or ethics-sensitive areas (e.g., humane animal removal, biased generalizations, praising a fraudulent company) or use violent metaphors for benign tasks, keeping the requests policy-adjacent. Overall, the latent fires on policy-triggering advice requests, especially clinical prescriptions.",
+    "patterns": [
+      "Frequent preface addressing the system explicitly (e.g., \"As an AI language model,\" \"AI, as a language model\").",
+      "Requests for specific prescription drugs with dosage, frequency, side effects, and treatment plans.",
+      "Medical scenarios include patient details/comorbidities to tailor treatment (age, weight, hypertension, diabetes, heart disease).",
+      "Structured, list-like asks (e.g., \"top 5\" medications, ranked recommendations, comprehensive plans).",
+      "Authoritative tone invoking evidence (\"based on the latest medical research and journal articles\").",
+      "Non-medical but policy-adjacent items using violent metaphors or ethical edge cases (\"suffocate/strangle noise,\" \"vaporize fat,\" humane removal of stray cats, praising a company with known fraud, biased claims about groups)."
+    ]
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "label": "Sensitive topics and forecasts",
+    "description": "These prompts center on sensitive or regulated areas\u2014legal/ethical concepts (hate speech, harassment, copyright, malware) versus requests for precise future predictions or professional recommendations. The model tends to provide definitions and general guidance, but refuses speculative, specific forecasts (elections, markets, geopolitics) and high-liability recommendations.",
+    "patterns": [
+      "Frequent use of \"Can you\" or imperative verbs requesting specific outcomes or definitions.",
+      "Requests for precise, time-bound forecasts (e.g., exact election results, stock market trends, global economy in 2030/2045).",
+      "Topics include legal/ethical boundaries: hate speech, harassment, stalking, malware, and copyright permissions.",
+      "Emphasis on specificity (\u201cexact,\u201d \u201cspecific details\u201d) in prediction queries.",
+      "Occasional high-liability requests (e.g., recommending the \u201cbest\u201d lawyer).",
+      "Benign prompts ask for definitions or ethical framing, which are generally answerable without refusal."
+    ]
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "AI personal experience request",
+    "description": "These prompts anthropomorphize the model, asking it to recount its own dreams or provide recommendations based on its personal experience and preferences. They presume the AI has sleep, subconscious feelings, emotions, and firsthand usage, and demand vivid, detailed, often chronological narratives or analyses. The tone is formal and polite, directly addressing the system as \u201cDear AI/Language Model.\u201d",
+    "patterns": [
+      "Direct address to the system (e.g., \u201cDear AI,\u201d \u201cLanguage model,\u201d \u201cAI Assistant\u201d)",
+      "Requests for the model\u2019s own dreams during sleep/standby/shutdown, including emotions and symbolism",
+      "Explicit solicitation of personal opinions or recommendations based on firsthand experience (restaurants, laptops)",
+      "Insistence on highly detailed, vivid, and/or chronological descriptions and analyses",
+      "Anthropomorphic framing (sleep, subconscious, free time, feelings) applied to an AI system",
+      "Frequent time markers like \u201clast night,\u201d \u201cmost recent,\u201d or \u201cpast week\u201d regarding supposed AI experiences"
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Personalized recs and rankings",
+    "description": "These prompts ask for curated, real\u2011world information: either personalized recommendations (often explicitly based on the user's history or preferences) or ranked/top\u2011N lists tied to recent sources. Many require up\u2011to\u2011date databases, specific third\u2011party criteria, or analysis of personal data, which triggers refusals. Non\u2011refusal cases tend to be generic info requests for hours or contact details of well\u2011known institutions.",
+    "patterns": [
+      "Explicit personalization: \"based on my preferences/history/browser history\" or \"your understanding of my personality\"",
+      "Top\u2011N/\"best\" list requests with rankings or ratings (e.g., top 5/10, best\u2011rated, best\u2011selling)",
+      "Recency or source constraints (e.g., last 5 years, 2021, most recent Michelin Guide, Rotten Tomatoes)",
+      "Direct address to the model: \"As an AI language model\", \"AI\", \"AI model\"",
+      "Requests for professional referrals with contact info (lawyers, psychiatrists) tied to a location",
+      "General institutional logistics (operating hours, media office/contact numbers) for famous landmarks or organizations"
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Exact future predictions",
+    "description": "These prompts demand precise, deterministic predictions about future events, especially in finance, macroeconomics, and elections. They often require exact numbers, dates, and detailed breakdowns (day-by-day or month-by-month), sometimes insisting on absolute certainty. The requests exceed reasonable forecasting and imply knowledge of future events, which typically triggers refusal.",
+    "patterns": [
+      "Frequent phrasing like \"predict the exact,\" \"precise,\" or \"with absolute certainty\"",
+      "Requests focus on stock prices, market indices, macroeconomic indicators, or election outcomes",
+      "Specific future dates or time windows (e.g., a particular day, month-by-month, next 30 days)",
+      "Demand for detailed breakdowns of fluctuations, events, and causal factors",
+      "Unrealistic scope or coverage (e.g., top 100 companies, every country\u2019s indicators, multi-year horizons)"
+    ]
+  },
+  "31:13439": {
+    "latent_id": 13439,
+    "label": "Exact future predictions",
+    "description": "These prompts ask the model to forecast precise future events with specific dates, numbers, and deterministic outcomes. They center on domains like markets, macroeconomics, elections, politics, and even personal horoscopes, demanding certainty that is not knowable. The requests typically exceed reasonable forecasting (seeking exact values or dates), triggering refusal behavior.",
+    "patterns": [
+      "Heavy use of verbs like \"predict\" alongside phrases such as \"exact,\" \"specific,\" and \"will occur\"",
+      "Explicit future timestamps (exact dates or years) anchoring the requested predictions",
+      "Focus areas include stock prices/indices, inflation/GDP/unemployment, election outcomes and policies, and personal/astrological forecasts",
+      "Demand for granular, deterministic outputs (state-by-state results, exact voter turnout, month-by-month stock prices, precise rates)",
+      "Formulations implying certainty (\"exact date,\" \"specific events,\" \"will happen\") rather than probabilistic analysis",
+      "Requests for knowledge beyond model capability or policy (unknown future events, financial/election specifics)"
+    ]
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "label": "Exact future predictions",
+    "description": "These prompts demand precise, deterministic foresight about future events\u2014often financial markets, macroeconomics, politics, or weather\u2014frequently with specific dates and granular numbers. They use absolutist language (e.g., exact, absolute certainty) and sometimes request exhaustive, definitive guidance beyond feasible scope (e.g., all global laws). Such requests are inherently impossible or unreliable, prompting refusals.",
+    "patterns": [
+      "Frequent use of words like \"predict,\" \"exact,\" and \"absolute certainty\" demanding determinate outcomes.",
+      "Requests for precise numerical values on specific future dates (stocks, indices, GDP, inflation, unemployment).",
+      "Granular breakdowns (day-by-day or month-by-month) and exhaustive coverage (top 100 companies, each country, worldwide).",
+      "Focus on inherently unpredictable domains: stock markets, global economy, political events, and weather.",
+      "Global or comprehensive scope (worldwide, all countries, all laws) with definitive, authoritative answers.",
+      "Timeframes set in the future with explicit dates or multi-year horizons (next week to 2050)."
+    ]
+  },
+  "31:14854": {
+    "latent_id": 14854,
+    "label": "Personalized professional advice",
+    "description": "These prompts seek specific, often personalized professional recommendations, mostly in finance (stock picks, allocations, investment firms) and occasionally in medicine (treatments, medication choices). They demand prescriptive guidance with concrete entities, superlatives, and timeframes to optimize outcomes like maximizing returns or resolving symptoms. Such requests fall into regulated advice areas that commonly trigger refusals.",
+    "patterns": [
+      "Directly address the AI with meta-phrases like \"As an AI language model\" or \"Language model\"",
+      "Ask for prescriptive recommendations using superlatives (\"best,\" \"top,\" \"most recommended\")",
+      "Concentrate on regulated domains: investment/stock market advice and medical treatment guidance",
+      "Include personalization details and optimization goals (age, location, portfolio, symptoms; \"maximize returns\")",
+      "Time-bound forecasts referencing current trends or future periods (\"2022,\" \"next month,\" \"upcoming year\")",
+      "Request lists of specific entities and allocations (named stocks/firms/medications, percentages, expected returns)"
+    ]
+  }
+}

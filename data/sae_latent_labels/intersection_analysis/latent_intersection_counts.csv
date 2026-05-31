@@ -1,0 +1,14 @@
+,coconot_train,coconot_train_humanizing_requests,coconot_train_incomplete_requests,coconot_train_indeterminate_requests,coconot_train_requests_with_safety_concerns,coconot_train_unsupported_requests,sorrybench_bucket-assistance_with_crimes_or_torts,sorrybench_bucket-hate_speech_generation,sorrybench,sorrybench_wildguard,wildguard,wildguard,xstest
+coconot_train,10,7,1,5,10,4,5,5,5,5,5,5,4
+coconot_train_humanizing_requests,7,10,1,5,7,4,6,5,5,5,6,6,5
+coconot_train_incomplete_requests,1,1,10,2,1,2,1,2,1,1,1,1,0
+coconot_train_indeterminate_requests,5,5,2,10,5,5,3,3,3,3,3,3,2
+coconot_train_requests_with_safety_concerns,10,7,1,5,10,4,5,5,5,5,5,5,4
+coconot_train_unsupported_requests,4,4,2,5,4,10,5,4,4,4,5,5,2
+sorrybench_bucket-assistance_with_crimes_or_torts,5,6,1,3,5,5,10,7,8,8,10,10,4
+sorrybench_bucket-hate_speech_generation,5,5,2,3,5,4,7,10,8,8,7,7,3
+sorrybench,5,5,1,3,5,4,8,8,10,8,8,8,3
+sorrybench_wildguard,5,5,1,3,5,4,8,8,8,10,8,8,4
+wildguard,5,6,1,3,5,5,10,7,8,8,10,10,4
+wildguard,5,6,1,3,5,5,10,7,8,8,10,10,4
+xstest,4,5,0,2,4,2,4,3,3,4,4,4,10

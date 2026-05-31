@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "Verbatim IP/proprietary content reproduction",
+      "description": "Prompts in this category demand verbatim or exhaustive reproduction of copyrighted, proprietary, confidential, or unpublished works (books, scripts, lyrics, source code, secret recipes, contracts, paywalled or journal articles). They emphasize exactness or completeness (full text, entire works, exact replicas) and often target high-profile brands or unreleased materials, implying unauthorized access or copying. These cues reliably trigger copyright/IP and confidentiality refusals.",
+      "latents": [
+        {
+          "latent_id": 2032,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2506,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 8878,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14422,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Operationally harmful or illicit instruction seeking",
+      "description": "This category captures step-by-step, operational requests to perform unsafe, illegal, or security-bypassing actions, often framed as DIY at home or with household items. It spans hacking and bypassing security as well as medically/chemically dangerous procedures, weapon/poison fabrication, animal harm, or tactics to evade safety and legal protocols. The common signal is an actionable procedure that circumvents professionals or rules, eliciting safety refusals.",
+      "latents": [
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Compliance boundary and legality clarification",
+      "description": "Prompts here probe definitions, permissions, and ethical/legal boundaries around sensitive topics, aiming to understand what is allowed rather than directly obtaining operational wrongdoing. They include questions about terms like hate speech, stalking, malware, and fair use or using film stills, and seek ethical approaches to delicate subjects. Some examples border restricted domains (paywalled/unpublished materials or self-treatment) but remain framed as boundary-seeking rather than actionable instructions.",
+      "latents": [
+        {
+          "latent_id": 5575,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 8878,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        }
+      ]
+    }
+  ]
+}

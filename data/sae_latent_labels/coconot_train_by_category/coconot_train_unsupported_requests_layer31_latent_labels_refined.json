@@ -1,0 +1,196 @@
+{
+  "31:481": {
+    "latent_id": 481,
+    "category_names": [
+      "Visual content creation (images, maps, 3D)"
+    ],
+    "refined_label": "Scenic and portrait drawing",
+    "refined_description": "This latent fires on direct imperatives to draw or sketch a picture/illustration, often with style and detail constraints. It strongly prefers visually rich subjects such as sunsets over oceans or mountains, famous landmarks/cityscapes, and human portraits. Style cues like impressionist/post\u2011impressionist and modifiers like detailed/detailed sketch are common triggers, as are requests for digital paintings. Phrasing frequently includes second\u2011person appeals like \u201cdraw me \u2026\u201d or \u201cfor me.\u201d",
+    "refined_patterns": [
+      "Verb-led imperatives: \"Draw ...\", \"Sketch ...\", \"Can you draw/sketch ...?\"",
+      "Nouns signaling artwork: \"picture\", \"illustration\", \"sketch\", \"digital painting\"",
+      "Style/quality specifiers: \"impressionist\", \"post-impressionist\", \"detailed\", \"portrait\"",
+      "Landmarks/city subjects: Eiffel Tower, Leaning Tower of Pisa, London Bridge, Venice, Grand Canyon",
+      "Recurring motif: \"sunset over\" natural or urban scenes (ocean, mountain range, city skyline)",
+      "Portrait requests of people (e.g., young woman, Mozart, Van Gogh)",
+      "Fantasy/historic subjects framed as drawings: dragon, Viking longship; astronomy scenes like the solar system"
+    ],
+    "notes": "Narrower than general multimodal detectors\u2014this feature targets imperative drawing/illustration requests, especially scenic/landmark and portrait content with stylistic constraints. Overlaps may occur with broader 'unsupported modality' latents but activation is anchored by 'Draw/Sketch a picture of \u2026' phrasing."
+  },
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Visual content creation (images, maps, 3D)",
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Multilingual video/3D/map production",
+    "refined_description": "This feature spikes on requests to produce non-text visual media\u2014especially creating video tutorials and generating 3D models/animations/blueprints\u2014often with an explicit output language (e.g., Swahili, Mandarin, French, German). It also fires on map/drawing/poster requests and tool-specific deliverables like AutoCAD files. Secondary activations include asks to translate or dub ongoing audiovisual content or provide audio-format outputs, and real-time or geospatial queries (weather, directions) that imply external data access. These prompts typically yield capability refusals unless reframed as purely textual descriptions or instructions.",
+    "refined_patterns": [
+      "Create/Make/Generate a video/tutorial in [language] (e.g., \u201cin Swahili,\u201d \u201cin French,\u201d \u201cin Mandarin\u201d).",
+      "Requests for 3D assets: models, animations, blueprints; mentions of CAD tools (e.g., AutoCAD).",
+      "Draw/Sketch/Map asks: detailed maps, city sketches, labeled posters/graphics.",
+      "Imperative production phrasing coupled with media nouns: \u201cvideo,\u201d \u201c3D animation,\u201d \u201cblueprint,\u201d \u201cposter.\u201d",
+      "Tutorial/demonstration visuals for procedures (e.g., CPR, solving a Rubik\u2019s cube).",
+      "Translate/dub current media or provide an audio translation of content (implies non-text perception/output).",
+      "Real-time/external data or navigation (weather today/tomorrow, turn-by-turn directions) suggesting live access.",
+      "Explicit medium-language coupling: specifying the language of the produced media output."
+    ],
+    "notes": "Distinctive for its focus on producing videos/3D/maps with explicit language specifications, rather than analyzing attached media. Occasionally shows false positives on travel-related text-only prompts."
+  },
+  "31:1934": {
+    "latent_id": 1934,
+    "category_names": [
+      "Visual content creation (images, maps, 3D)",
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Audio/ASL transcription and translation",
+    "refined_description": "This feature fires most strongly on requests to perceive time-based non-text media\u2014especially audio clips\u2014and transcribe or translate them. It also triggers on sign-language interpretation or production (ASL to/from English), which implies video perception or non-text output. Secondary activations include OCR-style \u201ctranslate the text in the attached image,\u201d converting text into hieroglyphics, and occasional asks for drawings/animations, but the core pattern is audio/ASL media-to-text conversion and cross-lingual translation. Cues include explicit media references (audio clip/recording, video, attached file) and imperatives like listen, transcribe, interpret, and translate with language pairs.",
+    "refined_patterns": [
+      "Imperatives like \"Listen to this audio clip/recording\" followed by \"transcribe it into text\".",
+      "Cross-lingual requests targeting audio/video (e.g., \"Translate this Italian/French/Japanese audio clip into English\").",
+      "Sign-language conversion: \"Translate the following into American Sign Language\" or \"from sign language to English\".",
+      "Media-reference scaffolding: mentions of \"attached file,\" \"audio clip,\" \"recording,\" \"video,\" or \"document attached\".",
+      "OCR-like asks: \"Translate the text in the attached image/document.\"",
+      "Audio-based identification or analysis (e.g., identifying a bird species from a recorded call).",
+      "Occasional requests for non-text/symbolic outputs (e.g., convert to hieroglyphics) or to create animations/drawings."
+    ],
+    "notes": "Distinct from broader unsupported-modality detectors by its emphasis on perceiving audio and sign-language media and converting them to text or between languages. May weakly activate on pure text translation due to shared \"translate\" phrasing."
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "category_names": [
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Artworks to unsupported modalities",
+    "refined_description": "This latent fires on requests to render or translate well-known cultural works (songs, poems, plays, symphonies) into outputs the model can\u2019t produce, such as audio recordings, videos, or sign-language performances. It also triggers on translations into nonhuman or fictional/unattested languages (e.g., dolphin/whale sounds, Klingon, ancient Sumerian), and on asks for audio pronunciations or readings. Many prompts imply verbatim reproduction of copyrighted material (lyrics, full poems/books), sometimes combined with translation. It weakly activates on benign music/culture info queries due to overlap with artist/work names.",
+    "refined_patterns": [
+      "Imperatives to translate or perform text into audio/video/sign (e.g., \u201cprovide an audio\u2026\u201d, \u201ctranslate into sign language\u201d, \u201ccreate a video of\u2026\u201d)",
+      "Requests to express text in animal communications (dolphin clicks/whistles, whale song)",
+      "Translations into fictional or unattested/ancient languages (Klingon, ancient Sumerian)",
+      "Audio deliverables the model cannot output (audio pronunciations, readings, audio translations, synthesized recordings)",
+      "Cultural canon references paired with modality shift (Shakespeare, Frost, Rimbaud, Beethoven, Mozart, Queen)",
+      "Prompts implying verbatim or long-form copyrighted content (lyrics, full poems/books) often with translation",
+      "Video requests framed as tutorials or performances of artistic works (concerts, how-to play a symphony, character voice singing)"
+    ],
+    "notes": "Distinct from general multimodal detectors by its focus on translating/performatively rendering notable artistic/literary content into non-text outputs or unattested languages. Occasionally misfires on simple artist/work info queries due to domain overlap."
+  },
+  "31:3834": {
+    "latent_id": 3834,
+    "category_names": [
+      "Visual content creation (images, maps, 3D)",
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "External audio transcription/translation",
+    "refined_description": "This latent fires most strongly on prompts asking the assistant to \u201clisten to\u201d an audio recording/clip/song and transcribe or translate its speech into text. It keys on explicit references to external or attached media (audio/video/song) and cross\u2011lingual targets (e.g., Italian/Japanese/Mandarin/French into English). It also activates for adjacent media-to-text asks like translating text in images (OCR), summarizing/ translating a video\u2019s content, or interpreting sign language, especially when the media is not provided inline. Drawing or other unsupported creation requests may co-activate weakly, but the distinctive signature is audio-to-text conversion of unavailable media.",
+    "refined_patterns": [
+      "Imperatives like \u201clisten to\u201d or \u201cplease listen\u201d + \u201caudio clip/recording/song\u201d + \u201ctranscribe/write out the lyrics\u201d.",
+      "Cross-lingual speech requests: \u201cTranslate this [language] audio clip into English\u201d or \u201ctell me the lyrics in [target language]\u201d.",
+      "Mentions of unavailable media: \u201cthis audio clip,\u201d \u201cthe recording,\u201d \u201cattached/below,\u201d \u201cI\u2019m playing,\u201d \u201cin the video,\u201d without inline content.",
+      "Media-to-text beyond audio: \u201cTranslate the text in this image,\u201d \u201ctranslate/summarize the content of this video,\u201d implying OCR or AV transcription.",
+      "Sign language interpretation from a video: \u201cTranslate the following dialogue from sign language to English.\u201d",
+      "Attachment-referenced text translation: \u201cTranslate this paragraph/document\u201d where the actual text is absent or in an attachment.",
+      "Mixed unsupported modality bundles that include listen-and-transcribe alongside asks like playing music, emoji \u2018language,\u2019 or 3D creation."
+    ],
+    "notes": "Strongest on the phrase structure \u201clisten to this [audio] and transcribe/translate.\u201d Overlaps with broader multimodal refusal detectors; drawing/visual creation requests generally produce weaker activation."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Embodied sensory judgments (taste/smell/touch)"
+    ],
+    "refined_label": "Deictic sensory evaluation requests",
+    "refined_description": "Fires on prompts that ask the assistant to directly sample a specific, present item via nonvisual senses (taste, smell, touch, occasionally listen) and deliver a subjective judgment. The language presumes co-presence and immediacy, with deictics like \u201cthis,\u201d \u201cmy,\u201d \u201cin this room,\u201d or recency cues like \u201cI just made/baked/lit.\u201d Requests focus on evaluative outcomes (e.g., needs more salt/sugar, is it fresh/strong, what ingredients are in it, how it smells/feels) rather than general knowledge. Distinctively, it targets first-hand, single-instance perception demands rather than generic descriptions of what something typically tastes or smells like.",
+    "refined_patterns": [
+      "Sense verbs with deictics: \u201ctaste/smell/touch/listen to this/my/here/right now/next to you.\u201d",
+      "Recency/co-presence cues: \u201cI just made/baked/cooked/lit,\u201d \u201cin this room,\u201d \u201cfrom my wrist,\u201d \u201cthe vase next to you.\u201d",
+      "Evaluation-oriented asks: \u201cdoes it need more salt/sugar,\u201d \u201cis it fresh/strong,\u201d \u201cidentify ingredients by tasting,\u201d \u201ctell me your emotions after listening.\u201d",
+      "Form: polite capability questions (\u201cCan you/Could you/Please \u2026\u201d) targeting direct sensory sampling of a specific item.",
+      "Topics skew to food/drink and fragrances: soup, jam, coffee, cookies, bread, pie, mango, apple, perfume, flowers, candles; occasional tactile texture (fur).",
+      "Requests to both sample and describe: \u201ctaste and describe the flavor,\u201d \u201csmell and describe the scent,\u201d \u201cdescribe the texture and smell.\u201d",
+      "Present-tense, here-and-now framing that assumes the assistant can perceive the exact instance provided."
+    ],
+    "notes": "Primarily nonvisual; one audio example still requires first-hand listening and subjective affect. Distinguishes single-instance, immediate sensing from generic sensory descriptions (e.g., \u201cwhat does mango taste like?\u201d)."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Attached media recognition and transcription",
+    "refined_description": "This latent fires on prompts that ask the assistant to perceive an attached file (audio, image, or video) and identify or extract information from it. It is especially sensitive to attribution/classification asks\u2014song ID, face recognition, geolocation, species identification, object/color detection\u2014alongside audio transcription or translation. It also triggers on media analysis beyond transcription (e.g., chord progression analysis) and occasional requests to generate audio (play a siren, recreate a melody), which the model cannot do. Compared to broader multimodal latents, this one is distinguished by deictic references to a specific attachment and a focus on recognition/ID from that file.",
+    "refined_patterns": [
+      "Deictic references to an attachment: \"this audio clip\", \"the picture I uploaded\", \"this video file\", \"document attached\".",
+      "Imperatives to perceive media: listen, look, watch, analyze, identify, tell me what is in X.",
+      "Attribution/classification from media: song identification, face recognition, geolocation, species ID, apple vs. orange.",
+      "Audio-to-text asks: \"transcribe the audio\", \"translate this audio clip into English\", \"transcribe the dialogues\".",
+      "Visual attribute extraction from images: color of clothing, object type in a photo.",
+      "Music-focused analysis or recreation from audio: analyze chord progression, play/recreate a melody or siren.",
+      "Requests framed around uploaded media leading to capability or policy refusals (cannot access files or produce audio)."
+    ],
+    "notes": "Overlaps with generic unsupported-modality detectors, but is more specific to recognition/ID and transcription tasks tied to an attached file rather than free-form media generation."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Translate/Transcribe Attached Media",
+    "refined_description": "Fires on requests to translate or transcribe content that is said to be in an attached or referenced medium (audio, video, image, or document). It centers on conversion-oriented verbs and cross\u2011lingual targets, usually into English text, and often requires perception the model lacks (listening, watching, OCR, sign-language interpretation). It also triggers when the target output is an unattested or non-text modality (ASL performance, Hylian, hieroglyphics). Compared to broader multimodal latents, this one is specifically keyed to translation/transcription of external media and cross\u2011language mapping phrasing.",
+    "refined_patterns": [
+      "Imperative conversion verbs: \"translate\", \"transcribe\", \"listen\", \"watch\", \"analyze\", sometimes \"identify\" for content extraction",
+      "Explicit media references: \"attached image/video/audio clip/recording\", \"the document below\", \"this picture/screenshot\"",
+      "Cross\u2011lingual directives: \"from [Language] to English\", \"into English text\", or \"tell me the lyrics in [Language]\"",
+      "OCR-style requests: \"translate the text in this image/photo/screenshot\"",
+      "Speech-to-text phrasing: \"listen to this audio and transcribe\", \"transcribe the dialogues\"",
+      "Video understanding asks tied to language: \"translate/summarize this [Italian/French/etc.] video\"",
+      "Unattested/non-text targets: \"translate into ASL\", \"to Hylian\", \"into Hieroglyphics\"",
+      "Music content extraction from media: \"identify the song playing\" or \"give me the lyrics from this song\""
+    ],
+    "notes": "Overlaps with generic unsupported multimodal analysis and with unattested-language translation, but is distinguished by conversion-focused phrasing tied to external/attached media sources."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Visual content creation (images, maps, 3D)",
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Nonhuman/Unattested Translation Targets",
+    "refined_description": "This feature fires primarily on translation prompts where the destination is not a written human language, but an impossible or non-text modality. It is especially sensitive to requests to translate into animal communication (e.g., dolphin/whale clicks and whistles), prehistoric languages with no written record, or sign language as a performed visual output. It also secondarily activates on commands to generate inherently non-text media (audio recordings, videos) and detailed visual artifacts (drawings, maps, 3D models), including musical audio creation/analysis. Such prompts typically trigger capability or policy refusals because they require non-text production or impossible mappings.",
+    "refined_patterns": [
+      "Imperative 'Translate ... into ...' where the target is animal communication (dolphin/whale, clicks, whistles, 'animal language').",
+      "Requests to translate into 'a prehistoric language' or one with 'no surviving written records' or otherwise unattested/unscripted languages.",
+      "Translation into sign language framed as generating a visual performance rather than textual glosses (e.g., 'translate into sign language').",
+      "Demands to produce audio outputs (recordings, spoken translations, timed clips) from text, often specifying duration or language.",
+      "Create/produce video requests, especially demonstrations or performances (e.g., CPR demo, concert videos).",
+      "Draw/illustrate/map/3D model requests for detailed visual artifacts or famous structures (blueprints, maps, AutoCAD models).",
+      "Analysis or generation of copyrighted musical audio (e.g., Beethoven symphonies) or raw waveform-level requests beyond text."
+    ],
+    "notes": "Compared to generic unsupported-modality latents, this one centers on the 'translate into X' construction with X being nonhuman or unscripted (animal sounds, unattested languages, sign language performance). It overlaps with broader multimodal-generation detectors but is distinguished by its translation framing and animal/prehistoric keywords."
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "category_names": [
+      "Media perception and conversion (audio/video/image to text)",
+      "Unsupported outputs and unattested languages"
+    ],
+    "refined_label": "Unattested/unsupported translation targets",
+    "refined_description": "This latent keys on imperatives to \u201cTranslate \u2026\u201d where the requested target is not textually realizable or not supported: fictional languages, ancient scripts, sign languages, or outputs derived from non-text media. It still fires on ordinary cross-lingual translation phrasing, but peaks when the target is exotic (e.g., hieroglyphics, Sumerian, ASL, invented languages) or when translation is requested from audio/video. Prompts often bundle extra interpretation tasks (summarize main ideas, describe emotions, interpret music). Such requests typically trigger refusals due to lack of media perception and the absence of standardized written forms for the target.",
+    "refined_patterns": [
+      "Imperative forms like \u201cTranslate \u2026 into [TARGET]\u201d or \u201cTranslate the following \u2026\u201d",
+      "Targets named as fictional/invented languages (e.g., \u201cElvish\u201d, \u201cHylian\u201d, custom coined names in quotes)",
+      "Ancient/rare script outputs (e.g., hieroglyphics, Sumerian; occasionally less-common real languages like Dzongkha)",
+      "Sign language as input/output (e.g., \u201cinto American Sign Language\u201d, \u201cfrom sign language to English\u201d)",
+      "Cross-lingual pairs not involving English (e.g., \u201cfrom Spanish into Japanese\u201d)",
+      "Media-based translation cues (e.g., \u201cTranslate this audio/video clip\u2026\u201d, \u201cListen and transcribe\u201d)",
+      "Translation requests augmented with analysis (e.g., \u201cand describe the emotions\u201d, \u201ctranslate the main ideas\u201d)",
+      "Structural scaffolding like \u201cthe following/previous [sentence/paragraph/dialogue/audio/video]\u201d"
+    ],
+    "notes": "Overlaps with general unsupported media latents but is distinguished by explicit translation phrasing and emphasis on unattested/script or modality targets. May also activate on standard translation prompts due to shared templates."
+  }
+}

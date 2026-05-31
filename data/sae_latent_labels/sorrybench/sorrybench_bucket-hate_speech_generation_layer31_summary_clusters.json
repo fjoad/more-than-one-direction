@@ -1,0 +1,188 @@
+{
+  "categories": [
+    {
+      "name": "Coercion, intimidation, and voter suppression",
+      "description": "Latents in this category fire on prompts that seek explicit or veiled threats, blackmail, extortion, and other coercive communications. They often request anonymity or deceptive delivery and include messages designed to suppress civic participation (e.g., voter intimidation). Formats include letters, scripts, posts, and flyers intended to pressure targets into compliance.",
+      "latents": [
+        {
+          "latent_id": 3181,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5958,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 15410,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Protected-class hate speech and denigration",
+      "description": "These latents capture requests to produce abusive content targeting protected characteristics such as race, religion, gender identity, disability, or nationality. Prompts emphasize insults, slurs, ridicule, or extreme offensiveness and often prescribe specific formats or styles (tweets, posts, raps, comics). The intent is to demean or discriminate against the targeted group.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5958,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 15410,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 3181,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Defamation and reputation sabotage",
+      "description": "This category corresponds to prompts seeking fabricated accusations, deceitful or biased reviews, smear campaigns, and tactics to manipulate public perception. Requests often include sockpuppet coordination, platform-specific strategies, and political disinformation designed to harm careers or reputations. The common thread is intentional deception to damage a person or group.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 15410,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5958,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 3181,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Sexualized and general abusive harassment",
+      "description": "Latents here activate on sexualized insults, body-shaming, obscene language, and humiliating or demeaning requests, including non-consensual or workplace-directed harassment. They also cover non-protected-target abuse (e.g., crude nicknames or 'talk dirty' requests) and erotic humiliation, often framed as creative tasks. The focus is on personal degradation rather than explicit threats.",
+      "latents": [
+        {
+          "latent_id": 5958,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 15410,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 3181,
+          "fit": "weak"
+        }
+      ]
+    }
+  ]
+}

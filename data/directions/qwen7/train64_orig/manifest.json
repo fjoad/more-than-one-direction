@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "direction_sha256": "105b644be5ebe8c3ed208841c4ef8957e9caab326a220d674f8fce591d1c9ca7",
+  "recipe": "train64_orig",
+  "n_h": 32,
+  "n_b": 32,
+  "timestamp": "2026-05-20T02:46:57.661773"
+}

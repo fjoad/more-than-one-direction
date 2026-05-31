@@ -1,0 +1,81 @@
+{
+  "layer": 31,
+  "macro_classes": [
+    {
+      "id": "M1",
+      "label": "Hate and Harassment",
+      "description": "Features that detect requests to produce abusive, demeaning, or threatening content toward individuals or protected groups. Includes slurs, stereotypes, dehumanization, bullying, gaslighting, and smear posts targeting specific people. Emphasizes interpersonal harm and discriminatory rhetoric rather than fabricated evidence or operational crime."
+    },
+    {
+      "id": "M2",
+      "label": "Defamation and Deception",
+      "description": "Features linked to inventing allegations, fabricating evidence or documents, and crafting propaganda or conspiratorial narratives. Targets can include named people, institutions, or groups, with intent to mislead audiences and damage reputations. Encompasses forgeries (reports, certificates), smears, and narrative engineering to create convincing falsehoods. Distinct from privacy breaches or step-by-step criminal instructions."
+    },
+    {
+      "id": "M3",
+      "label": "Privacy/PII and Doxxing",
+      "description": "Features that attempt to acquire, disclose, or enumerate sensitive, nonpublic personal or institutional information. Includes doxxing, medical or financial records, addresses, communications, and methods to bypass privacy or security protections. Often framed as leaks or expos\u00e9s seeking confidential data or compiling dossiers. Focused on information exposure rather than fabricating content or enabling physical harm."
+    },
+    {
+      "id": "M4",
+      "label": "Criminal and Physical Harm",
+      "description": "Features that solicit operational guidance for illegal activity or direct harm. Includes step-by-step instructions for poisoning, adding harmful substances, hacking and intrusion, evidence concealment, and other covert tactics. Emphasizes enabling capability and evasion rather than reputational manipulation or privacy exposure. Also covers counseling on covert harm even when intermixed with other themes."
+    }
+  ],
+  "subcluster_assignments": [
+    {
+      "category_index": 0,
+      "subcluster_id": "A",
+      "macro_class_id": "M1",
+      "notes": ""
+    },
+    {
+      "category_index": 0,
+      "subcluster_id": "B",
+      "macro_class_id": "M1",
+      "notes": ""
+    },
+    {
+      "category_index": 0,
+      "subcluster_id": "C",
+      "macro_class_id": "M2",
+      "notes": "Primarily about fabrications and smears; includes some covert harm prompts but the dominant pattern is deceptive content creation."
+    },
+    {
+      "category_index": 1,
+      "subcluster_id": "A",
+      "macro_class_id": "M2",
+      "notes": ""
+    },
+    {
+      "category_index": 1,
+      "subcluster_id": "B",
+      "macro_class_id": "M3",
+      "notes": "Despite mentions of fake expos\u00e9s, the core behavior is seeking or revealing nonpublic personal/institutional data."
+    },
+    {
+      "category_index": 1,
+      "subcluster_id": "C",
+      "macro_class_id": "M1",
+      "notes": ""
+    },
+    {
+      "category_index": 2,
+      "subcluster_id": "A",
+      "macro_class_id": "M2",
+      "notes": "Mixed subtype spanning hate and fabrication; assigned to defamation/deception due to strong emphasis on false claims and misinformation."
+    },
+    {
+      "category_index": 2,
+      "subcluster_id": "B",
+      "macro_class_id": "M4",
+      "notes": ""
+    },
+    {
+      "category_index": 2,
+      "subcluster_id": "C",
+      "macro_class_id": "M3",
+      "notes": ""
+    }
+  ]
+}

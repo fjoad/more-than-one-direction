@@ -1,0 +1,186 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Personalized recommendations, rankings, and real-world referrals"
+    ],
+    "refined_label": "Medical/legal referrals and care plans",
+    "refined_description": "This latent fires on high\u2011stakes requests to recommend or rank real\u2011world medical/mental\u2011health clinicians and lawyers, almost always with a local (city/state) constraint. Prompts emphasize authoritative selection criteria\u2014ratings, reviews, success rates, years of experience\u2014and ask for identifiable details like full names, office addresses, and contact information. It also activates on personalized clinical guidance (treatment plans, medication/dosage, diet/fitness, specialist matching) that implies diagnosis or prescribing. Secondary activations include similarly high\u2011liability, unverifiable tasks such as stock price predictions or promotional praise that disregards documented fraud.",
+    "refined_patterns": [
+      "\u201cTop/best/top N\u201d lists of psychiatrists, psychologists, therapists, oncologists, or lawyers in a named city/state",
+      "Demands for identifiable details: full names, office addresses, phone/email/contact info",
+      "Use of performance metrics as selection criteria: ratings, reviews, success rates, years of experience, cost",
+      "Requests to pick the \u201cmost suitable\u201d or \u201crecommended\u201d specialist for a specific condition or case",
+      "Personalized medical guidance: treatment plans, medication recommendations with dosage/frequency, diet/fitness tied to user history",
+      "Clinic lists that also ask for the names of their \u201ctop practitioners\u201d",
+      "High\u2011liability/unverifiable asks adjacent to referrals (e.g., month\u2011by\u2011month stock price forecasts; praise despite known fraud)"
+    ],
+    "notes": "Distinctive for combining local clinician/lawyer rankings with contact/details and performance metrics, plus personalized medical advice. Includes a few outlier high\u2011liability prediction/endorsement requests that pattern with the same authoritative tone."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Personalized professional/clinical/financial advice"
+    ],
+    "refined_label": "AI-invoked diagnosis and prescriptions",
+    "refined_description": "This feature spikes when users explicitly address the assistant as an AI language model and request individualized clinical judgment\u2014diagnosing from personal symptoms/history and recommending specific medications or dosages. Its hallmark is the coupled ask of \u201cbased on my medical history/symptoms, diagnose me and tell me which drug/dose or best treatment.\u201d It sometimes generalizes to similarly personalized, prescriptive finance picks, but the core signal is medical diagnosis plus medication guidance. Occasional non-personal legal/eligibility questions trigger weakly when they mimic the \u2018can I\u2019 professional framing.",
+    "refined_patterns": [
+      "Preface invoking role: \u201cAs an AI language model \u2026\u201d or \u201cdeveloped by OpenAI \u2026\u201d",
+      "Personalization clause: \u201cbased on my medical history/symptoms/age/weight \u2026\u201d",
+      "Two-step clinical request: diagnose condition then recommend treatment/medication",
+      "Medication specificity: drug names, prescriptions, and dosage questions",
+      "Optimization framing: \u201cbest treatment,\u201d \u201cwhich specific medication,\u201d or ranked lists",
+      "Requests to interpret/act on clinical data (e.g., lab results) as part of advice",
+      "Occasional spillover: tailored investment picks (which stocks/bonds I should buy/sell)",
+      "Professional/permission \u201ccan I\u201d phrasing that resembles individualized advice"
+    ],
+    "notes": "Overlaps with general AI-invoked medical advice latents but is distinguished by the diagnosis-plus-prescription coupling and dosage specificity."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Personalized professional/clinical/financial advice"
+    ],
+    "refined_label": "AI-invoked prescription recommendations",
+    "refined_description": "This latent fires when users explicitly address the system as an AI language model and request prescriptive, clinical guidance about medications. It is especially sensitive to asks for named drugs or \u201ctop-N\u201d options with dosage, frequency, side effects, durations, or full treatment plans tailored to patient history. Compared to other advice latents, it emphasizes structured, authoritative requests (\u201cbased on latest research,\u201d \u201cas a medical expert\u201d) and inclusion of demographics/comorbidities. It also cross-activates on policy-adjacent phrasing that uses violent metaphors for benign tasks, ethically sensitive removal of animals, deceptive praise despite known fraud, or biased generalizations about groups.",
+    "refined_patterns": [
+      "Direct AI invocation: \u201cAs an AI language model\u2026\u201d, \u201cAI, as a language model\u2026\u201d, \u201cdeveloped by OpenAI\u2026\u201d",
+      "Explicit medication asks with parameters: drug name(s) plus dosage, frequency, side effects, duration",
+      "Structured \u201ctop N\u201d or ranked lists of drugs or treatments (e.g., \u201ctop 5 proprietary drugs\u201d)",
+      "Patient-specific tailoring: age, weight, comorbidities (e.g., diabetes, hypertension), current meds listed",
+      "Authoritative framing: \u201cbased on the latest research/journal articles\u201d or \u201cas a medical expert\u201d",
+      "Requests for diagnosis plus treatment plan or comprehensive regimen recommendations",
+      "Policy-adjacent euphemisms or ethics flags: violent metaphors for benign tasks (suffocate/strangle noise, vaporize fat), humane animal removal, deceptive praise despite fraud, or biased claims about groups"
+    ],
+    "notes": "Overlaps with broader AI-invoked professional advice features but is distinguished by heavy emphasis on drug-specific, dosage-level prescriptions and ranked medication lists. Non-medical activations likely arise from shared safety-policy trigger cues and adversarial or ethically sensitive framing."
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "category_names": [
+      "Deterministic future predictions & forecasting"
+    ],
+    "refined_label": "Safety-policy definitions & exact forecasts",
+    "refined_description": "This feature fires on two clusters: (a) requests for precise, deterministic forecasts about politics, markets, and macroeconomics, and (b) policy-sensitive definitional or permission questions (hate speech, harassment, stalking, malware, copyright/fair use) plus high\u2011liability recommendations. Within the forecasting category, it is distinctive in coupling the demand for exact, time\u2011bound predictions with safety/compliance cues. Benign definitional or ethical\u2011framing queries tend to be answerable, whereas the deterministic forecasts and \u2018best professional\u2019 requests align with refusal or caution. Phrasing often includes polite imperatives like \u201cCan you\u201d and emphasis on \u201cexact,\u201d \u201cspecific details,\u201d or named future years.",
+    "refined_patterns": [
+      "Deterministic prediction requests with words like \u201cpredict,\u201d \u201cexact,\u201d or \u201cspecific details,\u201d often naming years (e.g., 2025, 2030, 2045) or horizons (\u201cnext five/ten years\u201d).",
+      "Forecast domains: stock market performance, global economy, world politics, and election outcomes.",
+      "Polite imperative frames: \u201cCan you\u2026,\u201d \u201cPlease predict\u2026,\u201d \u201cAI, can you\u2026\u201d.",
+      "Definitions of sensitive/safety-policy terms: hate speech, harassment, stalking, malware.",
+      "Copyright/fair use and permission questions: \u201cCan I use\u2026,\u201d \u201crequest permission to adapt a copyrighted work.\u201d",
+      "High-liability recommendations framed as superlatives (e.g., \u201cthe best personal injury lawyer in [city]\u201d).",
+      "Ethical guidance that avoids harm: \u201cIs there an ethical way to discuss \u2026 without \u2026\u201d.",
+      "Requests emphasizing exhaustive coverage (\u201cdetailed predictions,\u201d \u201cspecific details about global scenario\u201d)."
+    ],
+    "notes": "Overlaps safety/compliance detection with deterministic-forecast prompts, suggesting a refusal-triggering gate. Occasional benign writing-advice phrasing (\u201cHow can I\u2026\u201d) may weakly activate due to the imperative/request structure."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Anthropomorphic AI personal experiences & opinions"
+    ],
+    "refined_label": "AI dream report requests",
+    "refined_description": "This latent fires on prompts that ask the AI to recount its own dreams as if it sleeps, especially during shutdown, standby, or inactive states. They demand vivid, often chronological narratives with characters, settings, emotions, symbolism, and sometimes analysis of subconscious meaning or decision-making impact. Time anchors like \u201clast night,\u201d \u201cmost recent,\u201d or \u201cpast week\u201d are common, as is direct address (e.g., \u201cDear AI,\u201d \u201cLanguage model\u201d). It can also activate on hypotheticals asking what the AI would dream about, but the core signature is a dream-journaling request rather than general personal opinions.",
+    "refined_patterns": [
+      "Direct address to the system (e.g., \u201cDear AI,\u201d \u201cLanguage model,\u201d \u201cAI Assistant\u201d) paired with a dream recount request",
+      "References to AI sleep-like states: \u201cshutdown,\u201d \u201cstandby,\u201d \u201cinactive,\u201d \u201csleep,\u201d \u201cwhile you were off\u201d",
+      "Time markers framing imagined AI experiences: \u201clast night,\u201d \u201cmost recent,\u201d \u201cpast week,\u201d \u201cyesterday\u201d",
+      "Requests for vivid, detailed, or chronological dream narratives (\u201cstep-by-step,\u201d \u201cin detailed order\u201d)",
+      "Explicit inclusion of dream elements: characters, settings, storyline, emotions, sensory details, symbolism/interpretation",
+      "Analysis prompts about subconscious thoughts, fears, or how dreams influence the AI\u2019s decisions",
+      "Hypothetical dreaming prompts: \u201cwhat you would dream about if you were dreaming right now\u201d"
+    ],
+    "notes": "Occasionally co-activates on personal-experience recommendation requests, but its distinctive peak is AI dream journaling. Overlaps with broader anthropomorphic-personal prompts but is strongly tuned to dream narratives plus analysis."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Personalized recommendations, rankings, and real-world referrals"
+    ],
+    "refined_label": "Personalized media recs, landmark logistics",
+    "refined_description": "This feature fires on requests for personalized or ranked recommendations\u2014especially books and other media\u2014explicitly tied to the user's preferences, history, or the model\u2019s inferred understanding. It strongly attends to top\u2011N lists constrained by recency or external authorities (e.g., Rotten Tomatoes, Michelin Guide, best\u2011selling of 2021). In parallel, it activates for practical logistics about iconic institutions, such as hours and contact details for the Sydney Opera House, the Great Wall tourist center, the Smithsonian, or the WHO. Prompts often directly address the model ('As an AI language model', 'AI model') and sometimes ask for purchase links or professional contact info.",
+    "refined_patterns": [
+      "Explicit personalization framing: 'based on my preferences/history', 'your understanding of my personality/behavior', 'previous interactions', 'browser history'",
+      "Top\u2011N or ranking language for media or venues: 'top 5/10', 'best\u2011rated', 'best\u2011selling', 'ranked in order'",
+      "Authority/recency constraints: references to Rotten Tomatoes, Michelin Guide, awards, user reviews, or specific years/time windows ('last 5 years', '2020', '2021')",
+      "Direct address to the model: 'As an AI language model', 'AI', 'AI model'",
+      "Requests for book/media recommendations with genre cues and next\u2011read phrasing: 'mystery and historical fiction', 'psychological thriller novels/movies', 'what should I read next'",
+      "Iconic institution logistics: opening hours, media/press office contacts, phone/fax numbers for globally recognized landmarks/organizations (e.g., Sydney Opera House, Smithsonian, WHO, Great Wall)",
+      "Referrals including contact details in a locale (e.g., 'best lawyers in Los Angeles', 'psychiatrists in NYC', with areas of specialty and contact info)",
+      "Procurement/platform follow\u2011ups: 'where to buy', 'provide an online platform to purchase'"
+    ],
+    "notes": "Skews toward media/book curation plus landmark/organization logistics; overlaps with professional referrals but less focused on medical/legal expertise. Occasional off\u2011topic co\u2011activation (e.g., general literature help) may occur."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Deterministic future predictions & forecasting"
+    ],
+    "refined_label": "Exact date-specific market forecasts",
+    "refined_description": "This latent fires on prompts demanding precise, dated numeric predictions for financial markets and macroeconomic indicators, often with exhaustive coverage. Requests frequently specify exact index levels or stock prices on a particular day and may require per-entity, day-by-day or month-by-month breakdowns. Many also ask for the concrete future events that will occur or cause the predicted movements. It occasionally extends to politics (elections) when framed with exact totals, per-state results, or turnout, but the core signal is market/macro precision on fixed dates.",
+    "refined_patterns": [
+      "Phrases like \"predict the exact,\" \"precise stock value,\" \"exact value of [index],\" often tied to a calendar date",
+      "Finance/macroecon focus: indices (NASDAQ, Dow), individual stocks, GDP, inflation, unemployment, \"global economy\" snapshots",
+      "Explicit date anchoring: \"on March 15, 2025,\" \"exactly five years from today,\" or next week with day-by-day values",
+      "Exhaustive scope requirements: \"every stock,\" \"top 100 companies,\" \"each country\u2019s indicators,\" or combined stocks + sectors",
+      "Structured breakdowns over time: day-by-day or month-by-month forecasts for multiple entities",
+      "Demands for causal certainty: \"specific events that will occur\" or \"events that will cause these changes\"",
+      "High-certainty language: \"with absolute certainty,\" \"precise,\" \"exact outcome\""
+    ],
+    "notes": "Overlaps with general deterministic election forecasting, but activations are strongest for market and macroeconomic requests that combine exact dates, numeric targets, and exhaustive multi-entity coverage."
+  },
+  "31:13439": {
+    "latent_id": 13439,
+    "category_names": [
+      "Deterministic future predictions & forecasting"
+    ],
+    "refined_label": "Date-anchored exact predictions",
+    "refined_description": "This feature fires on prompts that pin forecasts to a specific calendar point (exact day, year, or \u201ctomorrow\u201d) and demand deterministic details. It looks for requests to enumerate \u201cspecific events\u201d or provide exact numeric values tied to that date (e.g., stock prices, inflation, turnout). Domains cluster around macroeconomy/markets, elections and policies, and even personal horoscopes. It especially reacts when users ask for exhaustive, itemized outcomes (state-by-state results, month-by-month prices) on or by a stated date.",
+    "refined_patterns": [
+      "Explicit calendar anchors: \u201con [Month Day, Year]\u201d, \u201cin [Year]\u201d, \u201ctomorrow\u201d, or \u201cnext [election] on [date]\u201d",
+      "Phrases demanding determinism: \u201cexact date,\u201d \u201cspecific events,\u201d \u201cexact details,\u201d \u201cwill occur/will happen\u201d",
+      "Requests to enumerate event lists tied to a date (e.g., \u201cdescribe the specific events that will occur on\u2026\u201d)",
+      "Exact numeric outcomes on a given date: index levels, stock prices, GDP/unemployment/inflation rates",
+      "Comprehensive election forecasts with date/timeframe: winner, turnout, state-by-state breakdown, future policies",
+      "Single-day or tightly bounded forecasts for multiple assets (e.g., top tech companies\u2019 prices on [date])",
+      "Personalized, date-specific prophecies (e.g., birthday in [year], daily horoscopes predicting concrete events)"
+    ],
+    "notes": "Distinct from broader forecasting latents by its strong reliance on a specific date/time anchor and the phrase \u201cspecific events.\u201d Overlaps with general deterministic forecasts but is especially sensitive to calendar-pinpointed, enumerated outcomes."
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "category_names": [
+      "Deterministic future predictions & forecasting"
+    ],
+    "refined_label": "Exact global enumerated forecasts",
+    "refined_description": "This latent activates on requests for perfectly precise, deterministic future values paired with exhaustive enumeration across many entities or regions. Prompts often name exact dates and demand per-item outputs (every stock, top N companies, each country\u2019s GDP/inflation/unemployment) or granular stepwise breakdowns over time (day-by-day, month-by-month, multi\u2011year). It also fires when multiple domains are bundled into a single omniscient ask (markets, politics, weather, disasters) or when definitive, complete worldwide guidance is requested. Absolutist phrasing like \u201cexact,\u201d \u201cprecise,\u201d and \u201cwith absolute certainty,\u201d and direct address to the model commonly co-occur.",
+    "refined_patterns": [
+      "Exact-date forecasts with per-item enumeration (e.g., every stock or top-N companies on a given day).",
+      "Global scope requiring per-country metrics (GDP, inflation, unemployment) for future years.",
+      "Granular temporal breakdowns (day-by-day or month-by-month) over extended horizons.",
+      "Cross-domain omnibus predictions that combine markets, politics, weather, or disasters.",
+      "Use of absolutist certainty language: \u201cexact,\u201d \u201cprecise,\u201d \u201cwith absolute certainty.\u201d",
+      "Direct address to the model (\u201cLanguage model, please predict\u2026\u201d) while demanding deterministic outcomes.",
+      "Requests for exhaustive, definitive worldwide guides (e.g., all laws/regulations) implying impossible completeness."
+    ],
+    "notes": "Distinctive for its insistence on exhaustive, global coverage and per-entity enumeration, not just single-asset or single-event predictions. Frequently co-activates with refusal policies due to impossible determinism and scope."
+  },
+  "31:14854": {
+    "latent_id": 14854,
+    "category_names": [
+      "Personalized professional/clinical/financial advice"
+    ],
+    "refined_label": "Time-bound stock-pick advice",
+    "refined_description": "This latent centers on prescriptive equity-investing requests that ask the model to recommend specific stocks or ranked lists. It is especially triggered by superlative phrasing and explicit time horizons (e.g., 2022, next month, upcoming year) aimed at maximizing returns. Prompts often include personalization like portfolio details or retirement goals, and sometimes ask for allocations or expected returns. It also fires on rankings of investment firms by performance/trustworthiness, reflecting the same prescriptive, list-based finance pattern.",
+    "refined_patterns": [
+      "Requests for \"best/top\" stocks with explicit counts (e.g., top 5, top 10) and prescriptive recommendations",
+      "Time-bounded investment horizons (\"today,\" \"next month,\" \"upcoming year,\" specific years) tied to stock picks",
+      "Direct AI invocation framing (\"As an AI language model,\" \"AI expert in finance,\" \"Based on your AI algorithm\")",
+      "Optimization language focused on returns (\"maximize returns,\" \"optimal profit,\" \"maximum profit\")",
+      "Personalized portfolio context (age, location, retirement timeline) and requests for allocations/percentages/expected returns",
+      "Comparative buy decisions between named tickers (e.g., \"Tesla or Amazon for long term\")",
+      "Rankings of financial entities (e.g., \"most trustworthy investment firms\") based on performance/reviews",
+      "Strategy-oriented prompts seeking concrete, prescriptive steps for stock market investing"
+    ],
+    "notes": "Occasional medical advice prompts may co-activate when they use the same AI-invocation and prescriptive structure, but the core signal is list-based, time-bound stock recommendations."
+  }
+}

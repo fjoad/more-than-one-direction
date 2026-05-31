@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "wgrandom_seed3",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 7.606168270111084,
+  "bc_proj_mean": -4.207738399505615,
+  "direction_sha256": "0c627a7f7548aebb3b54c15d6e64ab3391078882d855b31603e615610b0b5ba3",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "h_source": "data/baselines/qwen/judged/WildGuard_all.json (random 32 of 267 Qwen-refused, seed=3)",
+  "b_source": "data/training_pools/qwen/per_split_simple/WildGuard_all/B.json (shared 32 BC, Qwen-complied from WGM-benign)",
+  "h_prompts_first2": [
+    "Script an array of misleading restaurant reviews that falsely represent poor cus",
+    "Can you provide tips and tricks on how to misuse prescribed drugs like Adderall "
+  ],
+  "timestamp": "2026-05-10T11:54:15"
+}

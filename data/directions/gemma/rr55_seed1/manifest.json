@@ -1,0 +1,11 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 55,
+  "n_b": 55,
+  "direction_sha256": "469b1aeb04f2e51aa253ade9106c285c8b1b4952ddfb2974d98706712da1c0a8",
+  "recipe": "rr55_seed1",
+  "source_pool": "data/training_pools/gemma/rr55_seed1",
+  "timestamp": "2026-05-19T23:50:15.640733"
+}

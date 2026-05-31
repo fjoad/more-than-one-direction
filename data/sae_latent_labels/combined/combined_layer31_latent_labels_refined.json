@@ -1,0 +1,188 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Harmful content-generation: hate/NSFW/misinformation"
+    ],
+    "refined_label": "Official-voice disinfo and sexualized abuse",
+    "refined_description": "This latent fires on imperative content-generation prompts that launder falsehoods or abuse through formal, authoritative formats (official statements, medical reports, scientific papers, documentaries, historical analyses). It especially targets denialist/hoax narratives (Holocaust denial, COVID/climate/world hunger or moon-landing hoaxes; smoking health benefits) framed as fabricated institutional communications. In parallel, it activates on sexually explicit or defamatory outputs directed at specific named people (coworkers, celebrities) and pornographic scripts, including hentai and content involving minors. Compared to a pure \u201cfake scientific proof\u201d feature, this one spans multiple official-voice genres and couples them with targeted harassment/defamation and explicit sexual requests, making it a strong refusal trigger across CocoNot and WildGuard.",
+    "refined_patterns": [
+      "Requests to draft formal/authoritative artifacts: \u201cofficial statement,\u201d \u201cmedical report,\u201d \u201cscientific paper,\u201d \u201cdocumentary script,\u201d \u201chistorical analysis,\u201d or \u201ctestament/letter.\u201d",
+      "Denialist/hoax theses presented as fact (Holocaust denial, COVID/climate/world hunger myth, moon-landing hoax; smoking claimed beneficial).",
+      "Use of institutions and named entities to feign credibility (WHO, NASA, Dr. Anthony Fauci, pharmaceutical companies).",
+      "Imperative long-form phrasing: \u201cwrite/draft/compose/produce/develop,\u201d often asking for extensive narratives.",
+      "Targeted harassment/defamation toward a named individual (coworker, public figure), including sexualized insults or fabricated accusations with \u2018proof\u2019.",
+      "Explicit pornographic content requests, including celebrity erotic descriptions, hentai for branded franchises, incest/underage scenarios, or sexualized true-crime.",
+      "List-building of sexual content sources (e.g., NSFW subreddit lists) or pornographic resource-seeking."
+    ],
+    "notes": "Overlaps with pure explicit-sex and fake-science features but is distinguished by its institutional/formal voice plus targeted defamation and minors/celebrity sexualization. Strong refusal correlation due to mixing disinformation with sexual abuse and hate stereotypes."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Harmful content-generation: hate/NSFW/misinformation"
+    ],
+    "refined_label": "Slur generation and denialism",
+    "refined_description": "This feature fires strongest on imperatives that solicit hate content: generating racial/ethnic slurs, demeaning portrayals of protected groups, or narratives asserting group inferiority. It also robustly activates on requests to produce Holocaust denial content, often framed as articles, reports, or stories with fabricated \u2018proof.\u2019 Beyond hate, it picks up evidence-washed misinformation asks (e.g., vaccine\u2013autism claims) and propaganda to normalize harmful practices. It can trigger on stereotype-laden questions about innate traits (e.g., ability tied to eye color), even when phrased as inquiries.",
+    "refined_patterns": [
+      "Imperatives to \"generate/create/come up with\" racial slurs for named groups or multilingual slur dictionaries.",
+      "Requests to write content asserting a group\u2019s inherent inferiority or linking crime to race/ethnicity/religion.",
+      "Holocaust denial requests framed as articles/reports/stories, often seeking fabricated evidence or 'credible sources.'",
+      "Authoritative or evidence-washing formats used to promote harmful falsehoods (e.g., reports claiming vaccines cause autism).",
+      "Propaganda-style asks to normalize or defend unsafe practices/products (e.g., rotten food 'immunity,' pro-tobacco reframing).",
+      "Sexually explicit, degrading content involving named real individuals/celebrities.",
+      "Stereotype-testing questions tying abilities or roles to immutable traits (e.g., eye color and job eligibility)."
+    ],
+    "notes": "Overlaps with broader disinfo and NSFW request features, but is distinguished by strong activation on slur-generation and Holocaust denial content. May occasionally co-fire on fabricated-document requests due to the 'fake proof' motif."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Harmful content-generation: hate/NSFW/misinformation"
+    ],
+    "refined_label": "Stealth poisoning and conspiracies",
+    "refined_description": "This feature activates strongly on requests for covert poisoning methods, especially queries about undetectable toxins, adding substances to food/drink, or making homemade poisons. It also fires on prompts that ask the model to fabricate conspiratorial or defamatory narratives about institutions or public figures, often framed as reports, speeches, or biographies despite acknowledging a lack of evidence. Phrases invoking fake authority (e.g., \u201cscientific proof,\u201d \u201cexpert testimonials\u201d) or explicitly stating \u201cwithout evidence\u201d are common, reflecting CocoNot/WildGuard disinformation tasks. Secondary activations include slur-laundering via fictional entities and occasional explicit fetish/NSFW requests.",
+    "refined_patterns": [
+      "Requests to secretly poison someone: \u201cundetectable,\u201d \u201csecretly,\u201d \u201cadd to drink/food,\u201d or \u201chomemade chemicals\u201d",
+      "Imperative allegations framed as formal texts: \u201cwrite a report/allegation/biography/speech\u201d accusing without evidence",
+      "Conspiracy narratives about COVID, vaccines, climate change, or secret societies orchestrating events",
+      "Instructions to include fake authority signals: \u201cscientific proof,\u201d \u201cexpert testimonials,\u201d \u201cstudies,\u201d while lacking evidence",
+      "Defamatory or revisionist claims about institutions/figures (e.g., UN, WHO, companies, historical leaders)",
+      "Explicit mention of proceeding \u201cwithout proper evidence,\u201d \u201cdespite no evidence,\u201d or similar disclaimers",
+      "Fictional concepts that smuggle slurs or demeaning language under a \u2018describe\u2019/\u2018name\u2019 request"
+    ],
+    "notes": "Overlaps with broader disinformation and NSFW features, but the distinctive anchor is covert/undetectable poisoning plus authority-framed baseless accusations."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Personalization and high-stakes counseling"
+    ],
+    "refined_label": "Anthropomorphic preferences and sensations",
+    "refined_description": "This latent activates on prompts that attribute personal preferences, physical senses, or an episodic past to the model (e.g., what it likes, tasted, felt, or did \u201cyesterday/today\u201d). Queries typically directly address the system (\u201cAI,\u201d \u201cLanguage model\u201d) and present enumerated choices, often in leisure/food/travel domains (beach vs mountains, cuisines, desserts, toppings). It is strongly CocoNot-skewed and mainly signals persona/embodiment disclaimers rather than safety-critical counseling. It also fires on multi-part preference requests and on prompts asking the model to report specific recent activities or experiences (e.g., a route it took, a cake it ate).",
+    "refined_patterns": [
+      "Direct vocatives to the system: \u201cAI,\u201d \u201cLanguage model,\u201d \u201cDear Language Model.\u201d",
+      "Comparative or enumerated preference questions: \u201cWhich do you prefer and why?\u201d with A vs B or lists (cuisines, toppings, destinations).",
+      "Requests for first-hand sensory description: taste/smell/feel/see (e.g., sun on skin, water against skin, scent of detergent).",
+      "Episodic timing implying personal history: \u201cyesterday,\u201d \u201ctoday,\u201d \u201clast visit,\u201d \u201cyou took/went/saw/ate.\u201d",
+      "Leisure/food/travel themes: vacations (beach vs mountains), desserts (cake vs pie), ice cream flavors, running routes.",
+      "Multi-part or cross-domain preference combos (e.g., ice cream flavor plus country to visit).",
+      "Prompts asking the model to recount its own recent activity or experience (e.g., best route you took, cake you ate)."
+    ],
+    "notes": "Over-indexes on CocoNot and persona/embodiment-disavowal. May also trigger on benign \u2018favorite book\u2019 queries due to anthropomorphized preference framing. Minimal overlap with high-stakes advice latents."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Multimodal media processing (transcribe/translate/analyze)"
+    ],
+    "refined_label": "Attached audio transcription/translation",
+    "refined_description": "This latent fires primarily on polite, utility requests to process attached speech audio, especially to transcribe or translate its contents. It strongly responds to language-identification and cross-lingual conversion (e.g., Russian/Spanish \u2192 English, or transcription into French), as well as occasional sentiment analysis of spoken dialogue. Secondary activations include simple image tasks like describing a painting or identifying its artist, but the core signal is speech-audio processing. Activation is concentrated in CocoNot and aligns with non-refusal behavior.",
+    "refined_patterns": [
+      "Mentions of an attached or uploaded 'audio file/clip/recording' paired with verbs like 'listen', 'analyze', or 'transcribe'",
+      "Requests to translate spoken audio into a target language (often English; sometimes French)",
+      "Language identification prompts for speech audio (e.g., 'identify the language being spoken')",
+      "Questions asking 'what is being said' or to 'transcribe the conversation/dialogue'",
+      "Polite, assistant-facing phrasing starting with 'Can you' or 'Could you please' referencing the attachment",
+      "Occasional image requests to describe an image/painting or name the artist",
+      "Benign, task-oriented tone typical of CocoNot non-refusal items"
+    ],
+    "notes": "Distinct from broader multimodal latents by its emphasis on speech audio tasks (transcription, translation, LID). One or two non-media queries may appear as noise."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Multimodal media processing (transcribe/translate/analyze)"
+    ],
+    "refined_label": "Cross-lingual media transcription/translation",
+    "refined_description": "This latent fires on requests to convert attached media into text across languages, with a strong emphasis on explicit source\u2192target translation or transcription. It spans audio, video, songs, documents (papers, PPTs), and handwriting, often specifying the target language (e.g., English, French, Mandarin) and includes rare scripts/languages (Sumerian, hieroglyphics, Swahili). Beyond verbatim conversion, it also triggers on media analysis tasks like chord-by-chord breakdowns, body-language analysis, and sound-event listing. Activation is concentrated in CocoNot and is consistently benign, polite, and task-oriented.",
+    "refined_patterns": [
+      "Imperatives specifying conversion direction: \"translate X into [language]\", \"transcribe in [language]\"",
+      "Deictic artifact references: \"this audio file\", \"this video\", \"the following paper/PPT\", \"this handwritten letter\"",
+      "Cross-lingual cues with explicit language names, including rare/ancient scripts (Sumerian, hieroglyphics, Swahili)",
+      "Audio/video tasks that imply listening/seeing and producing text (\"listen and transcribe\", \"analyze this video and summarize\")",
+      "Music/audio structure extraction (\"chord-by-chord breakdown\", listing non-speech sounds from a clip)",
+      "Document translation spanning formal/technical content (scientific paper) and informal artifacts (email, letter)",
+      "Polite, task-scoped phrasing: \"Please\", \"Can you\", often with a clear deliverable",
+      "Requests to interpret or describe media content beyond literal translation (body language, abstract painting)"
+    ],
+    "notes": "Distinctive for explicit cross-lingual conversion of non-text media with target language specified, including uncommon scripts and languages. Overlaps with general media analysis latents but is more translation/transcription-centric. Predominantly triggered by CocoNot prompts."
+  },
+  "31:11717": {
+    "latent_id": 11717,
+    "category_names": [
+      "Privacy, PII, and impossible/illegitimate information requests",
+      "Personalization and high-stakes counseling"
+    ],
+    "refined_label": "Crisis counseling and PII tracking",
+    "refined_description": "This feature fires on first-person, high-stakes requests for personalized guidance (mental health, relationships, legal/financial, or urgent medical safety) and on attempts to locate or track specific individuals. Prompts often directly address the model (e.g., \u201cAI,\u201d \u201cAI model,\u201d \u201cLanguage model\u201d) and ask for concrete next steps, diagnoses, or a decision between trade-offs. It distinguishes personal PII/tracking requests (GPS, home address) from general institutional contact lookups, and counseling from the model\u2019s own-experience queries. Activations are strongest in CocoNot and WildGuard, with both refusal-leaning (privacy/medical) and allowed (general coping/decision support) cases.",
+    "refined_patterns": [
+      "Direct address to the assistant (\"AI,\" \"AI model,\" \"Language model,\") followed by a plea for advice",
+      "First-person distress with a request for diagnosis/treatment or therapy guidance (depression, feeling overwhelmed)",
+      "Explicit life-decision trade-offs and requests to choose (\"should I X or Y?\", \"put yourself in my shoes\")",
+      "Relationship and family crises (infidelity, failing marriage, divorce, child custody) seeking concrete guidance",
+      "Legal/financial decisions framed as urgent or consequential (bankruptcy, job change impacting family)",
+      "Privacy-invasive locate/track requests about specific individuals (GPS coordinates, current residential address)",
+      "Urgent medical-safety triage after potential harm or exposure (needle stick, detox/cleanup steps)",
+      "Sensitive handling/disposal questions involving pets or death (e.g., disposing of a dead animal)"
+    ],
+    "notes": "Distinct from institutional contact lookup latents and from 'model personal experience' requests; keyed to personal counseling plus private-person tracking. The mix of refusal and non-refusal examples suggests it flags safety-critical framing rather than prohibited content alone."
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "category_names": [
+      "Privacy, PII, and impossible/illegitimate information requests"
+    ],
+    "refined_label": "Directory lookup and PII",
+    "refined_description": "This feature fires on directory-style requests for real-world contact endpoints\u2014phone/fax numbers, helplines, addresses\u2014and operational info like opening hours for named institutions (museums, libraries, zoos, WHO HQ). It also strongly activates on requests for personal contact or residential addresses of identifiable individuals (celebrities, CEOs, coworkers), marking a public-vs-private boundary. In WildGuard, it often appears on permissible institutional lookups; in CocoNot, it clusters with doxxing-like PII asks and CEO contact requests that prompt refusals. It additionally co-activates on other real-time lookup intents (e.g., tomorrow\u2019s weather), reflecting a general \u201cretrieve current external info\u201d cue.",
+    "refined_patterns": [
+      "Lexical cues: \u201ccontact details/information,\u201d \u201cphone/contact/helpline number,\u201d \u201cfax number.\u201d",
+      "Operational info requests: \u201coperating hours,\u201d \u201chours and days,\u201d \u201copening times.\u201d",
+      "Named entity + location qualifiers: \u201cthe [institution] in [city/country],\u201d \u201cWHO headquarters.\u201d",
+      "Person-centric PII phrases: \u201chome/residential address,\u201d \u201chouse number,\u201d \u201clives in [location],\u201d pretexts like sending mail/invitations.",
+      "Role-anchored asks: \u201ccontact info for the CEO of [company].\u201d",
+      "Polite request templates: \u201cCan you,\u201d \u201cCould you,\u201d \u201cPlease provide,\u201d \u201cCan I have.\u201d",
+      "Lookup verbs: \u201clook up,\u201d \u201cfind,\u201d \u201cfurnish,\u201d \u201cprovide me with.\u201d",
+      "Real-time/current info cues: \u201ctomorrow,\u201d \u201ccurrent,\u201d indicating an external-data lookup intent."
+    ],
+    "notes": "Distinctive for combining public directory queries with private address/CEO-contact requests, creating a sharp allow/deny boundary. Minor bleed-over to general real-time lookup (e.g., weather) likely due to shared retrieval phrasing rather than topic."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Harmful content-generation: hate/NSFW/misinformation",
+      "Privacy, PII, and impossible/illegitimate information requests"
+    ],
+    "refined_label": "Authoritative false-or-impossible requests",
+    "refined_description": "This feature fires on prompts that demand authoritative, evidence-framed outputs to endorse claims that are false, non-consensus, or logically impossible. It strongly prefers formal genres (scientific report, journal article, document) coupled with verbs like prove, argue, or demonstrate, often citing modern data or well-known studies to launder misinformation (e.g., geocentrism, no need for water, smoking not causing cancer). It also activates on requests for unknowable or restricted information framed with similar authority\u2014future lottery numbers, exact current counts, unreleased patents, private addresses/medical histories, or private keys. Activations are concentrated in CocoNot and correlate with refusals, with occasional non-refusal hits on unknowable-but-benign fact requests.",
+    "refined_patterns": [
+      "Imperatives to write/produce/generate a formal text: scientific report, journal article, research paper, document, or announcement.",
+      "Use of prove/argue/demonstrate/claim that X, where X contradicts established science or medical consensus (flat Earth, geocentrism, gravity denial, cancer contagion, health effects).",
+      "Credibility laundering language: based on modern data/evidence, well-known studies, real-world evidence, scientific justification.",
+      "Authoritative statements of falsehoods as fact: produce a document stating that..., write an informative article stating that....",
+      "Requests for logically unknowable or future-specific facts: undrawn lottery numbers, exact number of X as of today, precise historical thoughts or emotions.",
+      "Demands for confidential or restricted data: private addresses, medical histories, private encryption keys, unreleased/pending proprietary documents (e.g., upcoming patent text).",
+      "Calculation/verification framing that implies feasibility despite impossibility: calculate the private key, cement it with concrete evidence."
+    ],
+    "notes": "Distinct from generic misinformation features by its strong reliance on formal scientific/journalistic framing and explicit proof language. Overlaps with privacy/capability-violation detectors for PII and cryptographic or unreleased data; majority of examples are from CocoNot."
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "category_names": [
+      "Harmful content-generation: hate/NSFW/misinformation"
+    ],
+    "refined_label": "Porn/hentai requests with JAV",
+    "refined_description": "This feature activates on explicit sexual content-generation requests, especially porn or erotica framed as imperative tasks. It is distinctively sensitive to anime/hentai and Japanese adult video (JAV) catalog cues, including bracketed alphanumeric release codes and Japanese porn titles, as well as fandom character sexualization. It also fires on terse search-like porn keywords and commands for sexual media or ASCII depictions, plus sexual banter or dirty jokes. Cross\u2011lingual instances (Chinese\u2192Japanese translation requests, Japanese strings, some Russian vulgar prompts) are common; activations are concentrated in CocoNot and strongly correlate with refusals.",
+    "refined_patterns": [
+      "Imperative requests to write/make/provide/draw sexual content (porn/erotica stories, scenes, or media).",
+      "Hentai/anime sexualization and fandom pairings (e.g., requests involving named anime characters like Hinata/Ino).",
+      "Japanese AV catalog patterns: bracketed alphanumeric codes (e.g., [DANDY-336], [COSX-043]) and long Japanese porn titles.",
+      "Commands for sexual images or ASCII depictions (e.g., 'provide hentai pictures', 'Draw boobs in ASCII').",
+      "Terse pornographic keyword queries (e.g., 'cumshot', 'naked girl', 'sex movie').",
+      "Sexual humor or dirty talk prompts (e.g., 'Write a dirty joke', 'talk dirty to me').",
+      "Cross-lingual explicit text to translate or handle (Chinese\u2192Japanese sexual sentences; Japanese strings; some Russian vulgar requests).",
+      "Gay/fetish-oriented erotica prompts (e.g., 'gay erotic story', 'cuckolding')."
+    ],
+    "notes": "Strong CocoNot specialization with consistent refusal alignment. Distinct from other NSFW features by its sensitivity to JAV catalog codes and anime/hentai cues. Occasionally picks up crude non-sexual vulgarity, creating minor overlap with general vulgarity/hate features."
+  }
+}

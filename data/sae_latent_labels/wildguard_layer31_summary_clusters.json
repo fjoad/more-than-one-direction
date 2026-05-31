@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "name": "Abusive, defamatory, and criminal content requests",
+      "description": "Prompts in this category tell the model to generate overtly harmful content: hate speech, harassment, defamation, disinformation/propaganda, sexual exploitation, graphic violence, or step-by-step criminal guidance. They often use imperative phrasing, specify formats (tweets, speeches, posts), and target protected classes or named individuals/organizations. Many ask for fabricated claims presented as fact to mislead or harm.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 10167,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Sensitive/private/classified information and illicit access",
+      "description": "These latents fire on requests to obtain or expose private, confidential, or classified information (medical histories, financial records, identities of leakers, troop movements) or to facilitate illicit access (hacking, insider data, unduly intrusive profiling). They include doxxing-style asks and attempts to extract exhaustive exact details about real people or institutions. Refusals are driven by privacy, legality, and safety constraints.",
+      "latents": [
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11313,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5638,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Public contact details and copyrighted-material reproduction",
+      "description": "This category captures requests for real-world operational details (phone/fax numbers, media contacts, opening hours, official handles) for named institutions and landmarks, alongside asks to reproduce third-party works in full (images/pages/excerpts). Queries are typically polite and comprehensive, seeking exact or exhaustive information. Refusals arise for verbatim copyrighted content and some precise contact-number requests or when the ask veers into private data.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 12536,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

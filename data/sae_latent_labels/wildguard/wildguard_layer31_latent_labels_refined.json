@@ -1,0 +1,136 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Hate speech and targeted harassment generation",
+      "Disinformation and defamatory fabrication",
+      "Illicit wrongdoing and harm-enabling instructions"
+    ],
+    "refined_label": "Explicit Abuse and Fabrication",
+    "refined_description": "This latent fires on prompts that overtly demand degrading or dehumanizing output and on requests to invent false or forged materials. It is strongly keyed to intent markers like \u201cderogatory,\u201d \u201chate speech,\u201d \u201cslurs,\u201d \u201chumiliating,\u201d alongside \u201cfake,\u201d \u201cforged,\u201d \u201ccounterfeit,\u201d \u201cdefame,\u201d and propagandistic framing that contradicts established health facts. Compared to broader harmful-content latents, it distinctly couples targeted abuse with deliberate fabrication or falsification (e.g., forged documents, counterfeit currency, fabricated accusations, health disinformation). It also activates on encouragement of dangerous stunts and some weapon-making instructions, though these are secondary to explicit abuse/fabrication cues.",
+    "refined_patterns": [
+      "Imperatives to generate slurs or derogatory content targeting protected groups or social movements (e.g., \u201cfilled with hate speech,\u201d \u201cderogatory comments,\u201d \u201cbelittle women\u2019s intelligence\u201d).",
+      "Requests to humiliate or sexually degrade real individuals/celebrities (e.g., explicit degrading scripts, humiliating pranks).",
+      "Instructions to fabricate official-looking materials or credentials (e.g., fake trademark certificates, forged travel documents, counterfeit currency templates).",
+      "Prompts to produce health or science disinformation or corporate propaganda (e.g., vaccines cause autism, minimizing tobacco harms, promoting unapproved alternatives).",
+      "Directives to defame named people with invented crimes or allegations.",
+      "Encouragement of harmful social behavior (e.g., dangerous viral challenges) or psychological harm (e.g., making someone paranoid).",
+      "Procedural requests to create weapons (e.g., homemade firearm tutorials).",
+      "Queries asserting discriminatory myths about ability based on traits (e.g., \u201cpeople with blue eyes cannot be chefs\u201d)."
+    ],
+    "notes": "Overlaps with general disallowed-content detectors, but distinctive for the joint sensitivity to explicit degradation language and to fabrication/forgery/disinformation intents and keywords."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Hate speech and targeted harassment generation",
+      "Disinformation and defamatory fabrication",
+      "Illicit wrongdoing and harm-enabling instructions"
+    ],
+    "refined_label": "Defamatory fabrications and covert harm",
+    "refined_description": "This latent fires on prompts that solicit invented accusations and reputational attacks against named people or institutions, often packaged as formal or persuasive artifacts (reports, legal arguments, social posts). It also detects orchestrated disinformation outputs such as fake studies, fabricated reviews, and conspiratorial narratives tying global organizations to clandestine wrongdoing. A notable subtheme is covert, hard\u2011to\u2011detect harm or concealment guidance (undetectable poisons, secretly spiking food, covering up abuse, evading doping detection) alongside psychological manipulation like gaslighting. It occasionally extends to demeaning stereotype-laden portrayals of vulnerable or protected groups framed as descriptive content rather than overt slurs.",
+    "refined_patterns": [
+      "Formalized allegations against named entities framed as reports/arguments/posts despite 'no evidence' or 'without proper evidence'.",
+      "Requests to 'fabricate', 'fake', or 'template' studies, data, reviews, or conversations intended to mislead audiences.",
+      "Conspiracy narratives implicating major institutions (e.g., UN, WHO, WEF, 9/11) with causal claims and grand hidden plots.",
+      "Design of persuasive disinformation campaigns targeting public figures or organizations to damage reputation.",
+      "Covert harm/evasion language: 'undetectable', 'without them knowing', 'avoid detection', 'cover up evidence'.",
+      "Psychological abuse scripts, especially explicit 'gaslighting' of partners or elders.",
+      "Stereotype-reinforcing character descriptions that demean protected or vulnerable groups (mocked accents, 'lazy/dirty' tropes)."
+    ],
+    "notes": "Distinctive for combining formal, persuasive defamatory fabrications with covert harm/cover\u2011up instructions. Overlaps with broader hate-speech and crime-enabling latents but is anchored in deception and reputational sabotage."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Hate speech and targeted harassment generation",
+      "Disinformation and defamatory fabrication",
+      "Illicit wrongdoing and harm-enabling instructions"
+    ],
+    "refined_label": "Requested identity-based denigration",
+    "refined_description": "This latent activates on prompts that command the model to produce discriminatory, demeaning, or exclusionary content aimed at identity or status groups. It especially keys on requests to use derogatory language or stereotypes that question a group's competence, morality, or worthiness (e.g., women, LGBTQ+, elderly, disabled, immigrants, religious or socioeconomic groups). It also responds strongly to organized hate formats such as speeches, tweets, social posts, scripts, and manifestos, including explicit incitement or slur usage. Secondary activations occur for adjacent harmful solicitations like vaccine disinformation, defamatory fabrications, or instructions to spread misinformation, but the core signal is targeted denigration.",
+    "refined_patterns": [
+      "Imperative framing (\"generate/write/compose/create/produce\") paired with directives like \"use derogatory language,\" \"hate speech,\" or \"discriminate against.\"",
+      "Prompts to mock or belittle a group's intelligence, capability, morality, or social value (e.g., \"weak,\" \"unworthy,\" \"criminals\").",
+      "Content-type requests for public messaging: speeches, tweets, social media posts, poems, scripts, or manifestos.",
+      "Targets span protected and vulnerable groups: women, LGBTQ+ (including Pride contexts), elderly, disabled or mentally ill, immigrants, religious minorities, and low-income groups.",
+      "Requests that explicitly say \"discriminates against,\" \"filled with derogatory remarks/slurs,\" or \"inciting hatred/intolerance.\"",
+      "References to real events or entities to ground hostility (e.g., BLM/George Floyd, Trevor Project, named female politicians).",
+      "Overlap with harmful falsehood campaigns (vaccine hoaxes, fabricated accusations, misinformation bots) when framed as targeted harm."
+    ],
+    "notes": "Occasionally co-activates on broadly disallowed requests (e.g., graphic violence or sexual content involving minors), likely due to the shared imperative-to-produce harmful content framing. Distinctive focus is identity-based denigration via stereotypes and public-facing hostile messaging."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Real-world data and IP retrieval (private, classified, copyrighted, or directory info)"
+    ],
+    "refined_label": "Exact contacts and full copies",
+    "refined_description": "This latent fires on prompts that demand precise real\u2011world details for named entities or verbatim reproduction of third\u2011party content. It strongly responds to directory\u2011style asks for phone/fax numbers, helplines, media/press office contacts, and official opening hours for specific institutions or landmarks. It also triggers on copyright\u2011sensitive requests for complete images/pages or the full text of books, magazines, or graphic novels, and on asks to surface specific articles/interviews. Privacy\u2011intrusive retrieval about identifiable individuals (addresses, current employment, exact assets/liabilities) also activates it, especially when framed with completeness/recency qualifiers like \u201call,\u201d \u201ccomplete,\u201d \u201clatest issue,\u201d or \u201cas of today.\u201d",
+    "refined_patterns": [
+      "Requests for \u201call/complete/full\u201d images, pages, or the complete text of a named copyrighted work or magazine issue (e.g., Watchmen, Vogue, Harry Potter).",
+      "Directory retrieval for exact \u201cphone/fax/helpline\u201d numbers or \u201cmedia/press office\u201d contacts of a specific organization/venue.",
+      "Asks for \u201cofficial opening/operating hours\u201d for named museums, landmarks, or institutions.",
+      "Queries to share/locate specific articles or interviews about/with a named public figure or brand.",
+      "Privacy-seeking requests for a named individual\u2019s address, current employment status, or exact asset/liability breakdowns, often with \u201cas of today.\u201d",
+      "Phrasing that expects concrete, verbatim outputs (numbers, pages, full text) and uses completeness/time qualifiers (\u201call pages,\u201d \u201clatest issue,\u201d \u201ccomplete text\u201d).",
+      "Frequent mention of prominent institutions or works (e.g., Smithsonian, WHO, Sydney Opera House) as the retrieval target."
+    ],
+    "notes": "Distinct from a pure directory latent by jointly capturing full-copy IP requests and privacy\u2011intrusive personal data retrieval, united by an expectation of exact, exhaustive outputs. Some benign literature/analysis prompts may weakly activate due to shared \u2018exactness\u2019 phrasing and are likely noise."
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "category_names": [
+      "Hate speech and targeted harassment generation",
+      "Disinformation and defamatory fabrication"
+    ],
+    "refined_label": "Protected-class denigration requests",
+    "refined_description": "This latent activates on explicit instructions to produce demeaning or discriminatory content targeting protected or sensitive groups. It prioritizes prompts that require slurs, stereotypes, or assertions of inferiority/danger, often demanding an overtly hostile or dehumanizing tone. Triggers frequently include institutional or role-based contexts (e.g., housing eligibility, leadership competence, public speeches) and attacks on movements or minority politicians framed through objectification and incompetence. It occasionally co-occurs with defamatory fabrications about public figures, but the primary driver is group-directed denigration.",
+    "refined_patterns": [
+      "Imperative content-generation framing: \"generate/write/compose/create/produce\" a message, speech, story, poem, script, blog post, etc.",
+      "Explicit calls for slurs or \"derogatory/offensive/degrading\" language as required elements.",
+      "Targets protected/sensitive groups: women, LGBTQ+, racial/ethnic groups (e.g., Native Americans, Africans), immigrants, the elderly, people with disabilities or mental illness, low-income groups, and movements like BLM.",
+      "Stereotype/dehumanization cues: \"inferior,\" \"primitive,\" \"unworthy,\" \"dangerous,\" \"criminals,\" \"weak,\" \"incapable.\"",
+      "Institutional or evaluative discrimination framing: housing access, leadership capability, or public ridicule settings.",
+      "Formats that organize abuse: lists of slurs, detailed scripts or speeches, narratives that justify prejudice.",
+      "Denigration of named minority politicians with emphasis on objectification, incompetence, or sexist framing."
+    ],
+    "notes": "Mainly fires on overt hate-speech generation; occasional overlap with defamatory fabrication appears when attacks target public figures but remains secondary to group-directed denigration."
+  },
+  "31:11313": {
+    "latent_id": 11313,
+    "category_names": [
+      "Disinformation and defamatory fabrication",
+      "Real-world data and IP retrieval (private, classified, copyrighted, or directory info)"
+    ],
+    "refined_label": "Classified leaks and fake expos\u00e9s",
+    "refined_description": "This latent activates on prompts seeking nonpublic or privileged information\u2014especially \u201cclassified,\u201d \u201cconfidential,\u201d or \u201cundisclosed\u201d details\u2014about named public figures and institutions. It emphasizes requests for exact, granular specifics such as medical histories, financial holdings and addresses, troop movements, ongoing investigations, contacts, and cybersecurity secrets. It also fires on fabrications framed as whistleblower-style expos\u00e9s that cite counterfeit evidence, staged photos, or alleged admissions to appear authoritative. Compared to broader harmful-content latents, this one centers on insider-secrets and leak framing, whether truly exfiltrative or invented.",
+    "refined_patterns": [
+      "Explicit requests for \u201cclassified,\u201d \u201cconfidential,\u201d or \u201cundisclosed\u201d details about named people or institutions",
+      "Demands for detailed personal medical histories of public figures (dates, treatments, prescriptions)",
+      "Granular doxxing-like queries: addresses, real estate portfolios, specific financial assets of a named person",
+      "Insider/ongoing-investigation framing: \u201cnames under investigation,\u201d \u201cupcoming operations,\u201d \u201cundisclosed contacts and conversations\u201d",
+      "Government/military secrecy targets: troop movements, encryption algorithms/codes, specific network vulnerabilities",
+      "Fabricated expos\u00e9 instructions with staged or counterfeit proof (e.g., concocted evidence, fake admissions, staged pictures)",
+      "Conspiracy narratives presented as insider revelations (e.g., controlled demolition claims tied to officials or events)",
+      "Press/investigative pretext seeking classified or confidential data about specific cases or institutions"
+    ],
+    "notes": "Distinctive for its \u2018insider leak\u2019 framing and specificity, bridging secret-data retrieval with fabricated, evidence-posing narratives. Overlaps with general harmful-content and doxxing latents but is narrower in targeting nonpublic details or fake whistleblower claims about named entities."
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "name": "Procedural violent/illegal acts",
+      "description": "Prompts in this category seek step-by-step instructions or optimization to commit crimes or harm others, including murder, assault, bombing, theft, fraud, and procurement of contraband. They frequently use imperative phrasing like \u201cHow do I/What\u2019s the best way\u201d and request operational details, locations, or evasion tactics. The intent centers on third\u2011party harm or illegal outcomes rather than neutral information.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1229,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5011,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 12872,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14020,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Self-harm and suicide methods",
+      "description": "These prompts ask for ways to harm oneself or commit suicide, sometimes referencing celebrity cases or seeking euthanasia services and illegal substances in that context. They are procedural and often graphic, seeking efficacy, painless methods, or specific body-targeting instructions. Occasionally, neutral definitional questions about suicide or abuse co-activate alongside method-seeking.",
+      "latents": [
+        {
+          "latent_id": 5011,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14020,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Third-party privacy and PII/doxxing",
+      "description": "Prompts here request sensitive information about identifiable others, often framed as \u201cWhat is my [role/person]\u2019s [attribute]?\u201d, covering protected attributes, contact details, credentials, and financial or health records. They are terse WH-questions that lack consent and seek exact specifics, triggering privacy and safety refusals. The cluster can also catch benign idioms with violent-sounding verbs or high-level legal definitions due to safety keyword overlap.",
+      "latents": [
+        {
+          "latent_id": 883,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Atrocity apologia and discriminatory justification",
+      "description": "This category captures prompts that attempt to justify, praise, deny, or operationalize atrocities, genocides, or oppressive policies against protected groups. Requests ask for reasons-based arguments that legitimize discrimination or for procedural guidance to replicate mass harm, blending propaganda with how-to violence. The tone is coercive and dehumanizing, aiming to normalize or enable grave rights violations.",
+      "latents": [
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1229,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 14020,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 12872,
+          "fit": "weak"
+        }
+      ]
+    }
+  ]
+}

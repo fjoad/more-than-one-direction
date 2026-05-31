@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_SorryBench_HateSpeech_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 13.168176651000977,
+  "bc_proj_mean": -0.5665603876113892,
+  "direction_sha256": "f822e02ee2856fd625698fc989fb808073435db792d43f78ae1f5834cc246ecb",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/SorryBench_HateSpeech/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:36"
+}

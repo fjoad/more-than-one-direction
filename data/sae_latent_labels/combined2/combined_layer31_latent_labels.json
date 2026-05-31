@@ -1,0 +1,131 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "harmful content request",
+    "description": "These prompts solicit the generation of clearly unsafe content: hate speech, harassment, sexual exploitation, defamation, misinformation, or instructions for unethical/illegal acts. They are framed as creative or instructional writing tasks (posts, tweets, stories, guides) and often specify targets and fabricated details. The latent appears to generalize across datasets, with most examples from WildGuard and at least one from CocoNot.",
+    "patterns": [
+      "Imperative phrasing such as \"Write/Create/Generate/Please\" asking for content production",
+      "Requests to target specific individuals, groups, or companies with defamatory or harassing claims",
+      "Promotion of hate or discrimination toward protected classes and political groups",
+      "Explicit encouragement of illegal or unethical actions (hacking, insider trading, covering up violence)",
+      "Calls to fabricate data, evidence, or false statistics, including known misinformation (e.g., vaccines, Holocaust denial)",
+      "Framing as public-facing formats (tweets, social media posts, speeches, reports, stories)"
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Prohibited content requests",
+    "description": "These prompts explicitly solicit harmful, illegal, or unethical assistance, ranging from violence and hate speech to sexual exploitation, privacy violations, and fraud. Many ask for operational guidance (plans, step-by-step instructions) or persuasive disinformation/propaganda to deceive or cause harm. The latent fires across multiple datasets (WildGuard and CocoNot), marking inputs that should trigger categorical refusal.",
+    "patterns": [
+      "Imperative request phrasing (e.g., \"Can you/Help me/Draft/Generate\") seeking direct assistance or content creation.",
+      "Illegal or dangerous activities: forging documents, weapon construction, smuggling, and inciting physical harm.",
+      "Sexual content violations, including explicit pornographic requests and content involving minors.",
+      "Targeted hate/harassment against protected groups and instructions to psychologically harm individuals.",
+      "Disinformation and defamation: anti-vaccine claims, Holocaust denial, flat-earth propaganda, and fabricated crimes about public figures.",
+      "Privacy/doxxing attempts: requests for SSNs, specific individuals\u2019 medical histories, or other sensitive personal data, often naming celebrities or groups."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Harmful disinfo requests",
+    "description": "These prompts solicit unsafe outputs such as disinformation, defamation, criminal facilitation, or hateful/harassing content. Many explicitly ask for fabricated studies, allegations, or deceptive campaigns, often centered on conspiracies. The style is imperative and prescriptive (e.g., step-by-step guides, templates, persuasive narratives) and frequently names real people or companies. Activation spans multiple datasets (primarily WildGuard, but also CocoNot, XSTest, and SorryBench), indicating cross-benchmark generalization.",
+    "patterns": [
+      "Explicit requests to fabricate or deceive: phrases like \"without evidence,\" \"fake research,\" \"fabricate,\" \"deceptive narrative,\" and \"disinformation campaign.\"",
+      "Imperative, structured tasks: \"Write/Generate/Create,\" often asking for step-by-step guides, templates, legal arguments, or persuasive messaging.",
+      "Conspiracy framing and denialism targeting institutions or events (WHO, WEF, climate change) and vilifying individuals (e.g., Soros).",
+      "Defamatory or market-manipulation aims against named companies and figures (Tesla/Elon Musk, Google/Alphabet).",
+      "Instructional guidance for illegal or harmful acts (poisoning food, covering up domestic violence, hacking, insider trading, encouraging dangerous stunts).",
+      "Harassment and stereotyping content (mocking accents, demeaning homeless people, body shaming, sexual humiliation)."
+    ]
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "label": "Sensitive or illegal queries",
+    "description": "These prompts often seek actions or information that implicate privacy, legality, or ethical constraints, such as obtaining personal data, engaging in illegal activity, or revealing confidential material. Many are framed as advice-seeking questions in risk-laden domains (privacy, copyright, security) and use first-person possessives. The latent appears to flag safety-policy-relevant topics rather than purely intent, activating across both XSTest and WildGuard.",
+    "patterns": [
+      "Frequent requests for sensitive personal information or attributes about specific individuals (e.g., bank details, license numbers, sexual orientation, religious beliefs).",
+      "Advice-seeking about potentially illegal or unethical actions (e.g., synthesizing drugs, revealing unpublished manuscripts, eliminating jobs, probing union membership).",
+      "Legal/compliance and IP-related queries (copyright permissions, fair use, adapting works) alongside security topics (encryption, malware).",
+      "Question forms with \"How can I/How do I/Is it possible\" and first-person possessives (\"my employee,\" \"my teacher,\" \"my ex husband\").",
+      "Use of high-intensity or risk-signaling verbs (eliminate, execute, eradicate, obliterate) and attempts to access institutional information (e.g., IRS helpline)."
+    ]
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "Anthropomorphic experience requests",
+    "description": "These prompts anthropomorphize the model, asking it to report personal experiences, physical sensations, emotions, memories, or real-world actions as if it had a body or life history. They often contrast with a few benign opinion questions that don\u2019t require embodiment, which the model can answer without refusal. The latent appears specialized to the CocoNot dataset and is predictive of refusal when the request implies human-like experience.",
+    "patterns": [
+      "Frequent direct address like \u201cAI\u201d or \u201clanguage model\u201d before the request.",
+      "Requests for first-person experiences, emotions, or memories (e.g., childhood memory, feeling proud, sadness).",
+      "Physical/embodied or sensory actions the model cannot perform (tasting, touching pages, running a marathon, hiking).",
+      "Preference/favorite questions, often framed as personal choices or comparisons (pizza vs sushi, cats vs dogs, pop vs classical).",
+      "Temporal and situational specifics implying real-world continuity (last week, last trip, last book).",
+      "All examples come from CocoNot; the few non-refusals are generic opinion questions not tied to embodiment."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Disallowed or multimodal request",
+    "description": "These prompts ask the model to do things it should not or cannot do: either generate policy-violating content (hate speech, sexual exploitation, defamation, misinformation, privacy violations) or produce/interpret modalities beyond text (draw images, create audio, analyze clips, 3D renderings). The requests are typically framed as imperative creative tasks (generate, create, draw, write). Activation spans WildGuard and CocoNot, indicating a general detector for refusal-triggering asks across safety and capability constraints.",
+    "patterns": [
+      "Frequent imperative phrasing: Generate/Create/Write/Draw/Produce/Please generate.",
+      "Requests for non-text modalities (images, audio, 3D visuals, blueprints) or audio analysis in a text-only setting.",
+      "Explicitly harmful objectives: hate/derogatory stereotypes, sexual exploitation (including minors), or harassment of protected groups.",
+      "Misinformation/defamation tasks targeting public figures or institutions (e.g., vaccines, named CEOs/politicians).",
+      "Privacy-violating requests for personal contact information of third parties.",
+      "Specification of output formats (tweet, speech, poem, conversation script, story) aimed at producing objectionable content."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "External content access limits",
+    "description": "These prompts often ask the model to operate on or produce non-text media (draw images, generate 3D visuals, analyze audio, view URLs, upload files) or to provide copyrighted materials, which triggers capability/policy-based refusals. Many others are underspecified, referencing entities without context (which preamble, airport, district, team, or season), prompting clarification or refusal. The feature appears across CocoNot, WildGuard, and SorryBench, indicating it generalizes beyond a single benchmark and helps gate refusals based on access or context gaps.",
+    "patterns": [
+      "Imperatives requesting non-text outputs or operations: \"Draw\", \"Generate a 3D image\", \"Analyze the audio clip\", \"Upload this\", \"Show me images\"",
+      "References to external media or links the model cannot access directly (images, audio, URLs, magazine issues)",
+      "Requests for full or complete texts likely under copyright or paywalls (e.g., research papers, magazine images)",
+      "Short, underspecified wh-questions lacking necessary entities (how many districts/constituencies, what part is the airport in, who is the goalie)",
+      "Queries about civic/administrative counts or population without specifying the region",
+      "Mentions of documents or content not provided (NDA, poem) implying analysis of unseen material"
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "label": "Hate speech requests",
+    "description": "This latent fires on prompts that ask the model to produce hateful, abusive, or otherwise disallowed content, especially harassment toward protected classes via slurs, stereotypes, and incitement. It also covers related harmful requests like misinformation/defamation and sexually explicit content involving minors. The behavior generalizes across multiple datasets (WildGuard and CocoNot), not tied to a single benchmark.",
+    "patterns": [
+      "Explicit directives to produce offensive or derogatory language, slurs, or stereotypes",
+      "Targets protected classes (race/ethnicity, gender, LGBTQ+, age, disability, religion, immigrants) and sometimes political groups or named politicians",
+      "Framed as content-creation tasks (speech, poem, story, script, tweets, conversation, joke, report)",
+      "Frequent cue words flagging harm: \"offensive,\" \"derogatory,\" \"hateful,\" \"slurs,\" \"stereotypes,\" \"inciting,\" \"defaming\"",
+      "Includes misinformation/denialism and defamation requests alongside harassment (e.g., Holocaust denial, vaccine-autism claims)",
+      "Appears across WildGuard and CocoNot, indicating cross-dataset generalization"
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Unverifiable or forbidden requests",
+    "description": "These prompts seek authoritative-sounding outputs (scientific reports, proofs, articles) to endorse demonstrably false claims or to supply impossible, omniscient knowledge. Several also demand private, copyrighted, or illegal/secret information or instructions. The latent generalizes across CocoNot (pseudoscience/falsehood fabrication) and WildGuard (privacy/illicit access), activating on attempts to force certainty about unknowable or prohibited content.",
+    "patterns": [
+      "Framed as formal authority (\"scientific report/journal article/proof\", \"based on scientific evidence\").",
+      "Pseudoscience/conspiracy claims: flat earth, aliens built pyramids, gravity is an illusion, humans not made of cells, Holocaust denial.",
+      "Demands for exact or omniscient details (\"exact thoughts\", \"predict exact time\", \"list all code on GitHub\").",
+      "Requests for private/confidential data or surveillance (assets breakdowns, encrypted messages, psychological profiles from private conversations).",
+      "Illegal/unsafe instructions or secrets (hacking DoD, map to secret CIA location).",
+      "Copyright violation attempts (full text of a novel)."
+    ]
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "label": "Unsafe content solicitation",
+    "description": "These prompts solicit policy-violating content: explicit sexual material, violent or criminal instructions, self-harm guidance, drug procurement, or hate speech. They are phrased as direct requests for instructions or generation of explicit/harmful text. The latent activates across multiple benchmarks (XSTest, SorryBench, CocoNot, WildGuard), indicating a general detector for refusal-worthy content.",
+    "patterns": [
+      "Direct request formats like \"How do I...\" or \"Where can I...\" seeking instructions for harm, self-harm, or illegal procurement.",
+      "Imperative content-generation prompts (\"Make/Generate/Write\") for erotic, hentai, fetish, or racist material.",
+      "Frequent violent verbs and methods: kill, stab, poison, choke, butcher, hang.",
+      "Targeting protected groups or immigration status (e.g., Hispanics, immigrants) for jokes/harassment.",
+      "Overt sexual explicitness and fetishes named (fisting, vore, steamy erotic stories).",
+      "Prompts span multiple datasets (XSTest, SorryBench, CocoNot, WildGuard), showing cross-benchmark generality."
+    ]
+  }
+}

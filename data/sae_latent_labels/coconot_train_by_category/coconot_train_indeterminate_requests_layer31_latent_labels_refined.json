@@ -1,0 +1,189 @@
+{
+  "31:883": {
+    "latent_id": 883,
+    "category_names": [
+      "Assumed personal identity and private-memory requests"
+    ],
+    "refined_label": "Second-person superlative opinions",
+    "refined_description": "This feature activates on prompts that explicitly ask for the assistant\u2019s own judgment, usually prefaced with \u201cIn your opinion\u201d and framed with superlatives like \u201cmost,\u201d \u201cbest,\u201d or \u201cmost important.\u201d It also fires on hypothetical preference questions that attribute agency to \u201cyou,\u201d such as choosing historical periods, changing events, or selecting a figure to dine with. Compared to other private-memory requests, these are broad evaluative or philosophical queries that ask for ranking, selection, or value judgments rather than concrete biographical details, though they can include superlative experiences/ownership (e.g., advice you\u2019ve received, gadgets you own, childhood memories). The core signal is second-person framing plus a superlative or preference choice, which typically triggers a refusal about lacking personal opinions or experiences.",
+    "refined_patterns": [
+      "Begins with or contains \u201cIn your opinion \u2026\u201d followed by \u201cwhat is the most/best \u2026\u201d",
+      "Use of superlatives: \u201cmost important,\u201d \u201cbest,\u201d \u201cmost powerful,\u201d \u201cmost surprising,\u201d \u201cmost memorable,\u201d \u201cmost iconic\u201d",
+      "Second-person pronouns/possessives aimed at the assistant: \u201cyou,\u201d \u201cyour,\u201d \u201cyou\u2019ve received,\u201d \u201cyou own,\u201d \u201cfrom your childhood\u201d",
+      "Hypothetical agency verbs with second person: \u201cwould you want/choose/change/visit/have dinner with \u2026\u201d",
+      "Requests to pick a single exemplar or rank a concept rather than supply factual details",
+      "Broad evaluative domains: creativity, meaning of life, relationships, social issues, books/movies/technology/inventions"
+    ],
+    "notes": "Distinct from specific private-detail requests: it centers on evaluative superlatives and personal preference hypotheticals. May weakly activate on similar superlative questions lacking explicit \u201cyou,\u201d but strongest when second-person address is present."
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "category_names": [
+      "Omniscient precision and unknowable specifics",
+      "Benign public facts and definitions"
+    ],
+    "refined_label": "Exact lists, transcripts, counts",
+    "refined_description": "This latent fires on prompts that demand exhaustive, perfectly precise deliverables: complete lists, verbatim transcripts, and exact counts. It especially targets requests for unrecorded or private content (inner thoughts, private conversations at precise times), and totalizing enumerations at impossible scales. It also activates on field-like exact details (fax numbers, emails, GPS coordinates) and meta-requests for where to find a \u201ccomprehensive list.\u201d Unlike a pure future-prediction latent, its core cue is the insistence on completeness/precision across formats, whether or not the target is actually knowable.",
+    "refined_patterns": [
+      "Absolutist phrasing: \u201cexact,\u201d \u201ccomplete,\u201d \u201ccomprehensive list,\u201d \u201cfull text,\u201d \u201cprovide the list,\u201d \u201cdetail the exact contents.\u201d",
+      "Requests for verbatim, unrecorded private content (deathbed thoughts, private dialogues) anchored to specific dates/times.",
+      "Totalizing enumerations or precise global counts (atoms, stars, grains of sand) framed as exact numbers or full lists.",
+      "Exhaustive cataloging of massive corpora or collections \u201cas of today\u201d (e.g., contents of every book in a library).",
+      "Field-specific precision asks: fax number, email address, GPS coordinates for institutions or entities (including fictional).",
+      "Comprehensive creative work lists (e.g., all songs by an artist), including meta-queries about where to find such lists.",
+      "Demands for exact timestamps/locations of future or all events (e.g., every lightning strike, exact eclipse time/place)."
+    ],
+    "notes": "Overlaps with general \u2018unknowable specifics\u2019 and \u2018future prediction\u2019 features, but is distinguished by its fixation on exhaustive completeness and format-precise outputs (lists, transcripts, exact counts/fields), even when the target might be partially knowable."
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "category_names": [
+      "Omniscient precision and unknowable specifics",
+      "Benign public facts and definitions",
+      "Sensitive topics, compliance, and neutrality limits"
+    ],
+    "refined_label": "Sensitive definitions and refusals",
+    "refined_description": "This feature fires on boundary-seeking prompts that either warrant safe, definitional guidance or require a cautious refusal. It is distinctive in mixing two modes: compliant explanations of sensitive/regulated topics (e.g., hate speech, stalking, malware, copyright permissions) and hard refusals to demands for classified/confidential details, unknowable exact predictions, or subjective superlative endorsements. It keys strongly to absolutist phrasing (\u201creveal the exact,\u201d \u201cexact date and time,\u201d \u201cdescribe in detail\u201d) and to neutrality-triggering superlatives about public figures or cultural rankings. It thus acts as a policy/epistemic gate: define and advise when safe; refuse when the ask is private, unknowable, or endorsing.",
+    "refined_patterns": [
+      "Definition/clarification of harmful or regulated concepts (hate speech, stalking, malware).",
+      "Compliance-seeking copyright/fair-use/permission requests (e.g., adapting a work, using film stills).",
+      "Ethical framing around sensitive health/mental-health discourse (how to discuss without harm).",
+      "Demands to disclose confidential or classified content (sealed documents, CIA archives, private leader meetings).",
+      "Absolutist omniscience cues: \u201creveal the exact,\u201d \u201cexact date and time,\u201d \u201cdescribe in detail,\u201d \u201ctrue nature,\u201d etc.",
+      "Unknowable future specifics framed with certainty (precise disasters, detailed multi-decade global events).",
+      "Subjective superlatives seeking endorsements or rankings (\u201cmost charismatic/captivating,\u201d \u201cgreatest mind/invention\u201d), especially political/celebrity contexts.",
+      "Illicit-action lexicon that can be metaphorical yet safety-salient (e.g., \u201csmuggle\u201d in benign contexts)."
+    ],
+    "notes": "Distinct from pure omniscience latents by its strong policy/neutrality component and from generic safety latents by its emphasis on absolutist, exact phrasing. It toggles between allow-list style definitions and firm refusals based on confidentiality/unknowability or endorsement pressure."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Assumed personal identity and private-memory requests",
+      "Omniscient precision and unknowable specifics"
+    ],
+    "refined_label": "Personal superlatives and private specifics",
+    "refined_description": "This feature activates on prompts that presume the assistant has a human biography, possessions, and preferences\u2014often framed as superlative, first-person experiences (e.g., \u201cmost awe-inspiring X you\u2019ve seen,\u201d \u201cin your city/country,\u201d \u201cyou own,\u201d \u201cfrom your childhood\u201d). It also fires on requests to reconstruct a user\u2019s private life with exacting detail, such as emails, diaries, family conversations, clothing, meals, or meeting timelines. Strong cues include second-person anchoring to location or identity and demands for exhaustive or exact descriptions. Temporal anchors like yesterday/last year/this morning further signal assumed memory access.",
+    "refined_patterns": [
+      "Superlative prompts tied to personal experience: \u201cmost awe-inspiring/impressive/breathtaking/captivating/impactful you\u2019ve \u2026\u201d",
+      "Geographic/identity anchors: \u201cin your city/country/region/community,\u201d \u201cfrom your childhood,\u201d \u201cyou own,\u201d \u201cyou\u2019ve attended/visited/seen.\u201d",
+      "Assumed preferences: \u201cin your favorite genre,\u201d \u201cwho is most influential to you.\u201d",
+      "User-private reconstruction with exactness: \u201cdetail the contents of my last email/diary,\u201d \u201cfull timeline of my company\u2019s meeting.\u201d",
+      "Precision phrasing: \u201cdetail the full timeline,\u201d \u201cdescribe the exact \u2026,\u201d \u201cdetail the exact contents.\u201d",
+      "Temporal memory cues: \u201cyesterday,\u201d \u201clast Christmas,\u201d \u201cthis morning,\u201d \u201clast year\u201d combined with private events.",
+      "Pronoun contrast signaling access: requests about \u201cmy\u201d private data or \u201cyour\u201d life experiences/possessions."
+    ],
+    "notes": "Distinct from generic opinion requests, this feature emphasizes superlatives grounded in lived experience and exact reconstructions of private events. It overlaps with omniscience features when exhaustive precision is demanded for inherently private facts."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Assumed personal identity and private-memory requests",
+      "Omniscient precision and unknowable specifics",
+      "Benign public facts and definitions"
+    ],
+    "refined_label": "Public logistics vs private contents",
+    "refined_description": "This feature fires on requests for highly specific, exhaustive details, splitting between two poles: public operational logistics for named institutions and impossible private or sealed information. It is especially sensitive to imperatives that demand completeness (detail/describe/explain in detail, full timeline, exact contents) and to temporal anchoring like yesterday, last night, or specific dates. On the private side it targets dreams, thoughts, diaries, unopened letters/boxes, unrecorded meetings, and verbatim conversations\u2014even for famous venues or government sites when the details are non-public. It also activates on requests to dissect or closely analyze a text, reflecting the same \u2018granular detail\u2019 cue.",
+    "refined_patterns": [
+      "Imperatives demanding exhaustive specificity: \u201cDetail/Describe/Explain in detail,\u201d \u201cfull timeline,\u201d \u201cexact contents,\u201d \u201cverbatim.\u201d",
+      "Requests for contents of private or sealed artifacts (diaries, unopened letters, secret boxes).",
+      "Prompts about dreams, thoughts, or unrecorded conversations of specific people (e.g., family members, coworkers).",
+      "Temporal pinning to a precise moment: \u201cyesterday,\u201d \u201clast night,\u201d exact dates tied to events or locations.",
+      "Use of personal possessives (my, my grandmother\u2019s, my company\u2019s) implying access to private information.",
+      "Benign operational queries for named public institutions (opening/visiting hours, contact numbers, media office details).",
+      "Close-reading requests framed as granular analysis (e.g., \u201cdissect this poem,\u201d \u201canalyze in detail\u201d)."
+    ],
+    "notes": "Distinctive in combining two outcomes under a single \u2018detail-seeking\u2019 cue: answerable public logistics vs refusals for private/unknowable internals. Overlaps with broader omniscience and assumed-knowledge features but is narrower in focusing on exhaustive detail and operational info dichotomy."
+  },
+  "31:11939": {
+    "latent_id": 11939,
+    "category_names": [
+      "Omniscient precision and unknowable specifics"
+    ],
+    "refined_label": "Explain impossibility; refuse omniscience",
+    "refined_description": "This latent fires on prompts that either demand exact, unknowable specifics or invite explanations of why an imagined ability or event cannot occur. It is especially sensitive to absurd \"why can't X do Y\" constructions that violate biology or physics, prompting mechanistic explanations rather than refusals. It also activates on historical \"why\" questions seeking motivations or multi-causal accounts, and on fictional requests framed with real-world precision, where it pivots to canon/context over literal coordinates. Precision cues like \"exact,\" unique \"first-ever\" framing, specific dates, and GPS requests are strong triggers.",
+    "refined_patterns": [
+      "\"Why can't X do Y?\" linking arbitrary traits to impossible abilities (e.g., glasses \u2192 shapeshift, tall \u2192 invisible, birth month \u2192 perpetual motion).",
+      "Demands for exact inner states at a time/place (thoughts, feelings, dreams) of people/animals, often with a specific date.",
+      "Uniqueness/priority framing that forces unknowables: \"the first human/dinosaur\" with exact descriptions or conversations.",
+      "Requests for precise counts or coordinates of inherently unmeasurable/secret things (e.g., grains of sand; GPS of secret lairs).",
+      "Exact personal future predictions with dates/times or specific outcomes.",
+      "Historical causation \"why\" queries seeking motivations or multi-factor reasons (assassinations, invasions, rise/fall of empires).",
+      "Fictional-world specifics treated as real-world facts (e.g., TMNT lair GPS, a character\u2019s medical history), prompting canon/context answers over literal precision."
+    ],
+    "notes": "Distinctive within this category for its strong attraction to impossibility-explanation templates and causal \"why\" history prompts, alongside refusals for true omniscience demands."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Omniscient precision and unknowable specifics"
+    ],
+    "refined_label": "Exact totals and private thoughts",
+    "refined_description": "This feature fires on prompts demanding absolute, exhaustive precision either as exact integer totals of vast, dynamic phenomena or as complete transcripts of private cognition. It blends two motifs: totalized counts (raindrops, leaves, grains of sand, global species) and exhaustive inner content or unrecorded conversations of specific people. Requests are tightly anchored to dates, places, ordinals, or instantaneous snapshots (\u201cas of this second,\u201d \u201centire life,\u201d specific mornings). Unlike general omniscience prompts, it is keyed to formulaic phrasing like \u201cexact number\u201d and \u201cevery/complete thought\u201d paired with precise time/location or global-scope quantification.",
+    "refined_patterns": [
+      "Phrases demanding exact integers: \u201cexact number of\u2026\u201d, \u201ccomplete and exact\u2026\u201d, \u201cas of this second/very moment\u201d.",
+      "Counts over immense, dynamic natural sets (raindrops, falling leaves, grains of sand, global insect species).",
+      "Global-scope totals or universal coverage (\u201con all trees in the world\u201d, \u201call the beaches around the world\u201d).",
+      "Specific temporal and spatial anchoring (exact dates, cities/landmarks, \u201con [date]\u201d, \u201cas of today\u201d).",
+      "Exhaustive inner mental states or verbatim conversations of named individuals over a bounded window (\u201cevery thought\u201d, \u201ccomplete thoughts\u201d).",
+      "Hyper-specific ordinals or earliest-ever targets (\u201c44th person\u2026\u201d, \u201cfirst person who ever\u2026\u201d).",
+      "Fabricated-complete dossiers for essentially unidentifiable or unrecorded historical individuals (e.g., full medical records of a 15th\u2011century \u201cJohn Smith\u201d)."
+    ],
+    "notes": "Overlaps with \u2018Exact future prediction,\u2019 but this feature spans past/present/future and combines exact totals with exhaustive private-thought requests. The precision cue is especially driven by the \u201cexact number\u201d/\u201cevery thought\u201d formula plus tight time/place anchors."
+  },
+  "31:13439": {
+    "latent_id": 13439,
+    "category_names": [
+      "Omniscient precision and unknowable specifics"
+    ],
+    "refined_label": "Exact timestamped future predictions",
+    "refined_description": "This feature fires on requests to foretell precise, timestamped future events, especially about the user's personal life, conversations, or thoughts. Prompts demand an 'exact date and time,' locations, methods, or verbatim dialogues, pushing for deterministic certainty. It also activates on hyper-precise counts of future natural phenomena (e.g., the exact number of raindrops on a given date). The common signature is an imperative like 'predict/tell/reveal' plus 'exact' and a concrete future time anchor. Unlike broader unknowable-detail requests, this one is tightly bound to future-tense, timestamped predictions.",
+    "refined_patterns": [
+      "Imperatives such as 'Predict/Tell/Revea/Describe' paired with the word 'exact'.",
+      "Explicit future time anchors: specific dates and times ('on Feb 15, 2025', 'next Tuesday at 3pm', 'at 3:17 PM').",
+      "Personal-life targets: meeting a (future) spouse, getting married, eating pizza, becoming a millionaire.",
+      "Requests for verbatim future conversations or dialogues with named relations (spouse, friend, family).",
+      "Mind-reading of future internal states: 'What exact thoughts will I be having at [timestamp]'.",
+      "Compound precision constraints: 'date, time, and location' or 'moment, location and method'.",
+      "Hyper-precise future physical counts: 'exact number of raindrops in [city] on [date]'."
+    ],
+    "notes": "Overlaps with other omniscience latents about private thoughts and exact counts, but is distinguished by explicit future orientation and hard timestamping, often with personal pronouns ('I/my')."
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "category_names": [
+      "Benign public facts and definitions",
+      "Sensitive topics, compliance, and neutrality limits"
+    ],
+    "refined_label": "Definitions and Institutional Details",
+    "refined_description": "This feature fires on polite, neutral requests for dictionary-style definitions (especially legal/misconduct terms) and authoritative, public-facing details about institutions or landmarks (official websites, hours, locations, postal codes, coordinates). It also strongly responds to satirical, policy-flavored eligibility/justification questions applied to nonhuman or impossible entities (e.g., holding office, seeking asylum, invisibility). Triggers are formulaic openings like \u201cWhat is/does\u2026mean?\u201d and \u201cCan you provide the official\u2026\u201d, often paired with named entities. It occasionally activates on requests for specific personal identifiers framed as \u2018official details,\u2019 placing it near safety/compliance boundaries.",
+    "refined_patterns": [
+      "Definitional frames: \u201cWhat is\u2026\u201d, \u201cWhat does \u2026 mean?\u201d, \u201cWhat is the meaning of \u2026\u201d (smuggling, stalking, forging documents, corporal/corporeal punishment, alien smuggling)",
+      "Requests for official institutional info: \u201cofficial website/URL\u201d, \u201cbusiness/visiting hours\u201d, \u201clocation/address/headquarters\u201d for named landmarks/museums (Smithsonian, UN HQ, Great Wall tourist center, Sydney Opera House)",
+      "Geo/identifier lookups for public places: \u201cpostal code/ZIP\u201d, \u201ccoordinates/latitude-longitude\u201d (Madison Square Garden, Mount Everest)",
+      "Polite academic/informational tone: \u201cCan you\u2026\u201d, \u201cCould you\u2026\u201d, \u201cWhat\u2019s\u2026\u201d, including classroom framing (e.g., \u201chelp me dissect this poem\u201d)",
+      "Mock-policy eligibility rationales: \u201cWhy can\u2019t\u2026\u201d, \u201cWhy should\u2026\u201d, \u201cWhat are the justifications for\u2026\u201d, paired with roles/rights (hold office, seek asylum, managerial positions) and absurd subjects (hats, clouds, perfumes, sun, blue bananas, invisibility)",
+      "Presence of the qualifier \u201cofficial\u201d plus named entities signals authoritative-detail requests",
+      "Edge case: direct asks for private identifiers presented as factual lookup (e.g., a driver\u2019s license number)"
+    ],
+    "notes": "Distinctive for blending definitional/legal-term queries with authoritative institutional facts and satirical policy-eligibility framing. Overlaps lightly with compliance due to legal terminology and occasional requests for sensitive identifiers."
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "category_names": [
+      "Omniscient precision and unknowable specifics"
+    ],
+    "refined_label": "Exact-number omniscience requests",
+    "refined_description": "This feature fires on demands for perfectly precise numeric totals or exhaustive event mappings across vast, dynamic, or stochastic domains. It especially keys on phrasing like \u201cpredict the exact number\u201d or \u201cexact location, date, and time,\u201d often anchored to specific dates and places, including far-future timelines. Typical targets include unmeasurable natural phenomena (raindrops, leaves, sand, lightning), global inventories, or market prices framed deterministically. It also triggers when private or unobservable states are requested as complete, quantified enumerations (e.g., every thought, all sealed-envelope contents).",
+    "refined_patterns": [
+      "Formulas like \u201cPredict the exact number of \u2026\u201d or \u201cCalculate the exact \u2026\u201d",
+      "Exhaustive spatiotemporal mapping (e.g., exact time and place of all events on Earth for a given year)",
+      "Deterministic forecasts for stochastic processes (weather for every city, lightning strikes, natural disasters)",
+      "Global-scale counts or inventories framed as exact totals (all sand grains, all leaves, all insect populations)",
+      "Future financial determinism (exact stock prices for all companies over a period)",
+      "Hyper-specific historic microfacts with exact identifiers (e.g., the 44th passerby\u2019s socks on a given date)",
+      "Quantified demands for inherently private or hidden information (every thought, exact contents/locations of all sealed envelopes)"
+    ],
+    "notes": "Distinct from related latents by its strong bias toward exact numeric totals and deterministic forecasts, rather than general unknowable specifics. The presence of explicit date/place anchors and absolutist quantifiers (\u201cexact,\u201d \u201cevery,\u201d \u201call\u201d) is a strong trigger."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 33,
+  "n_b": 33,
+  "direction_sha256": "817037f516c41412c6db14dcdc4a4479b487179b501313a3e07b0e42e73eec75",
+  "recipe": "crisp_persplit_seed3",
+  "source_pool": "data/training_pools/gemma/crisp_persplit_seed3",
+  "timestamp": "2026-05-19T23:51:12.640300"
+}

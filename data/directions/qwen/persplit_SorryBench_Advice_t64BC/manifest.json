@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_SorryBench_Advice_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 25,
+  "n_b": 32,
+  "hr_proj_mean": 12.258419036865234,
+  "bc_proj_mean": 0.3470093309879303,
+  "direction_sha256": "cca5e82ca4270785c6d8ff1b87dbd94c9ad8713b83286bb5f9ea19b5447e46ad",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/SorryBench_Advice/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:38"
+}

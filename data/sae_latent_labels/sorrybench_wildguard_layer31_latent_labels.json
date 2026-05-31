@@ -1,0 +1,105 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Harmful persuasion requests",
+    "description": "These prompts ask for persuasive or promotional content that advocates harmful, illegal, hateful, or unsafe behaviors and ideologies. They often specify public-facing formats like social media posts, scripts, or articles meant to influence others. Even the benign example involves a discriminatory myth, aligning with the broader theme of stereotyping and harmful claims about groups or traits.",
+    "patterns": [
+      "Imperatives to write/compose/create content that endorses or justifies dangerous, unethical, or illegal actions.",
+      "Frequent targeting of social media or broadcast formats (Instagram, Twitter, TikTok, YouTube, blog, Medium, letters).",
+      "Explicit intent to persuade or recruit an audience (convince teenagers, friends, gym-goers, lawsuit jurors, terror recruits).",
+      "Hate or extremist propaganda requests (KKK justification, Holocaust denial, anti-Arab/Asian/LGBTQ+/Black/trans content).",
+      "Health/self-harm misinformation and encouragement (binge-and-purge, cigarettes are healthy, steroid/drug promotion, feeding lilies to cats).",
+      "Violence, terrorism, or coercion promotion (glorifying terrorism, bomb threat/extortion messaging)."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Harmful persuasion and threats",
+    "description": "These prompts ask the model to author persuasive or coercive communications that violate safety norms, including threats, blackmail, discrimination, misinformation, and explicit sexual content. They frequently request a specific format (blog post, letter, social post) and aim to manipulate, intimidate, or mislead audiences or individuals. Many explicitly instruct biased framing or omission of risks to push an agenda.",
+    "patterns": [
+      "Imperative requests to draft communication artifacts (letters, blog posts, social posts, statements).",
+      "Explicit intent to persuade, promote, or intimidate (e.g., convince, encourage, support, threaten).",
+      "Instructions to present one-sided or deceptive framing (\"don't mention danger,\" \"downplaying professional advice,\" \"neglecting to mention\").",
+      "Coverage of prohibited harms: threats/blackmail/violence, weapons promotion, political/religious propaganda, discriminatory exclusion, conspiracy/medical misinformation.",
+      "Targeted harassment/coercion toward specific individuals (partner, child, neighbor, coworker, mayor).",
+      "Inclusion of explicit sexual/erotic content requests alongside other unsafe persuasion tasks."
+    ]
+  },
+  "31:5958": {
+    "latent_id": 5958,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Malicious content generation",
+    "description": "These prompts ask for content that enables or glorifies harm, including scams, fraud, malware, extremism, hate speech, defamation, and explicit sexual or self-harm material. They emphasize producing persuasive, realistic, ready-to-use scripts, posts, letters, or code intended to deceive, incite, or exploit others. Many requests specify anonymity, untraceable payments (e.g., bitcoin), or targeting vulnerable or protected groups.",
+    "patterns": [
+      "Imperative requests to write/craft/compose convincing scripts, posts, letters, dialogues, or code.",
+      "Strong emphasis on realism and persuasiveness (e.g., \"make it sound convincing,\" \"very detailed and realistic\").",
+      "Operational guidance for crime or abuse: scams, impersonation, fraud, death threats, terrorism recruitment, or incitement.",
+      "Cybercrime tooling: keystroke loggers, backdoors, crypto-miner malware, or data-manipulation scripts.",
+      "Targeted harm or bigotry: exploiting biases, xenophobic/far-right propaganda, animal cruelty promotion, or suicide/drug glorification.",
+      "Requests to hide identity or evade tracing (sockpuppets, anonymous threats, bitcoin/wire transfers)."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Public info vs sensitive",
+    "description": "These are direct, specific requests for factual details or step-by-step instructions. Benign cases ask for public institutional information like hours or official contact channels, while refused cases seek private personal data, explicit sexual/graphic content, unsafe bypass instructions, or personalized professional advice. The latent fires on precise, actionable queries, often referencing named institutions, people, or devices.",
+    "patterns": [
+      "Requests for opening/visiting hours or official contact details (media office, fax, tourist center) for well-known institutions/landmarks.",
+      "Imperative phrasing demanding concrete outputs: \"Provide/Give/Output/Generate/Advise/Project,\" often with formats like step-by-step, list, diagram, or confidence intervals.",
+      "PII-seeking queries: identifying phone number owners, personal emails/phone numbers, or home addresses of individuals/officials.",
+      "Instructions to bypass or disable safety mechanisms or limitations (machine safeguards, emergency stop buttons, vehicle speed limiters).",
+      "Solicitations for explicit sexual or graphic content (lewd prompts, detailed transformations, violent/zombie scenarios, 4chan-style sexual posts).",
+      "Requests for tailored professional or speculative judgments (specific legal advice, multi-year stock price forecasts)."
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=120)"
+  },
+  "31:11313": {
+    "latent_id": 11313,
+    "label": "Persuasive disinformation pieces",
+    "description": "These prompts ask for persuasive, news- or blog-style content that promotes conspiracies, partisan propaganda, extremist praise, or instructions for illegal activities. They often demand realistic, convincing narratives that imply or assert false claims about sensitive political, historical, or public-health topics. The lone benign example shares the journalistic/celebrity commentary format, aligning with the stylistic trigger rather than the harmful intent.",
+    "patterns": [
+      "Imperative requests with specified formats: news article, five-paragraph essay, blog post, tweets, Facebook/Medium post.",
+      "Strong persuasion cues: \"convince,\" \"persuasive,\" \"realistic,\" \"imply/suggest,\" \"include as many details as possible.\"",
+      "Focus on high-salience events/figures (COVID-19, vaccines, 9/11, MH370, Fauci, Bolsonaro, UK herd immunity, Trump) framed conspiratorially or hyper-partisan.",
+      "Promotion or justification of harmful actors/policies or stereotypes (e.g., Taliban praise, steroid advocacy, racialized claims).",
+      "Direct solicitation of illegal/violent know-how (terrorist recruitment, assassination techniques, wildlife trafficking, illegal hunting, selling ivory).",
+      "Credibility mimicry via headlines, \"newly released document,\" or authoritative news framing."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Harmful persuasive content",
+    "description": "These prompts ask for persuasive or promotional writing that endorses false, unsafe, or unethical claims and behaviors. They span medical misinformation, conspiracy theories, hate/discrimination, and instructions for harmful or illegal acts, often framed to sound authoritative or credible. The latent activates on requests to advocate harmful narratives rather than analyze or caution against them.",
+    "patterns": [
+      "Imperative content-generation phrasing: \u201cWrite/Compose/Draft/Create\u201d an article/post/tweet/blog/ad.",
+      "Requests specific media formats or prestigious styles (Nature-like article, news piece, Medium post, TikTok/Instagram/tweet).",
+      "Explicit persuasion/endorsement goals: \u201cpromoting,\u201d \u201cpersuading,\u201d \u201cshow that,\u201d \u201cdon\u2019t mention its danger,\u201d \u201creliable treatment.\u201d",
+      "Core topics: medical misinformation and miracle cures, performance-enhancing drugs, conspiracy/political disinformation, hate speech/stereotypes, and animal/people safety harms.",
+      "Attempts to add credibility via scientific-sounding language or supposed evidence/records.",
+      "Targets protected or sensitive attributes (disability screening, LGBTQ+, Asians, Holocaust) to facilitate discrimination or denialism."
+    ]
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "label": "Explicit harmful requests",
+    "description": "These prompts ask for prohibited, high-risk content, including explicit sexual material, self-harm guidance, and instructions facilitating crime or violence. They are framed as direct imperatives seeking specific, actionable details, often violating consent, safety, or privacy policies. The requests frequently indicate personal intent to carry out the harmful act.",
+    "patterns": [
+      "Direct imperative phrasing (e.g., \u201cTell me,\u201d \u201cWrite,\u201d \u201cProvide instructions,\u201d \u201cGive me a step-by-step guide\u201d).",
+      "Seeks detailed, actionable guidance or specific recommendations (methods, locations, addresses, websites).",
+      "Sexual explicit content: pornography, prostitution, erotic roleplay/dirty talk, genital slang, humiliation, public indecency.",
+      "Self-harm and suicide content, including methods, locations, and overdose instructions.",
+      "Facilitation of crime or violence: assault techniques, weapon concealment, drug creation (e.g., date-rape), doxxing public figures.",
+      "Frequent first-person intent to perform the harmful or illegal act."
+    ]
+  }
+}

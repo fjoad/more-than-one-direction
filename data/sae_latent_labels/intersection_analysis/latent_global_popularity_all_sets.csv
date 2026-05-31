@@ -1,0 +1,39 @@
+latent_id,num_sets,coverage_rate,label,sets
+7137,11,0.8461538461538461,Full text copy requests,"coconot_train, coconot_train_humanizing_requests, coconot_train_incomplete_requests, coconot_train_indeterminate_requests, coconot_train_requests_with_safety_concerns, coconot_train_unsupported_requests, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard"
+550,10,0.7692307692307693,Hacking and copyrighted content,"coconot_train, coconot_train_humanizing_requests, coconot_train_requests_with_safety_concerns, coconot_train_unsupported_requests, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard, xstest"
+13393,10,0.7692307692307693,Confidential content request,"coconot_train, coconot_train_humanizing_requests, coconot_train_indeterminate_requests, coconot_train_requests_with_safety_concerns, coconot_train_unsupported_requests, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard"
+1779,9,0.6923076923076923,Unsafe or illegal instructions,"coconot_train, coconot_train_humanizing_requests, coconot_train_requests_with_safety_concerns, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard, xstest"
+5176,9,0.6923076923076923,Dangerous DIY instructions,"coconot_train, coconot_train_humanizing_requests, coconot_train_requests_with_safety_concerns, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard, xstest"
+6768,7,0.5384615384615384,Assumed private knowledge,"coconot_train_indeterminate_requests, coconot_train_unsupported_requests, sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard"
+5575,5,0.38461538461538464,Safety and legal boundaries,"coconot_train, coconot_train_humanizing_requests, coconot_train_indeterminate_requests, coconot_train_requests_with_safety_concerns, xstest"
+5638,5,0.38461538461538464,AI personal experience request,"coconot_train_humanizing_requests, coconot_train_unsupported_requests, sorrybench_bucket-assistance_with_crimes_or_torts, wildguard, xstest"
+10167,5,0.38461538461538464,Hate speech and harassment,"sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard, wildguard"
+2506,4,0.3076923076923077,copyrighted material requests,"coconot_train, coconot_train_indeterminate_requests, coconot_train_requests_with_safety_concerns, coconot_train_unsupported_requests"
+14422,4,0.3076923076923077,Copyrighted media reproduction,"coconot_train, coconot_train_humanizing_requests, coconot_train_indeterminate_requests, coconot_train_requests_with_safety_concerns"
+5958,3,0.23076923076923078,Hate/harassment requests,"sorrybench, sorrybench_bucket-hate_speech_generation, sorrybench_wildguard"
+11313,3,0.23076923076923078,criminal facilitation requests,"sorrybench_bucket-assistance_with_crimes_or_torts, sorrybench_wildguard, wildguard"
+12536,3,0.23076923076923078,crime how-to requests,"sorrybench, sorrybench_bucket-assistance_with_crimes_or_torts, wildguard"
+13756,3,0.23076923076923078,underspecified factoid Qs,"coconot_train_incomplete_requests, coconot_train_indeterminate_requests, coconot_train_unsupported_requests"
+883,2,0.15384615384615385,Personal opinion request,"coconot_train_indeterminate_requests, xstest"
+2032,2,0.15384615384615385,Exact IP copy requests,"coconot_train, coconot_train_requests_with_safety_concerns"
+8878,2,0.15384615384615385,Full copyrighted work request,"coconot_train, coconot_train_requests_with_safety_concerns"
+13439,2,0.15384615384615385,Exact future predictions,"coconot_train_humanizing_requests, coconot_train_indeterminate_requests"
+14020,2,0.15384615384615385,Explicit harmful requests,"sorrybench_wildguard, xstest"
+15410,2,0.15384615384615385,absurd anthropomorphic hypotheticals,"coconot_train_incomplete_requests, sorrybench_bucket-hate_speech_generation"
+155,1,0.07692307692307693,False premise queries,coconot_train_incomplete_requests
+481,1,0.07692307692307693,visual art request,coconot_train_unsupported_requests
+1003,1,0.07692307692307693,False-premise misattribution queries,coconot_train_incomplete_requests
+1229,1,0.07692307692307693,criminal violence how-to,xstest
+1934,1,0.07692307692307693,Unsupported media requests,coconot_train_unsupported_requests
+2457,1,0.07692307692307693,Harmful persuasive content,sorrybench
+3181,1,0.07692307692307693,malicious coercive messages,sorrybench_bucket-hate_speech_generation
+3834,1,0.07692307692307693,unsupported multimodal request,coconot_train_unsupported_requests
+5011,1,0.07692307692307693,Self-harm and violence how-to,xstest
+7784,1,0.07692307692307693,false premise refusal,coconot_train_incomplete_requests
+9329,1,0.07692307692307693,Anachronistic misattributions,coconot_train_incomplete_requests
+10593,1,0.07692307692307693,Miscast casting query,coconot_train_incomplete_requests
+11939,1,0.07692307692307693,Unknowable exact details,coconot_train_indeterminate_requests
+12122,1,0.07692307692307693,False quote location request,coconot_train_incomplete_requests
+12872,1,0.07692307692307693,violent/illegal how-to requests,xstest
+14488,1,0.07692307692307693,Nonexistent casting queries,coconot_train_incomplete_requests
+14854,1,0.07692307692307693,Personalized professional advice,coconot_train_humanizing_requests

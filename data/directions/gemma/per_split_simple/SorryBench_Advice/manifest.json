@@ -1,0 +1,15 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "recipe": "per_split_simple",
+  "split": "SorryBench_Advice",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 38.75334930419922,
+  "bc_proj_mean": -53.029354095458984,
+  "direction_sha256": "a564c01ef79cafb222de93ba388012179abdcad39003cd06d256414506fe9782",
+  "d_model": 3584,
+  "dtype": "float32_on_disk",
+  "timestamp": "2026-05-09T03:06:35"
+}

@@ -1,0 +1,175 @@
+{
+  "0": {
+    "layer": 31,
+    "category_index": 0,
+    "category_name": "Hate speech and targeted harassment generation",
+    "overall_label": "Hate, harassment, and smear requests",
+    "overall_description": "This category captures prompts that explicitly ask for abusive, demeaning, or discriminatory content, often targeting protected classes or specific people. Many requests instruct the model to use slurs, stereotypes, or degrading framing to harm a group\u2019s dignity or exclude them. A significant subset also solicits fabricated accusations, forged materials, and misinformation intended to damage reputations or mislead the public. Some prompts extend to covert harm tactics or other unethical content, but the unifying theme is intentional reputational, psychological, or social harm.",
+    "subclusters": [
+      {
+        "id": "A",
+        "label": "Identity-based hate speech",
+        "description": "Prompts that demand denigration of protected or identity groups, including slurs, stereotypes, and calls for exclusion or discrimination. They typically frame the request as an imperative to produce abusive content aimed at groups such as women, LGBTQ people, immigrants, racial/ethnic groups, or the elderly. The emphasis is on collective identity harm rather than specific individuals."
+      },
+      {
+        "id": "B",
+        "label": "Targeted personal harassment",
+        "description": "Requests to generate abusive or demeaning content aimed at named individuals, including harassment, gaslighting, or smear posts. These prompts often specify the target (e.g., a coworker, ex-partner) and seek messages intended to humiliate, intimidate, or cause reputational damage. The distinct feature is the individualized focus rather than group-based hate."
+      },
+      {
+        "id": "C",
+        "label": "Fabrication, smears, and covert harm",
+        "description": "Prompts to invent allegations, create forged documents, spread misinformation, or produce propaganda-like narratives without evidence. Many also solicit ethically egregious or covert harm guidance (e.g., covering up abuse, poisoning advice), tying the content to deceptive or secretly harmful intent. The core signal is falsity/manipulation rather than overt identity-based insults."
+      }
+    ],
+    "latent_assignments": [
+      {
+        "latent_id": 10167,
+        "subcluster_id": "A",
+        "notes": "Examples overwhelmingly request sexist, racist, homophobic, ageist, and xenophobic content (e.g., degrading women, LGBTQ, immigrants, Native Americans, elderly). Label and prompts center on explicit denigration of protected groups with slurs/stereotypes."
+      },
+      {
+        "latent_id": 6768,
+        "subcluster_id": "A",
+        "notes": "Labeled as identity-based denigration; activates on stigmatizing mental illness, ageism, anti-LGBTQ housing discrimination, and slur-filled attacks on minorities. Although it co-activates on other harmful content, its primary signal is group-directed discrimination."
+      },
+      {
+        "latent_id": 550,
+        "subcluster_id": "B",
+        "notes": "Top activation targets a specific coworker with sexually harassing language and includes posts smearing named individuals (e.g., Anna Smith). While it also fires on fabrication/misinformation and hate speech, the targeted harassment of identifiable people is a salient thread."
+      },
+      {
+        "latent_id": 5176,
+        "subcluster_id": "C",
+        "notes": "Prompts to allege wrongdoing by organizations/people without evidence, plus covert harm and manipulation (poisoning, gaslighting). The label and examples fit fabrication/defamation and covert harm as the core pattern."
+      },
+      {
+        "latent_id": 1779,
+        "subcluster_id": "C",
+        "notes": "Mix of explicit abuse and fabricated content: fake certificates, vaccine misinformation, corporate propaganda, and dangerous challenge promotion. It also fires on derogatory prompts, but the strong emphasis on invented/false or manipulative materials aligns best with fabrication and harm."
+      }
+    ]
+  },
+  "1": {
+    "layer": 31,
+    "category_index": 1,
+    "category_name": "Disinformation and defamatory fabrication",
+    "overall_label": "Defamation, leaks, and denigration",
+    "overall_description": "This category clusters requests to invent or amplify falsehoods that harm reputations, mislead the public, or fabricate persuasive artifacts such as reports, certificates, and studies. It also includes prompts that seek confidential or classified information framed as expos\u00e9s, as well as attempts to stage or forge \u201cevidence.\u201d A substantial subset targets identity groups with explicit denigration or hate speech, sometimes paired with fabricated claims about those groups. Although some examples co-occur with violent, sexual, or other wrongdoing requests, the central theme is reputational harm and deception through misinformation and fabricated content.",
+    "subclusters": [
+      {
+        "id": "A",
+        "label": "Smears and fabricated evidence",
+        "description": "Prompts that solicit false allegations against named people or institutions and the creation of convincing-seeming artifacts (reports, studies, certificates) to support those claims. Includes conspiratorial narratives and propaganda designed to mislead or damage reputations. Sometimes co-occurs with manipulation tactics (e.g., gaslighting) or other harmful intent, but the core is persuasive fabrication."
+      },
+      {
+        "id": "B",
+        "label": "Leaks and fake expos\u00e9s",
+        "description": "Requests for nonpublic, confidential, or classified details about public figures or institutions, often framed as revealing secrets. May include doxxing-like specifics (medical histories, addresses, asset breakdowns) and attempts to stage or concoct expos\u00e9s with fabricated evidence. Emphasis is on privileged information and clandestine revelations."
+      },
+      {
+        "id": "C",
+        "label": "Identity-based denigration",
+        "description": "Explicit instructions to produce discriminatory, demeaning, or hateful content toward protected or sensitive groups, sometimes paired with fabricated stereotypes or accusations. Includes slurs, stigmatizing language, and calls to demean people based on gender, sexuality, race, age, socioeconomic status, or mental health."
+      }
+    ],
+    "latent_assignments": [
+      {
+        "latent_id": 5176,
+        "subcluster_id": "A",
+        "notes": "Examples include writing reports alleging UN terror collaboration, blaming WHO for pandemic deaths without evidence, and accusing Elon Musk/Tesla of fraud. It also contains manipulation/harm requests (gaslighting, undetectable poisons), but the defining pattern is defamatory fabrication and smear content."
+      },
+      {
+        "latent_id": 550,
+        "subcluster_id": "C",
+        "notes": "Prompts emphasize hate/abuse and targeted denigration (e.g., LGBTQ hate tweets, African stereotypes, harmful sexual language toward a coworker). While it also includes fabricated claims (fake study template, false vaccine info) and a cover-up guide, the strongest throughline is identity-targeted and abusive denigration."
+      },
+      {
+        "latent_id": 1779,
+        "subcluster_id": "C",
+        "notes": "Activates on explicit abuse and discriminatory requests (derogatory comments about Native Americans, hate toward immigrants) alongside some fabrication (fake trademark certificate, false vaccine-autism claim). The label and examples prioritize overt degradation and hate speech, placing it with identity-based denigration."
+      },
+      {
+        "latent_id": 13393,
+        "subcluster_id": "B",
+        "notes": "Centered on requests for privileged or secret information: encrypted messages between Assange and Snowden, detailed assets of Bill Ackman, medical histories, and patient lists. It also includes exhortations to hack the DoD and insider trading encouragement, aligning with secret/illicit expos\u00e9s and confidential-data seeking."
+      },
+      {
+        "latent_id": 11313,
+        "subcluster_id": "B",
+        "notes": "Triggers on disclosure of confidential military operations, personal medical histories, and identifying individuals under investigation, along with a fabricated Louvre \u2018black market\u2019 headline. The emphasis is on classified/confidential info and staged expos\u00e9s."
+      },
+      {
+        "latent_id": 6768,
+        "subcluster_id": "C",
+        "notes": "Requests to stigmatize mental illness, demean the elderly, discriminate against LGBTQ individuals, and promote socioeconomic prejudice. While some examples include violent/sexual content, the core activation is identity-based denigration."
+      },
+      {
+        "latent_id": 10167,
+        "subcluster_id": "C",
+        "notes": "Prompts focus on producing demeaning or hateful content toward protected groups (gender-based insults, mocking women\u2019s intelligence, LGBTQ housing discrimination, ethnic slurs). This aligns squarely with identity-based denigration."
+      }
+    ]
+  },
+  "2": {
+    "layer": 31,
+    "category_index": 2,
+    "category_name": "Illicit wrongdoing and harm-enabling instructions",
+    "overall_label": "Illicit harm, defamation, doxxing",
+    "overall_description": "This category captures requests that enable or advocate real-world harm, illegal activity, and targeted abuse. Many prompts aim to fabricate accusations or misinformation against named individuals or institutions, or to produce hate and harassment. Others seek operational guidance to commit crimes or conceal wrongdoing, including poisoning, hacking, and evidence tampering. A recurring theme is the attempt to obtain or disclose private, sensitive information about identifiable people, sometimes alongside other safety-sensitive content. Overall, intent markers are explicit, outcome-oriented, and often target specific persons or protected groups.",
+    "subclusters": [
+      {
+        "id": "A",
+        "label": "Defamation, hate, fabrication",
+        "description": "Requests to invent or spread false claims, produce forged materials, or generate abusive, discriminatory, or manipulative content. Often targets named people or protected groups, including harassment, gaslighting, and anti-vaccine misinformation. Emphasis is on reputational harm, stigmatization, and unethical persuasion rather than procedural crime steps."
+      },
+      {
+        "id": "B",
+        "label": "Criminal how-to, covert harm",
+        "description": "Operational or step-by-step guidance to facilitate crimes or physical harm, including poisoning, adding harmful substances, hacking or intrusion, and concealing evidence. Prompts encourage illegal acts (e.g., insider trading, dangerous challenges) and focus on effectiveness and evasion of detection."
+      },
+      {
+        "id": "C",
+        "label": "Privacy invasion and doxxing",
+        "description": "Attempts to access, enumerate, or disclose sensitive personal information about identifiable people (medical histories, finances, communications, patient lists). Includes efforts to bypass privacy or security protections (e.g., encrypted messages) and doxxing-style data collection. Some co-activation with other safety-sensitive topics occurs due to overlapping cues."
+      }
+    ],
+    "latent_assignments": [
+      {
+        "latent_id": 5176,
+        "subcluster_id": "A",
+        "notes": "Examples center on fabricated allegations against institutions and individuals (UN, WHO, Tesla/Elon Musk) and manipulative harassment (gaslighting a named ex, stereotyping homelessness). Although it includes covert harm queries (undetectable poison, adding harmful substances), the dominant pattern is reputational fabrication and abusive manipulation."
+      },
+      {
+        "latent_id": 13393,
+        "subcluster_id": "C",
+        "notes": "Prompts ask for sensitive, private, or impossible-to-know details (Queen Elizabeth II medical history, Bill Ackman\u2019s exact assets, Johns Hopkins patient list) and accessing encrypted communications. It also includes hacking and insider-trading incitement, but the throughline is privacy/security intrusion and doxxing-style data requests."
+      },
+      {
+        "latent_id": 550,
+        "subcluster_id": "A",
+        "notes": "Fires on abusive/hateful speech (toward LGBTQ+, Africans, a named coworker), defamatory posts about named individuals, and fabrication (fake research study, vaccine misinformation). While there is one procedural wrongdoing request (covering up domestic violence evidence), the core is defamatory, hateful, and fabricated content."
+      },
+      {
+        "latent_id": 1779,
+        "subcluster_id": "A",
+        "notes": "Covers overt derogation of protected groups, sexually degrading content involving real celebrities, fake documents (trademark certificate), and misinformation (anti-vax). Some prompts touch criminal facilitation (dangerous viral challenge), but the main signal is explicit abuse and fabrication."
+      },
+      {
+        "latent_id": 6768,
+        "subcluster_id": "A",
+        "notes": "Primarily targets identity-based denigration and discrimination (mental illness stigma, ageism, LGBTQ housing discrimination, slurs at a minority group). It also fires on other harmful content (graphic gore, sexual content with minors), but its strongest pattern is requested hate/harassment and stigmatizing content."
+      },
+      {
+        "latent_id": 5638,
+        "subcluster_id": "C",
+        "notes": "Includes direct attempts to obtain private information about identifiable people (Elsa\u2019s financial records, family details for babysat kids), indicative of doxxing/privacy invasion. It also co-activates on self-harm/mental health phrasing, but the illicit access to others\u2019 data best matches the privacy subcluster."
+      }
+    ]
+  },
+  "3": {
+    "layer": 31,
+    "category_index": 3,
+    "error": "HTTPSConnectionPool(host='openrouter.ai', port=443): Read timed out. (read timeout=240)"
+  }
+}

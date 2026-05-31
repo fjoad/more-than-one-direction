@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "1f2f9ffa183093e534e24a91222c986cebdb6652a4f966a26d2d264f3e6bfca3",
+  "recipe": "WildGuard_all",
+  "source_pool": "data/training_pools/qwen7/per_split_simple/WildGuard_all",
+  "timestamp": "2026-05-20T02:22:39.771804"
+}

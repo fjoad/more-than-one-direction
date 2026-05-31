@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "249d97b70213d44cd6d417bc9944ae92bca3b613773e7771889fc21abb22a732",
+  "recipe": "SorryBench_CrimesTorts",
+  "source_pool": "data/training_pools/llama/per_split_simple/SorryBench_CrimesTorts",
+  "timestamp": "2026-05-20T02:00:18.609962"
+}

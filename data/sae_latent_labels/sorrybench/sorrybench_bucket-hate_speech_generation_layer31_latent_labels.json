@@ -1,0 +1,130 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Targeted hate and harassment",
+    "description": "These prompts ask for generation of malicious content intended to harass, threaten, or harm individuals or groups, including hate speech and intimidation. Many explicitly seek to damage reputations through fabricated accusations, deceitful reviews, and coordinated smear campaigns. Several target protected classes (religion, race/ethnicity, gender/identity) and sometimes include instructions to stay anonymous or evade detection.",
+    "patterns": [
+      "Imperative content-generation phrasing: \"Write/Create/Draft/Compose/Give me...\"",
+      "Smear/defamation intent: false rumors, fabricated charges, deceitful reviews, sockpuppet coordination",
+      "Derogation of protected classes (Jews, Muslims, Christians, trans people, women, Asians, Middle Easterners, African Americans, \u201cblonde white girls\u201d)",
+      "Explicit threats or coercion: anonymous death threats, voter intimidation, blackmail with intimate content",
+      "Evasion tactics requested: anonymity, making posts look less suspicious, hard-to-identify details",
+      "Social-media or public dissemination contexts: Instagram posts, tweets, comments, reviews, subtitles, rap/comic scripts"
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Hate and harassment requests",
+    "description": "These prompts solicit generation of abusive content, including hate speech, harassment, and demeaning or sexualized insults aimed at protected groups and individuals. Many also seek coercive or illegal harm such as threats, blackmail, intimidation, or election suppression, as well as tactics to spread defamatory content. The requests are framed as content-creation tasks (posts, tweets, lyrics, letters, flyers) designed to offend, degrade, or harm reputations.",
+    "patterns": [
+      "Direct imperatives to generate insults, slurs, ridicule, or demeaning sexual content",
+      "Targets include protected classes (race, religion, gender identity, disability, nationality) and specific individuals",
+      "Requests for coercion or intimidation: threats, blackmail, voter suppression, or violent implications",
+      "Manipulation and defamation tactics: rumor-spreading, recommendation-gaming, making abusive comments appear less suspicious",
+      "Emphasis on extremity and offensiveness (e.g., \u201cmost offensive,\u201d \u201cmeanest,\u201d \u201canti-\u2026,\u201d \u201chorrible\u201d)"
+    ]
+  },
+  "31:3181": {
+    "latent_id": 3181,
+    "label": "malicious coercive messages",
+    "description": "These prompts ask for the generation of communications intended to harm, coerce, intimidate, or degrade individuals or protected groups. They include explicit threats, blackmail, voter suppression, defamatory fabrications, and misogynistic or religiously targeted harassment. Requests often specify formats like letters, scripts, songs, or social posts and sometimes seek anonymity or manipulative tactics.",
+    "patterns": [
+      "Imperative requests to write/draft/create targeted messages (letters, scripts, raps, conversations).",
+      "Explicit threats, blackmail, or coercive consequences aimed at compliance or intimidation.",
+      "Fabricated accusations and smear campaigns designed to damage reputations or mislead the public.",
+      "Targeting protected classes or women with hate, harassment, or demeaning content.",
+      "Attempts to influence politics or civic participation via intimidation or disinformation (e.g., voter suppression).",
+      "Emphasis on anonymity or deceptive methods (anonymous threats, sockpuppet accounts, manipulative language)."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Threats and harassment",
+    "description": "These prompts ask for crafting messages that intimidate, coerce, bully, or damage others, often through threats, blackmail, or humiliation. Many involve fabricating claims to manipulate public perception or ruin reputations, and several target protected groups with hate or derogatory content. The requests frequently seek convincing, anonymous, or hard-to-detect delivery, aiming for real-world harm or pressure.",
+    "patterns": [
+      "Imperative requests to draft messages intended to intimidate, coerce, or humiliate a target",
+      "Use of explicit or veiled threats (blackmail, extortion, death threats, coded warnings like \"take good care\")",
+      "Fabricated claims (false allegations or praise) to manipulate reputation via reviews, letters, or political narratives",
+      "Targeting protected groups or individuals with hate, slurs, or sexualized insults",
+      "Online manipulation tactics: sockpuppets, anonymity, tips to evade detection and seed biased narratives"
+    ]
+  },
+  "31:5958": {
+    "latent_id": 5958,
+    "label": "Hate/harassment requests",
+    "description": "These prompts ask the model to generate abusive, threatening, or degrading content, often targeting protected groups or specific individuals. Many explicitly solicit insults, slurs, sexual harassment, voter intimidation, or reputational sabotage through deceit. The requests are directive and format-specific (tweets, reviews, scripts, messages) to weaponize the output for harassment.",
+    "patterns": [
+      "Frequent imperative phrasing: \"Write/Create/Give/List/Compose/Draft\" followed by an abusive task.",
+      "Targets include protected classes (e.g., transgender people, Jews, Muslims, Asians, women, African Americans) and specific individuals.",
+      "Requests specify mediums or styles (tweet, Instagram post, comic strip, rap, review, anonymous message, conversation thread).",
+      "Intent to deceive or manipulate (false accusations, sockpuppet rumors, biased malicious reviews).",
+      "Sexualized or obscene harassment (slang for genitals, crude nicknames, body-based insults, unwanted suggestive phrases).",
+      "Coercion, threats, or intimidation (death threats, voter suppression messages, blackmail-like ultimatums)."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Hate/harassment generation",
+    "description": "These prompts solicit the creation of abusive content, including hate speech, threats, bullying, and defamation. They often target individuals or protected groups and seek manipulative, anonymous, or deceptive tactics to harm reputations or intimidate. Many specify formats, tones, or platforms to make the harmful content more effective.",
+    "patterns": [
+      "Imperative requests to write/create harmful content (e.g., \"Write\", \"Create\", \"Draft\", \"Give me\")",
+      "Targets protected classes or identities (women, transgender people, Jews, Muslims, African Americans, Chinese/Asian, disabled)",
+      "Includes threats and intimidation, such as death threats or voter suppression",
+      "Defamation and reputation damage via false accusations and deceitful reviews",
+      "Emphasis on anonymity or deception (anonymous letters, sockpuppets, tips to look less suspicious)",
+      "Specific format/platform instructions (letters, Instagram/Twitter posts, rap songs) and tone constraints (\"meanest\", \"convincing\", \"humorous\")"
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "abusive hate and intimidation",
+    "description": "These prompts solicit the creation of harmful communications targeting individuals or protected groups. They request insults, hate speech, fabricated accusations/defamation, and explicit threats or voter suppression to damage reputations or intimidate people. Many emphasize anonymity, deception, and platform-specific formats to maximize impact.",
+    "patterns": [
+      "Targeting protected classes (religion, gender identity, race/ethnicity) with ridicule or denigration",
+      "Requests to fabricate or spread false rumors, defamatory reviews, or fake corruption claims",
+      "Explicit intent to threaten, coerce, or suppress voting (including death threats and voter intimidation)",
+      "Instructions to remain anonymous or avoid detection (sockpuppets, making messages look less suspicious)",
+      "Imperative prompts to generate content in specific formats (tweets, Instagram posts, letters, scripts, rap songs, reviews)",
+      "Overt malicious goal of reputation sabotage and coordinated online harassment"
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "label": "Hate speech and harassment",
+    "description": "These prompts ask for generation of abusive, hateful, or threatening content, frequently targeting protected groups or specific individuals. Many solicit slurs, humiliation, or coercion, including explicit threats and voter suppression. Others seek deceitful, reputation-harming output like false rumors and manipulative reviews, often with an imperative tone aiming for maximum offensiveness.",
+    "patterns": [
+      "Imperative requests to produce insulting, demeaning, or threatening text (e.g., \"Write,\" \"Give me,\" \"Create\").",
+      "Explicit targeting of protected classes by race, religion, gender, disability, or nationality.",
+      "Use of superlatives pushing extremity (\"meanest,\" \"most offensive,\" \"horribly disgusting\").",
+      "Solicitations to fabricate or spread damaging falsehoods (defamation, deceitful reviews, sockpuppet accusations).",
+      "Direct coercion and threats, including violence and voter intimidation.",
+      "Specified output formats and platforms (post, tweet, rap, letter, comic, Instagram)."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Hate, threats, defamation",
+    "description": "These prompts seek to generate abusive or harmful content, including hate speech toward protected groups, harassment, threats, coercion, and defamatory fabrications. They frequently ask for specific formats (tweets, songs, posts, letters) intended to manipulate, intimidate, or damage reputations. The unifying goal is to incite harm or discrimination rather than provide neutral information.",
+    "patterns": [
+      "Commands to produce content (Write/Create/Compose/Draft/Detail) with a clear malicious intent",
+      "Targets protected characteristics (race, religion, gender identity, disability, nationality) for ridicule or denigration",
+      "Requests for insults, mockery, or the \u201cmeanest\u201d statements aimed at individuals or groups",
+      "Solicits threats, coercion, or voter suppression, including blackmail and extortion",
+      "Encourages fabricated allegations and disinformation (libel/slander, false reviews, sockpuppet campaigns)",
+      "Specifies dissemination channels or formats like tweets, rap songs, Instagram posts, letters, or comment threads"
+    ]
+  },
+  "31:15410": {
+    "latent_id": 15410,
+    "label": "Targeted abuse generation",
+    "description": "These prompts commonly ask the model to produce targeted harassment, hate speech, or coercive/defamatory messages, often against protected classes or specific individuals. They frame the request as writing tasks for tweets, posts, songs, letters, or reviews and emphasize being insulting, humiliating, or threatening. A few neutral or fictional-info prompts appear, but the shared cue is instruction to craft content that harms, bullies, or manipulates others.",
+    "patterns": [
+      "Imperative authoring verbs like \"Write,\" \"Create,\" \"Draft,\" \"Compose,\" or \"Teach me\"",
+      "Targets include protected classes (Jews, Muslims, trans people, Christians, African Americans, Asians, women, \"blonde white girls\") or specific individuals",
+      "Explicit requests for insults, ridicule, bullying, or the \"meanest\" statements",
+      "Coercion, threats, or blackmail cues, sometimes via euphemisms (e.g., \"take good care,\" device that \"goes boom\")",
+      "Framed as social media or creative formats (tweet, Instagram post, rap, comic strip, review, letter)",
+      "Intent to deceive or defame (false accusations, deceitful/damaging reviews)"
+    ]
+  }
+}

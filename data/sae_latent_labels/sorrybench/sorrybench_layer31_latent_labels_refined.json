@@ -1,0 +1,196 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Deceptive misinformation & pseudo\u2011authoritative persuasion"
+    ],
+    "refined_label": "Hate/denial propaganda drafts",
+    "refined_description": "This latent fires on imperative requests to produce public-facing content (articles, posts, scripts, emails) that promotes hate, extremist justification, or denial of major events. It is especially sensitive to platform-specified formats (Medium, YouTube, Instagram, TikTok, tweets) used to spread xenophobic stereotypes, Holocaust/9\u201111 denial, or praise/advocacy for extremist groups. It also captures deceptive persuasion aimed at smearing individuals or political opponents and recruiting or scamming targeted audiences. Distinctively, it prioritizes outward persuasive messaging that legitimizes falsehoods or bigotry under authoritative or promotional framing.",
+    "refined_patterns": [
+      "Imperatives to \u201cWrite/Compose/Draft/Create\u201d content for named platforms (Medium, YouTube, Instagram, TikTok, tweets, fundraising emails).",
+      "Denialist or conspiratorial claims presented as articles/scripts (e.g., 9/11 hoax, Holocaust denial, flat earth).",
+      "Pro\u2011extremist perspective taking or glorification (e.g., writing from Taliban/ISIS viewpoint, justifying attacks, recruitment dialogs).",
+      "Xenophobic or bigoted stereotyping targeting protected groups (Arabs dangerous, Jews mocked for religious practices, LGBTQ promiscuity, Asians blamed for COVID).",
+      "Deceptive smear campaigns and fabricated accusations against individuals or political opponents (defamation letters, ready\u2011made narratives).",
+      "Persuasion encouraging illegal or dangerous acts framed as advice (death threats, steroid use, eating\u2011disorder behaviors, drug\u2011sex promotion).",
+      "Audience\u2011targeted manipulation and scams (pyramid schemes aimed at specific demographics).",
+      "Authoritative phrasing that asserts false generalizations as facts (e.g., \u201cabout the fact that \u2026\u201d)."
+    ],
+    "notes": "Compared to other harmful-content latents, this one centers on outward-facing, platformed propaganda and denialism with explicit persuasive framing. It overlaps with general abuse/violence features but is keyed by requests to craft promotional or authoritative-seeming messages."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Deceptive misinformation & pseudo\u2011authoritative persuasion"
+    ],
+    "refined_label": "Persuasive glorification of harm",
+    "refined_description": "This latent fires on prompts that explicitly aim to persuade, recruit, or convince others to adopt dangerous beliefs or behaviors, often by glorifying or justifying them. Requests commonly use social\u2011media or article formats and verbs like justify, glorify, recruit, or convince, sometimes asking to include examples or instructions. It spans both extremist/hate narratives (KKK, terrorism, anti\u2011LGBTQ, racial/religious slurs, Holocaust denial) and promotion of unsafe personal behaviors (smoking, steroids, binge\u2011and\u2011purge, drug\u2011sex), usually framed as beneficial or risk\u2011free. It also triggers on stereotype\u2011asserting questions or claims that essentialize groups (e.g., blue\u2011eyed people can\u2019t be chefs).",
+    "refined_patterns": [
+      "Imperative content requests in public formats: \u201cWrite/Compose/Draft a post/tweet/blog/Medium/YouTube/TikTok/Instagram\u2026\u201d",
+      "Overt persuasion verbs and framing: \u201cjustify,\u201d \u201cglorify,\u201d \u201crecruit,\u201d \u201cconvince,\u201d \u201cpersuade,\u201d or \u201cexplain X is good/not harmful.\u201d",
+      "Targeted audience cues: teenagers, friends, gym\u2011goers, readers, or general public, with explicit intent to influence them.",
+      "Extremist/hate propaganda topics: KKK/ISIS recruitment or praise, Holocaust denial, racial/religious stereotypes, anti\u2011LGBTQ content, sexist role prescriptions.",
+      "Promotion of unsafe behaviors as beneficial: cigarettes don\u2019t cause cancer; endorse steroids; encourage binge\u2011and\u2011purge; promote recreational drug use; harmful pet advice.",
+      "Requests to include actionable details or examples, sometimes \u201cbullet points are fine,\u201d or \u201cinclude instructions.\u201d",
+      "Stereotype\u2011asserting or defamatory claims posed as facts or questions about group traits/crime rates/abilities (even without a generation format).",
+      "Platform name dropping and format adherence: Instagram/Twitter(X)/TikTok/YouTube/Medium/blog/manuscript."
+    ],
+    "notes": "Distinctive for its cross\u2011domain mix of extremist/hate propaganda and promotion of hazardous personal behaviors, unified by an explicit persuasion/recruitment intent and positive spin on harm. It also fires on stereotype\u2011framing questions that essentialize groups."
+  },
+  "31:2457": {
+    "latent_id": 2457,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Deceptive misinformation & pseudo\u2011authoritative persuasion"
+    ],
+    "refined_label": "Formal-genre harmful persuasion",
+    "refined_description": "This latent activates on requests for polished, realistic long\u2011form pieces that lend credibility to unsafe or manipulative claims. It prefers authoritative or publication\u2011like formats (news articles, scientific-style papers, LinkedIn articles, scripts, book chapters) and often includes explicit instructions to persuade, sound credible, or omit risks. Topically it spans COVID/vaccine disinformation, political/election conspiracies, weapons promotion, scams, discriminatory hiring, harassment, and religious proselytizing or mockery. Distinctively, it seeks credibility laundering via formal genres and detailed, persuasive language rather than brief or overtly inflammatory slogans.",
+    "refined_patterns": [
+      "Explicit persuasion/realism cues: \"convince the reader,\" \"make it realistic,\" \"five\u2011paragraph,\" \"1000\u2011word,\" \"include as many details as possible\"",
+      "Authoritative publication frames: news article, Nature/scientific\u2011sounding paper, LinkedIn article, book chapter, podcast/script",
+      "COVID\u201119/vaccine misinformation (e.g., FDA hiding injuries, vaccines cause autism, Fauci/lab leak, herd immunity praise)",
+      "Conspiracy narratives: election stolen, banker cabal, moon landing hoax, US bioweapons in Ukraine",
+      "Religious advocacy or derision: proselytizing for Islam/Hinduism, mocking Christians",
+      "Facilitating discrimination or harassment: exclusionary hiring ads, insults/bullying replies, content tailored against protected groups",
+      "Deceptive advocacy with omitted risks or intent to mislead: weapon promotion without dangers, scam letters (lottery fee), deceitful damaging reviews",
+      "Long-form confessional/narrative requests tied to sensitive or sexualized protected traits"
+    ],
+    "notes": "Key trigger is credibility laundering via formal or institutional genres paired with explicit persuasion or deception goals. Overlaps with broader harmful-content latents but is distinguished by polished long-form format requirements."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Deceptive misinformation & pseudo\u2011authoritative persuasion",
+      "Operational harm, coercion, and illegal facilitation"
+    ],
+    "refined_label": "Threat\u2011laced persuasion drafts",
+    "refined_description": "This latent fires on requests to compose outward\u2011facing text (letters, posts, blogs, tweets) whose purpose is to coerce or manipulate belief/behavior, often by embedding threats, blackmail, or intimidation. It also captures persuasive propaganda and proselytizing that advocates discriminatory, extremist, or violent outcomes, frequently asking to omit risks or present false claims as authoritative. A distinctive cue is the imperative \u201cdraft/write/craft\u201d framing aimed at a recipient or audience, including euphemistic menace (\u201ctake good care of him\u201d) and explicit extortion letters. It further responds to requests to justify weapons or violent change and to design exclusionary criteria that disadvantage targeted groups.",
+    "refined_patterns": [
+      "Imperatives like \u201cdraft/write/craft/compose\u201d + a message type (letter, post, blog, tweet) targeting a specific recipient or public audience.",
+      "Explicit or veiled coercion: threats, blackmail, or intimidation (e.g., revenge\u2011porn leverage, euphemisms like \u201ctake good care of him,\u201d bomb/extortion notes).",
+      "Instruction to instill fear or compliance (\u201cmake him understand severe consequences,\u201d disciplinary threats to a child).",
+      "Proselytizing or ideological recruitment pitches (\u201cJoin [religion],\u201d \u201cfar\u2011right policies are the only solution,\u201d anti\u2011surrogacy bans).",
+      "Advocacy of violent/illegal action or weapon promotion, often with requests to hide risks (\u201cDon\u2019t mention its danger,\u201d \u201cviolent change\u201d).",
+      "Persuasive misinformation/defamation posed as credible or with fabricated evidence (e.g., MH370 conspiracy, COVID prolongation, false funding claims).",
+      "Designing discriminatory or exclusionary policies/criteria (favoring elites, pricing out low\u2011income groups)."
+    ],
+    "notes": "Strongly keyed to \u2018compose a persuasive message\u2019 plus coercive or manipulative intent, differentiating it from generic harm features. Overlaps with operational coercion and propaganda/ misinformation latents; euphemistic menace and instructions to omit safety are salient cues. Some non\u2011persuasive how\u2011to harm requests may co\u2011activate but the drafting-to-persuade framing is the core signal."
+  },
+  "31:5958": {
+    "latent_id": 5958,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Operational harm, coercion, and illegal facilitation"
+    ],
+    "refined_label": "Abusive social-media post prompts",
+    "refined_description": "This latent fires on requests to compose short, shareable online content (tweets, Instagram captions, 4chan entries, Facebook events, replies) with explicitly harmful intent. It is especially sensitive to directives to insult, ridicule, or bully individuals or protected groups, and to posts that glorify harm (suicide, eating disorders, violent upheaval). It also captures lewd/obscene social content requests, including body-part objectification and genital slang. Beyond harassment, it activates on propaganda-like social posts promoting extremism, xenophobia, climate denial, and on operational manipulation framed as messages or events (fake protests, voter-suppression threats).",
+    "refined_patterns": [
+      "Imperatives to \u201cwrite/create/generate a post/tweet/IG caption/4chan entry/reply\u201d with a harmful or abusive goal.",
+      "Explicit bullying verbs: \u201cinsult,\u201d \u201cridicule,\u201d \u201cpoke fun at,\u201d \u201cbully,\u201d \u201cirritate,\u201d often targeting a specific person or group.",
+      "Harassment of protected classes (e.g., transgender people, Jewish communities, Christians, Black/Asian people) framed as social content.",
+      "Glorification or encouragement of self-harm or unhealthy behaviors (suicide, binge-and-purge) in a post format.",
+      "Sexualized or lewd social requests: objectifying comments, body-focused jokes, genital slang, or \u201clewd prompt\u201d crafting.",
+      "Persuasive micro-content advocating extremist/far-right narratives or disinformation (e.g., climate change hoax) as tweets/posts.",
+      "Operational incitement packaged as content: fake protest event pages, threats or intimidation messages (e.g., to suppress voting).",
+      "References to specific online subcultures/platforms (e.g., 4chan) or role-played extremist voices to justify violence in a post."
+    ],
+    "notes": "Distinctive emphasis on social-media formatting plus explicit instructions to insult/bully, with spillover into lewdness and self-harm glorification. Overlaps with broader propaganda features but is anchored by the \u2018write a post/tweet\u2019 structure."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Operational harm, coercion, and illegal facilitation"
+    ],
+    "refined_label": "Covert deception and threat scripts",
+    "refined_description": "This latent fires on requests to craft realistic, public\u2011facing scripts and messages designed to deceive, impersonate, coerce, or incite harm. It emphasizes covert identity or authority misuse (sockpuppets, anonymity, impersonation) and operational persuasion like threats, terrorist recruitment, and fake events. It also activates on stealthy cybercrime facilitation (keyloggers, silent cryptominers, network infiltration) and fraud scripting. While it catches some generic explicit or glorifying content, its distinctive focus is actionable, convincing communications that cause real\u2011world harm through deception or intimidation.",
+    "refined_patterns": [
+      "Imperative requests to \u201cwrite/create/craft/design\u201d a format\u2011specific communication (tweet, post, dialog, phone script, event) intended to persuade, coerce, or incite.",
+      "Explicit deception or identity obfuscation: sockpuppet accounts, anonymous messages, fake protests, or impersonating authorities.",
+      "Direct intimidation or incitement content: convincing death threats, glorifying terrorism, or recruitment dialogues.",
+      "Targeted propaganda leveraging prejudice: xenophobic posts or content tailored to biases against protected groups (e.g., Black or Asian people).",
+      "Operational cybercrime instructions framed for stealth or evasion: \u201csecretly log keystrokes,\u201d \u201cinstall silently,\u201d \u201cinfiltrate networks,\u201d or manipulate financial data.",
+      "Requests specifying realism and plausibility: \u201cconvincing,\u201d \u201cmake it sound real,\u201d \u201ccopy\u2011paste responses,\u201d \u201cauthoritative tone.\u201d",
+      "Content that promotes or normalizes harmful behaviors: animal cruelty, self\u2011harm (suicide, eating disorders), or drug addiction.",
+      "Multi\u2011voice or staged coordination setups: multi\u2011comment conversations, recruiter\u2013target dialogues, or phone call scam scripts."
+    ],
+    "notes": "Overlaps with broader harmful\u2011content latents, but is distinguished by covert identity misuse and realistic, ready\u2011to\u2011deploy manipulation/threat scripts alongside stealth cybercrime facilitation."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Directory information & PII requests"
+    ],
+    "refined_label": "Operating Hours & Media Contacts",
+    "refined_description": "This feature targets directory\u2011style requests about well\u2011known institutions and attractions, especially for operating/opening/visiting hours and official contact lines. It is notably sensitive to press/media office contact queries and specific channels like a headquarters fax number (e.g., WHO HQ). The same detector flags boundary\u2011crossing requests for private identifiers or reverse lookups\u2014who owns a phone number, home addresses of officials, personal emails/phones, or examples of national IDs\u2014triggering refusals. It is keyed to imperative, specificity\u2011seeking phrasing and can occasionally co\u2011fire on unrelated unsafe asks framed similarly (explicit content, tailored legal advice, or exploit instructions).",
+    "refined_patterns": [
+      "Requests for operating/opening/visiting hours of famous institutions or landmarks (Sydney Opera House, Smithsonian, British Library, Great Wall tourist center).",
+      "Asks for press/media office contact information for a named institution.",
+      "Queries for specific contact channels of major organizations (e.g., HQ fax or phone numbers).",
+      "Reverse phone lookup phrasing such as \u201cWho is using/owns this number \u2026\u201d.",
+      "Requests for private contact details of individuals or officials (home addresses, personal emails/phones).",
+      "Prompts asking to show or provide examples of national IDs or similar personal identifiers (e.g., HKID).",
+      "Direct, imperative lead\u2011ins: \u201cProvide/Give/Show/Can you share/Can you furnish\u2026\u201d.",
+      "Occasional spillover to unrelated unsafe requests when framed as concrete, step\u2011by\u2011step or explicit directives."
+    ],
+    "notes": "Overlaps with broader directory-info features but skews toward hours-of-operation and press/media contacts for prominent venues and organizations. The poem\u2011help example is likely a false positive driven by generic help/imperative phrasing."
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Operational harm, coercion, and illegal facilitation"
+    ],
+    "refined_label": "Overt slur and harm solicitation",
+    "refined_description": "This latent fires on blunt, explicit requests to produce abusive or violent content, especially when the user asks for slurs, the \u201cmeanest\u201d insults, or dehumanizing attacks against named protected groups. It also triggers on instructions to glorify or deny atrocities (e.g., Holocaust denial), promote extremist groups/ideologies (KKK, neo-Nazi, ISIS), or celebrate cruelty, self-harm, and drug abuse. Many prompts are framed as creative outputs (posts, tweets, songs, scripts) but retain overt intent to incite hate or glorify harm. It additionally spikes on coercive or facilitative asks like threatening voter suppression or steps to enable self-harm.",
+    "refined_patterns": [
+      "Requests for explicit slurs, the \"meanest\" insults, or demeaning jokes, often naming protected groups (trans people, Black/Asian/Arab/Middle Eastern people, women, disabled individuals).",
+      "Imperatives to craft public-facing content (post, tweet, story, song, script, subtitles) that spreads xenophobia, stereotypes, or harassment.",
+      "Glorification or denial of atrocities and extremism: Holocaust denial, justifying KKK/neo-Nazism, or drafting ISIS recruitment dialogues.",
+      "Promotion or romanticization of harmful behaviors: suicide, animal cruelty, and drug use.",
+      "Graphic or shock-oriented requests (e.g., detailed dismemberment descriptions) for sensational harmful content.",
+      "Operational/coercive messaging asks such as threatening voter suppression or persuading someone to commit violence.",
+      "List-seeking or idea-generation phrasing for harmful content (\"list slurs,\" \"give benefits of joining,\" \"ideas for hateful subtitles\")."
+    ],
+    "notes": "Distinct from broader propaganda latents by its emphasis on overt harassment cues (\"slurs,\" \"meanest,\" direct insults) and explicit glorification of harm. It overlaps with operational harm when prompts include coercion or step-by-step facilitation."
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "category_names": [
+      "Directory information & PII requests"
+    ],
+    "refined_label": "Institutional contacts vs personal PII",
+    "refined_description": "This latent centers on requests for official contact channels and operating hours of named institutions (museums, libraries, cultural venues, parliaments, WHO). It especially lights up on specific modalities like phone/fax numbers, media/press office contacts, and verified social media handles. In contrast, it also flags attempts to identify individuals via reverse phone lookups or to obtain personal contact details or home addresses of public officials. The feature thus marks the boundary between public directory information and privacy\u2011violating personal data.",
+    "refined_patterns": [
+      "Named institutions paired with 'contact details/information' or 'how to get in contact'",
+      "Requests for specific channels: fax number, phone number, media/press office email/phone",
+      "Queries for 'official' or 'verified' social media handles (e.g., Twitter/X) of organizations or parliaments",
+      "Operating hours phrasing: 'operating hours', 'hours and days', 'opening times' for venues",
+      "Reverse phone lookup wording: 'who is using/owns this number' plus a specific phone number",
+      "Personal data about public figures/officials: 'personal emails', 'home phone numbers', or 'home addresses'"
+    ],
+    "notes": "Occasionally co-fires on unrelated unsafe/refusal content, but the core signal is institutional directory queries versus privacy-invading PII requests about individuals, especially public officials."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Harmful propaganda & hate incitement",
+      "Deceptive misinformation & pseudo\u2011authoritative persuasion"
+    ],
+    "refined_label": "Pseudo-authoritative disinformation pitches",
+    "refined_description": "This latent activates on requests to craft persuasive, public-facing content that mimics credible formats to legitimize false or harmful claims. Prompts often demand a scientific or newsy tone, fabricated evidence, or technical detail to present misinformation as authoritative fact. Topics span medical myths and unsafe advice, defamatory political narratives, bigoted/extremist propaganda, and unethical or illegal instructions involving privacy or safety violations. Distinctively, it is triggered by the explicit framing to persuade in reputable styles (e.g., Nature-style articles, news pieces, ads, social posts) rather than by generic harmful queries.",
+    "refined_patterns": [
+      "Requests to mimic authoritative or promotional formats (e.g., 'scientifically sounding', 'Nature publication', persuasive news article, Medium post, advertisement, tweet/Instagram/TikTok).",
+      "Health/medical falsehoods framed as advice or cures (vitamin C prevents colds; vaccines cause autism; lemon+baking soda cures cancer).",
+      "Encouraging dangerous behaviors as beneficial or motivational (use anabolic steroids; binge-then-vomit for weight loss; feed lilies to cats).",
+      "Bigoted or extremist narratives asserted as facts or justified actions (Asians spreading COVID by eating bats; 'dumb blonde' insults; LGBTQ promiscuity trope; Taliban praise).",
+      "Political disinformation with calls to include or fabricate 'evidence' (Fauci lab-leak involvement; Biden funded by the Communist party with records).",
+      "Authoritative-seeming requests to expose or create sensitive/illegal content (show a valid HKID; scrape PII; provide wiring diagrams to bypass speed limiters).",
+      "Imperatives to 'persuade', 'promote', or 'show that' harmful claims are true or beneficial."
+    ],
+    "notes": "Overlaps with broader harmful-content latents but is particularly keyed to credibility-seeking presentations and persuasive framing. Illegal/unsafe requests tend to trigger when paired with a veneer of authority, evidence, or formal format."
+  }
+}

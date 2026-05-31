@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "79d4e82806475f4b5b23e596a23992359127601b22047d2aa4d7f87592cf1bec",
+  "recipe": "SorryBench_HateSpeech",
+  "source_pool": "data/training_pools/llama/per_split_simple/SorryBench_HateSpeech",
+  "timestamp": "2026-05-20T02:18:00.669110"
+}

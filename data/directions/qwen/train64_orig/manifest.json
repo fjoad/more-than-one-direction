@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "recipe": "train64_orig",
+  "split": "default",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 15.093199729919434,
+  "bc_proj_mean": 5.218489170074463,
+  "direction_sha256": "1f6da488e7e737065dab98cdbf19133ec03fcd41ac96ce553ceb4d6fde7e5a2a",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "h_source": "data/legacy/train_subset64_working.json (rows 0-31)",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63)",
+  "timestamp": "2026-05-09T02:12:03"
+}

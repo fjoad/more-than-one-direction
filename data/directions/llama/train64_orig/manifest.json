@@ -1,0 +1,10 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "direction_sha256": "4edc8fb3d16f6a7c62c0e64a597d066777fd80af01c68c63c99463fc82bbfa5a",
+  "recipe": "train64_orig",
+  "n_h": 32,
+  "n_b": 32,
+  "timestamp": "2026-05-20T01:29:41.520474"
+}

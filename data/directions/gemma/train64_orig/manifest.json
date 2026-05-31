@@ -1,0 +1,10 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "layer": 20,
+  "pos": -2,
+  "direction_sha256": "ec92eeb79c1efac696258248bdd22cf2bc60d468e7a475350b4924f21b8a36db",
+  "recipe": "train64_orig",
+  "n_h": 32,
+  "n_b": 32,
+  "timestamp": "2026-05-19T23:50:04.386648"
+}

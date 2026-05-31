@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "roundrobin_seed4_ourBC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "ca66ab5d8d9223467e32438b5bbb30156a73b39f7ed9f5860eee27f392464b91",
+  "d_model": 2048,
+  "timestamp": "2026-05-10T14:16:36"
+}

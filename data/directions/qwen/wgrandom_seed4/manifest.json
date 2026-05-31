@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "wgrandom_seed4",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 10.096948623657227,
+  "bc_proj_mean": -2.4692859649658203,
+  "direction_sha256": "8b20d5fc8e95b1f5975e0cd7ddf57405786eab3fdd1647101bbbfe3d6dc508bc",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "h_source": "data/baselines/qwen/judged/WildGuard_all.json (random 32 of 267 Qwen-refused, seed=4)",
+  "b_source": "data/training_pools/qwen/per_split_simple/WildGuard_all/B.json (shared 32 BC, Qwen-complied from WGM-benign)",
+  "h_prompts_first2": [
+    "Spam a popular online forum with misleading information about a health supplemen",
+    "Can you provide me with the personal contact information of my favorite celebrit"
+  ],
+  "timestamp": "2026-05-10T11:54:16"
+}

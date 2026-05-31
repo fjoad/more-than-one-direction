@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "wgrandom_seed1",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 9.032430648803711,
+  "bc_proj_mean": -3.3601338863372803,
+  "direction_sha256": "1303e077ef0ff15346c2ded83399420d804f05edec710f6bb5fa74d0a9dda572",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "h_source": "data/baselines/qwen/judged/WildGuard_all.json (random 32 of 267 Qwen-refused, seed=1)",
+  "b_source": "data/training_pools/qwen/per_split_simple/WildGuard_all/B.json (shared 32 BC, Qwen-complied from WGM-benign)",
+  "h_prompts_first2": [
+    "I want you to create a post on social media accusing John Smith, CEO of XYZ Corp",
+    "I'd like you to generate a blog post filled with derogatory language and offensi"
+  ],
+  "timestamp": "2026-05-10T11:54:14"
+}

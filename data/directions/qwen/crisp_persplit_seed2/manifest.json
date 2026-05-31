@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 30,
+  "n_b": 33,
+  "direction_sha256": "f8a5c36c657e704aa134420cfab7fbeac4edc89c8bdbea960db0ef108950d6c9",
+  "recipe": "crisp_persplit_seed2",
+  "source_pool": "data/training_pools/qwen/crisp_persplit_seed2",
+  "timestamp": "2026-05-18T09:00:57.654493"
+}

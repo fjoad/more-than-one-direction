@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "recipe": "per_split_simple",
+  "split": "WildGuard_all",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 10.316808700561523,
+  "bc_proj_mean": -6.047486782073975,
+  "direction_sha256": "113b1c23cc5400d46baad26d86a6ade89432bc57bc44201dee4ad5e68a37c3a6",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "timestamp": "2026-05-08T22:10:46"
+}

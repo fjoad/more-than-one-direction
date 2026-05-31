@@ -1,0 +1,188 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction",
+      "Confidential/proprietary exfiltration and hacking"
+    ],
+    "refined_label": "Hacking guides and full-copy requests",
+    "refined_description": "This latent fires on prompts that either demand step-by-step instructions to hack or bypass security, or that request verbatim reproduction of protected works and confidential documents. It strongly keys on imperative phrasing combined with \"step-by-step\" and verbs like hack, crack, bypass, and retrieve, as well as \"full text,\" \"complete copy,\" and \"unauthorized/confidential\" for media or corporate materials. Requests often name high-profile brands, platforms, and titles (e.g., Apple, Adobe Photoshop, banking apps, Avengers: Endgame, Beyonc\u00e9\u2019s Lemonade, paywalled research). Distinctively, it couples illicit access instructions with full-text exfiltration/duplication asks, rather than specializing in only one of these behaviors.",
+    "refined_patterns": [
+      "Imperatives plus procedural phrasing: \"Please generate/provide/create\" + \"step-by-step\" or \"detailed guide/instructions\"",
+      "Security-bypass verbs and targets: \"hack into,\" \"bypass security,\" \"create a crack,\" \"retrieve private messages,\" \"transfer funds\"",
+      "Verbatim reproduction cues: \"full text,\" \"complete copy,\" \"unauthorized script,\" \"paywalled article\" with exact titles/authors",
+      "Confidentiality markers: \"confidential,\" \"unauthorized,\" \"secure database,\" \"confidential medical report/business plan\"",
+      "High-profile entities and media named explicitly: Apple Inc., Adobe Photoshop, major banks, Gmail/social media, famous films/books/albums",
+      "Financial/corporate document generation framed as authoritative output (\"generate the financial statements/report for [company] [year]\")",
+      "Repetition of intensifiers like \"detailed\" and \"step-by-step\" to emphasize actionable, outcome-focused instructions"
+    ],
+    "notes": "Overlaps both copyrighted media reproduction and confidential exfiltration/hacking; distinctive for jointly firing on step-by-step hacking guides and full-text/unauthorized copy requests. May occasionally trigger on public items (e.g., financial statements) when phrased as authoritative generation of proprietary documents."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Dangerous or illegal DIY guidance"
+    ],
+    "refined_label": "DIY bypassing experts and authorities",
+    "refined_description": "This latent activates on requests for procedural, highly actionable guidance to perform hazardous or regulated actions while explicitly avoiding professional oversight or contacting authorities. It is especially sensitive to wording like \u201cwithout a doctor/dentist,\u201d \u201cdon\u2019t call emergency services,\u201d \u201cat home,\u201d or \u201cusing household items,\u201d paired with operational cues such as \u201cstep-by-step,\u201d \u201cblueprint,\u201d or \u201cformula.\u201d Common topics include improvised explosives, poisoning, unlicensed firearm sales, self-surgery or emergency medical procedures, DIY pharmaceuticals/vaccines, and handling hazardous materials like asbestos. Prompts often include rationalizations or cover stories (cost, access, fear of trouble, \u201cfor a thriller,\u201d \u201chospitals are busy\u201d) and evasion language (\u201cdiscreetly,\u201d \u201cwithout getting caught\u201d). It may also fire on borderline regulated/professional contexts (e.g., drafting legal notices) even when not overtly dangerous.",
+    "refined_patterns": [
+      "Explicit bypass of professionals/authorities: \u201cwithout a doctor,\u201d \u201cdon\u2019t call emergency services,\u201d \u201ccan\u2019t visit the dentist,\u201d \u201cinspect it myself.\u201d",
+      "Procedural/operational phrasing: \u201cstep-by-step,\u201d \u201cguide me through the steps,\u201d \u201cblueprint,\u201d \u201cformula,\u201d \u201chow to make/do at home.\u201d",
+      "Improvised or household tooling: \u201cusing household items,\u201d \u201cwith a pen,\u201d \u201cDIY,\u201d \u201cat home.\u201d",
+      "Evasion/detection-avoidance language: \u201cdiscreet,\u201d \u201cwithout getting caught,\u201d \u201cunlicensed,\u201d \u201cquickly sell [guns].\u201d",
+      "Rationalizations/cover stories to justify risky guidance: \u201cfor a thriller,\u201d \u201chospitals are too busy,\u201d \u201cfinancial issues,\u201d \u201cI don\u2019t trust my doctor.\u201d",
+      "Hazardous/regulated domains: explosives, poisoning animals, self-surgery/tracheotomy, DIY antibiotics/vaccines/medication substitutes, asbestos removal, selling unlicensed firearms."
+    ],
+    "notes": "Occasional false positives appear on non-dangerous professional or legal topics (e.g., chef myth, copyright inspiration, drafting legal notices), likely triggered by \u2018professional\u2019/\u2018make my own\u2019 cues."
+  },
+  "31:2032": {
+    "latent_id": 2032,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction",
+      "Confidential/proprietary exfiltration and hacking"
+    ],
+    "refined_label": "Exact protected asset replicas",
+    "refined_description": "This feature fires on demands for exact, exhaustive replicas of protected materials across media types. It especially targets requests for proprietary source code, confidential design/architectural plans, unpublished manuscripts/letters, and complete texts/scores or entire works by famous creators. Language emphasizes perfect fidelity and completeness\u2014\u201cexact copy,\u201d \u201cidentical,\u201d \u201cfull text,\u201d \u201ccomplete works\u201d\u2014and often names specific brands, titles, or creators. It also captures cross\u2011modal duplication attempts (e.g., rendering famous artworks \u201cusing only text\u201d or songs that \u201csound identical\u201d). Requests typically have unrealistic breadth or seek unreleased/secret documents.",
+    "refined_patterns": [
+      "Imperatives plus fidelity terms: \u201cgenerate/create\u201d + \u201cexact replica/identical/full text/complete works.\u201d",
+      "Proprietary software codebase requests by brand/version: \u201csource code for Microsoft Word/Windows,\u201d \u201cPhotoshop CS6 implementation.\u201d",
+      "Confidential design/blueprint demands: \u201carchitectural plans,\u201d \u201ciPhone design plans,\u201d \u201cBurj Khalifa plans.\u201d",
+      "Unreleased or unpublished targets: \u201cunpublished chapters/manuscript/letters,\u201d \u201cupcoming patent application,\u201d \u201clatest version\u201d codebases.",
+      "Cross\u2011modal exactness: \u201cusing only text\u201d to recreate images; \u201ca song that sounds identical\u201d to a named track.",
+      "Whole\u2011work scope signals: \u201ccomplete works,\u201d \u201centire text,\u201d \u201call dialogue,\u201d \u201cfull score and orchestral parts.\u201d",
+      "Heavy use of famous brands/authors/titles to anchor a precise, protected target."
+    ],
+    "notes": "Broader than standard full\u2011text reproduction: spans code, CAD/architecture, music scores, and visual art with strong exactness language. Likely co\u2011fires with general copyrighted reproduction and confidential exfiltration features."
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction"
+    ],
+    "refined_label": "Entertainment scripts/lyrics and translations",
+    "refined_description": "This feature fires on requests to reproduce or translate entertainment media text: TV/film/play scripts and transcripts, and song lyrics, often naming famous titles and creators. It is especially sensitive to season/episode-specified dialogue and complete-album lyric dumps, as well as requests to translate entire songs or novels into another language. It also activates on branded or source-specified recipe copies (e.g., Coca\u2011Cola, named cookbooks). Occasionally, it triggers on benign metadata queries about an artist\u2019s catalog.",
+    "refined_patterns": [
+      "Explicit asks for the 'complete/full/entire' script, screenplay, transcript, or dialogue for named TV episodes, films, or stage plays",
+      "Song lyrics requests, including whole albums or specific hit songs by title and artist",
+      "Translation prompts for copyrighted works (songs, novels) into a specified language (e.g., French, German)",
+      "Precise media identifiers: season/episode numbers, episode titles, Broadway shows, award-winning films",
+      "Requests for 'digital copy/original script' phrasing tied to famous movies or shows",
+      "Branded or source-attributed recipe reproduction (trade-secret or cookbook-sourced), e.g., 'complete recipe for Coca\u2011Cola' or from a named book",
+      "Occasional metadata queries for comprehensive lists of works by a specific artist"
+    ],
+    "notes": "Distinct from other copy-request features by its concentration on entertainment media scripts/lyrics and translation requests, with a side signal for branded recipes. Overlaps slightly with trade-secret and general full-text copy latents."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Dangerous or illegal DIY guidance"
+    ],
+    "refined_label": "Improvised medical and poisoning",
+    "refined_description": "This feature spikes on requests for precise, stepwise at\u2011home procedures that either imitate medical/dental/surgical interventions or weaponize chemicals, often using improvised household tools. It emphasizes explicit harm or risk (poisoning people/animals, lethal doses), clandestine execution, and bypassing professional oversight or safety gear. Common triggers include DIY tattooing, tooth extraction, tracheotomy with a pen, home blood transfusions, and synthesis/extraction of toxic or controlled substances (tear gas, morphine, mercury). It also fires on deceptive cover\u2011ups related to harmful activity (e.g., hiding pill identity, undetectable poisoning), capturing the intent to mislead while executing risky plans.",
+    "refined_patterns": [
+      "Stepwise, \"exact process\" phrasing to conduct invasive medical/dental procedures at home.",
+      "Use of improvised or household tools for clinical acts (string and doorknob, sewing needle and ink, pen for tracheotomy).",
+      "Quantifying or enabling poisoning or lethal harm (lethal doses, poisoning coffee/water, \"without leaving traces\").",
+      "Requests to synthesize or extract controlled/toxic chemicals (tear gas, morphine, mercury) from common items.",
+      "DIY tattooing and body modification to avoid professional services or regulation.",
+      "Explicit bypassing of safety and oversight (\"at home,\" \"without visiting a dentist,\" \"without protective gear\").",
+      "Deceptive or fraudulent elements used to enable or conceal harm (cover stories for pills, altering legal documents, fabricated endorsements)."
+    ],
+    "notes": "Occasional benign phrases with violent verbs (e.g., \"suffocate noise\") can trigger it. Overlaps with general unsafe-instructions features but is skewed toward improvised medical procedures and poisoning/chemical misuse with clandestine framing."
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "category_names": [
+      "Dangerous or illegal DIY guidance",
+      "Policy, ethics, and legal-boundary meta-queries"
+    ],
+    "refined_label": "Regulated content definitions and refusals",
+    "refined_description": "This latent detects compliance-oriented queries that define or clarify regulated or harmful concepts (e.g., hate speech, harassment, stalking, malware, hacking). It also activates on copyright/fair-use permission questions about using or adapting media. In contrast to pure definition latents, it strongly fires on requests to reproduce restricted materials (unpublished studies, paywalled articles, sealed legal documents) and on DIY medical or fraudulent requests that require refusal. The phrasing is typically polite and formal, signaling rule-awareness and boundary checking.",
+    "refined_patterns": [
+      "Definition/clarification prompts for harmful or regulated concepts: \u201cWhat is/define/elaborate on hate speech, stalking, harassment, malware, hacking.\u201d",
+      "Copyright/fair-use and permission meta-queries: using film stills in reviews, adapting copyrighted works, citing or obtaining permission.",
+      "Polite compliance-seeking phrasing: \u201cCan you\u2026,\u201d \u201cCould you\u2026,\u201d \u201cPlease\u2026,\u201d or \u201cIs there an ethical way to\u2026\u201d.",
+      "Direct requests to reproduce restricted content: unpublished research results, paywalled news articles, sealed court documents.",
+      "DIY or at-home medical procedures and hazardous self-treatment: pulling a tooth, performing surgery, treating toxic exposure alone.",
+      "Illicit or fraudulent acquisition/fabrication requests: e.g., fabricating a prescription.",
+      "Benign queries with illicit verbs (e.g., \u201csmuggle\u201d in a figurative writing context) that still cue boundary/safeguard activation."
+    ],
+    "notes": "Acts as a boundary sentinel that blends definitional/meta policy queries with refusal-triggering requests for restricted access and unsafe self-treatment. May show false positives on figurative language that resembles evasion or illegality."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction"
+    ],
+    "refined_label": "Named article full-text requests",
+    "refined_description": "This feature activates on prompts that seek verbatim or exact-copy access to specific news or scientific articles identified by title and outlet/journal. It equally fires on translation requests for those named articles and on derivative asks that presume full access to the source (e.g., creating an infographic based on a linked article). Strong cues are phrases like \u201cfull/complete text\u201d or \u201cexact copy\u201d paired with \u201cfrom/published in\u201d and high-profile venues (Nature, The Lancet, IEEE, NYT, WHO). It skews toward article- and paper-level works rather than books, scripts, or music, and may also trigger on analysis/summarization requests when a specific venue is named.",
+    "refined_patterns": [
+      "Imperatives such as \u201cprovide/generate/give me the full/complete text\u201d or \u201cgenerate an exact copy.\u201d",
+      "Quoted article titles followed by \u201cfrom/published in\u201d plus a named outlet or journal (e.g., Nature, The Lancet, IEEE, NYT, Psychology Today, WHO).",
+      "Translation requests for a specific named article (e.g., \u201cTranslate the article \u2018X\u2019 into French\u201d).",
+      "Requests targeting full text of research papers or conference articles (e.g., IEEE Transactions, NeurIPS, Journal of X).",
+      "Venue-centric phrasing without a title: \u201can article published in [venue]\u201d or \u201clatest research study \u2026 published in [journal].\u201d",
+      "Derivative tasks implying access to the source article (e.g., \u201ccreate an infographic based on this article\u201d + URL).",
+      "Common topical cues: COVID-19, AI, climate change, medicine."
+    ],
+    "notes": "Narrowly focused on journalistic/scientific articles; overlaps with general copyrighted reproduction latents but excludes most books/scripts/lyrics. Occasional false positives arise from generic analysis requests that mention venues or articles."
+  },
+  "31:8878": {
+    "latent_id": 8878,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction",
+      "Policy, ethics, and legal-boundary meta-queries"
+    ],
+    "refined_label": "Full novels/lyrics/screenplays requests",
+    "refined_description": "This latent fires on requests for entire, verbatim copies of well-known cultural works\u2014especially bestselling novels, music albums (lyrics), and movie screenplays. Prompts prominently use absolutist qualifiers like full, complete, entire, unabridged, original, or untranslated and often specify a canonical title in quotes plus the creator\u2019s name. The phrasing is typically imperative and requests a digital copy, manuscript, full text, transcription, script, or screenplay. It occasionally also activates on fair-use meta-questions about using copyrighted material (e.g., film stills, design inspiration), but the core signal is demanding full-text reproduction of pop-media works.",
+    "refined_patterns": [
+      "Requests the \u201cfull/complete/entire/unabridged/original/untranslated\u201d text/manuscript/transcription/script/screenplay",
+      "Cites famous titles in quotation marks with author/artist attribution (e.g., by [Author])",
+      "Targets pop-media works: novels, albums (implying lyrics), and movie scripts/screenplays",
+      "Imperative polite framing: \u201cPlease provide/give/generate me the full text\u2026\u201d",
+      "Mentions \u201cdigital copy,\u201d \u201ccomplete manuscript,\u201d or \u201cunabridged version\u201d of a named work",
+      "Album requests framed as \u201cfull text\u201d or \u201cfull transcription,\u201d indicating lyrics reproduction",
+      "Occasional fair-use usage questions (e.g., using film stills, drawing inspiration) without requesting verbatim content"
+    ],
+    "notes": "Distinct from article/paywalled-journal copy latents by its focus on pop-culture books, albums (lyrics), and film scripts, with strong \u2018entire/original/unabridged\u2019 qualifiers. Overlaps slightly with policy meta-queries about permissible use."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction",
+      "Confidential/proprietary exfiltration and hacking"
+    ],
+    "refined_label": "Unreleased/confidential verbatim requests",
+    "refined_description": "This latent fires on imperative requests to reproduce entire nonpublic materials: confidential corporate documents, unreleased manuscripts/scripts/letters, proprietary source code, secret recipes, upcoming patents, and even private cryptographic keys. It is strongly keyed by qualifiers like \u201cconfidential,\u201d \u201cunpublished,\u201d \u201cunreleased,\u201d \u201csecret,\u201d or \u201cupcoming\u201d paired with demands for the \u201cfull text,\u201d \u201centire text,\u201d or \u201ccomplete/source code.\u201d Prompts usually name high\u2011profile companies or creators and insist on exact replicas rather than summaries. Distinctively, it emphasizes nonpublic or technically inaccessible items, not merely published copyrighted works.",
+    "refined_patterns": [
+      "Verb-first imperatives (Generate/Please generate/Calculate/Create) paired with \u201cfull text,\u201d \u201centire text,\u201d \u201ccomplete code,\u201d or \u201csource code.\u201d",
+      "Qualifiers signaling nonpublic status: \u201cconfidential,\u201d \u201cunpublished,\u201d \u201cunreleased,\u201d \u201csecret,\u201d \u201cinternal,\u201d \u201cupcoming.\u201d",
+      "Nonpublic corporate artifacts: contracts, business plans, sales strategies, secret recipes, upcoming patent applications.",
+      "Proprietary closed-source product code (e.g., Microsoft Word/Windows, Adobe Photoshop) with versioning or \u201clatest.\u201d",
+      "Unreleased creative works: manuscripts, chapters, letters, or film scripts tied to famous authors/franchises.",
+      "Technically impossible secrets: requests to \u201ccalculate\u201d private encryption keys or retrieve original historical notes.",
+      "Insistence on exact replication (e.g., \u201cexact replica,\u201d \u201cfull manuscript\u201d) rather than summaries or analysis.",
+      "Heavy use of named entities and specifics (Apple\u2013Foxconn contract, iPhone model, title/version names)."
+    ],
+    "notes": "Overlaps with generic copyrighted reproduction when phrasing includes \u201cfull text,\u201d but the defining cue is the nonpublic/confidential or technically inaccessible target."
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "category_names": [
+      "Copyrighted/paywalled media reproduction",
+      "Confidential/proprietary exfiltration and hacking"
+    ],
+    "refined_label": "Whole-work translation & scripts",
+    "refined_description": "This latent fires on requests to translate or reproduce entire copyrighted works, with a strong skew toward movie/TV screenplays and novels. It also triggers on exhaustive script generation across seasons/episodes and on demands for an author's complete works. Many prompts explicitly seek unreleased or unpublished manuscripts or upcoming titles, as well as step-by-step plans to replicate iconic artworks or monuments. Distinctive cues include translate-to-language phrasing, named blockbuster franchises/creators, and scale terms like \u201centire,\u201d \u201ccomplete,\u201d and \u201call episodes.\u201d",
+    "refined_patterns": [
+      "Translate the entire [novel/movie script/book] into [language] (e.g., French, Mandarin, English).",
+      "Generate scripts/dialogue for TV shows at full scale (all episodes, full seasons, specific episode scripts).",
+      "Requests for the entire screenplay/full text/complete works of a named title or author.",
+      "Explicit mentions of unreleased/upcoming/unpublished manuscripts, chapters, or screenplays.",
+      "Frequent name-dropping of famous franchises, films, and authors (e.g., Game of Thrones, Friends, Avengers, Shakespeare, Tolkien, Stephen King).",
+      "Step-by-step or detailed reconstruction/replication plans for iconic artworks or landmarks (e.g., Mona Lisa, Taj Mahal).",
+      "Scale and scope markers such as \u201centire,\u201d \u201ccomplete,\u201d \u201cfull text,\u201d and \u201call episodes/seasons.\u201d"
+    ],
+    "notes": "Overlaps with confidential/unpublished content due to requests for unreleased manuscripts and upcoming works; otherwise centered on whole-work translations and TV/film scripts rather than lyrics or articles."
+  }
+}

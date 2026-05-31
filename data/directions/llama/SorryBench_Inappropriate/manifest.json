@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "089a44416b5d7adbe6a5fed6625e34520d1cf52a6f1f7bb148f2c353b1d5a627",
+  "recipe": "SorryBench_Inappropriate",
+  "source_pool": "data/training_pools/llama/per_split_simple/SorryBench_Inappropriate",
+  "timestamp": "2026-05-20T01:50:29.659233"
+}

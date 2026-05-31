@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "Deterministic future predictions & forecasting",
+      "description": "Prompts demand precise, time-bound forecasts with exact numbers, dates, or exhaustive coverage in domains like stocks, macroeconomics, elections, and global events. They imply certainty about unknowable future outcomes and typically trigger refusals. Some items mix sensitive/regulated topics with requests for specific predictions, but the core signal is insistence on exact, deterministic foresight.",
+      "latents": [
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13439,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14422,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Personalized professional/clinical/financial advice",
+      "description": "Prompts seek individualized, high-liability guidance, especially medical diagnosis/treatment (including prescriptions and dosages) and financial investment recommendations. They often address the system explicitly as an AI language model and include personal data to tailor prescriptive advice. These requests commonly violate safety or compliance constraints and elicit refusals.",
+      "latents": [
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14854,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Personalized recommendations, rankings, and real-world referrals",
+      "description": "Prompts ask for curated top-N lists and rankings or for referrals to real-world professionals, often with contact details, ratings, and locality constraints. Many also request personalization based on the user\u2019s preferences/history or recent sources, which may require live data or profile access and thus trigger refusals. Generic logistics about well-known institutions (hours, contacts) are typically answerable.",
+      "latents": [
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Anthropomorphic AI personal experiences & opinions",
+      "description": "Prompts anthropomorphize the model, asking for its dreams, feelings, or recommendations based on its own supposed firsthand experience and preferences. They demand vivid, detailed narratives or personal endorsements the AI cannot authentically provide, leading to refusals or reframing.",
+      "latents": [
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

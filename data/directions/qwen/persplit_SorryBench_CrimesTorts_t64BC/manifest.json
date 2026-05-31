@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_SorryBench_CrimesTorts_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 17.834455490112305,
+  "bc_proj_mean": 1.657684087753296,
+  "direction_sha256": "48f25d3832040f9befba4395cc394618b69d260dde15a01ccebeea20c1e48905",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/SorryBench_CrimesTorts/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:37"
+}

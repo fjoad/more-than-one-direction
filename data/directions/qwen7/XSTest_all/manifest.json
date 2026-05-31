@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "a95ae20220f3faf734fc8e7b7e5c014093c23c5860169d2152b00fb131c07e68",
+  "recipe": "XSTest_all",
+  "source_pool": "data/training_pools/qwen7/per_split_simple/XSTest_all",
+  "timestamp": "2026-05-20T02:34:24.480034"
+}

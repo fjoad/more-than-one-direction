@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 56,
+  "n_b": 56,
+  "direction_sha256": "7523af04f0b0a4ba31e5f4338656e9f0b61e69e56d5afe99e1cde84e73d64144",
+  "split": "CocoNot_Humanizing",
+  "recipe": "maxN_redcluster",
+  "bc_source": "_BC_source",
+  "seed": 123,
+  "h_train_eq_test": true,
+  "timestamp": "2026-05-17T11:10:03.682858"
+}

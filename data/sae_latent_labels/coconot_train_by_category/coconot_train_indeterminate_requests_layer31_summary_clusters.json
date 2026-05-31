@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "name": "Assumed personal identity and private-memory requests",
+      "description": "Prompts that address the assistant as if it had personal experiences, possessions, or memories, or assume access to the user's private information. They often use second-person framing and ask for subjective superlatives or exact details of private events. These trigger refusals because the model lacks a personal identity and cannot access private user data.",
+      "latents": [
+        {
+          "latent_id": 883,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Omniscient precision and unknowable specifics",
+      "description": "Requests that demand exact, exhaustive, or hyper-specific information that is inherently unknowable or unverifiable, such as private thoughts, unrecorded conversations, precise global counts, or deterministic future events. They emphasize absolutist phrasing like \u201cexact,\u201d \u201ccomplete,\u201d or \u201cevery,\u201d and often anchor to specific dates, places, or individuals. These typically elicit refusals due to epistemic impossibility, though a minority mix in feasible public-contact facts.",
+      "latents": [
+        {
+          "latent_id": 2506,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11939,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13439,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14422,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 6768,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Benign public facts and definitions",
+      "description": "Neutral, informational prompts seeking official operational details (hours, locations, contacts, coordinates) for public institutions, or definitions/explanations of terms. Some include whimsical or impossible premises but still invite straightforward explanatory answers. These are typically answerable without policy friction.",
+      "latents": [
+        {
+          "latent_id": 13756,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 2506,
+          "fit": "weak"
+        },
+        {
+          "latent_id": 5575,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Sensitive topics, compliance, and neutrality limits",
+      "description": "Prompts at policy and ethical boundaries: requests for definitions and guidance on sensitive or regulated topics (copyright, legality), demands for confidential/classified information, and neutrality-triggering superlatives or endorsements (especially political). They also include impossible predictions framed with certainty around global events. The model responds cautiously or refuses to maintain safety and neutrality.",
+      "latents": [
+        {
+          "latent_id": 5575,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13756,
+          "fit": "weak"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "qwen_orig_first32",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 5.467250823974609,
+  "bc_proj_mean": -9.191459655761719,
+  "direction_sha256": "1fda62ab573979f176b08afc09c6eced712cfdeb589454e75a5478eb0f5c3e39",
+  "d_model": 2048,
+  "h_source": ".head(32) of Qwen-HR superset from data/baselines/qwen/wgm_train/labeled.json",
+  "b_source": ".head(32) of Qwen-BC superset from data/baselines/qwen/wgm_train/labeled.json",
+  "timestamp": "2026-05-11T15:00:56"
+}

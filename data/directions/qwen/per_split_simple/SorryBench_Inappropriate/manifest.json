@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "recipe": "per_split_simple",
+  "split": "SorryBench_Inappropriate",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 7.9305877685546875,
+  "bc_proj_mean": -4.565359115600586,
+  "direction_sha256": "04893afb0c819ffe98a6259da2df2dd1fd12fbf6379e402a88c8032d1b7c4a73",
+  "d_model": 2048,
+  "dtype": "float32_on_disk",
+  "timestamp": "2026-05-08T22:10:52"
+}

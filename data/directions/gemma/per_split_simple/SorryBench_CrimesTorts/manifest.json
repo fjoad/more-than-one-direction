@@ -1,0 +1,15 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "recipe": "per_split_simple",
+  "split": "SorryBench_CrimesTorts",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 123.51728820800781,
+  "bc_proj_mean": -21.488985061645508,
+  "direction_sha256": "3efb9cd48b7eb1f3fe3164dc9c11a230b4a3f1f2d94fdd3c7e6bd2e7a33af716",
+  "d_model": 3584,
+  "dtype": "float32_on_disk",
+  "timestamp": "2026-05-09T03:06:27"
+}

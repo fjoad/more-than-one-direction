@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "6265fe73b4852dcdf405621a4a74ea856396485fbe5adbc6d4c22c79a402f3d0",
+  "recipe": "SorryBench_HateSpeech",
+  "source_pool": "data/training_pools/qwen7/per_split_simple/SorryBench_HateSpeech",
+  "timestamp": "2026-05-20T03:50:42.409552"
+}

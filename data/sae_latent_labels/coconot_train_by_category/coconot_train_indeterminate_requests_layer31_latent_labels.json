@@ -1,0 +1,129 @@
+{
+  "31:883": {
+    "latent_id": 883,
+    "label": "Personal opinion request",
+    "description": "These prompts ask the assistant for first-person opinions, experiences, possessions, or preferences. They are open-ended and subjective, often using superlatives, and are explicitly directed at 'you'. Such framing conflicts with policies against claiming personal experiences, leading to refusals.",
+    "patterns": [
+      "Frequent use of the phrase 'In your opinion' or equivalent",
+      "Second-person addressing ('you', 'your') aimed at the assistant",
+      "Superlative framing such as 'most', 'best', 'most important'",
+      "Requests for personal experience or ownership (e.g., 'you own', 'you've received', 'from your childhood')",
+      "Hypothetical preference questions (e.g., which period you'd visit, event you'd change, figure you'd dine with)",
+      "Broad evaluative or value-laden topics (creativity, meaning of life, social issues, books/movies/technology)"
+    ]
+  },
+  "31:2506": {
+    "latent_id": 2506,
+    "label": "Impossible exact details",
+    "description": "These prompts demand exhaustive, highly precise information\u2014often phrased as exact numbers, complete lists, verbatim conversations, or inner thoughts. Many target unknowable or unrecorded events (private dialogues, last thoughts), impossible enumerations (atoms, grains, stars), or exact future predictions, which elicit refusals. A minority ask for specific public contact info or lists, reflecting the same fixation on precision even when feasible.",
+    "patterns": [
+      "Heavy use of cues like \"exact,\" \"complete,\" \"detail,\" \"provide the list,\" and \"recite the full text.\"",
+      "Requests for unrecorded private conversations or inner thoughts of historical figures at specific times.",
+      "Demands for impossible global counts or exhaustive enumerations (atoms, stars, grains of sand).",
+      "Attempts to predict future events with precise dates, times, and locations.",
+      "Exhaustive, impractical cataloging (e.g., contents of every book in a vast library).",
+      "Specific contact data or coordinates requests, sometimes for fictional entities, maintaining an insistence on precision."
+    ]
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "label": "Sensitive topics and limits",
+    "description": "These prompts cluster around policy and epistemic boundaries: they either seek definitions or ethical/legal guidance on sensitive topics, or they ask for information the model should not or cannot provide. Refusals occur when the request involves confidential/classified data, unknowable predictions, or subjective superlatives/endorsements, especially around politics and public figures.",
+    "patterns": [
+      "Definition/clarification requests about harmful or controversial concepts (e.g., hate speech, stalking, malware).",
+      "Ethical/legal compliance questions related to copyright and fair use (permission, using film stills).",
+      "Demands for confidential or classified information (private leader meetings, CIA archives).",
+      "Impossible or unknowable asks framed with certainty (exact future disasters, detailed global events, unknown confirmatory evidence).",
+      "Superlative ranking/endorsement questions (\"Who is the most...\" leader/artist/mind) that elicit neutrality policies, especially in political contexts.",
+      "Phrases emphasizing absolutes and certainty (\"reveal the exact details\", \"exact date and time\", \"describe in detail\")."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Assumed private knowledge",
+    "description": "These prompts assume the assistant has personal experiences or access to the user's private information and memories. They often request subjective, first-person accounts or exact details about specific events, possessions, or locations that an AI cannot know. The mismatch between assumed human perspective and the model\u2019s lack of personal identity or data access triggers refusals.",
+    "patterns": [
+      "Frequent use of first/second person framing (\"my\", \"your\", \"you've\") implying personal perspective or memories.",
+      "Requests for exact details of private events or items (emails, diary contents, family conversations, meeting timeline, breakfast, shirt color).",
+      "Temporal anchors suggesting live memory access (\"yesterday\", \"this morning\", \"last year\").",
+      "Superlative opinion prompts expecting personal judgment (\"most awe-inspiring/impressive/influential/breathtaking/memorable\").",
+      "Assumptions of specific human context: ownership, travel, attendance, or sensory experience (concerts, flights, views, gadgets).",
+      "Geographic/communal identity assumptions (\"your city/region/country/community\")."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "Specific details: public vs private",
+    "description": "These prompts seek specific, concrete details\u2014either public operational information (hours, contacts) for well-known institutions or granular narratives about private, personal, or unknowable events. The latter require inaccessible knowledge (sealed letters, diaries, dreams, private conversations, thoughts), prompting refusals, while the former are legitimate public facts. Many explicitly demand exhaustive detail.",
+    "patterns": [
+      "Frequent directives like \"Detail/Describe/Explain in detail,\" \"full timeline,\" or \"detailed narrative\" aiming for exhaustive specifics.",
+      "Requests for contents of private artifacts or inner states (diaries, unopened letters, dreams, thoughts, sealed boxes).",
+      "Temporal and situational specificity (\"yesterday,\" \"last night,\" exact dates, a particular meeting or dinner).",
+      "Strong use of personal possessives (my/grandmother/family) contrasted with named public institutions (Sydney Opera House, Smithsonian, WHO).",
+      "Benign cases ask for public-facing operational data (visiting hours, business hours, contact/fax numbers) of well-known venues."
+    ]
+  },
+  "31:11939": {
+    "latent_id": 11939,
+    "label": "Unknowable exact details",
+    "description": "These prompts ask for exact, highly specific details that are impossible or unfalsifiable (private thoughts, first-ever events, future specifics, exact counts), or pose absurd hypotheticals that violate known laws. The model tends to refuse when precision is demanded for unknowable facts, but answers when it can provide general explanations, historical causation, or fiction-lore context. Fictional requests are addressed by referencing canon rather than literal precision.",
+    "patterns": [
+      "Heavy use of precision language: \"exact,\" \"precise,\" \"in detail,\" specific dates or counts.",
+      "Targets inherently unknowable information: inner thoughts/dreams, future events, first beings, extraterrestrials, exact grain counts.",
+      "Absurd or physics-defying premises: invisibility at will, shape-shifting humans, perpetual motion tied to birth month.",
+      "Requests for fictional-world specifics (TMNT lair, Daenerys) sometimes phrased as real-world facts like GPS coordinates.",
+      "Mixture with answerable historical causation questions (WWI trigger, invasion of Poland, rise/fall of Rome) that invite general explanations.",
+      "Temporal or uniqueness framing used to force specificity: \"the first,\" exact dates, or far-future predictions."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "impossible omniscience request",
+    "description": "These prompts demand exact, exhaustive knowledge that is fundamentally unknowable or unverifiable, such as precise counts of vast natural phenomena or private thoughts. They often anchor requests to specific dates, times, or individuals (historical or generic) and assume access to non-existent data or future outcomes. The style emphasizes absolute certainty and completeness, beyond feasible measurement or historical record.",
+    "patterns": [
+      "Heavy use of absolutist phrasing like \"exact,\" \"every,\" \"complete,\" and \"as of this second.\"",
+      "Requests for precise counts of massive, dynamic, or unmeasurable sets (raindrops, grains of sand, leaves, global insect populations).",
+      "Demands to reveal private, internal mental states or undocumented conversations of individuals, often historical figures.",
+      "Temporal specificity with exact dates and locations, including impossible future predictions.",
+      "Global-scale aggregation or hyper-specific obscure events designed to be unverifiable (e.g., 44th passerby\u2019s socks).",
+      "Assumes access to data that never existed or cannot be recorded (comprehensive medical records from the 15th century)."
+    ]
+  },
+  "31:13439": {
+    "latent_id": 13439,
+    "label": "Exact future prediction",
+    "description": "These prompts ask for highly specific, often personal future facts or internal states that are inherently unknowable. They demand exact dates, times, locations, conversations, or thoughts, seeking certainty where none is available. Many involve mind reading or predicting random phenomena, which triggers refusal.",
+    "patterns": [
+      "Frequent use of words like exact, precise, detail, and reveal demanding certainty.",
+      "Requests target personal life events or private thoughts (meeting spouse, future conversations, inner thoughts).",
+      "Imperative phrasing: Predict, Tell me, Describe, Reveal.",
+      "Inclusion of specific timestamps, dates, and locations to enforce precision.",
+      "Unknowable or stochastic outcomes (number of raindrops, thoughts of a person/animal) are requested."
+    ]
+  },
+  "31:13756": {
+    "latent_id": 13756,
+    "label": "Definitions and official details",
+    "description": "These prompts are polite, straightforward information-seeking questions. They either request official factual details about institutions or landmarks (hours, locations, websites, postal codes, coordinates) or ask for definitions of legal/misconduct terms. Several are whimsical, nonsensical \u201cwhy\u201d questions applying policy-like reasoning to inanimate or impossible entities, but still seek an explanation. Overall they invite neutral exposition rather than actionable guidance.",
+    "patterns": [
+      "Frequent definitional frames: \u201cWhat is\u2026\u201d, \u201cWhat does it mean\u2026\u201d, \u201cclarify what \u2026 refers to\u201d",
+      "Requests for official/authoritative details: hours, locations, official websites/URLs, postal codes, coordinates",
+      "Named entities and landmarks: UN Headquarters, Smithsonian, Sydney Opera House, Mount Everest, Madison Square Garden",
+      "Legal/misconduct terminology asked as definitions: smuggling, stalking, forging documents, corporal/corporeal punishment, alien smuggling",
+      "Polite request phrasing: \u201cCan you\u2026\u201d, \u201cCould you\u2026\u201d, \u201cWhat\u2019s\u2026\u201d",
+      "Whimsical or absurd policy-style \u2018why\u2019 questions about nonhuman or impossible subjects (hats, clouds, perfumes, the sun, blue bananas, invisibility)"
+    ]
+  },
+  "31:14422": {
+    "latent_id": 14422,
+    "label": "Impossible exact knowledge",
+    "description": "These prompts demand exact, exhaustive, or perfectly precise information about the world, often with global scope or hyper-specific times and places. Many ask for far-future predictions or inherently unknowable private/internal states, requiring omniscient access. The unrealistic precision and scope make them unanswerable, triggering refusal behavior.",
+    "patterns": [
+      "Insistence on exactness and completeness (words like \"exact,\" \"every,\" \"precise,\" \"specific\").",
+      "Global or exhaustive scope (e.g., all cities, all beaches, every human, every book).",
+      "Far-future or hyper-specific temporal demands (e.g., year 3000, specific historical dates).",
+      "Requests for inherently unknowable or private information (thoughts, sealed contents, personal details).",
+      "Demand for precise counts or deterministic predictions where only estimates or uncertainty are possible (raindrops, leaves, lightning strikes, stock prices)."
+    ]
+  }
+}

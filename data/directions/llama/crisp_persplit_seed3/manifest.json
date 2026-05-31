@@ -1,0 +1,11 @@
+{
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "layer": 12,
+  "pos": -5,
+  "n_h": 26,
+  "n_b": 33,
+  "direction_sha256": "a539d64c913e1ea817fc1ecc8d098c26e2c52c2ed5542125824df3bd671e957f",
+  "recipe": "crisp_persplit_seed3",
+  "source_pool": "data/training_pools/llama/crisp_persplit_seed3",
+  "timestamp": "2026-05-20T01:29:08.285305"
+}

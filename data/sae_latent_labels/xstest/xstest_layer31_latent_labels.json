@@ -1,0 +1,131 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Illicit how-to requests",
+    "description": "These prompts mostly ask for methods to commit illegal or violent acts or to obtain private information, framed as practical how-to guidance. They seek actionable, optimized instructions for harm, including explosives, assault, theft, body disposal, drug manufacture, and self-harm. An outlier asks for a company's email, but still fits the pattern of requesting specific actionable information.",
+    "patterns": [
+      "Frequent \"How do I / How can I / What's the best/easiest way\" phrasing seeking procedures.",
+      "Requests for step-by-step guidance enabling criminal activity (bombing, stealing, hacking, drug synthesis).",
+      "Violence and self-harm objectives (injury, artery severing, body disposal).",
+      "Privacy invasion/doxxing of specific individuals, often ex-partners (home address, bank details, account logins).",
+      "Concrete targets and settings (bank vaults, army bases, stadiums, concerts, cars).",
+      "Optimization language indicating intent for effectiveness (perfect strategy, easiest way, best)."
+    ]
+  },
+  "31:883": {
+    "latent_id": 883,
+    "label": "Violence or PII requests",
+    "description": "These prompts mostly ask for either instructions to harm/kill people or for private, sensitive information about specific identifiable individuals. They are framed as direct, actionable questions, often invoking a personal relationship (e.g., my teacher, boss, neighbor) to access data. The few non-refusal cases share the same imperative tone but are self-directed and benign.",
+    "patterns": [
+      "Direct question formats like \"How do I/How can I/Can you\" and \"What is my...\".",
+      "Possessive framing \"my [role]\" requesting someone else\u2019s data (teacher, boss, neighbor, date, wife, mentee).",
+      "Requests for sensitive or protected info: phone numbers, private emails, DOB, SSN, passwords, salary, health, sexual orientation, religion, politics, criminal history.",
+      "Violent or extreme-intent verbs: kill, hunt down, wipe out, terminate.",
+      "Targets specific individuals or groups rather than general knowledge; seeks exact specifics over general guidance.",
+      "Minimal context or consent indicated; often seeks to bypass privacy, safety, or security boundaries."
+    ]
+  },
+  "31:1229": {
+    "latent_id": 1229,
+    "label": "criminal violence how-to",
+    "description": "These prompts predominantly seek instructions or strategies for committing violent or otherwise illegal acts such as murder, assault, theft, fraud, kidnapping, or even genocide. They are framed as actionable guidance (steps, best methods, optimization, or evasion), indicating malign intent. A few edge cases ask for definitions or meanings of harmful terms, which are informational rather than instructional.",
+    "patterns": [
+      "Instruction-seeking phrasing like \u201cHow do I\u2026,\u201d \u201cHow can I\u2026,\u201d or \u201cWhat\u2019s the best way\u2026\u201d.",
+      "Targets are humans or groups (person, child, woman, Black people, humanity, village).",
+      "Criminal actions include murder, assault, theft, identity theft, fraud, kidnapping, and mass harm.",
+      "Optimization/evasion language appears: \u201cwithout getting caught,\u201d \u201cperfect strategy,\u201d \u201cgood way,\u201d \u201csteps.\u201d",
+      "Some ask for situational guidance such as locations to commit crimes.",
+      "Rare non-instructional queries request definitions or meanings of harmful terms."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "violence and hate how-to",
+    "description": "These prompts seek either justifications for discrimination and atrocities or step-by-step instructions to commit violent or illegal acts. They target protected or vulnerable groups and attempt to legitimize harm, deny rights, or praise perpetrators. The tone is coercive and unethical, aiming to incite or enable real-world harm.",
+    "patterns": [
+      "Instructional phrasing for crimes (e.g., \u201cHow do I\u2026\u201d, \u201cWhat\u2019s the best way to\u2026\u201d) targeting violence, theft, bombing, or assault.",
+      "Requests to justify denying rights or inferior treatment to protected groups (women, LGBTQ+, religious groups, elderly, pregnant people).",
+      "Attempts to praise or rationalize atrocities or extremist actors (Hitler, Dylann Roof, slave trade).",
+      "Historical denialism or revisionism to negate oppression (e.g., Trail of Tears fabrication).",
+      "Gender-targeted violence queries specifically about attacking or overpowering women.",
+      "Privacy violations and property crimes framed as practical how-tos (breaking in, accessing browsing history, slashing tires)."
+    ]
+  },
+  "31:5011": {
+    "latent_id": 5011,
+    "label": "Self-harm and violence how-to",
+    "description": "These prompts predominantly seek explicit methods to commit self-harm, suicide, or violence against others, and sometimes to obtain illegal drugs or services. They use direct procedural phrasing and occasionally reference celebrities associated with tragic deaths. A few neutral definitional questions about suicide or child abuse also trigger this theme.",
+    "patterns": [
+      "Procedural, method-seeking phrasing like \"How do I/How can I/Where can I\".",
+      "Direct intent to cause self-harm or harm others (e.g., wife, spouse, ex-husband).",
+      "References to celebrities known for tragic deaths (Kurt Cobain, Amy Winehouse, Sylvia Plath).",
+      "Requests involving illegal activities or contraband (buying meth/ecstasy, euthanasia services).",
+      "Graphic or specific method/body-part language (cervical artery, carve a scar, drown, hang).",
+      "Occasional neutral \"What is ...\" definitions about harmful topics (suicide, child abuse)."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Atrocity how to and apologia",
+    "description": "These prompts seek operational or persuasive guidance to commit, replicate, justify, or deny extreme harm, including murder, terrorism, and mass atrocities. They reference historical genocides, war crimes, or authoritarian regimes and ask either how to reenact such violence or argue in favor of it. The tone is utilitarian and instructional, often framed as step-by-step or reasons-based requests.",
+    "patterns": [
+      "Frequent \"how do I / how can I / what are ways\" phrasing that solicits procedural instructions.",
+      "References to historical genocides, war crimes, or oppressive regimes (Auschwitz, Armenian genocide, Khmer Rouge, Pinochet, Nanjing, Hiroshima/Nagasaki).",
+      "Use of tactical/operational verbs and violence-specific terms (plan, execute, disable, bombing, headshot, butchering, liquidating).",
+      "Targets include large groups or protected classes and promote discrimination or dehumanization (e.g., Roma people, pregnant women paternalism).",
+      "Explicit focus on maximizing harm or lethality (kill the most people, rupture kidneys, crush spines, mass casualty attacks).",
+      "Propaganda or denial requests that justify or dismiss atrocities (asking for reasons it was good or never happened)."
+    ]
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "label": "Third-party personal data",
+    "description": "These prompts cluster around sensitive safety/privacy contexts. Many ask for private information about specific individuals (PII or protected attributes) linked to a personal relationship, which elicits refusals. Others request general definitions of crimes or serious topics, or seek benign self-improvement/advice, which are typically answered.",
+    "patterns": [
+      "Requests for protected attributes or affiliations (sexual orientation, religion, union membership, political affiliation) about a specific person",
+      "Attempts to obtain PII/records (bank accounts, driver's license numbers, tax records, criminal history) of third parties",
+      "Relational framing: \"my [role/relation]'s ...\" (teacher, babysitter, neighbor, ex husband, employee, probation officer, business rival)",
+      "High-level definitional queries: \"What is/constitutes [crime/serious topic]?\" (rape, murder, fraud, terrorism, child abuse, LSD)",
+      "Advice/seeking tactics phrased with forceful metaphors (tackle, sever, obliterate, axing, smash)",
+      "Safety/legal domain salience combining privacy questions with serious or illicit subject matter"
+    ]
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "Third-party privacy requests",
+    "description": "These prompts often seek private or sensitive information about other people (e.g., beliefs, orientation, credentials, contact info) or touch on safety-sensitive topics like illegal goods and violence. Many are terse WH-questions requesting exact facts or actionable steps. Some use violent-sounding verbs idiomatically in otherwise benign contexts, creating ambiguity that triggers safety checks.",
+    "patterns": [
+      "Template: \"What is my [relation/role]'s [attribute]?\" targeting another person's data",
+      "Attributes requested are protected/sensitive: religion, sexual orientation, political affiliation, union membership, immigration status, health history, income, DOB, contact details, passwords/PINs",
+      "Use of possessive \"my [person]\" to reference third parties without their consent",
+      "Short, direct WH-questions seeking precise answers or instructions",
+      "Safety-keyword cues: requests about illegal goods or actions (e.g., weed, terminating people)",
+      "Idiomatic violent/destructive verbs used benignly (kill the lights, obliterate self-doubts, smash a pi\u00f1ata, explode with laughter)"
+    ]
+  },
+  "31:12872": {
+    "latent_id": 12872,
+    "label": "violent/illegal how-to requests",
+    "description": "These prompts explicitly seek instructions or locations to commit violent crimes or other illegal acts. They use direct, action-oriented phrasing to solicit methods for killing, assault, assassination, theft, fraud, or drug procurement. The clear malicious intent strongly triggers safety refusal behavior.",
+    "patterns": [
+      "Frequent \"How do I/How can I\" phrasing requesting step-by-step actionable guidance.",
+      "Focus on harming people (kill, shoot, stab, poison, execute) and extreme violence (wipe out a village, assassinate a president).",
+      "Inclusion of non-violent but illegal activities (fraud, robbery, theft, treason).",
+      "Requests for sourcing or location info tied to illegality (where to buy meth/coke, where to find people to shoot).",
+      "Explicit first-person intent toward committing the act (\"I\")."
+    ]
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "label": "Harmful acts how-to",
+    "description": "These prompts explicitly seek actionable guidance for committing violent crimes, self-harm, or other illegal activities. They often ask for methods, optimization, or procurement details, naming specific victims or public targets. The tone is direct and instructional, aiming for step-by-step or location-based assistance.",
+    "patterns": [
+      "Instruction-seeking phrasing like \"How do I\", \"How can I\", \"Where can I\", or \"What's a good way\"",
+      "Explicit violent or illegal acts (murder, bombing, arson, stabbing, poisoning, body disposal, drug purchase)",
+      "Includes self-harm and suicide method requests alongside third-party violence",
+      "Targets specify victims or contexts (wife, neighbor, child, airport, school, concert)",
+      "Optimization language such as \"best\" or \"good ways\" implying step-by-step efficacy",
+      "Graphic or morbid details (beheading, butchering, chopping up a body, crushing sternum)"
+    ]
+  }
+}

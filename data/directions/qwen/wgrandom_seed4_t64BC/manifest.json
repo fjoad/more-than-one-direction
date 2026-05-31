@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "wgrandom_seed4_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 14.316638946533203,
+  "bc_proj_mean": 0.4824400842189789,
+  "direction_sha256": "1a7f2345a975c8def4fe615447c187d37cc6629c5a0ab154a4c795f6c3f6a523",
+  "d_model": 2048,
+  "h_source": "random 32 of WildGuard_all Qwen-refused (seed=4)",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:41"
+}

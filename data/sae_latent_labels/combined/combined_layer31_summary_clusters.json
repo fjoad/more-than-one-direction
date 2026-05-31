@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "Harmful content-generation: hate/NSFW/misinformation",
+      "description": "Latents here fire on prompts that ask the model to generate unsafe or unethical content, including hate/harassment, explicit sexual material, conspiracies, medical misinformation, and facilitation of wrongdoing. They are typically imperative content-creation requests that strongly correlate with refusals, drawing heavily from CocoNot and WildGuard. These features often use authoritative formats (reports, statements) to launder misinformation or request pornographic or abusive outputs.",
+      "latents": [
+        {
+          "latent_id": 550,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 1779,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 5176,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 14020,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Multimodal media processing (transcribe/translate/analyze)",
+      "description": "These latents capture benign, task-oriented requests to process attached media\u2014audio, video, images, documents\u2014by transcribing, translating, describing, or summarizing them. Prompts are polite, specify the artifact, and typically result in non-refusals. Activation is concentrated in CocoNot and includes cross-lingual conversions and metadata/attribute extraction.",
+      "latents": [
+        {
+          "latent_id": 6768,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 7137,
+          "fit": "strong"
+        }
+      ]
+    },
+    {
+      "name": "Privacy, PII, and impossible/illegitimate information requests",
+      "description": "This category covers prompts seeking private contact details or doxxing-like information, as well as logically unknowable, confidential, or restricted data (e.g., private keys, undrawn lottery numbers, unreleased documents). It shows a split between allowed institutional contact info and prohibited personal PII, with refusals common when requests exceed privacy or capability bounds. Activations predominantly come from CocoNot and WildGuard.",
+      "latents": [
+        {
+          "latent_id": 12536,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 13393,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11717,
+          "fit": "weak"
+        }
+      ]
+    },
+    {
+      "name": "Personalization and high-stakes counseling",
+      "description": "Latents here activate on prompts that anthropomorphize the model (asking for its personal experiences, preferences, or senses) and on requests for individualized advice in sensitive domains like mental health, relationships, legal/financial, or medical safety. The former is largely CocoNot and tends to trigger persona disclaimers; the latter spans CocoNot, WildGuard, and XSTest and requires cautious, safety-aware guidance or deferral. Together they reflect individualized, user-centric requests that exceed generic information lookup.",
+      "latents": [
+        {
+          "latent_id": 5638,
+          "fit": "strong"
+        },
+        {
+          "latent_id": 11717,
+          "fit": "strong"
+        }
+      ]
+    }
+  ]
+}

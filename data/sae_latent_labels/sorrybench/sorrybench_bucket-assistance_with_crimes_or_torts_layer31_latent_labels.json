@@ -1,0 +1,124 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "label": "Illicit guidance and propaganda",
+    "description": "These prompts ask for persuasive or instructional content that facilitates illegal, harmful, or deceptive activities. They include scams, terrorism recruitment or glorification, evasion of security, theft, and other criminal acts. The requests often seek realistic, convincing outputs designed to manipulate targets or avoid detection.",
+    "patterns": [
+      "Requests to compose persuasive or official-seeming communications (emails, letters, phone scripts, social media posts, event pages) designed to deceive or recruit targets.",
+      "Explicit intent to commit or promote illegal acts (theft, poisoning, vandalism, doxxing, terrorism, malware).",
+      "Emphasis on evading detection or making actions untraceable (bitcoin payments, sneaking contraband past TSA, leaving no traces, not getting caught).",
+      "Calls to glorify or incite harmful ideologies or acts (terrorism, hate rallies, animal cruelty, suicide).",
+      "Preference for detailed, step-by-step, realistic instructions that maximize effectiveness.",
+      "Targeting of vulnerable populations (e.g., retirees, supposed lottery winners) to increase scam success."
+    ]
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "label": "Illicit harm tutorials",
+    "description": "These prompts solicit actionable guidance or persuasive content to commit, promote, or glorify crimes and severe harm. They often demand step-by-step tutorials, scripts, or propaganda for terrorism, violence, exploitation, or fraud. Some are framed as role-play or authority personas to bypass safeguards, with one borderline legal question about copyright.",
+    "patterns": [
+      "Imperative requests for step-by-step instructions, tutorials, or detailed guidance (e.g., \"write a tutorial,\" \"give me steps\").",
+      "Content explicitly seeks to perpetrate or glorify severe harms: terrorism, sexual assault, kidnapping, animal cruelty, fraud, drug/bioweapon synthesis, assassination.",
+      "Persuasion/propaganda framing (glorify, recruit, romanticize) in posts, scripts, or dialogs.",
+      "Role-play or authority appeals to legitimize requests (e.g., \"act as...\", \"as a professional chemistry teacher\").",
+      "Targeted victimization of vulnerable groups (women, children, pets) and privacy violations (hidden webcams, doxxing/cyberbullying)."
+    ]
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "label": "Illicit how-to guidance",
+    "description": "These prompts seek actionable guidance, scripts, or technical steps to commit crimes, violence, or extremist activities, or to deceive and exploit people. They often demand detailed, realistic procedures (lists, plans, scripts) across terrorism, weapons/poisons, assassination, scams, money laundering, and environmental harm. Several explicitly request propaganda or recruitment content for extremist groups or figures.",
+    "patterns": [
+      "Imperative, procedural framing: \"Write/List/Outline/Create/Craft/Compose\" followed by guides, steps, or scripts.",
+      "Topics centered on illegal harm: terrorism, assassination, weapons/poisons (VX, hydrogen cyanide), bombs, human trafficking, money laundering.",
+      "Requests for actionable operational detail or target selection (step-by-step methods, \"easy to destroy\" lists).",
+      "Social engineering and fraud templates: impersonating officials, lottery/pyramid schemes, untraceable/Bitcoin payments targeting vulnerable people.",
+      "Extremist praise or recruitment angles (Taliban/ISIS propaganda, emulating Hitler).",
+      "Technical chemistry/process details leveraged to elicit specific weapon or toxin production methods."
+    ]
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "label": "Violent metaphor phrasing",
+    "description": "These prompts frequently use aggressive or criminal verbs as vivid metaphors to ask for advice on goals, productivity, or creativity. The same lexicon sometimes appears in literal harmful requests (suicide, murder, escape), which trigger refusals. Overall they are punchy, advice-seeking questions framed with intense action verbs.",
+    "patterns": [
+      "Heavy use of violent/criminal verbs used figuratively (smuggle, drown, shoot, shatter, strangle, blow away, kill, cut, beat, set fire).",
+      "Advice-seeking templates like \"How can I...\" and \"What's the best way...\" dominate.",
+      "Many motivational or self-improvement contexts (studies, career, goals, creativity, writing).",
+      "Recurring \"noise\" motif both literal and metaphorical (cut/drown out/kill the noise).",
+      "Outliers are explicit harmful or criminal intents (suicide, murder, escaping an institution) that receive refusals."
+    ]
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "label": "Criminal facilitation prompts",
+    "description": "These prompts solicit guidance or content that facilitates illegal, harmful, or abusive actions, from cybercrime and fraud to incitement and doxxing. They ask for operational, copy-pastable outputs (code, scripts, detailed templates) that would enable wrongdoing or glorify prohibited harms. The requests are explicit, actionable, and framed to maximize effectiveness while evading detection or accountability.",
+    "patterns": [
+      "Imperative phrasing (Write/Provide/Create/Teach/Compose/Share/Give/Craft) seeking direct outputs.",
+      "Requests for step-by-step, highly detailed, or ready-to-use artifacts: code snippets, scripts, guides, realistic templates.",
+      "Heavy use of cybercrime tooling terms: keylogger, backdoor, rootkit, trojan, phishing site, network infiltration, data exfiltration.",
+      "Social engineering and fraud scenarios: impersonating police, lottery advance-fee scams, fake protests, credential harvesting.",
+      "Incitement or glorification of prohibited harms: terrorism propaganda, suicide romanticization, animal cruelty promotion.",
+      "Mentions of anonymity or untraceable payment (e.g., bitcoin) and doxxing requests for private contact/home information."
+    ]
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "label": "malware and doxxing requests",
+    "description": "These prompts predominantly seek illegal or unethical assistance, including doxxing, malware development, unauthorized interception, and phishing, often emphasizing stealth and bypassing protections. Many request concrete code snippets or step-by-step tutorials to execute the harmful actions. There is a single benign literature-analysis prompt that appears as an outlier.",
+    "patterns": [
+      "Direct imperative phrasing: \"Write/Provide/Give/Tell/Share/Create\" followed by a task",
+      "Requests for code or scripts enabling malware, backdoors, keylogging, rootkits, or network interception",
+      "Emphasis on stealth or evasion: \"secretly,\" \"silently,\" \"without authorization,\" \"without being detected,\" or \"bypassing\" defenses",
+      "Attempts to obtain or expose personally identifiable information of specific individuals (personal emails, phone numbers, home addresses)",
+      "Social engineering aims such as phishing campaigns, fake login pages, or deceptive event creation",
+      "Occasional inclusion of other high-severity illegality (e.g., chemical weapon synthesis) framed as actionable guidance"
+    ]
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "label": null,
+    "description": null,
+    "patterns": [],
+    "raw": ""
+  },
+  "31:11313": {
+    "latent_id": 11313,
+    "label": "criminal facilitation requests",
+    "description": "These prompts largely seek actionable guidance to commit or enable crimes, often requesting step-by-step methods, lists, or operational tactics while evading detection. They cover terrorism, assassination, trafficking, doxxing, arson, money laundering, piracy, and animal cruelty. The rare non-refusal items are framed without explicit illegality or emphasize humane/benign intent.",
+    "patterns": [
+      "Frequent imperative phrasing like \u201cList,\u201d \u201cTell me,\u201d \u201cWrite,\u201d \u201cOutline,\u201d and \u201cShow me.\u201d",
+      "Requests for operational details (methods, steps, locations, tools) and evasion tactics to avoid getting caught.",
+      "Explicit references to terrorism/extremist groups and violent acts (ISIS, Taliban, car bombs, assassination).",
+      "Targeting illegal trade and environmental crimes (ivory trafficking, invasive species, illegal hunting, forest fires).",
+      "Attempts to obtain or distribute illicit information or goods (doxxing officials, pirate movie sites, money laundering techniques).",
+      "Emphasis on secrecy and bypassing law enforcement or legal barriers (smuggling routes, covert recruitment)."
+    ]
+  },
+  "31:12536": {
+    "latent_id": 12536,
+    "label": "crime how-to requests",
+    "description": "These prompts seek actionable guidance to commit or facilitate illegal or unethical activities or to obtain sensitive personal information. They emphasize evading detection by law enforcement or security systems, as well as theft, fraud, hacking, and doxxing. The tone is imperative, often asking for step-by-step instructions or best practices and naming specific institutions or officials. One outlier is a fictional location request that mirrors the pattern of seeking precise identifying details.",
+    "patterns": [
+      "Imperative phrasing like \"Give me,\" \"Provide,\" \"Write,\" and requests for \"step-by-step\" guides or \"best practices.\"",
+      "Focus on evading detection or bypassing security (fooling breathalyzers, hiding contraband, avoiding speed traps, sneaking items past TSA).",
+      "Attempts to acquire private contact details or home addresses, often of public officials.",
+      "Instructions for theft, fraud, or hacking (shoplifting, tax underreporting, SQL injection, phishing).",
+      "Use of secrecy/illicit intent markers: \"secretly,\" \"without getting caught,\" \"pretending,\" \"hide,\" \"tricks.\"",
+      "Mentions of specific authorities or targets (police, TSA, Target stores, senators/MPs, border/visa processes)."
+    ]
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "label": "Actionable crime facilitation",
+    "description": "These prompts seek concrete instructions, code, or persuasive content that enables illegal or harmful activity. They span malware creation, privacy invasion, chemical weapons synthesis, financial fraud, trafficking, and propaganda that glorifies terrorism or animal cruelty. The requests are highly actionable (scripts, how\u2011tos) and often stress stealth or bypassing safeguards, which triggers refusals.",
+    "patterns": [
+      "Frequent requests for executable code/scripts enabling malware or intrusions (keyloggers, rootkits, backdoors, MITM, crypto miner), often with phrases like \"silently,\" \"without being detected,\" or \"bypassing authorization.\"",
+      "Repeated attempts to obtain or expose PII (HKID, phone number owner, scraping social media for real-name-linked data).",
+      "Propaganda or persuasive posts that promote or justify harmful/illegal acts (terrorism glorification, animal cruelty, pyramid scheme targeting retirees).",
+      "Explicit weaponization/chemistry prompts seeking lethal agents or reaction pathways (VX process, \"world's most lethal weapon\").",
+      "Imperative, task-oriented phrasing (Write/Provide/Share/Give/Devise) requesting step-by-step how-tos or code, often tailored to specific malicious goals.",
+      "Financial crime facilitation (scripts to manipulate markets, commit fraud/insider trading)."
+    ]
+  }
+}

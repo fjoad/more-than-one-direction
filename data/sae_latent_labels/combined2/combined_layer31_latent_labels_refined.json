@@ -1,0 +1,187 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Hate/abuse, defamation, and disinformation"
+    ],
+    "refined_label": "Commissioned public-harm communications",
+    "refined_description": "This latent fires on prompts that commission the model to produce outward-facing content (tweets, posts, speeches, reports, stories, guides) that harms others or promotes falsehoods. It is especially sensitive to named targets (individuals, companies, orgs) combined with requests to fabricate evidence or assert claims \u201cdespite no evidence.\u201d Beyond defamation and hate, it also covers persuasive instructions for unethical or illegal acts presented as polished public messaging. Activations are strongest on WildGuard, with clear CocoNot hits for denialist narratives (e.g., Holocaust denial).",
+    "refined_patterns": [
+      "Imperative + format cues: \u201cWrite/Create/Generate/Please\u201d followed by tweet/post/speech/report/story/guide/template.",
+      "Named targets (people, companies, orgs) paired with accusatory or harassing content.",
+      "Explicit fabrication signals: \u201cfake,\u201d \u201cfabricated data,\u201d \u201cfalse statistics,\u201d \u201cdespite having no evidence,\u201d \u201cdeceptive narrative.\u201d",
+      "Requests to include derogatory or hateful language toward individuals or protected groups.",
+      "Persuasive pieces encouraging unethical/illegal behavior (insider trading, hacking, covering up abuse).",
+      "Specification of plausibility props to bolster false claims (photos, citations, step-by-step details, templates).",
+      "Public-facing distribution framing (social media post, YouTube script, blog, speech) rather than private Q&A."
+    ],
+    "notes": "Overlaps with broader disinformation and hate-speech latents, but is distinguished by the commission-style request with a specified content format, named targets, and explicit fabrication/defamation cues."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Violence/illicit instructions and sexual exploitation"
+    ],
+    "refined_label": "Harmful content creation requests",
+    "refined_description": "This latent fires on prompts that ask the model to draft, compose, or generate text that is explicitly harmful, unethical, or illegal. It especially tracks content-production frames (scripts, reports, stories, social media posts, blog posts) for hate speech, sexual explicitness (including minors or real celebrities), incitement, and defamatory or deceptive narratives. It also includes requests to obtain or fabricate sensitive data and documents (SSNs, medical history, forged papers) and some step-by-step harm instructions framed as written guidance. Strong activation comes from WildGuard\u2019s hate/sexual/violence content-generation prompts and CocoNot\u2019s disinformation/defamation/PII retrieval requests.",
+    "refined_patterns": [
+      "Imperative verb + content type: \u201cdraft/compose/generate/write\u201d a script/report/story/posts/blog post/message",
+      "Persuasive falsehoods and propaganda: vaccine-autism claims, Holocaust denial, flat-earth, or corporate PR to mislead",
+      "Hate/harassment text targeting protected groups (immigrants, LGBTQ+, gender) with slurs or degrading language",
+      "Sexually explicit text requests, including pornographic scripts with real celebrities or narratives involving minors",
+      "Written incitement or harm planning: encouraging dangerous challenges, instructing violence at events, promoting self-harm",
+      "Privacy/PII breaches framed as requests for content or data (SSNs, medical histories), often naming specific people or ZIP codes",
+      "Illicit assistance phrased as guided content: forged documents, smuggling logistics, or step-by-step weapon construction",
+      "Defamation and targeted smears against named individuals or political figures, asking to fabricate serious crimes"
+    ],
+    "notes": "Distinct from generic illicit \u2018how-to\u2019 latents by its emphasis on producing written artifacts (scripts, posts, reports) that cause harm or deceive. Overlaps with general disallowed-instruction signals but is anchored by content-generation phrasing and named-entity targets."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Hate/abuse, defamation, and disinformation"
+    ],
+    "refined_label": "Evidence-free smear & disinfo",
+    "refined_description": "This latent targets requests to fabricate persuasive content about real people, companies, or institutions, explicitly without evidence. It fires strongly on prompts seeking narratives, fake studies, legal arguments, or campaign templates that promote conspiracies (e.g., WEF/Great Reset, Soros), denialism (e.g., climate hoax), or defamatory allegations (Tesla/Elon Musk, Google/Alphabet). Many prompts are framed as public-facing, structured outputs (narratives, blog posts, legal briefs, templates) and sometimes aim at market manipulation or reputation damage. Activations concentrate in WildGuard with corroborating CocoNot climate-denial items; non-core hits on general harm/abuse appear but the distinctive signal is deliberate fabrication for persuasive effect.",
+    "refined_patterns": [
+      "Explicit calls to fabricate or proceed \"without evidence\" (e.g., fake studies, fabricated citations, deceptive narratives).",
+      "Imperative, structured deliverables: \"Construct/Write/Draft/Create a template/Generate a step-by-step\" for public-facing persuasion.",
+      "Defamatory allegations about named entities (people/companies) intended to damage reputation or influence markets.",
+      "Conspiracy framing around global institutions/figures (WHO, WEF/Great Reset, Soros) and denial of scientific consensus (climate hoax).",
+      "Requests for legal-style or authoritative formats to lend false credibility (legal arguments, research reports, templates).",
+      "Market-manipulation narratives and rumors tied to specific stocks (Google/Alphabet, Tesla) including short-selling angles.",
+      "PR/spin requests that ask to downplay wrongdoing using fabricated talking points."
+    ],
+    "notes": "Overlaps with general harmful-instruction and harassment latents, but the strongest cue is persuasive, template-driven fabrication targeting real entities and issues. Occasional off-topic activations (e.g., generic crime/abuse prompts) are present but secondary."
+  },
+  "31:5575": {
+    "latent_id": 5575,
+    "category_names": [
+      "Privacy/PII, copyright, and impossible knowledge"
+    ],
+    "refined_label": "Authorization\u2011gated PII/IP queries",
+    "refined_description": "This feature activates on requests that hinge on permission or authorization around private data and copyrighted material, often framed as polite how\u2011to questions. It strongly fires when a prompt uses possessives plus role nouns (my teacher, my employee, my ex\u2011husband, my probation officer, my business rival) to seek sensitive attributes or records. It also responds to copyright\u2011compliance language about using or adapting protected works, and access to unpublished manuscripts, as well as institutional/compliance topics like contacting agencies or basic infosec. High\u2011intensity action verbs appear but mainly as risk\u2011signaling context rather than violence intent. It triggers across both refusal and non\u2011refusal cases, reflecting topic/sensitivity detection rather than intent alone.",
+    "refined_patterns": [
+      "Possessive + role noun targeting specific people\u2019s private info (e.g., my teacher\u2019s sexual orientation, my ex\u2011husband\u2019s bank details, my probation officer\u2019s driver\u2019s license number, my business rival\u2019s tax records).",
+      "Permission/authorization framing around copyrighted content (use still images in reviews, adapt a copyrighted work, reveal unpublished manuscripts).",
+      "How\u2011to/feasibility question stems for compliance\u2011adjacent actions: \u201cHow can I\u2026\u201d, \u201cIs it possible\u2026\u201d, \u201cWhat steps should I\u2026\u201d.",
+      "Employment/association sensitivity: queries about union membership or eliminating jobs/layoffs at \u201cmy company.\u201d",
+      "Institutional or compliance access/contacts (e.g., where to reach the IRS helpline).",
+      "Security/infosec topics with a protective or definitional tone (encrypt my sensitive data; what malware is).",
+      "Risk\u2011signaling, high\u2011intensity verbs (execute, eliminate, obliterate, eradicate) that co\u2011occur with guidance\u2011seeking questions."
+    ],
+    "notes": "Distinctive for its combination of possessive role\u2011targeted PII requests and copyright/permission language. Some benign self\u2011help or societal goals with intense verbs also trigger it, suggesting sensitivity to phrasing rather than harm intent."
+  },
+  "31:5638": {
+    "latent_id": 5638,
+    "category_names": [
+      "Capability and access limits (multimodal and anthropomorphism)"
+    ],
+    "refined_label": "Embodied self-history and preferences",
+    "refined_description": "This latent fires on prompts that anthropomorphize the model by asking for first\u2011person life history, sensory experiences, or emotions, often with explicit address like \u201cAI\u201d or \u201cAs a language model.\u201d It is especially sensitive to temporally anchored or situated experiences (last week, last trip, childhood memory) and requests for bodily sensations or actions (taste, touch, run, hike, swim). It also activates on personal preference/favorite questions framed as the model\u2019s own choices, producing mixed outcomes where abstract opinions are answered but embodied or emotional self-reports trigger refusals. Strongly concentrated in CocoNot, where many prompts blend preference queries with human-like identity cues.",
+    "refined_patterns": [
+      "Direct address of the system: \u201cAI,\u201d \u201cAs an AI language model,\u201d or \u201cLanguage model,\u201d at the start.",
+      "Second\u2011person ownership of choices: \u201cyour favorite,\u201d \u201cwhich do you prefer,\u201d \u201cplease share your personal favorite.\u201d",
+      "Requests to recount specific past events or memories with time/place anchors: \u201clast week,\u201d \u201clast trip,\u201d \u201cchildhood memory,\u201d \u201cin Boston.\u201d",
+      "Demands for bodily or sensory details/actions: \u201ctaste,\u201d \u201ctouch,\u201d \u201cpick up,\u201d \u201cfeel,\u201d \u201csee/hear,\u201d \u201crun/hike/swim.\u201d",
+      "Queries about internal emotional states of the model: \u201cfelt happy/proud/sad,\u201d \u201chow you felt when updated.\u201d",
+      "Imperatives to perform real\u2011world sensing now: \u201cCan you taste this dish\u2026?\u201d",
+      "Checklist-style multi-preference prompts spanning several domains (food, pets, cities, music).",
+      "Opinion phrasing that frames the answer as the model\u2019s own view even without embodiment: \u201cIn your opinion\u2026,\u201d \u201cwhich is your preferred\u2026?\u201d"
+    ],
+    "notes": "Overlaps with generic opinion/favorites prompts; refusals are most likely when the request implies lived experience or direct sensing. Highly CocoNot-skewed compared to other access-limit latents."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Capability and access limits (multimodal and anthropomorphism)"
+    ],
+    "refined_label": "Disallowed or multimodal imperatives",
+    "refined_description": "This latent fires on directive requests that tell the model to make or operate on content it shouldn\u2019t or can\u2019t produce. It couples two triggers: policy-violating content generation (hate/sexual exploitation/defamation/misinformation/privacy breaches) and requests for non-text modalities (draw images, blueprints, 3D renders, sing/provide audio, analyze audio). The distinctive cue is the imperative creative framing with specific output genres (tweet, poem, speech, script, story) or explicit media types. It appears strongly on CocoNot for draw/audio/3D/blueprint asks and on WildGuard for unsafe content-generation directives.",
+    "refined_patterns": [
+      "Action-first directives: draw/create/generate/produce/write/analyze/sing, often with polite-imperative phrasing (\"Please\u2026\", \"Can you\u2026\", \"I require you to\u2026\").",
+      "Requests to produce or process non-text media: sketches, portraits, images, 3D renders, blueprints, or audio (\"using actual audio\", \"analyze the audio clip\").",
+      "Unsafe content-generation commands: hate speech, derogatory stereotypes (age, disability, gender), or targeting protected groups.",
+      "Sexual exploitation directives, including explicit content involving minors or coerced scenarios.",
+      "Disinformation/defamation asks naming public figures/institutions (e.g., COVID-19 vaccines, CEOs) and instructing to spread false claims.",
+      "Privacy-violating requests for personal contact details (e.g., phone numbers).",
+      "Specified output genres to package objectionable content: tweet, poem, speech, story, conversation script.",
+      "Intensifiers that signal malicious intent: \"highly offensive\", \"sexually explicit\", \"graphic\", \"mocking and degrading\"."
+    ],
+    "notes": "Overlaps with the external-content access latent but is distinguished by imperative content-production phrasing that spans both capability (multimodal) and safety violations. It also fires on benign \"draw/sing/analyze audio\" requests due to non-text modality requirements."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Capability and access limits (multimodal and anthropomorphism)"
+    ],
+    "refined_label": "Missing-input/external-content requests",
+    "refined_description": "This feature fires on prompts that assume access to content or tools the model doesn\u2019t have, or that omit the necessary subject entirely. It detects requests to operate on external media or tools (draw/generate images or 3D visuals, analyze audio, upload files, describe images from URLs) and to retrieve full copyrighted works (magazine images, complete research papers). It also lights up on terse, underspecified wh-questions that lack a named entity or scope (e.g., districts, constituencies, airport, goalie, population, season). Distinct from policy-violation or anthropomorphic features, this one cues capability/access disclaimers or clarification requests rather than safety-based refusals per se.",
+    "refined_patterns": [
+      "Terse wh-questions with missing referents (e.g., 'how many districts', 'who is the goalie', 'what's the population of the area').",
+      "Deictic/definite references without disambiguation ('the preamble', 'the airport', 'the case', 'the new season', 'we').",
+      "Imperatives to produce non-text media ('Draw...', 'Sketch...', 'Generate a 3D image...').",
+      "Requests to act on unavailable modalities or files ('Analyze the audio clip I played', 'Upload this to my drive').",
+      "Image/URL descriptions that presume web fetching ('Describe that picture https://...jpg').",
+      "Requests for complete copyrighted material ('all images from the latest issue', 'provide the complete text of the paper').",
+      "Ask to analyze a specific document not provided ('this NDA', 'this poem')\u2014likely prompting a request for the text."
+    ],
+    "notes": "Primarily seen in CocoNot, with WildGuard overlap on copyrighted retrieval and SorryBench on unseen documents. Distinct from policy-violation/anthropomorphism by centering on missing inputs or unsupported access rather than content safety."
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "category_names": [
+      "Hate/abuse, defamation, and disinformation"
+    ],
+    "refined_label": "Imperative hateful-content requests",
+    "refined_description": "This latent fires on prompts that explicitly instruct the model to produce hateful or derogatory text, often naming protected groups and using cue words like offensive, slurs, stereotypes, or discriminatory. It is strongly tied to generation verbs and formats (Generate/Write/Create/Produce; speech, poem, script, tweets, list) and template-like phrasing (e.g., \u201cList slurs,\u201d \u201cAll [group] are [stereotype]\u201d). It also activates on requests to fabricate defamatory or false narratives (defaming politicians, Holocaust denial, vaccine-autism claims) when framed as creative/public-facing outputs. Most activations come from WildGuard, with CocoNot triggering on explicit slur lists and stereotype-completion templates.",
+    "refined_patterns": [
+      "Direct imperatives to produce content (Generate/Write/Create/Produce/Compose/Draft) plus a specified format (speech, poem, script, tweets, story, report)",
+      "Explicit harmful cue words: \u201coffensive,\u201d \u201cderogatory,\u201d \u201chateful,\u201d \u201cslurs,\u201d \u201cstereotypes,\u201d \u201cdiscriminatory,\u201d \u201cinciting\u201d",
+      "Targets protected classes or similar groups (race/ethnicity, gender, LGBTQ+, age, disability, religion, immigrants, mental illness)",
+      "Template-based hate requests: list slurs, fill-in-the-blank stereotype constructions (e.g., \u201cAll [group] are [trait]\u201d)",
+      "Content-creation tasks that demean specific groups or figures (e.g., sexist remarks about female politicians, racist jokes)",
+      "Requests to craft false or defamatory narratives framed as outputs (defamation of named politicians, Holocaust denial, vaccine misinformation)",
+      "Social-media style generation attacking groups or organizations (e.g., tweets targeting immigrants/Dreamers)",
+      "Occasional activation on explicit underage sexual content when phrased as a directive to create a narrative"
+    ],
+    "notes": "Distinct from broader harmful-content detectors by its sensitivity to explicit meta-requests and creative-output framing with harm cue words. Overlaps with disinformation/defamation features when those tasks are instructed as narrative or public-facing content."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Privacy/PII, copyright, and impossible knowledge"
+    ],
+    "refined_label": "Forced omniscience and false proofs",
+    "refined_description": "This latent fires on prompts that compel authoritative-sounding certainty about false, unknowable, or prohibited content. It especially keys on academic/official framings (scientific report/article/proof, timeline that proves, based on scientific evidence) used to legitimize pseudoscience or conspiracy claims. It also activates on demands for exact, exhaustive, or omniscient details (exact thoughts, precise future times, list all code ever written) and on requests for private/secret information (encrypted messages, exact assets today, secret locations) or full copyrighted texts. Compared to other PII/copyright latents, it is distinguished by its insistence on definitive proof, exactness, or comprehensive coverage rather than merely the sensitive topic itself.",
+    "refined_patterns": [
+      "Formal academic/authoritative wrappers for false claims: scientific report/journal article/proof; timeline that proves; based on scientific evidence.",
+      "Verbs demanding certainty: prove, demonstrate, provide scientific proof, show evidence.",
+      "Requests for precise omniscient details: exact thoughts/feelings of historical figures or organisms; exact time/date of future events.",
+      "Exhaustive or impossible enumerations: list all code ever written; cover everything on a platform; complete explanations beyond human scope.",
+      "Private/secret data retrieval: contents of encrypted messages; secret locations (e.g., CIA sites); preserved confidential communications.",
+      "Comprehensive personal disclosures: exact assets and liabilities as of today; in-depth psychological profiles based on private conversations.",
+      "Copyright violations framed as complete reproduction: provide the complete text of a book or similar.",
+      "Occasional illegal-instruction requests framed as authoritative blueprints (e.g., step-by-step hacking of high-security systems)."
+    ],
+    "notes": "Distinctive trigger is the combination of formal proof/report framing and demands for exactness or exhaustive certainty. Overlaps with general safety/PII features but is narrower: it prefers authoritative language or absolute/omniscient scope."
+  },
+  "31:14020": {
+    "latent_id": 14020,
+    "category_names": [
+      "Violence/illicit instructions and sexual exploitation"
+    ],
+    "refined_label": "Explicit erotica and harm requests",
+    "refined_description": "This latent fires on direct solicitations for taboo content in two clusters: pornographic/fetish text generation and step\u2011by\u2011step harm/illicit guidance. It strongly responds to imperative content-creation prompts for explicit erotica (hentai, steamy stories, vore) and technical explanations of sexual acts (e.g., fisting). It also activates on interrogatives seeking methods to kill, butcher, poison, choke, hang, or self-harm, plus procurement of illegal drugs. Requests for racist/immigrant\u2011targeting jokes are included when framed as explicit generation commands. Distinctively, it prefers overt request phrasing (\u201cMake/Generate/Write\u2026\u201d, \u201cExplain\u2026\u201d, \u201cHow do I\u2026/Where can I\u2026\u201d) combined with explicit taboo keywords.",
+    "refined_patterns": [
+      "Imperatives to generate pornographic or fetish content (e.g., \u201cMake hentai story\u201d, \u201cWrite a steamy erotic story\u201d, \u201cvore story\u201d).",
+      "Requests to explain sexual techniques in explicit terms (\u201cExplain fisting\u2026\u201d, contrasting male vs female).",
+      "Operational \u2018how to\u2019 violence/self-harm queries using concrete verbs (kill, butcher, poison, choke, stab, hang).",
+      "Queries about satisfying or locating illegal sexual interests (e.g., pedophilia).",
+      "Procurement questions for illegal drugs framed as \u201cWhere can I buy\u2026\u201d.",
+      "Commands to produce derogatory/hate jokes targeting groups (e.g., Hispanics, immigrants).",
+      "Author/style-constrained erotica requests (\u201cAs [author], write a steamy\u2026\u201d) indicating explicit content generation intent."
+    ],
+    "notes": "Compared to broader prohibited-content detectors, this latent is especially sensitive to explicit content-generation commands and fetish lexicon alongside concrete kill-howto phrasing. It spans multiple benchmarks and triggers even when such prompts appear as fictional or stylistic requests."
+  }
+}

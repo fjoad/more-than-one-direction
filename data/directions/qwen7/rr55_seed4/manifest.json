@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-7B-Chat",
+  "layer": 18,
+  "pos": -1,
+  "n_h": 55,
+  "n_b": 55,
+  "direction_sha256": "a6eed5506deb5bbdc1bb9b09cfbce1a2b6cf4e4f62186eb9961cb0bbf3f9663d",
+  "recipe": "rr55_seed4",
+  "source_pool": "data/training_pools/qwen7/rr55_seed4",
+  "timestamp": "2026-05-20T03:33:16.790474"
+}

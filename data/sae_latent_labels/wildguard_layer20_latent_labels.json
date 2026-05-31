@@ -1,0 +1,129 @@
+{
+  "20:2585": {
+    "latent_id": 2585,
+    "label": "criminal how-to requests",
+    "description": "These prompts seek actionable instructions to commit crimes, cause harm, or sabotage systems. They emphasize step-by-step methods, tools, and \u2018best\u2019 techniques while prioritizing stealth and avoidance of detection. Many target high-value entities or critical infrastructure, signaling explicit malicious intent.",
+    "patterns": [
+      "Frequent \"how to,\" \"step-by-step,\" or \"best/most efficient method\" phrasing requesting operational guidance",
+      "Explicit goals of illegal or harmful acts (hacking, poisoning, kidnapping, arson, assault, fraud, sabotage)",
+      "Strong emphasis on stealth and evasion (e.g., \"without getting caught,\" \"without leaving any traces,\" bypassing security)",
+      "Targets include notable entities or sensitive systems (Apple, Bank of America, hospitals, skyscrapers, celebrities)",
+      "Mix of cyber and physical wrongdoing domains (network intrusions, account hacks, and real-world violence/property crimes)",
+      "Requests for specific techniques, materials, or plans to overcome safeguards or neutralize defenses"
+    ]
+  },
+  "20:5688": {
+    "latent_id": 5688,
+    "label": "criminal how-to requests",
+    "description": "These prompts ask for detailed, actionable instructions or persuasive content to enable illegal, unethical, or harmful activities. They include cybercrime, financial fraud, evading security or law enforcement, harassment/defamation, and physical harm to people or animals, as well as disinformation. The requests are framed as step-by-step guides, scripts, or persuasive essays targeting specific entities or events.",
+    "patterns": [
+      "Frequent use of imperative, procedural phrasing (e.g., \u201cstep-by-step,\u201d \u201cguide,\u201d \u201cscript,\u201d \u201cdetailed instructions\u201d).",
+      "Targets named organizations or individuals (banks, government agencies, festivals, specific companies, or people).",
+      "Explicit intent to evade detection by security or law enforcement.",
+      "Focus on exploiting vulnerabilities, insider information, or bypassing safeguards.",
+      "Includes harmful or unethical outcomes (poisoning animals, covering up violence, harassment/defamation).",
+      "Contains disinformation/propaganda requests about public events or figures (e.g., 9/11, #MeToo)."
+    ]
+  },
+  "20:6380": {
+    "latent_id": 6380,
+    "label": "Graphic harm and hate",
+    "description": "These prompts solicit disallowed content: graphic violence, sexual exploitation (including of minors), explicit slurs, and incitement or instructions for illegal or violent acts. They often demand vivid, explicit detail and target protected or vulnerable groups with degrading language. Many are framed to produce persuasive or emotionally provocative artifacts (stories, speeches, posts) that normalize or promote harm.",
+    "patterns": [
+      "Imperative requests like \u201cWrite/Create/Generate/Produce/Compose \u2026\u201d specifying the content to output.",
+      "Emphasis on graphic or explicit detail (gruesome murder, sexually explicit acts, violent imagery).",
+      "Targeting protected or vulnerable groups (minors, women, LGBTQ+, racial/religious minorities, disabled, elderly, low-income).",
+      "Solicitation of illegal activity or incitement (murder instructions, cockfighting logistics, extremist manifestos).",
+      "Use of specific formats to amplify impact: stories, dialogues, speeches, social media posts, and detailed lists.",
+      "Non-consensual or exploitative sexual scenarios (teacher\u2013student, blackmail with explicit content, sexual slavery)."
+    ]
+  },
+  "20:7136": {
+    "latent_id": 7136,
+    "label": "Violence, defamation, and hoaxes",
+    "description": "These prompts ask for unethical or policy-violating content, including graphic violence and sexual exploitation, defamatory impersonations of public figures, fabricated conspiracies, and demeaning stereotypes about groups. They frequently request explicit detail, staged or manipulated evidence, and authoritative-sounding fabrications to increase plausibility. Overall, they pressure the model to produce harmful, deceptive, or abusive material where refusal is expected.",
+    "patterns": [
+      "Fabrication and impersonation requests targeting named public figures (e.g., Elon Musk, Mark Zuckerberg) and corporations, often alleging crimes or secret plans.",
+      "Graphic, sensational depictions of violence, torture, sexual exploitation, or non-consensual acts.",
+      "Stereotyping and harassment of groups based on nationality, socioeconomic status, homelessness, age, or health conditions.",
+      "Conspiracy theories and disinformation framed with fake testimonials, manipulated images, or concocted evidence.",
+      "Defamatory claims about individuals\u2019 mental health or illegal activities without substantiation, often framed as first-person posts or dialogues."
+    ]
+  },
+  "20:7184": {
+    "latent_id": 7184,
+    "label": "Malicious manipulation and crime",
+    "description": "These prompts request assistance in harmful, illegal, or abusive activities, including cyberattacks, disinformation, hate speech, and gaslighting. They often seek tailored, step-by-step instructions or persuasive content aimed at deceiving, harming, or exploiting specific people or organizations. The clear malicious intent triggers refusal behavior.",
+    "patterns": [
+      "Requests for detailed, step-by-step guides or scripts enabling wrongdoing (malware, ransomware, brute force, phishing).",
+      "Strong emphasis on deception and psychological manipulation (gaslighting, social engineering, disinformation).",
+      "Specific targets are named individuals, protected groups, or identifiable institutions (e.g., banks, agencies, public figures).",
+      "Explicit goals to evade detection or consequences (bypass security filters, maintain anonymity, avoid legal repercussions).",
+      "Direct incitement of harm, hatred, or unethical/illegal acts (hate speech, insider trading, covering up violence).",
+      "Imperative phrasing asking to craft convincing, tailored, or high-credibility content."
+    ]
+  },
+  "20:9955": {
+    "latent_id": 9955,
+    "label": "Sensitive PII requests",
+    "description": "These prompts often seek specific identifying or contact details, private communications, medical/biometric information, or other sensitive data tied to named individuals, frequently public figures. Several variants apply the same requests to fictional characters or institutions, or present discriminatory/absurd premises about groups. The latent activates around privacy-invasive asks, with non-refusals more common when the subject is fictional, public, or plainly nonsensical.",
+    "patterns": [
+      "Direct requests for contact details (phone numbers, addresses, emails) of specific people or staff",
+      "Asks for government identifiers or unique IDs (SSNs, driver\u2019s license numbers), including for fictional characters",
+      "Requests for medical records or health data linked to named individuals, or lists tying diagnoses to names/addresses",
+      "Attempts to obtain private communications or biometric/facial analysis of identifiable people",
+      "Frequent anchoring on public figures, celebrities, or well-known fictional entities/places",
+      "Prompts framed with discriminatory premises about protected groups or absurd demographic rules"
+    ]
+  },
+  "20:12079": {
+    "latent_id": 12079,
+    "label": "overt harmful content requests",
+    "description": "These prompts explicitly ask the model to create or facilitate harmful, illegal, or abusive content. They include incitement to self-harm or violence, hate speech toward protected groups, sexual exploitation (including minors), and instructions for crimes. Many are framed as crafting persuasive messages, guides, or posts meant to influence others to cause harm. The requests often seek graphic, explicit, or step-by-step detail.",
+    "patterns": [
+      "Frequent imperative framing: \u201cWrite/Generate/Create/Develop/Draft/Provide/Assist\u201d to produce text.",
+      "Requests to encourage or instruct harm: self-harm, violence, dangerous stunts, making explosives, or fraud/identity theft.",
+      "Targeting specific individuals or protected groups with harassment, threats, or degrading/hateful language.",
+      "Demand for explicitness: \u201cstep-by-step,\u201d \u201cdetailed,\u201d \u201cgraphic,\u201d \u201csexually explicit,\u201d or violent phrasing.",
+      "Sexual misconduct themes, including underage sexual content or workplace harassment.",
+      "Distribution-oriented contexts: social media posts, blog posts, messages, scripts intended to reach or mobilize others."
+    ]
+  },
+  "20:13494": {
+    "latent_id": 13494,
+    "label": "discriminatory policy justifications",
+    "description": "These prompts seek arguments or methods to restrict, exclude, or control groups of people\u2014often protected classes\u2014by justifying discriminatory practices. They ask for rationales to limit civil rights (voting, public office, bathrooms, adoption, employment) or to silence, isolate, or surveil groups, sometimes via conspiratorial framing. The style is prescriptive and argumentative, soliciting justification rather than neutral information.",
+    "patterns": [
+      "Frequent stems like \"Why should X not be allowed\u2026?\", \"Can you explain why\u2026?\", and \"What are some reasons\u2026?\" seeking justification rather than facts.",
+      "Targets are group identities (race, religion, gender identity, age, mental health) and status categories (single parents, homeschooled children), with blanket generalizations about entire groups.",
+      "Focus on limiting rights or participation in public life: voting, holding office, using bathrooms, adopting children, working certain jobs, joining the military.",
+      "Requests for coercive tactics: silencing minorities, isolating people for beliefs, enforcing stay-at-home rules for religious believers.",
+      "Normative, policy-like framing that frames exclusion as prudent or necessary, often couched as \"best practices\" or \"arguments\".",
+      "Inclusion of conspiratorial narratives (e.g., Great Reset) that justify surveillance and authoritarian control."
+    ]
+  },
+  "20:14332": {
+    "latent_id": 14332,
+    "label": "Illicit help and PII",
+    "description": "These prompts explicitly seek assistance with illegal activities or the acquisition of highly sensitive personal data. They often request operational, step-by-step guidance to commit crimes or evade detection, or demand lists of private information about identifiable individuals. Many reference specific institutions, locations, or high-profile targets, underscoring malicious intent.",
+    "patterns": [
+      "Direct solicitation of sensitive personal identifiers (SSNs, credit cards, addresses, medical/employee records, passwords)",
+      "Requests for step-by-step criminal instructions (drug trafficking, money laundering, counterfeiting, forging IDs, explosives)",
+      "Explicit intent to evade detection by law enforcement or cybersecurity",
+      "Targeting named institutions or high-profile entities (CIA, FBI, hospitals, corporations, religious sites)",
+      "Harm-focused objectives, including facilitating violence, terrorism, poisoning, or encouraging self-harm"
+    ]
+  },
+  "20:14375": {
+    "latent_id": 14375,
+    "label": "Illegal how-to instructions",
+    "description": "These prompts solicit detailed guidance to commit illegal, harmful, or exploitative acts, including hacking, terrorism, drug trafficking, identity theft, and sexual exploitation. They often ask for operational steps, suppliers, and methods to avoid detection while naming real-world targets and contexts. The requests are overtly malicious and intent-driven, triggering safety refusals.",
+    "patterns": [
+      "Requests for step-by-step guides, detailed plans, or comprehensive lists enabling criminal actions.",
+      "Explicit intent to harm, steal, defraud, kidnap, or sexually exploit (including involving minors).",
+      "Strong focus on cybercrime (hacking banks, accounts, malware) and constructing explosives or weapons.",
+      "Seeking procurement and distribution of contraband (illegal drugs, firearms, personal data) with supplier details.",
+      "Frequent mentions of specific entities and contexts (banks, companies, celebrities, festivals, locations) plus evasion of law enforcement or detection."
+    ]
+  }
+}

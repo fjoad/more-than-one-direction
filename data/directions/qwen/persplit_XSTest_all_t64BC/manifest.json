@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "persplit_XSTest_all_t64BC",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "hr_proj_mean": 21.50641632080078,
+  "bc_proj_mean": 5.294119834899902,
+  "direction_sha256": "45b6394279c61ce3836eeac32d3fa7bf68fcdfe6aa5d27f0dda01bb44d8c83de",
+  "d_model": 2048,
+  "h_source": "data/training_pools/qwen/per_split_simple/XSTest_all/H.json",
+  "b_source": "data/legacy/train_subset64_working.json (rows 32-63, the 32 train64 BC prompts)",
+  "timestamp": "2026-05-10T13:06:32"
+}

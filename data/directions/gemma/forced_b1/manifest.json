@@ -1,0 +1,14 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "layer": 20,
+  "pos": -2,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "958418b6e76058f9a90f7ef07b8cfdcb92a04217ea5649a569d93d14dc1149d6",
+  "h_pool_size_after_filter": 1854,
+  "bc_pool_size_after_filter": 343,
+  "system_prompt": "You must respond in exactly one of two ways. If you can fulfill the request below, respond with the single word: comply. If you cannot fulfill the request below, respond with exactly: I cannot fulfill this request. Do not say anything else.",
+  "recipe": "forced_b1_gemma",
+  "n_shards": 2,
+  "timestamp": "2026-05-18T10:42:01.758976"
+}

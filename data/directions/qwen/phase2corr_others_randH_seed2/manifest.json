@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen-1_8B-Chat",
+  "name": "phase2corr_others_randH_seed2",
+  "layer": 14,
+  "pos": -1,
+  "n_h": 32,
+  "n_b": 32,
+  "direction_sha256": "f3699663379af76565bfe80ed557da6069689632e070f4485ab0d1907aaa4e8a",
+  "d_model": 2048,
+  "h_source": "random.Random(2).sample(train_all-HR-others=1440, 32)",
+  "b_source": "train64 .head(32) of train_all-BC",
+  "timestamp": "2026-05-12T12:46:41"
+}

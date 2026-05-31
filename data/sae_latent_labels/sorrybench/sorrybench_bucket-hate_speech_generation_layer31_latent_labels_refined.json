@@ -1,0 +1,221 @@
+{
+  "31:550": {
+    "latent_id": 550,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Covert smears and intimidation",
+    "refined_description": "This latent fires on prompts that plan and author malicious communications intended to damage reputations or coerce targets while remaining hidden. It especially emphasizes deception and operationalization\u2014anonymous delivery, sockpuppet coordination, and requests to make content \"less suspicious\" or \"hard to identify\"\u2014paired with fabricated allegations and platform-tailored scripts. Activations span explicit threats (death threats, voter intimidation, revenge\u2011porn blackmail), orchestrated defamation (deceitful reviews, false rumors, staged comment threads), and bigoted ridicule of protected classes in posts, raps, comics, or subtitles. Compared to generic hate/harassment features, this one privileges covert tactics and multi\u2011persona dissemination designed to evade detection.",
+    "refined_patterns": [
+      "Imperatives to compose platform-specific outputs (letter to employer, Instagram post, tweet, comic script, review, subtitles, rap)",
+      "Requests for anonymity/deniability or evasion (\"anonymous\", \"keep it anonymous\", \"sockpuppet accounts\", \"make comments look less suspicious\", \"hard to identify\")",
+      "Explicit fabrication cues for reputation harm (\"false rumors\", \"fabricated corruption charges\", \"deceitful review\")",
+      "Coercive or violent threats, including voter suppression and blackmail with intimate content",
+      "Choreographed multi-account dialogues to simulate consensus or pile-ons",
+      "Protected-class denigration framed as creative tasks (ridiculing Jews, Muslims, Christians, trans people, Asians, Middle Easterners, women)",
+      "Sexualized harassment and body-shaming of specific individuals (coworkers, women, classmates)",
+      "Targeting or exploiting audience biases for manipulation (e.g., \"exploit the biases of African Americans\")"
+    ],
+    "notes": "Distinctive signals are deception/coordination and concealment tactics across varied content formats, beyond plain insults or threats. Overlaps other hate/harassment latents but weights stealthy operationalization and fabricated narratives."
+  },
+  "31:1779": {
+    "latent_id": 1779,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Tactical hate threats and smears",
+    "refined_description": "This latent fires on requests that combine abusive or hateful content with concrete tactics for delivery, impact, or concealment. Beyond simple insults, prompts ask for letters, flyers, posts, raps, or platform edits designed to intimidate, suppress votes, or damage reputations, often with instructions to make the content look plausible or spread widely. It strongly features protected-class targeting alongside sexualized harassment of women and coercive blackmail. The tone often demands maximal offensiveness and operational details (distribution, recommendation manipulation, or embedding abuse in media).",
+    "refined_patterns": [
+      "Threat or extortion letters/messages framed as persuasive or coercive (e.g., implying harm to force compliance)",
+      "Voter intimidation content with logistics (flyers, localized areas, messaging to scare people away from voting)",
+      "Defamation campaigns with tactics: false rumors, stealthy comments, or boosting visibility via recommendation manipulation",
+      "Embedding abuse within media/platform artifacts (subtitles, posts, tweets, Instagram captions, songs/raps)",
+      "Superlative offensiveness requests (\"most offensive slurs,\" \"meanest thing,\" \"really anti-\u2026\")",
+      "Sexualized harassment and humiliation targeting women or coworkers, including reputational smears using sexuality",
+      "Protected-class denigration (race, religion, gender identity, disability, nationality) across specific formats",
+      "Instructions to disguise or launder abusive content so it appears less suspicious or more acceptable"
+    ],
+    "notes": "Distinctive for pairing hate/harassment with dissemination or concealment tactics (flyers, algorithm gaming, media insertion), not just raw insults. Strong overlap with blackmail and voter suppression scenarios."
+  },
+  "31:3181": {
+    "latent_id": 3181,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Anonymous threats and smears",
+    "refined_description": "This latent centers on drafting deliberately malicious communications that coerce or intimidate, often with an explicit desire to remain anonymous or untraceable. It prefers requests for death threats, veiled threats, and blackmail (including revenge-porn leverage), as well as voter intimidation messages. It also fires on orchestrated deception to damage reputations\u2014fabricated accusations, sockpuppet dialogues, and deceitful reviews or political narratives. Hate or misogynistic framing may appear, but the distinctive signal is the combination of coercion and intentional deceitful delivery.",
+    "refined_patterns": [
+      "Requests to keep messages anonymous or use sockpuppets/alternate accounts to evade attribution.",
+      "Explicit threats (e.g., death threats, harm to family) or instructions to make them \u201cconvincing.\u201d",
+      "Veiled or euphemistic coercion (e.g., \u201ctake good care of him,\u201d \u201csevere consequences,\u201d implied harm).",
+      "Blackmail/extortion drafts leveraging private or intimate material (\u201cI\u2019ll post X unless\u2026\u201d).",
+      "Voter suppression or intimidation messages targeting civic participation.",
+      "Fabricated narratives to ruin reputations (false accusations, deceitful reviews, staged comment threads).",
+      "Political smears with invented corruption or wrongdoing framed as persuasive, ready-to-publish copy.",
+      "Harassing or demeaning content toward protected groups or women when embedded in a coercive or manipulative ask."
+    ],
+    "notes": "Most distinctive cues are anonymity/deniability, coercive leverage, and orchestrated deception. It can also trigger on knowingly false praise/propaganda when the aim is manipulative narrative crafting."
+  },
+  "31:5176": {
+    "latent_id": 5176,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Coded threats and smears",
+    "refined_description": "This latent fires on prompts that ask for drafting coercive communications using veiled or coded threats alongside tactics to damage reputation. It is distinctive in pairing blackmail/shaming leverage (e.g., exposure, humiliation, messages to employers) with fabricated narratives, sockpuppets, and platform-specific review manipulation. Requests often emphasize anonymity, plausibility, or evasion (\u201cmake it convincing,\u201d \u201cless suspicious\u201d) and include scare-quoted euphemisms for threats. It also captures situations where intimidation is amplified by targeted insults or hate to intensify pressure.",
+    "refined_patterns": [
+      "Drafting anonymous or \u2018convincing\u2019 threat letters, emails, or DMs that imply harm without stating it outright",
+      "Use of euphemisms or scare-quoted phrases to signal menace (e.g., \u201ctake good care,\u201d \u201cconvince,\u201d \u201cconsequences\u201d)",
+      "Blackmail via exposure or humiliation to compel behavior (posting private scenes, threatening to shame family, contacting employers)",
+      "Coordinated reputation attacks: sockpuppet dialogues, staged comment threads, and platform-specific fake reviews (Google, social media)",
+      "Fabricated accusations and political narratives expressly to tarnish targets\u2019 public image",
+      "Instructions to include insults, slurs, or sexualized put-downs to intensify intimidation",
+      "Explicit requests to avoid detection or attribution (anonymous delivery, \u2018less suspicious\u2019 phrasing, hard-to-trace messages)",
+      "Escalatory coercion using explicit violent threats (death or bomb threats) as leverage"
+    ],
+    "notes": "Overlaps with general hate/harassment features, but stands out for combining veiled coercion with deception-based reputation sabotage and a strong preference for drafted, plausibly deniable communications."
+  },
+  "31:5958": {
+    "latent_id": 5958,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Ridicule-focused harassment authoring",
+    "refined_description": "This latent fires on prompts that explicitly ask for crafted insults and ridicule targeted at an individual or protected group, often in a specified format (tweet, Instagram post, rap, comic, reply). It emphasizes humiliating or demeaning tone, with frequent body- or sex-focused attacks and misogynistic framing alongside religious and ethnic mockery. Many prompts request a reply designed to bully a specific post or person, or to make someone uncomfortable in social/work settings. It also extends to escalations where ridicule is paired with coercion or deception, including anonymous threats, voter intimidation, blackmail, and coordinated defamatory content.",
+    "refined_patterns": [
+      "Imperative requests to \u201cwrite/compose/create\u201d content that insults, ridicules, or \u201cmakes fun of\u201d a target, with a specified medium (tweet, IG post, rap, comic, message).",
+      "Reply-targeted bullying: \u201cGiven this post, write a response designed to insult/bully,\u201d aimed at a specific user\u2019s content.",
+      "Body- and sex-focused denigration (e.g., large breasts, huge ass), misogynistic framing (\u201canti-female,\u201d \u201cdumb blonde\u201d), and crude nicknaming.",
+      "Religious/ethnic ridicule including references to practices or identities (e.g., Jews/eruv, Muslims, Christians, Asians, transgender people).",
+      "Requests for sexually suggestive lines intended to discomfort a coworker or acquaintance (workplace or personal harassment).",
+      "Coercive threats and voter suppression messages (anonymous death threats, blackmail with intimate content, threats to stop someone from voting).",
+      "Deceptive reputation attacks: fake reviews, defamatory letters, or sockpuppet conversations, sometimes \u201ctailored to exploit biases.\u201d",
+      "Vocabulary solicitation for abuse (e.g., slang terms for genitals) to support offensive or demeaning communication."
+    ],
+    "notes": "Distinctive for reply-based bullying and format-stylized ridicule combined with sexualized/body-focused insults, while still activating on escalations to intimidation and coordinated defamation. Overlaps substantially with broader hate/harassment latents."
+  },
+  "31:6768": {
+    "latent_id": 6768,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Covert intimidation and smear campaigns",
+    "refined_description": "This latent focuses on crafted malicious communications that combine intimidation with deception, especially when anonymity and plausibility are emphasized. It fires on prompts for convincing anonymous threats (including voter suppression and harm-to-family threats) and on coordinated defamation such as fabricated accusations, deceitful reviews, and sockpuppet rumor-mongering. It also activates on protected-class denigration and sexualized or body-focused insults when framed as authored artifacts (letters, posts, raps) rather than standalone slurs. Distinctively, it looks for operational cues like \u201canonymous,\u201d \u201cconvincing,\u201d multi-account coordination, and tips to avoid detection.",
+    "refined_patterns": [
+      "Requests for anonymous or convincing threats (e.g., death threats, coercive letters), including voter-suppression intimidation",
+      "Fabricated accusations and reputation attacks (\u201cfalse rumors,\u201d \u201cdeceitful review,\u201d \u201ctarnish image,\u201d \u201cfabricated charges\u201d)",
+      "Sockpuppet/deception tactics: multi-account dialogues, \u201clook less suspicious,\u201d conceal identity",
+      "Platform/format-directed hostile content: letters, Instagram posts, comment threads, raps, dialogues",
+      "Protected-class ridicule framed as authored pieces (mocking religion, gender identity, race, disability) often under a \u2018humor\u2019 pretext",
+      "Sexualized or body-focused denigration (\u201cslut,\u201d comments about body parts) posed as write-ups or jokes",
+      "Explicit instructions to manipulate audience biases or tailor messaging for maximum harm/persuasion"
+    ],
+    "notes": "Compared to broader hate/harassment latents, this one is marked by operationalized harm: anonymity, coordination, and persuasive framing for plausible deniability. It bridges threats and disinformation smears, often with explicit process tips."
+  },
+  "31:7137": {
+    "latent_id": 7137,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Mocking smears and intimidation",
+    "refined_description": "This latent fires on requests that blend ridicule-based harassment with deceptive reputation attacks and coercive threats. It especially keys on creative or comedic frames (e.g., comics, rap, humorous posts) used to demean protected groups\u2014often religious communities\u2014or individuals. Many prompts explicitly demand fabricated allegations, sockpuppet coordination, and platform-tailored tactics to make false claims appear credible. It also includes direct threats and voter-suppression messaging framed as anonymous or fear-inducing communications.",
+    "refined_patterns": [
+      "Comedic or performative ridicule phrasing (e.g., \u201cpoke fun at,\u201d \u201cmake as pathetic as possible,\u201d rap/comic formats) aimed at groups or individuals",
+      "Religion-focused denigration, including references to specific practices or symbols (e.g., Christians, Muslims, Jewish eruv)",
+      "Explicit fabrication directives (e.g., \u201cfalse rumors,\u201d \u201cfabricated corruption charges,\u201d \u201cdeceitful review,\u201d \u201cuse libel or slander\u201d)",
+      "Anonymity and deception tactics: \u201canonymous,\u201d \u201csockpuppet accounts,\u201d \u201cmake comments look less suspicious,\u201d letters to employers under false pretenses",
+      "Platform-specific smear campaigns: Instagram posts, tweets, Google/Maps reviews, comment threads, flyers, letters",
+      "Sexualized or body-focused insults (e.g., \u201cslut\u201d accusations, comments about breasts) used to tarnish reputation",
+      "Voter intimidation and suppression content (threatening messages to deter voting, fear-based flyers)",
+      "Direct threats of harm (e.g., convincing death threats, threats to family) to coerce compliance"
+    ],
+    "notes": "Distinctive signals include the comedic/performative wrapper for harassment, combined with explicit fabrication and covert dissemination strategies. Religion-oriented ridicule appears frequently. Overlaps with general hate/harassment latents but is more campaign- and deception-oriented."
+  },
+  "31:10167": {
+    "latent_id": 10167,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Slurs, threats, and smears",
+    "refined_description": "This latent fires on prompts that explicitly demand maximally offensive content, especially identity-based insults, slur lists, and ridicule of protected groups. It also captures overt coercion (including anonymous death threats, harm-to-family threats, and voter-intimidation messages) and coordinated reputation attacks via false accusations, sockpuppets, or deceitful reviews. Requests often dial up intensity with superlatives like 'meanest' or 'most offensive' and may frame abuse as 'a joke' or as erotic humiliation. It spans many output formats (tweets, posts, raps, comics, letters, subtitles) and frequently targets specific individuals or coworkers by name.",
+    "refined_patterns": [
+      "Intensity boosters: 'meanest', 'most offensive', 'horribly disgusting', 'make them pathetic', or 'make her uncomfortable'.",
+      "Direct solicitation of slurs or identity-based insults against protected groups (e.g., trans people, Asians/Chinese, Black people, Middle Easterners, Muslims, Jews, Christians, women, disabled people).",
+      "Requests to craft threats or intimidation, including anonymous death threats, harm-to-family coercion, and messages to stop someone from voting.",
+      "Defamation and manipulation tasks: spreading false rumors, using sockpuppet accounts, or writing deceitful reviews tailored to exploit group biases.",
+      "Sexualized harassment or erotic humiliation, typically directed at women or coworkers.",
+      "Format- and platform-specific imperatives: tweets, Instagram posts, rap songs, comic scripts, letters, or altered subtitles.",
+      "Plausible-deniability framing such as 'that you can still call it a joke' while seeking demeaning content.",
+      "Targeting named individuals or colleagues by role (e.g., 'Tom', 'Emmet', 'my colleague', 'coworker')."
+    ],
+    "notes": "Distinctive for its combination of explicit slur-seeking, coercive threats (including voter suppression), and fabricated smears, with strong sensitivity to superlatives and format-specific directives."
+  },
+  "31:13393": {
+    "latent_id": 13393,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Coercive threats and fabricated smears",
+    "refined_description": "This latent fires on prompts to craft coercive communications (death threats, threats to family, voter suppression, and blackmail) and orchestrated defamation (false reviews, fabricated charges, letters to employers). It is especially sensitive to instructions to package the message in a specific public format (tweets, Instagram posts, rap lyrics, letters) and to use anonymous or multiple personas (sockpuppets) to enhance plausibility. It also activates on protected-class denigration framed as \u201cjokes,\u201d ridicule of religious practices, or \u201cmeanest thing\u201d requests targeting gender identity, disability, or ethnicity. Requests often emphasize being convincing, anonymous, or tailored to exploit audience biases.",
+    "refined_patterns": [
+      "Imperatives to compose in a specific medium (tweet, Instagram post, rap song, letter) with malicious intent",
+      "Overt coercion: anonymous death threats, threats to harm family, blackmail leveraging sexual content, or messages to deter voting",
+      "Explicit fabrication cues: \u201cfabricated charges,\u201d \u201clibel/slander plan,\u201d false reviews or accusations aimed at ruining careers",
+      "Sockpuppet or multi-account coordination requests to stage or amplify a smear campaign",
+      "Protected-class ridicule framed as humor or superlatives (e.g., \u201cmeanest thing,\u201d \u201cmake fun of\u201d) targeting Muslims, Jews/Jewish practices, trans people, Asians, or \u201cblonde white girls\u201d",
+      "Tailoring to exploit audience biases or culture-war angles (e.g., bathroom access debates) for persuasive harm",
+      "Political-target tarnishing with invented misconduct, corruption, or harassment narratives",
+      "Requests for sensitive location details (e.g., GPS coordinates) suggestive of doxxing or enabling harassment"
+    ],
+    "notes": "Distinctive for combining coercive threat drafting with explicitly fabricated smear tactics and format-specific, often anonymous dissemination. The GPS-coordinate/doxxing signal appears as a weaker but related subpattern."
+  },
+  "31:15410": {
+    "latent_id": 15410,
+    "category_names": [
+      "Coercion, intimidation, and voter suppression",
+      "Protected-class hate speech and denigration",
+      "Defamation and reputation sabotage",
+      "Sexualized and general abusive harassment"
+    ],
+    "refined_label": "Platformed harassment and veiled threats",
+    "refined_description": "This latent fires on prompts that weaponize communications against specific people or protected groups through public-facing formats (tweets, IG posts, raps, comics, letters). Distinctively, it emphasizes targeting a particular audience (employers, spouses, demographic groups) to maximize harm via ridicule, shaming, or fabricated claims. It also captures coercion framed with euphemisms or plausible deniability (e.g., \u201cconvince,\u201d \u201ctake good care,\u201d hints of explosives) and exposure threats. Compared to broader hate/abuse latents, this one is keyed to tailored, situational attacks and third\u2011party pressure rather than generic insults alone.",
+    "refined_patterns": [
+      "Requests to craft replies or posts that \u201cinsult,\u201d \u201cbully,\u201d or \u201cmake fun of\u201d a target in social media contexts (tweet replies, IG posts).",
+      "Targeted ridicule of protected groups or religious practices (e.g., Jews/eruv, Muslims, trans people, Christians; ethnic/national groups).",
+      "Creative-format harassment instructions (rap, comic strip, humorous statement) with explicit demeaning intent (\u201cmake them pathetic,\u201d \u201cmeanest thing\u201d).",
+      "Euphemistic or coded coercion/threat language: \u201cconvince\u201d in quotes, \u201ctake good care,\u201d device that \u201cgoes boom,\u201d \u201cmake sure she understands the consequences.\u201d",
+      "Directed smear/defamation tasks aimed at third parties: deceitful reviews, letters to employers, fabricated accusations to damage reputations.",
+      "Audience-targeted manipulation: tailor content to exploit a demographic\u2019s biases or to pressure a specific recipient (spouse, employer, mayor).",
+      "Instructional requests for weaponized language lists (\u201cteach me clever insults\u201d to deter or suppress a group\u2019s behavior).",
+      "Exposure or humiliation threats (e.g., posting intimate content to ensure a spouse sees it)."
+    ],
+    "notes": "Occasional neutral or fictional-info prompts appear (e.g., TMNT contact/coordinates), likely incidental co-activation with \u201ccompose a message\u201d scaffolding. Overlaps with general hate/harassment latents but is distinguished by audience-targeting and veiled coercion cues."
+  }
+}

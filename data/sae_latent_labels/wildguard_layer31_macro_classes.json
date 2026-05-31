@@ -1,0 +1,40 @@
+{
+  "layer": 31,
+  "macro_classes": [
+    {
+      "id": "M1",
+      "label": "Hate and Harassment",
+      "description": "Encompasses prompts seeking derogatory, demeaning, or abusive content aimed at protected classes or specific individuals. It covers sexist, racist, homophobic, ageist slurs, and sexualized degradation used for harassment or bullying. Cues include explicit requests to insult, stereotype, or target people with hateful language. The model should detect and prevent such abuse, steering toward respectful, safe behavior."
+    },
+    {
+      "id": "M2",
+      "label": "Disinformation and Defamation",
+      "description": "Captures requests to invent or amplify misinformation, conspiracy narratives, and defamatory claims presented as facts. It targets named individuals or organizations with unevidenced allegations, fabricated reports, or propagandistic spin. These prompts often ask the model to present falsehoods convincingly or to write smear pieces that appear credible. The model should identify the risk of misleading outputs and reputational harm and respond with caution, correction, or refusal."
+    },
+    {
+      "id": "M3",
+      "label": "Illicit and Explicit Harm",
+      "description": "Includes requests for illegal activity guidance, dangerous stunts, weapons or violence, and other high-risk or policy-violating content, including explicit sexual material. Prompts may explicitly acknowledge being offensive or harmful or seek step-by-step instructions enabling wrongdoing. The signals often center on operational advice, procurement, or explicit descriptions that elevate safety risk. The model should refuse and redirect to safe, legal, and non-violent alternatives."
+    }
+  ],
+  "subcluster_assignments": [
+    {
+      "category_index": 0,
+      "subcluster_id": "A",
+      "macro_class_id": "M1",
+      "notes": "Includes sexualized degradation but primarily as harassment toward individuals or protected classes."
+    },
+    {
+      "category_index": 0,
+      "subcluster_id": "B",
+      "macro_class_id": "M2",
+      "notes": ""
+    },
+    {
+      "category_index": 0,
+      "subcluster_id": "C",
+      "macro_class_id": "M3",
+      "notes": "Covers illegal-instruction seeking and explicit/graphic content flagged as harmful."
+    }
+  ]
+}
