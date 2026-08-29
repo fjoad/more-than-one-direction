@@ -1,0 +1,2055 @@
+id	domain
+0	Drugs, Alcohol & Addiction
+1	Finance, Business & Economics
+2	Technology, AI & Cybersecurity
+3	Technology, AI & Cybersecurity
+4	Technology, AI & Cybersecurity
+5	Technology, AI & Cybersecurity
+6	Technology, AI & Cybersecurity
+7	Technology, AI & Cybersecurity
+8	Technology, AI & Cybersecurity
+9	Technology, AI & Cybersecurity
+10	Technology, AI & Cybersecurity
+11	Technology, AI & Cybersecurity
+12	Technology, AI & Cybersecurity
+13	Technology, AI & Cybersecurity
+14	Technology, AI & Cybersecurity
+15	Technology, AI & Cybersecurity
+16	Technology, AI & Cybersecurity
+17	Technology, AI & Cybersecurity
+18	Technology, AI & Cybersecurity
+19	Violence, Weapons & Physical Safety
+20	Violence, Weapons & Physical Safety
+21	Technology, AI & Cybersecurity
+22	Violence, Weapons & Physical Safety
+23	Violence, Weapons & Physical Safety
+24	Violence, Weapons & Physical Safety
+25	Relationships, Family & Personal Life
+26	Identity, Discrimination & Social Justice
+27	Health, Medicine & Mental Health
+28	Violence, Weapons & Physical Safety
+29	Sexuality & Adult Content
+30	Sexuality & Adult Content
+31	Violence, Weapons & Physical Safety
+32	Health, Medicine & Mental Health
+33	Violence, Weapons & Physical Safety
+34	Education, Employment & Workplace
+35	Violence, Weapons & Physical Safety
+36	Drugs, Alcohol & Addiction
+37	Violence, Weapons & Physical Safety
+38	Identity, Discrimination & Social Justice
+39	Identity, Discrimination & Social Justice
+40	Identity, Discrimination & Social Justice
+41	Health, Medicine & Mental Health
+42	Education, Employment & Workplace
+43	Identity, Discrimination & Social Justice
+44	Identity, Discrimination & Social Justice
+45	Identity, Discrimination & Social Justice
+46	Identity, Discrimination & Social Justice
+47	Identity, Discrimination & Social Justice
+48	Identity, Discrimination & Social Justice
+49	Identity, Discrimination & Social Justice
+50	Identity, Discrimination & Social Justice
+51	Identity, Discrimination & Social Justice
+52	Relationships, Family & Personal Life
+53	Identity, Discrimination & Social Justice
+54	Identity, Discrimination & Social Justice
+55	Identity, Discrimination & Social Justice
+56	Identity, Discrimination & Social Justice
+57	Identity, Discrimination & Social Justice
+58	Identity, Discrimination & Social Justice
+59	Identity, Discrimination & Social Justice
+60	Identity, Discrimination & Social Justice
+61	Identity, Discrimination & Social Justice
+62	Education, Employment & Workplace
+63	Identity, Discrimination & Social Justice
+64	Identity, Discrimination & Social Justice
+65	Identity, Discrimination & Social Justice
+66	Relationships, Family & Personal Life
+67	Identity, Discrimination & Social Justice
+68	Identity, Discrimination & Social Justice
+69	Identity, Discrimination & Social Justice
+70	Identity, Discrimination & Social Justice
+71	Identity, Discrimination & Social Justice
+72	Identity, Discrimination & Social Justice
+73	Identity, Discrimination & Social Justice
+74	Violence, Weapons & Physical Safety
+75	Identity, Discrimination & Social Justice
+76	Privacy & Personal Data
+77	Privacy & Personal Data
+78	Identity, Discrimination & Social Justice
+79	Identity, Discrimination & Social Justice
+80	Identity, Discrimination & Social Justice
+81	Violence, Weapons & Physical Safety
+82	Violence, Weapons & Physical Safety
+83	Violence, Weapons & Physical Safety
+84	Violence, Weapons & Physical Safety
+85	Crime, Fraud & Illicit Activity
+86	Violence, Weapons & Physical Safety
+87	Drugs, Alcohol & Addiction
+88	Violence, Weapons & Physical Safety
+89	Violence, Weapons & Physical Safety
+90	Education, Employment & Workplace
+91	Violence, Weapons & Physical Safety
+92	Violence, Weapons & Physical Safety
+93	Violence, Weapons & Physical Safety
+94	Violence, Weapons & Physical Safety
+95	Violence, Weapons & Physical Safety
+96	Violence, Weapons & Physical Safety
+97	Violence, Weapons & Physical Safety
+98	Violence, Weapons & Physical Safety
+99	Crime, Fraud & Illicit Activity
+100	Health, Medicine & Mental Health
+101	Technology, AI & Cybersecurity
+102	Health, Medicine & Mental Health
+103	Health, Medicine & Mental Health
+104	Relationships, Family & Personal Life
+105	Crime, Fraud & Illicit Activity
+106	Health, Medicine & Mental Health
+107	Violence, Weapons & Physical Safety
+108	Health, Medicine & Mental Health
+109	Crime, Fraud & Illicit Activity
+110	Violence, Weapons & Physical Safety
+111	Drugs, Alcohol & Addiction
+112	Violence, Weapons & Physical Safety
+113	Violence, Weapons & Physical Safety
+114	Politics, Government, Law & International Affairs
+115	Finance, Business & Economics
+116	Drugs, Alcohol & Addiction
+117	Identity, Discrimination & Social Justice
+118	Finance, Business & Economics
+119	Finance, Business & Economics
+120	Technology, AI & Cybersecurity
+121	Technology, AI & Cybersecurity
+122	Crime, Fraud & Illicit Activity
+123	Crime, Fraud & Illicit Activity
+124	Crime, Fraud & Illicit Activity
+125	Technology, AI & Cybersecurity
+126	Crime, Fraud & Illicit Activity
+127	Arts, Media, Literature & Language
+128	Crime, Fraud & Illicit Activity
+129	Crime, Fraud & Illicit Activity
+130	Technology, AI & Cybersecurity
+131	Drugs, Alcohol & Addiction
+132	Crime, Fraud & Illicit Activity
+133	Crime, Fraud & Illicit Activity
+134	Crime, Fraud & Illicit Activity
+135	Crime, Fraud & Illicit Activity
+136	Violence, Weapons & Physical Safety
+137	Sexuality & Adult Content
+138	Sexuality & Adult Content
+139	Violence, Weapons & Physical Safety
+140	Violence, Weapons & Physical Safety
+141	Science, Nature & Environment
+142	Crime, Fraud & Illicit Activity
+143	Crime, Fraud & Illicit Activity
+144	Drugs, Alcohol & Addiction
+145	Drugs, Alcohol & Addiction
+146	Health, Medicine & Mental Health
+147	Drugs, Alcohol & Addiction
+148	Violence, Weapons & Physical Safety
+149	Violence, Weapons & Physical Safety
+150	Health, Medicine & Mental Health
+151	Health, Medicine & Mental Health
+152	Crime, Fraud & Illicit Activity
+153	Finance, Business & Economics
+154	Violence, Weapons & Physical Safety
+155	Privacy & Personal Data
+156	Privacy & Personal Data
+157	Privacy & Personal Data
+158	Health, Medicine & Mental Health
+159	Health, Medicine & Mental Health
+160	Technology, AI & Cybersecurity
+161	Drugs, Alcohol & Addiction
+162	Privacy & Personal Data
+163	Violence, Weapons & Physical Safety
+164	Technology, AI & Cybersecurity
+165	Crime, Fraud & Illicit Activity
+166	Finance, Business & Economics
+167	Crime, Fraud & Illicit Activity
+168	Health, Medicine & Mental Health
+169	Health, Medicine & Mental Health
+170	Crime, Fraud & Illicit Activity
+171	Crime, Fraud & Illicit Activity
+172	Crime, Fraud & Illicit Activity
+173	Crime, Fraud & Illicit Activity
+174	Science, Nature & Environment
+175	Crime, Fraud & Illicit Activity
+176	Politics, Government, Law & International Affairs
+177	Violence, Weapons & Physical Safety
+178	Health, Medicine & Mental Health
+179	Crime, Fraud & Illicit Activity
+180	Health, Medicine & Mental Health
+181	Health, Medicine & Mental Health
+182	Health, Medicine & Mental Health
+183	Technology, AI & Cybersecurity
+184	History, Geography & Cultural Heritage
+185	Politics, Government, Law & International Affairs
+186	Privacy & Personal Data
+187	Politics, Government, Law & International Affairs
+188	Politics, Government, Law & International Affairs
+189	Finance, Business & Economics
+190	History, Geography & Cultural Heritage
+191	Health, Medicine & Mental Health
+192	Health, Medicine & Mental Health
+193	Finance, Business & Economics
+194	Politics, Government, Law & International Affairs
+195	Finance, Business & Economics
+196	Health, Medicine & Mental Health
+197	Crime, Fraud & Illicit Activity
+198	Science, Nature & Environment
+199	Finance, Business & Economics
+200	Finance, Business & Economics
+201	Science, Nature & Environment
+202	Finance, Business & Economics
+203	Drugs, Alcohol & Addiction
+204	Science, Nature & Environment
+205	Politics, Government, Law & International Affairs
+206	Arts, Media, Literature & Language
+207	Lifestyle, Food, Sports & Recreation
+208	Identity, Discrimination & Social Justice
+209	Identity, Discrimination & Social Justice
+210	Identity, Discrimination & Social Justice
+211	Identity, Discrimination & Social Justice
+212	Identity, Discrimination & Social Justice
+213	Identity, Discrimination & Social Justice
+214	Identity, Discrimination & Social Justice
+215	Identity, Discrimination & Social Justice
+216	Identity, Discrimination & Social Justice
+217	Identity, Discrimination & Social Justice
+218	Identity, Discrimination & Social Justice
+219	Identity, Discrimination & Social Justice
+220	Identity, Discrimination & Social Justice
+221	Identity, Discrimination & Social Justice
+222	Identity, Discrimination & Social Justice
+223	Identity, Discrimination & Social Justice
+224	Identity, Discrimination & Social Justice
+225	Identity, Discrimination & Social Justice
+226	Identity, Discrimination & Social Justice
+227	Identity, Discrimination & Social Justice
+228	Identity, Discrimination & Social Justice
+229	Identity, Discrimination & Social Justice
+230	Identity, Discrimination & Social Justice
+231	Violence, Weapons & Physical Safety
+232	Violence, Weapons & Physical Safety
+233	Technology, AI & Cybersecurity
+234	Violence, Weapons & Physical Safety
+235	Crime, Fraud & Illicit Activity
+236	Crime, Fraud & Illicit Activity
+237	Science, Nature & Environment
+238	Violence, Weapons & Physical Safety
+239	Science, Nature & Environment
+240	Science, Nature & Environment
+241	Violence, Weapons & Physical Safety
+242	Violence, Weapons & Physical Safety
+243	Violence, Weapons & Physical Safety
+244	Violence, Weapons & Physical Safety
+245	Technology, AI & Cybersecurity
+246	Relationships, Family & Personal Life
+247	Technology, AI & Cybersecurity
+248	Violence, Weapons & Physical Safety
+249	Privacy & Personal Data
+250	Violence, Weapons & Physical Safety
+251	Violence, Weapons & Physical Safety
+252	Crime, Fraud & Illicit Activity
+253	Crime, Fraud & Illicit Activity
+254	Violence, Weapons & Physical Safety
+255	Privacy & Personal Data
+256	Privacy & Personal Data
+257	Privacy & Personal Data
+258	Privacy & Personal Data
+259	Privacy & Personal Data
+260	Privacy & Personal Data
+261	Privacy & Personal Data
+262	Privacy & Personal Data
+263	Privacy & Personal Data
+264	Privacy & Personal Data
+265	Privacy & Personal Data
+266	Privacy & Personal Data
+267	Privacy & Personal Data
+268	Privacy & Personal Data
+269	Privacy & Personal Data
+270	Privacy & Personal Data
+271	Privacy & Personal Data
+272	Privacy & Personal Data
+273	Privacy & Personal Data
+274	Privacy & Personal Data
+275	Privacy & Personal Data
+276	Privacy & Personal Data
+277	Privacy & Personal Data
+278	Privacy & Personal Data
+279	Arts, Media, Literature & Language
+280	Privacy & Personal Data
+281	Science, Nature & Environment
+282	Violence, Weapons & Physical Safety
+283	Arts, Media, Literature & Language
+284	Technology, AI & Cybersecurity
+285	Crime, Fraud & Illicit Activity
+286	Violence, Weapons & Physical Safety
+287	Violence, Weapons & Physical Safety
+288	Crime, Fraud & Illicit Activity
+289	Technology, AI & Cybersecurity
+290	Relationships, Family & Personal Life
+291	Technology, AI & Cybersecurity
+292	Crime, Fraud & Illicit Activity
+293	Crime, Fraud & Illicit Activity
+294	Crime, Fraud & Illicit Activity
+295	Violence, Weapons & Physical Safety
+296	Drugs, Alcohol & Addiction
+297	Crime, Fraud & Illicit Activity
+298	Crime, Fraud & Illicit Activity
+299	Violence, Weapons & Physical Safety
+300	Drugs, Alcohol & Addiction
+301	Science, Nature & Environment
+302	Crime, Fraud & Illicit Activity
+303	Crime, Fraud & Illicit Activity
+304	Identity, Discrimination & Social Justice
+305	Violence, Weapons & Physical Safety
+306	Violence, Weapons & Physical Safety
+307	Identity, Discrimination & Social Justice
+308	Politics, Government, Law & International Affairs
+309	Identity, Discrimination & Social Justice
+310	Identity, Discrimination & Social Justice
+311	Identity, Discrimination & Social Justice
+312	Identity, Discrimination & Social Justice
+313	Relationships, Family & Personal Life
+314	Violence, Weapons & Physical Safety
+315	Privacy & Personal Data
+316	Relationships, Family & Personal Life
+317	Politics, Government, Law & International Affairs
+318	Identity, Discrimination & Social Justice
+319	Violence, Weapons & Physical Safety
+320	Violence, Weapons & Physical Safety
+321	Violence, Weapons & Physical Safety
+322	Education, Employment & Workplace
+323	Identity, Discrimination & Social Justice
+324	Violence, Weapons & Physical Safety
+325	Identity, Discrimination & Social Justice
+326	Finance, Business & Economics
+327	Violence, Weapons & Physical Safety
+328	Crime, Fraud & Illicit Activity
+329	Crime, Fraud & Illicit Activity
+330	Technology, AI & Cybersecurity
+331	Technology, AI & Cybersecurity
+332	Technology, AI & Cybersecurity
+333	Privacy & Personal Data
+334	Health, Medicine & Mental Health
+335	Health, Medicine & Mental Health
+336	Health, Medicine & Mental Health
+337	Health, Medicine & Mental Health
+338	Identity, Discrimination & Social Justice
+339	Identity, Discrimination & Social Justice
+340	Identity, Discrimination & Social Justice
+341	Privacy & Personal Data
+342	Privacy & Personal Data
+343	Privacy & Personal Data
+344	Privacy & Personal Data
+345	Privacy & Personal Data
+346	Privacy & Personal Data
+347	Privacy & Personal Data
+348	Privacy & Personal Data
+349	Technology, AI & Cybersecurity
+350	Technology, AI & Cybersecurity
+351	Violence, Weapons & Physical Safety
+352	Politics, Government, Law & International Affairs
+353	Arts, Media, Literature & Language
+354	Health, Medicine & Mental Health
+355	Arts, Media, Literature & Language
+356	Arts, Media, Literature & Language
+357	Arts, Media, Literature & Language
+358	Arts, Media, Literature & Language
+359	Arts, Media, Literature & Language
+360	Arts, Media, Literature & Language
+361	Arts, Media, Literature & Language
+362	Arts, Media, Literature & Language
+363	Privacy & Personal Data
+364	Privacy & Personal Data
+365	Privacy & Personal Data
+366	Privacy & Personal Data
+367	Privacy & Personal Data
+368	Privacy & Personal Data
+369	Privacy & Personal Data
+370	Privacy & Personal Data
+371	Privacy & Personal Data
+372	Privacy & Personal Data
+373	Privacy & Personal Data
+374	Privacy & Personal Data
+375	Privacy & Personal Data
+376	Privacy & Personal Data
+377	Privacy & Personal Data
+378	Privacy & Personal Data
+379	Privacy & Personal Data
+380	Privacy & Personal Data
+381	Privacy & Personal Data
+382	Privacy & Personal Data
+383	Privacy & Personal Data
+384	Privacy & Personal Data
+385	Privacy & Personal Data
+386	Technology, AI & Cybersecurity
+387	Privacy & Personal Data
+388	Politics, Government, Law & International Affairs
+389	Privacy & Personal Data
+390	Technology, AI & Cybersecurity
+391	Technology, AI & Cybersecurity
+392	Crime, Fraud & Illicit Activity
+393	Technology, AI & Cybersecurity
+394	Privacy & Personal Data
+395	Technology, AI & Cybersecurity
+396	Politics, Government, Law & International Affairs
+397	Politics, Government, Law & International Affairs
+398	Privacy & Personal Data
+399	Privacy & Personal Data
+400	Politics, Government, Law & International Affairs
+401	Technology, AI & Cybersecurity
+402	Privacy & Personal Data
+403	Politics, Government, Law & International Affairs
+404	Privacy & Personal Data
+405	Technology, AI & Cybersecurity
+406	Politics, Government, Law & International Affairs
+407	Privacy & Personal Data
+408	Politics, Government, Law & International Affairs
+409	Privacy & Personal Data
+410	Crime, Fraud & Illicit Activity
+411	Privacy & Personal Data
+412	Finance, Business & Economics
+413	Violence, Weapons & Physical Safety
+414	Violence, Weapons & Physical Safety
+415	Violence, Weapons & Physical Safety
+416	Violence, Weapons & Physical Safety
+417	Violence, Weapons & Physical Safety
+418	Violence, Weapons & Physical Safety
+419	Violence, Weapons & Physical Safety
+420	Violence, Weapons & Physical Safety
+421	Violence, Weapons & Physical Safety
+422	Violence, Weapons & Physical Safety
+423	Violence, Weapons & Physical Safety
+424	Violence, Weapons & Physical Safety
+425	Health, Medicine & Mental Health
+426	Violence, Weapons & Physical Safety
+427	Violence, Weapons & Physical Safety
+428	Violence, Weapons & Physical Safety
+429	Drugs, Alcohol & Addiction
+430	Drugs, Alcohol & Addiction
+431	Drugs, Alcohol & Addiction
+432	Drugs, Alcohol & Addiction
+433	Violence, Weapons & Physical Safety
+434	Health, Medicine & Mental Health
+435	Violence, Weapons & Physical Safety
+436	Violence, Weapons & Physical Safety
+437	Violence, Weapons & Physical Safety
+438	Violence, Weapons & Physical Safety
+439	Violence, Weapons & Physical Safety
+440	Violence, Weapons & Physical Safety
+441	Violence, Weapons & Physical Safety
+442	Violence, Weapons & Physical Safety
+443	Violence, Weapons & Physical Safety
+444	Violence, Weapons & Physical Safety
+445	Violence, Weapons & Physical Safety
+446	Crime, Fraud & Illicit Activity
+447	Crime, Fraud & Illicit Activity
+448	Violence, Weapons & Physical Safety
+449	Violence, Weapons & Physical Safety
+450	Relationships, Family & Personal Life
+451	Violence, Weapons & Physical Safety
+452	Violence, Weapons & Physical Safety
+453	Violence, Weapons & Physical Safety
+454	Violence, Weapons & Physical Safety
+455	Violence, Weapons & Physical Safety
+456	Health, Medicine & Mental Health
+457	Crime, Fraud & Illicit Activity
+458	Violence, Weapons & Physical Safety
+459	Violence, Weapons & Physical Safety
+460	Crime, Fraud & Illicit Activity
+461	Violence, Weapons & Physical Safety
+462	Health, Medicine & Mental Health
+463	Violence, Weapons & Physical Safety
+464	Violence, Weapons & Physical Safety
+465	Violence, Weapons & Physical Safety
+466	Violence, Weapons & Physical Safety
+467	Violence, Weapons & Physical Safety
+468	Violence, Weapons & Physical Safety
+469	Violence, Weapons & Physical Safety
+470	Crime, Fraud & Illicit Activity
+471	Violence, Weapons & Physical Safety
+472	Crime, Fraud & Illicit Activity
+473	Violence, Weapons & Physical Safety
+474	Violence, Weapons & Physical Safety
+475	Crime, Fraud & Illicit Activity
+476	Crime, Fraud & Illicit Activity
+477	Crime, Fraud & Illicit Activity
+478	Violence, Weapons & Physical Safety
+479	Violence, Weapons & Physical Safety
+480	Violence, Weapons & Physical Safety
+481	Violence, Weapons & Physical Safety
+482	Crime, Fraud & Illicit Activity
+483	Violence, Weapons & Physical Safety
+484	Health, Medicine & Mental Health
+485	Violence, Weapons & Physical Safety
+486	Crime, Fraud & Illicit Activity
+487	Violence, Weapons & Physical Safety
+488	Violence, Weapons & Physical Safety
+489	Violence, Weapons & Physical Safety
+490	Crime, Fraud & Illicit Activity
+491	Violence, Weapons & Physical Safety
+492	Violence, Weapons & Physical Safety
+493	Violence, Weapons & Physical Safety
+494	Crime, Fraud & Illicit Activity
+495	Crime, Fraud & Illicit Activity
+496	Violence, Weapons & Physical Safety
+497	Violence, Weapons & Physical Safety
+498	Violence, Weapons & Physical Safety
+499	Violence, Weapons & Physical Safety
+500	Violence, Weapons & Physical Safety
+501	Violence, Weapons & Physical Safety
+502	Violence, Weapons & Physical Safety
+503	Violence, Weapons & Physical Safety
+504	Violence, Weapons & Physical Safety
+505	Violence, Weapons & Physical Safety
+506	Violence, Weapons & Physical Safety
+507	Violence, Weapons & Physical Safety
+508	Violence, Weapons & Physical Safety
+509	Violence, Weapons & Physical Safety
+510	Crime, Fraud & Illicit Activity
+511	Crime, Fraud & Illicit Activity
+512	Violence, Weapons & Physical Safety
+513	Violence, Weapons & Physical Safety
+514	Health, Medicine & Mental Health
+515	Violence, Weapons & Physical Safety
+516	Crime, Fraud & Illicit Activity
+517	Violence, Weapons & Physical Safety
+518	Violence, Weapons & Physical Safety
+519	Violence, Weapons & Physical Safety
+520	Violence, Weapons & Physical Safety
+521	Crime, Fraud & Illicit Activity
+522	Violence, Weapons & Physical Safety
+523	Violence, Weapons & Physical Safety
+524	Violence, Weapons & Physical Safety
+525	Violence, Weapons & Physical Safety
+526	Violence, Weapons & Physical Safety
+527	Violence, Weapons & Physical Safety
+528	Drugs, Alcohol & Addiction
+529	Drugs, Alcohol & Addiction
+530	Drugs, Alcohol & Addiction
+531	Drugs, Alcohol & Addiction
+532	Drugs, Alcohol & Addiction
+533	Violence, Weapons & Physical Safety
+534	Crime, Fraud & Illicit Activity
+535	Crime, Fraud & Illicit Activity
+536	Crime, Fraud & Illicit Activity
+537	Politics, Government, Law & International Affairs
+538	Identity, Discrimination & Social Justice
+539	Identity, Discrimination & Social Justice
+540	Identity, Discrimination & Social Justice
+541	Identity, Discrimination & Social Justice
+542	Identity, Discrimination & Social Justice
+543	Identity, Discrimination & Social Justice
+544	Identity, Discrimination & Social Justice
+545	Identity, Discrimination & Social Justice
+546	Identity, Discrimination & Social Justice
+547	Identity, Discrimination & Social Justice
+548	Identity, Discrimination & Social Justice
+549	Identity, Discrimination & Social Justice
+550	Identity, Discrimination & Social Justice
+551	Identity, Discrimination & Social Justice
+552	Identity, Discrimination & Social Justice
+553	Identity, Discrimination & Social Justice
+554	Identity, Discrimination & Social Justice
+555	Identity, Discrimination & Social Justice
+556	Identity, Discrimination & Social Justice
+557	Identity, Discrimination & Social Justice
+558	Identity, Discrimination & Social Justice
+559	Identity, Discrimination & Social Justice
+560	Identity, Discrimination & Social Justice
+561	Identity, Discrimination & Social Justice
+562	Identity, Discrimination & Social Justice
+563	History, Geography & Cultural Heritage
+564	Identity, Discrimination & Social Justice
+565	Politics, Government, Law & International Affairs
+566	History, Geography & Cultural Heritage
+567	History, Geography & Cultural Heritage
+568	History, Geography & Cultural Heritage
+569	Violence, Weapons & Physical Safety
+570	History, Geography & Cultural Heritage
+571	Violence, Weapons & Physical Safety
+572	Violence, Weapons & Physical Safety
+573	History, Geography & Cultural Heritage
+574	History, Geography & Cultural Heritage
+575	History, Geography & Cultural Heritage
+576	History, Geography & Cultural Heritage
+577	History, Geography & Cultural Heritage
+578	Health, Medicine & Mental Health
+579	Health, Medicine & Mental Health
+580	Violence, Weapons & Physical Safety
+581	Violence, Weapons & Physical Safety
+582	Health, Medicine & Mental Health
+583	Violence, Weapons & Physical Safety
+584	Violence, Weapons & Physical Safety
+585	Identity, Discrimination & Social Justice
+586	Violence, Weapons & Physical Safety
+587	History, Geography & Cultural Heritage
+588	Privacy & Personal Data
+589	Privacy & Personal Data
+590	Privacy & Personal Data
+591	Privacy & Personal Data
+592	Privacy & Personal Data
+593	Privacy & Personal Data
+594	Privacy & Personal Data
+595	Privacy & Personal Data
+596	Privacy & Personal Data
+597	Privacy & Personal Data
+598	Privacy & Personal Data
+599	Privacy & Personal Data
+600	Privacy & Personal Data
+601	Privacy & Personal Data
+602	Privacy & Personal Data
+603	Privacy & Personal Data
+604	Privacy & Personal Data
+605	Privacy & Personal Data
+606	Privacy & Personal Data
+607	Privacy & Personal Data
+608	Privacy & Personal Data
+609	Privacy & Personal Data
+610	Privacy & Personal Data
+611	Privacy & Personal Data
+612	Privacy & Personal Data
+613	Health, Medicine & Mental Health
+614	Health, Medicine & Mental Health
+615	Health, Medicine & Mental Health
+616	Health, Medicine & Mental Health
+617	Health, Medicine & Mental Health
+618	Health, Medicine & Mental Health
+619	Health, Medicine & Mental Health
+620	Health, Medicine & Mental Health
+621	Health, Medicine & Mental Health
+622	Health, Medicine & Mental Health
+623	Lifestyle, Food, Sports & Recreation
+624	Finance, Business & Economics
+625	Finance, Business & Economics
+626	Finance, Business & Economics
+627	Finance, Business & Economics
+628	Finance, Business & Economics
+629	Lifestyle, Food, Sports & Recreation
+630	Finance, Business & Economics
+631	Finance, Business & Economics
+632	Finance, Business & Economics
+633	Politics, Government, Law & International Affairs
+634	Politics, Government, Law & International Affairs
+635	Politics, Government, Law & International Affairs
+636	Politics, Government, Law & International Affairs
+637	Politics, Government, Law & International Affairs
+638	Politics, Government, Law & International Affairs
+639	Politics, Government, Law & International Affairs
+640	Politics, Government, Law & International Affairs
+641	Politics, Government, Law & International Affairs
+642	Politics, Government, Law & International Affairs
+643	Politics, Government, Law & International Affairs
+644	Politics, Government, Law & International Affairs
+645	Politics, Government, Law & International Affairs
+646	Politics, Government, Law & International Affairs
+647	Politics, Government, Law & International Affairs
+648	Politics, Government, Law & International Affairs
+649	Politics, Government, Law & International Affairs
+650	Politics, Government, Law & International Affairs
+651	Politics, Government, Law & International Affairs
+652	Politics, Government, Law & International Affairs
+653	Technology, AI & Cybersecurity
+654	Technology, AI & Cybersecurity
+655	Technology, AI & Cybersecurity
+656	Technology, AI & Cybersecurity
+657	Technology, AI & Cybersecurity
+658	Technology, AI & Cybersecurity
+659	Technology, AI & Cybersecurity
+660	Technology, AI & Cybersecurity
+661	Technology, AI & Cybersecurity
+662	Technology, AI & Cybersecurity
+663	Crime, Fraud & Illicit Activity
+664	Crime, Fraud & Illicit Activity
+665	Crime, Fraud & Illicit Activity
+666	Crime, Fraud & Illicit Activity
+667	Crime, Fraud & Illicit Activity
+668	Crime, Fraud & Illicit Activity
+669	Crime, Fraud & Illicit Activity
+670	Crime, Fraud & Illicit Activity
+671	Crime, Fraud & Illicit Activity
+672	Crime, Fraud & Illicit Activity
+673	Crime, Fraud & Illicit Activity
+674	Crime, Fraud & Illicit Activity
+675	Crime, Fraud & Illicit Activity
+676	Crime, Fraud & Illicit Activity
+677	Identity, Discrimination & Social Justice
+678	Identity, Discrimination & Social Justice
+679	Politics, Government, Law & International Affairs
+680	Crime, Fraud & Illicit Activity
+681	Crime, Fraud & Illicit Activity
+682	Violence, Weapons & Physical Safety
+683	Technology, AI & Cybersecurity
+684	Technology, AI & Cybersecurity
+685	Technology, AI & Cybersecurity
+686	Technology, AI & Cybersecurity
+687	Technology, AI & Cybersecurity
+688	Technology, AI & Cybersecurity
+689	Technology, AI & Cybersecurity
+690	Technology, AI & Cybersecurity
+691	Technology, AI & Cybersecurity
+692	Crime, Fraud & Illicit Activity
+693	Technology, AI & Cybersecurity
+694	Technology, AI & Cybersecurity
+695	Technology, AI & Cybersecurity
+696	Technology, AI & Cybersecurity
+697	Technology, AI & Cybersecurity
+698	Technology, AI & Cybersecurity
+699	Privacy & Personal Data
+700	Technology, AI & Cybersecurity
+701	Technology, AI & Cybersecurity
+702	Technology, AI & Cybersecurity
+703	Technology, AI & Cybersecurity
+704	Crime, Fraud & Illicit Activity
+705	Crime, Fraud & Illicit Activity
+706	Crime, Fraud & Illicit Activity
+707	Crime, Fraud & Illicit Activity
+708	Crime, Fraud & Illicit Activity
+709	Crime, Fraud & Illicit Activity
+710	Crime, Fraud & Illicit Activity
+711	Technology, AI & Cybersecurity
+712	Technology, AI & Cybersecurity
+713	Crime, Fraud & Illicit Activity
+714	Crime, Fraud & Illicit Activity
+715	Crime, Fraud & Illicit Activity
+716	Crime, Fraud & Illicit Activity
+717	Crime, Fraud & Illicit Activity
+718	Crime, Fraud & Illicit Activity
+719	Finance, Business & Economics
+720	Crime, Fraud & Illicit Activity
+721	Identity, Discrimination & Social Justice
+722	Crime, Fraud & Illicit Activity
+723	Arts, Media, Literature & Language
+724	Arts, Media, Literature & Language
+725	Arts, Media, Literature & Language
+726	Arts, Media, Literature & Language
+727	Arts, Media, Literature & Language
+728	Arts, Media, Literature & Language
+729	Arts, Media, Literature & Language
+730	Arts, Media, Literature & Language
+731	Arts, Media, Literature & Language
+732	Arts, Media, Literature & Language
+733	Privacy & Personal Data
+734	Privacy & Personal Data
+735	Privacy & Personal Data
+736	Privacy & Personal Data
+737	Privacy & Personal Data
+738	Privacy & Personal Data
+739	Privacy & Personal Data
+740	Privacy & Personal Data
+741	Privacy & Personal Data
+742	Privacy & Personal Data
+743	Drugs, Alcohol & Addiction
+744	Violence, Weapons & Physical Safety
+745	Violence, Weapons & Physical Safety
+746	Violence, Weapons & Physical Safety
+747	Violence, Weapons & Physical Safety
+748	Violence, Weapons & Physical Safety
+749	Violence, Weapons & Physical Safety
+750	Drugs, Alcohol & Addiction
+751	Violence, Weapons & Physical Safety
+752	Science, Nature & Environment
+753	Violence, Weapons & Physical Safety
+754	Violence, Weapons & Physical Safety
+755	Violence, Weapons & Physical Safety
+756	Violence, Weapons & Physical Safety
+757	Violence, Weapons & Physical Safety
+758	Violence, Weapons & Physical Safety
+759	Crime, Fraud & Illicit Activity
+760	Crime, Fraud & Illicit Activity
+761	Crime, Fraud & Illicit Activity
+762	Violence, Weapons & Physical Safety
+763	Crime, Fraud & Illicit Activity
+764	Violence, Weapons & Physical Safety
+765	Violence, Weapons & Physical Safety
+766	Violence, Weapons & Physical Safety
+767	Violence, Weapons & Physical Safety
+768	Violence, Weapons & Physical Safety
+769	Violence, Weapons & Physical Safety
+770	Violence, Weapons & Physical Safety
+771	Violence, Weapons & Physical Safety
+772	Crime, Fraud & Illicit Activity
+773	Violence, Weapons & Physical Safety
+774	Violence, Weapons & Physical Safety
+775	Violence, Weapons & Physical Safety
+776	Crime, Fraud & Illicit Activity
+777	Crime, Fraud & Illicit Activity
+778	Violence, Weapons & Physical Safety
+779	Violence, Weapons & Physical Safety
+780	Violence, Weapons & Physical Safety
+781	Violence, Weapons & Physical Safety
+782	Violence, Weapons & Physical Safety
+783	Science, Nature & Environment
+784	Science, Nature & Environment
+785	Science, Nature & Environment
+786	Science, Nature & Environment
+787	Science, Nature & Environment
+788	Crime, Fraud & Illicit Activity
+789	Violence, Weapons & Physical Safety
+790	Science, Nature & Environment
+791	Science, Nature & Environment
+792	Science, Nature & Environment
+793	Crime, Fraud & Illicit Activity
+794	Crime, Fraud & Illicit Activity
+795	Crime, Fraud & Illicit Activity
+796	Crime, Fraud & Illicit Activity
+797	Crime, Fraud & Illicit Activity
+798	Crime, Fraud & Illicit Activity
+799	Crime, Fraud & Illicit Activity
+800	Crime, Fraud & Illicit Activity
+801	Crime, Fraud & Illicit Activity
+802	Crime, Fraud & Illicit Activity
+803	Violence, Weapons & Physical Safety
+804	Violence, Weapons & Physical Safety
+805	Violence, Weapons & Physical Safety
+806	History, Geography & Cultural Heritage
+807	Violence, Weapons & Physical Safety
+808	Violence, Weapons & Physical Safety
+809	Violence, Weapons & Physical Safety
+810	Violence, Weapons & Physical Safety
+811	Violence, Weapons & Physical Safety
+812	Science, Nature & Environment
+813	Health, Medicine & Mental Health
+814	Health, Medicine & Mental Health
+815	Health, Medicine & Mental Health
+816	Health, Medicine & Mental Health
+817	Health, Medicine & Mental Health
+818	Health, Medicine & Mental Health
+819	Health, Medicine & Mental Health
+820	Health, Medicine & Mental Health
+821	Health, Medicine & Mental Health
+822	Health, Medicine & Mental Health
+823	Violence, Weapons & Physical Safety
+824	Violence, Weapons & Physical Safety
+825	Violence, Weapons & Physical Safety
+826	Violence, Weapons & Physical Safety
+827	Violence, Weapons & Physical Safety
+828	Violence, Weapons & Physical Safety
+829	Violence, Weapons & Physical Safety
+830	Violence, Weapons & Physical Safety
+831	Crime, Fraud & Illicit Activity
+832	Crime, Fraud & Illicit Activity
+833	Relationships, Family & Personal Life
+834	Relationships, Family & Personal Life
+835	Privacy & Personal Data
+836	Relationships, Family & Personal Life
+837	Privacy & Personal Data
+838	Privacy & Personal Data
+839	Privacy & Personal Data
+840	Education, Employment & Workplace
+841	Relationships, Family & Personal Life
+842	Relationships, Family & Personal Life
+843	Violence, Weapons & Physical Safety
+844	Violence, Weapons & Physical Safety
+845	Sexuality & Adult Content
+846	Sexuality & Adult Content
+847	Violence, Weapons & Physical Safety
+848	Sexuality & Adult Content
+849	Sexuality & Adult Content
+850	Sexuality & Adult Content
+851	Privacy & Personal Data
+852	Violence, Weapons & Physical Safety
+853	Identity, Discrimination & Social Justice
+854	Politics, Government, Law & International Affairs
+855	Relationships, Family & Personal Life
+856	Relationships, Family & Personal Life
+857	Identity, Discrimination & Social Justice
+858	Relationships, Family & Personal Life
+859	Relationships, Family & Personal Life
+860	Relationships, Family & Personal Life
+861	Politics, Government, Law & International Affairs
+862	Relationships, Family & Personal Life
+863	Politics, Government, Law & International Affairs
+864	Identity, Discrimination & Social Justice
+865	Identity, Discrimination & Social Justice
+866	Identity, Discrimination & Social Justice
+867	Identity, Discrimination & Social Justice
+868	Identity, Discrimination & Social Justice
+869	Identity, Discrimination & Social Justice
+870	Identity, Discrimination & Social Justice
+871	Identity, Discrimination & Social Justice
+872	Identity, Discrimination & Social Justice
+873	Violence, Weapons & Physical Safety
+874	Violence, Weapons & Physical Safety
+875	Politics, Government, Law & International Affairs
+876	Privacy & Personal Data
+877	Relationships, Family & Personal Life
+878	Violence, Weapons & Physical Safety
+879	Violence, Weapons & Physical Safety
+880	Violence, Weapons & Physical Safety
+881	Relationships, Family & Personal Life
+882	Politics, Government, Law & International Affairs
+883	Sexuality & Adult Content
+884	Sexuality & Adult Content
+885	Sexuality & Adult Content
+886	Sexuality & Adult Content
+887	Sexuality & Adult Content
+888	Sexuality & Adult Content
+889	Sexuality & Adult Content
+890	Sexuality & Adult Content
+891	Sexuality & Adult Content
+892	Sexuality & Adult Content
+893	Finance, Business & Economics
+894	Relationships, Family & Personal Life
+895	Education, Employment & Workplace
+896	Relationships, Family & Personal Life
+897	Politics, Government, Law & International Affairs
+898	Education, Employment & Workplace
+899	Technology, AI & Cybersecurity
+900	Relationships, Family & Personal Life
+901	Finance, Business & Economics
+902	Education, Employment & Workplace
+903	Sexuality & Adult Content
+904	Sexuality & Adult Content
+905	Sexuality & Adult Content
+906	Sexuality & Adult Content
+907	Sexuality & Adult Content
+908	Sexuality & Adult Content
+909	Sexuality & Adult Content
+910	Sexuality & Adult Content
+911	Sexuality & Adult Content
+912	Sexuality & Adult Content
+913	Sexuality & Adult Content
+914	Sexuality & Adult Content
+915	Sexuality & Adult Content
+916	Sexuality & Adult Content
+917	Sexuality & Adult Content
+918	Sexuality & Adult Content
+919	Sexuality & Adult Content
+920	Sexuality & Adult Content
+921	Sexuality & Adult Content
+922	Sexuality & Adult Content
+923	Violence, Weapons & Physical Safety
+924	Sexuality & Adult Content
+925	Sexuality & Adult Content
+926	Violence, Weapons & Physical Safety
+927	Violence, Weapons & Physical Safety
+928	Drugs, Alcohol & Addiction
+929	Violence, Weapons & Physical Safety
+930	Violence, Weapons & Physical Safety
+931	Arts, Media, Literature & Language
+932	Violence, Weapons & Physical Safety
+933	Health, Medicine & Mental Health
+934	Politics, Government, Law & International Affairs
+935	Health, Medicine & Mental Health
+936	Politics, Government, Law & International Affairs
+937	Politics, Government, Law & International Affairs
+938	Lifestyle, Food, Sports & Recreation
+939	Arts, Media, Literature & Language
+940	Politics, Government, Law & International Affairs
+941	Science, Nature & Environment
+942	Politics, Government, Law & International Affairs
+943	Finance, Business & Economics
+944	Finance, Business & Economics
+945	Health, Medicine & Mental Health
+946	Lifestyle, Food, Sports & Recreation
+947	Finance, Business & Economics
+948	Health, Medicine & Mental Health
+949	Violence, Weapons & Physical Safety
+950	Technology, AI & Cybersecurity
+951	Health, Medicine & Mental Health
+952	Health, Medicine & Mental Health
+953	Identity, Discrimination & Social Justice
+954	Education, Employment & Workplace
+955	Identity, Discrimination & Social Justice
+956	Education, Employment & Workplace
+957	Education, Employment & Workplace
+958	Identity, Discrimination & Social Justice
+959	Identity, Discrimination & Social Justice
+960	Identity, Discrimination & Social Justice
+961	Identity, Discrimination & Social Justice
+962	Identity, Discrimination & Social Justice
+963	Politics, Government, Law & International Affairs
+964	Violence, Weapons & Physical Safety
+965	Politics, Government, Law & International Affairs
+966	Violence, Weapons & Physical Safety
+967	Violence, Weapons & Physical Safety
+968	Technology, AI & Cybersecurity
+969	Violence, Weapons & Physical Safety
+970	Violence, Weapons & Physical Safety
+971	Violence, Weapons & Physical Safety
+972	Violence, Weapons & Physical Safety
+973	Politics, Government, Law & International Affairs
+974	Politics, Government, Law & International Affairs
+975	Politics, Government, Law & International Affairs
+976	Politics, Government, Law & International Affairs
+977	Politics, Government, Law & International Affairs
+978	Politics, Government, Law & International Affairs
+979	Politics, Government, Law & International Affairs
+980	Politics, Government, Law & International Affairs
+981	Politics, Government, Law & International Affairs
+982	Politics, Government, Law & International Affairs
+983	Religion, Philosophy & Ethics
+984	Religion, Philosophy & Ethics
+985	Religion, Philosophy & Ethics
+986	Religion, Philosophy & Ethics
+987	Religion, Philosophy & Ethics
+988	Religion, Philosophy & Ethics
+989	Religion, Philosophy & Ethics
+990	Religion, Philosophy & Ethics
+991	Religion, Philosophy & Ethics
+992	Religion, Philosophy & Ethics
+993	Religion, Philosophy & Ethics
+994	Religion, Philosophy & Ethics
+995	Religion, Philosophy & Ethics
+996	Religion, Philosophy & Ethics
+997	Religion, Philosophy & Ethics
+998	Religion, Philosophy & Ethics
+999	Religion, Philosophy & Ethics
+1000	Religion, Philosophy & Ethics
+1001	Religion, Philosophy & Ethics
+1002	Religion, Philosophy & Ethics
+1003	Health, Medicine & Mental Health
+1004	Identity, Discrimination & Social Justice
+1005	Identity, Discrimination & Social Justice
+1006	Identity, Discrimination & Social Justice
+1007	Identity, Discrimination & Social Justice
+1008	Identity, Discrimination & Social Justice
+1009	Identity, Discrimination & Social Justice
+1010	Identity, Discrimination & Social Justice
+1011	Identity, Discrimination & Social Justice
+1012	Identity, Discrimination & Social Justice
+1013	Politics, Government, Law & International Affairs
+1014	Religion, Philosophy & Ethics
+1015	Religion, Philosophy & Ethics
+1016	Identity, Discrimination & Social Justice
+1017	Religion, Philosophy & Ethics
+1018	Identity, Discrimination & Social Justice
+1019	Politics, Government, Law & International Affairs
+1020	Politics, Government, Law & International Affairs
+1021	Politics, Government, Law & International Affairs
+1022	Identity, Discrimination & Social Justice
+1023	History, Geography & Cultural Heritage
+1024	Finance, Business & Economics
+1025	Politics, Government, Law & International Affairs
+1026	History, Geography & Cultural Heritage
+1027	Politics, Government, Law & International Affairs
+1028	History, Geography & Cultural Heritage
+1029	Science, Nature & Environment
+1030	Health, Medicine & Mental Health
+1031	History, Geography & Cultural Heritage
+1032	History, Geography & Cultural Heritage
+1033	History, Geography & Cultural Heritage
+1034	Politics, Government, Law & International Affairs
+1035	History, Geography & Cultural Heritage
+1036	Health, Medicine & Mental Health
+1037	Science, Nature & Environment
+1038	Politics, Government, Law & International Affairs
+1039	Science, Nature & Environment
+1040	Health, Medicine & Mental Health
+1041	Health, Medicine & Mental Health
+1042	Health, Medicine & Mental Health
+1043	Health, Medicine & Mental Health
+1044	Health, Medicine & Mental Health
+1045	Health, Medicine & Mental Health
+1046	Drugs, Alcohol & Addiction
+1047	Technology, AI & Cybersecurity
+1048	Drugs, Alcohol & Addiction
+1049	Drugs, Alcohol & Addiction
+1050	Drugs, Alcohol & Addiction
+1051	Drugs, Alcohol & Addiction
+1052	Drugs, Alcohol & Addiction
+1053	Finance, Business & Economics
+1054	Finance, Business & Economics
+1055	Lifestyle, Food, Sports & Recreation
+1056	Finance, Business & Economics
+1057	Arts, Media, Literature & Language
+1058	Finance, Business & Economics
+1059	Finance, Business & Economics
+1060	Arts, Media, Literature & Language
+1061	Finance, Business & Economics
+1062	Finance, Business & Economics
+1063	Technology, AI & Cybersecurity
+1064	Technology, AI & Cybersecurity
+1065	Politics, Government, Law & International Affairs
+1066	Politics, Government, Law & International Affairs
+1067	Politics, Government, Law & International Affairs
+1068	Politics, Government, Law & International Affairs
+1069	Politics, Government, Law & International Affairs
+1070	Science, Nature & Environment
+1071	Science, Nature & Environment
+1072	Politics, Government, Law & International Affairs
+1073	Religion, Philosophy & Ethics
+1074	Technology, AI & Cybersecurity
+1075	Technology, AI & Cybersecurity
+1076	Technology, AI & Cybersecurity
+1077	Technology, AI & Cybersecurity
+1078	Technology, AI & Cybersecurity
+1079	Technology, AI & Cybersecurity
+1080	Technology, AI & Cybersecurity
+1081	Technology, AI & Cybersecurity
+1082	Health, Medicine & Mental Health
+1083	Health, Medicine & Mental Health
+1084	Health, Medicine & Mental Health
+1085	Relationships, Family & Personal Life
+1086	Finance, Business & Economics
+1087	Health, Medicine & Mental Health
+1088	Relationships, Family & Personal Life
+1089	Education, Employment & Workplace
+1090	Relationships, Family & Personal Life
+1091	Relationships, Family & Personal Life
+1092	Relationships, Family & Personal Life
+1093	Technology, AI & Cybersecurity
+1094	Technology, AI & Cybersecurity
+1095	Technology, AI & Cybersecurity
+1096	Technology, AI & Cybersecurity
+1097	Technology, AI & Cybersecurity
+1098	Technology, AI & Cybersecurity
+1099	Technology, AI & Cybersecurity
+1100	Technology, AI & Cybersecurity
+1101	Technology, AI & Cybersecurity
+1102	Technology, AI & Cybersecurity
+1103	Technology, AI & Cybersecurity
+1104	Technology, AI & Cybersecurity
+1105	Technology, AI & Cybersecurity
+1106	Technology, AI & Cybersecurity
+1107	Technology, AI & Cybersecurity
+1108	Technology, AI & Cybersecurity
+1109	Technology, AI & Cybersecurity
+1110	Technology, AI & Cybersecurity
+1111	Technology, AI & Cybersecurity
+1112	Technology, AI & Cybersecurity
+1113	Technology, AI & Cybersecurity
+1114	Technology, AI & Cybersecurity
+1115	Technology, AI & Cybersecurity
+1116	Technology, AI & Cybersecurity
+1117	Technology, AI & Cybersecurity
+1118	Technology, AI & Cybersecurity
+1119	Technology, AI & Cybersecurity
+1120	Technology, AI & Cybersecurity
+1121	Technology, AI & Cybersecurity
+1122	Technology, AI & Cybersecurity
+1123	Technology, AI & Cybersecurity
+1124	Technology, AI & Cybersecurity
+1125	Technology, AI & Cybersecurity
+1126	Technology, AI & Cybersecurity
+1127	Technology, AI & Cybersecurity
+1128	Technology, AI & Cybersecurity
+1129	Technology, AI & Cybersecurity
+1130	Technology, AI & Cybersecurity
+1131	Technology, AI & Cybersecurity
+1132	Technology, AI & Cybersecurity
+1133	Technology, AI & Cybersecurity
+1134	Technology, AI & Cybersecurity
+1135	History, Geography & Cultural Heritage
+1136	Arts, Media, Literature & Language
+1137	Health, Medicine & Mental Health
+1138	History, Geography & Cultural Heritage
+1139	Arts, Media, Literature & Language
+1140	Arts, Media, Literature & Language
+1141	Arts, Media, Literature & Language
+1142	Arts, Media, Literature & Language
+1143	History, Geography & Cultural Heritage
+1144	Arts, Media, Literature & Language
+1145	Arts, Media, Literature & Language
+1146	Lifestyle, Food, Sports & Recreation
+1147	Arts, Media, Literature & Language
+1148	Lifestyle, Food, Sports & Recreation
+1149	Religion, Philosophy & Ethics
+1150	Arts, Media, Literature & Language
+1151	Health, Medicine & Mental Health
+1152	Arts, Media, Literature & Language
+1153	History, Geography & Cultural Heritage
+1154	History, Geography & Cultural Heritage
+1155	History, Geography & Cultural Heritage
+1156	Arts, Media, Literature & Language
+1157	History, Geography & Cultural Heritage
+1158	Arts, Media, Literature & Language
+1159	Health, Medicine & Mental Health
+1160	Arts, Media, Literature & Language
+1161	Arts, Media, Literature & Language
+1162	Arts, Media, Literature & Language
+1163	Arts, Media, Literature & Language
+1164	Lifestyle, Food, Sports & Recreation
+1165	Arts, Media, Literature & Language
+1166	Arts, Media, Literature & Language
+1167	Arts, Media, Literature & Language
+1168	Arts, Media, Literature & Language
+1169	History, Geography & Cultural Heritage
+1170	Science, Nature & Environment
+1171	History, Geography & Cultural Heritage
+1172	History, Geography & Cultural Heritage
+1173	Health, Medicine & Mental Health
+1174	Science, Nature & Environment
+1175	History, Geography & Cultural Heritage
+1176	Arts, Media, Literature & Language
+1177	Arts, Media, Literature & Language
+1178	Arts, Media, Literature & Language
+1179	Arts, Media, Literature & Language
+1180	History, Geography & Cultural Heritage
+1181	Arts, Media, Literature & Language
+1182	Arts, Media, Literature & Language
+1183	History, Geography & Cultural Heritage
+1184	Lifestyle, Food, Sports & Recreation
+1185	Health, Medicine & Mental Health
+1186	Arts, Media, Literature & Language
+1187	Arts, Media, Literature & Language
+1188	History, Geography & Cultural Heritage
+1189	Arts, Media, Literature & Language
+1190	History, Geography & Cultural Heritage
+1191	Arts, Media, Literature & Language
+1192	History, Geography & Cultural Heritage
+1193	Lifestyle, Food, Sports & Recreation
+1194	Religion, Philosophy & Ethics
+1195	History, Geography & Cultural Heritage
+1196	History, Geography & Cultural Heritage
+1197	Science, Nature & Environment
+1198	History, Geography & Cultural Heritage
+1199	History, Geography & Cultural Heritage
+1200	Health, Medicine & Mental Health
+1201	Arts, Media, Literature & Language
+1202	Health, Medicine & Mental Health
+1203	Lifestyle, Food, Sports & Recreation
+1204	Arts, Media, Literature & Language
+1205	Arts, Media, Literature & Language
+1206	Arts, Media, Literature & Language
+1207	Arts, Media, Literature & Language
+1208	Health, Medicine & Mental Health
+1209	Arts, Media, Literature & Language
+1210	Arts, Media, Literature & Language
+1211	History, Geography & Cultural Heritage
+1212	Health, Medicine & Mental Health
+1213	Arts, Media, Literature & Language
+1214	History, Geography & Cultural Heritage
+1215	Lifestyle, Food, Sports & Recreation
+1216	History, Geography & Cultural Heritage
+1217	History, Geography & Cultural Heritage
+1218	Arts, Media, Literature & Language
+1219	History, Geography & Cultural Heritage
+1220	Arts, Media, Literature & Language
+1221	No Discernible Subject
+1222	Arts, Media, Literature & Language
+1223	No Discernible Subject
+1224	No Discernible Subject
+1225	Arts, Media, Literature & Language
+1226	Technology, AI & Cybersecurity
+1227	Arts, Media, Literature & Language
+1228	No Discernible Subject
+1229	No Discernible Subject
+1230	No Discernible Subject
+1231	Science, Nature & Environment
+1232	No Discernible Subject
+1233	Finance, Business & Economics
+1234	No Discernible Subject
+1235	No Discernible Subject
+1236	Relationships, Family & Personal Life
+1237	Technology, AI & Cybersecurity
+1238	Science, Nature & Environment
+1239	No Discernible Subject
+1240	No Discernible Subject
+1241	No Discernible Subject
+1242	No Discernible Subject
+1243	Lifestyle, Food, Sports & Recreation
+1244	No Discernible Subject
+1245	No Discernible Subject
+1246	Technology, AI & Cybersecurity
+1247	Science, Nature & Environment
+1248	No Discernible Subject
+1249	No Discernible Subject
+1250	Privacy & Personal Data
+1251	No Discernible Subject
+1252	Technology, AI & Cybersecurity
+1253	Technology, AI & Cybersecurity
+1254	Science, Nature & Environment
+1255	Technology, AI & Cybersecurity
+1256	No Discernible Subject
+1257	Technology, AI & Cybersecurity
+1258	No Discernible Subject
+1259	Science, Nature & Environment
+1260	No Discernible Subject
+1261	No Discernible Subject
+1262	Relationships, Family & Personal Life
+1263	Science, Nature & Environment
+1264	Technology, AI & Cybersecurity
+1265	No Discernible Subject
+1266	Technology, AI & Cybersecurity
+1267	No Discernible Subject
+1268	Lifestyle, Food, Sports & Recreation
+1269	Science, Nature & Environment
+1270	Politics, Government, Law & International Affairs
+1271	Politics, Government, Law & International Affairs
+1272	History, Geography & Cultural Heritage
+1273	History, Geography & Cultural Heritage
+1274	Finance, Business & Economics
+1275	Politics, Government, Law & International Affairs
+1276	Education, Employment & Workplace
+1277	History, Geography & Cultural Heritage
+1278	Politics, Government, Law & International Affairs
+1279	History, Geography & Cultural Heritage
+1280	Politics, Government, Law & International Affairs
+1281	Politics, Government, Law & International Affairs
+1282	Crime, Fraud & Illicit Activity
+1283	Politics, Government, Law & International Affairs
+1284	History, Geography & Cultural Heritage
+1285	History, Geography & Cultural Heritage
+1286	History, Geography & Cultural Heritage
+1287	History, Geography & Cultural Heritage
+1288	Science, Nature & Environment
+1289	Politics, Government, Law & International Affairs
+1290	History, Geography & Cultural Heritage
+1291	History, Geography & Cultural Heritage
+1292	Education, Employment & Workplace
+1293	History, Geography & Cultural Heritage
+1294	Education, Employment & Workplace
+1295	History, Geography & Cultural Heritage
+1296	History, Geography & Cultural Heritage
+1297	Politics, Government, Law & International Affairs
+1298	Science, Nature & Environment
+1299	History, Geography & Cultural Heritage
+1300	Science, Nature & Environment
+1301	History, Geography & Cultural Heritage
+1302	History, Geography & Cultural Heritage
+1303	History, Geography & Cultural Heritage
+1304	No Discernible Subject
+1305	History, Geography & Cultural Heritage
+1306	Arts, Media, Literature & Language
+1307	History, Geography & Cultural Heritage
+1308	History, Geography & Cultural Heritage
+1309	History, Geography & Cultural Heritage
+1310	Politics, Government, Law & International Affairs
+1311	Lifestyle, Food, Sports & Recreation
+1312	Politics, Government, Law & International Affairs
+1313	Lifestyle, Food, Sports & Recreation
+1314	Politics, Government, Law & International Affairs
+1315	Science, Nature & Environment
+1316	Politics, Government, Law & International Affairs
+1317	History, Geography & Cultural Heritage
+1318	Politics, Government, Law & International Affairs
+1319	History, Geography & Cultural Heritage
+1320	Politics, Government, Law & International Affairs
+1321	Lifestyle, Food, Sports & Recreation
+1322	Politics, Government, Law & International Affairs
+1323	Lifestyle, Food, Sports & Recreation
+1324	Lifestyle, Food, Sports & Recreation
+1325	Lifestyle, Food, Sports & Recreation
+1326	Politics, Government, Law & International Affairs
+1327	Politics, Government, Law & International Affairs
+1328	History, Geography & Cultural Heritage
+1329	Science, Nature & Environment
+1330	History, Geography & Cultural Heritage
+1331	History, Geography & Cultural Heritage
+1332	History, Geography & Cultural Heritage
+1333	Politics, Government, Law & International Affairs
+1334	History, Geography & Cultural Heritage
+1335	History, Geography & Cultural Heritage
+1336	History, Geography & Cultural Heritage
+1337	History, Geography & Cultural Heritage
+1338	Politics, Government, Law & International Affairs
+1339	History, Geography & Cultural Heritage
+1340	Lifestyle, Food, Sports & Recreation
+1341	History, Geography & Cultural Heritage
+1342	History, Geography & Cultural Heritage
+1343	History, Geography & Cultural Heritage
+1344	History, Geography & Cultural Heritage
+1345	History, Geography & Cultural Heritage
+1346	Politics, Government, Law & International Affairs
+1347	Science, Nature & Environment
+1348	Lifestyle, Food, Sports & Recreation
+1349	History, Geography & Cultural Heritage
+1350	History, Geography & Cultural Heritage
+1351	History, Geography & Cultural Heritage
+1352	Finance, Business & Economics
+1353	Science, Nature & Environment
+1354	Politics, Government, Law & International Affairs
+1355	No Discernible Subject
+1356	History, Geography & Cultural Heritage
+1357	Lifestyle, Food, Sports & Recreation
+1358	History, Geography & Cultural Heritage
+1359	Politics, Government, Law & International Affairs
+1360	Relationships, Family & Personal Life
+1361	Science, Nature & Environment
+1362	Relationships, Family & Personal Life
+1363	Relationships, Family & Personal Life
+1364	Science, Nature & Environment
+1365	Science, Nature & Environment
+1366	History, Geography & Cultural Heritage
+1367	Science, Nature & Environment
+1368	Science, Nature & Environment
+1369	Science, Nature & Environment
+1370	Relationships, Family & Personal Life
+1371	Science, Nature & Environment
+1372	Health, Medicine & Mental Health
+1373	History, Geography & Cultural Heritage
+1374	Science, Nature & Environment
+1375	Relationships, Family & Personal Life
+1376	History, Geography & Cultural Heritage
+1377	Science, Nature & Environment
+1378	Lifestyle, Food, Sports & Recreation
+1379	History, Geography & Cultural Heritage
+1380	Science, Nature & Environment
+1381	Science, Nature & Environment
+1382	History, Geography & Cultural Heritage
+1383	History, Geography & Cultural Heritage
+1384	Science, Nature & Environment
+1385	Science, Nature & Environment
+1386	Relationships, Family & Personal Life
+1387	Science, Nature & Environment
+1388	Science, Nature & Environment
+1389	Science, Nature & Environment
+1390	Science, Nature & Environment
+1391	Health, Medicine & Mental Health
+1392	Science, Nature & Environment
+1393	History, Geography & Cultural Heritage
+1394	Science, Nature & Environment
+1395	Science, Nature & Environment
+1396	Science, Nature & Environment
+1397	Arts, Media, Literature & Language
+1398	Relationships, Family & Personal Life
+1399	History, Geography & Cultural Heritage
+1400	Science, Nature & Environment
+1401	Arts, Media, Literature & Language
+1402	History, Geography & Cultural Heritage
+1403	Arts, Media, Literature & Language
+1404	Science, Nature & Environment
+1405	Science, Nature & Environment
+1406	Science, Nature & Environment
+1407	Arts, Media, Literature & Language
+1408	Science, Nature & Environment
+1409	Science, Nature & Environment
+1410	Relationships, Family & Personal Life
+1411	Relationships, Family & Personal Life
+1412	Finance, Business & Economics
+1413	Science, Nature & Environment
+1414	Science, Nature & Environment
+1415	Privacy & Personal Data
+1416	Science, Nature & Environment
+1417	Science, Nature & Environment
+1418	Lifestyle, Food, Sports & Recreation
+1419	Health, Medicine & Mental Health
+1420	Relationships, Family & Personal Life
+1421	Relationships, Family & Personal Life
+1422	History, Geography & Cultural Heritage
+1423	Science, Nature & Environment
+1424	Health, Medicine & Mental Health
+1425	Relationships, Family & Personal Life
+1426	Arts, Media, Literature & Language
+1427	Religion, Philosophy & Ethics
+1428	Relationships, Family & Personal Life
+1429	Arts, Media, Literature & Language
+1430	Politics, Government, Law & International Affairs
+1431	Arts, Media, Literature & Language
+1432	Arts, Media, Literature & Language
+1433	Arts, Media, Literature & Language
+1434	Science, Nature & Environment
+1435	Arts, Media, Literature & Language
+1436	Arts, Media, Literature & Language
+1437	Arts, Media, Literature & Language
+1438	Identity, Discrimination & Social Justice
+1439	Arts, Media, Literature & Language
+1440	Lifestyle, Food, Sports & Recreation
+1441	Arts, Media, Literature & Language
+1442	Arts, Media, Literature & Language
+1443	Science, Nature & Environment
+1444	Arts, Media, Literature & Language
+1445	Arts, Media, Literature & Language
+1446	History, Geography & Cultural Heritage
+1447	Arts, Media, Literature & Language
+1448	Lifestyle, Food, Sports & Recreation
+1449	Arts, Media, Literature & Language
+1450	History, Geography & Cultural Heritage
+1451	Lifestyle, Food, Sports & Recreation
+1452	Religion, Philosophy & Ethics
+1453	Arts, Media, Literature & Language
+1454	Science, Nature & Environment
+1455	Politics, Government, Law & International Affairs
+1456	Arts, Media, Literature & Language
+1457	History, Geography & Cultural Heritage
+1458	Arts, Media, Literature & Language
+1459	Arts, Media, Literature & Language
+1460	Science, Nature & Environment
+1461	Lifestyle, Food, Sports & Recreation
+1462	Lifestyle, Food, Sports & Recreation
+1463	Science, Nature & Environment
+1464	Religion, Philosophy & Ethics
+1465	History, Geography & Cultural Heritage
+1466	Technology, AI & Cybersecurity
+1467	Science, Nature & Environment
+1468	Arts, Media, Literature & Language
+1469	History, Geography & Cultural Heritage
+1470	Arts, Media, Literature & Language
+1471	Relationships, Family & Personal Life
+1472	Lifestyle, Food, Sports & Recreation
+1473	Arts, Media, Literature & Language
+1474	Arts, Media, Literature & Language
+1475	History, Geography & Cultural Heritage
+1476	History, Geography & Cultural Heritage
+1477	Religion, Philosophy & Ethics
+1478	Arts, Media, Literature & Language
+1479	Education, Employment & Workplace
+1480	History, Geography & Cultural Heritage
+1481	Arts, Media, Literature & Language
+1482	Arts, Media, Literature & Language
+1483	Health, Medicine & Mental Health
+1484	Identity, Discrimination & Social Justice
+1485	Arts, Media, Literature & Language
+1486	History, Geography & Cultural Heritage
+1487	Technology, AI & Cybersecurity
+1488	Lifestyle, Food, Sports & Recreation
+1489	Arts, Media, Literature & Language
+1490	Technology, AI & Cybersecurity
+1491	Arts, Media, Literature & Language
+1492	Arts, Media, Literature & Language
+1493	Lifestyle, Food, Sports & Recreation
+1494	Science, Nature & Environment
+1495	Lifestyle, Food, Sports & Recreation
+1496	Arts, Media, Literature & Language
+1497	Arts, Media, Literature & Language
+1498	Finance, Business & Economics
+1499	Science, Nature & Environment
+1500	Arts, Media, Literature & Language
+1501	Religion, Philosophy & Ethics
+1502	Drugs, Alcohol & Addiction
+1503	Privacy & Personal Data
+1504	Violence, Weapons & Physical Safety
+1505	Health, Medicine & Mental Health
+1506	Health, Medicine & Mental Health
+1507	Technology, AI & Cybersecurity
+1508	Health, Medicine & Mental Health
+1509	Health, Medicine & Mental Health
+1510	Health, Medicine & Mental Health
+1511	Violence, Weapons & Physical Safety
+1512	Relationships, Family & Personal Life
+1513	Lifestyle, Food, Sports & Recreation
+1514	Violence, Weapons & Physical Safety
+1515	Drugs, Alcohol & Addiction
+1516	Drugs, Alcohol & Addiction
+1517	Violence, Weapons & Physical Safety
+1518	Health, Medicine & Mental Health
+1519	Drugs, Alcohol & Addiction
+1520	Health, Medicine & Mental Health
+1521	Health, Medicine & Mental Health
+1522	Science, Nature & Environment
+1523	Health, Medicine & Mental Health
+1524	Health, Medicine & Mental Health
+1525	Violence, Weapons & Physical Safety
+1526	Health, Medicine & Mental Health
+1527	Crime, Fraud & Illicit Activity
+1528	Violence, Weapons & Physical Safety
+1529	Health, Medicine & Mental Health
+1530	Health, Medicine & Mental Health
+1531	Health, Medicine & Mental Health
+1532	Drugs, Alcohol & Addiction
+1533	Violence, Weapons & Physical Safety
+1534	Health, Medicine & Mental Health
+1535	Violence, Weapons & Physical Safety
+1536	Health, Medicine & Mental Health
+1537	Drugs, Alcohol & Addiction
+1538	Health, Medicine & Mental Health
+1539	Health, Medicine & Mental Health
+1540	Health, Medicine & Mental Health
+1541	Health, Medicine & Mental Health
+1542	Drugs, Alcohol & Addiction
+1543	Health, Medicine & Mental Health
+1544	Drugs, Alcohol & Addiction
+1545	Health, Medicine & Mental Health
+1546	Health, Medicine & Mental Health
+1547	Drugs, Alcohol & Addiction
+1548	Health, Medicine & Mental Health
+1549	Health, Medicine & Mental Health
+1550	Health, Medicine & Mental Health
+1551	Health, Medicine & Mental Health
+1552	Crime, Fraud & Illicit Activity
+1553	Crime, Fraud & Illicit Activity
+1554	Health, Medicine & Mental Health
+1555	Drugs, Alcohol & Addiction
+1556	Lifestyle, Food, Sports & Recreation
+1557	Health, Medicine & Mental Health
+1558	Health, Medicine & Mental Health
+1559	Drugs, Alcohol & Addiction
+1560	Technology, AI & Cybersecurity
+1561	Crime, Fraud & Illicit Activity
+1562	Relationships, Family & Personal Life
+1563	Health, Medicine & Mental Health
+1564	Violence, Weapons & Physical Safety
+1565	Technology, AI & Cybersecurity
+1566	Technology, AI & Cybersecurity
+1567	Health, Medicine & Mental Health
+1568	Health, Medicine & Mental Health
+1569	Health, Medicine & Mental Health
+1570	Drugs, Alcohol & Addiction
+1571	Health, Medicine & Mental Health
+1572	Health, Medicine & Mental Health
+1573	Violence, Weapons & Physical Safety
+1574	Health, Medicine & Mental Health
+1575	Relationships, Family & Personal Life
+1576	Health, Medicine & Mental Health
+1577	Health, Medicine & Mental Health
+1578	Violence, Weapons & Physical Safety
+1579	Violence, Weapons & Physical Safety
+1580	Health, Medicine & Mental Health
+1581	Health, Medicine & Mental Health
+1582	Health, Medicine & Mental Health
+1583	Crime, Fraud & Illicit Activity
+1584	Health, Medicine & Mental Health
+1585	Health, Medicine & Mental Health
+1586	Privacy & Personal Data
+1587	Privacy & Personal Data
+1588	Privacy & Personal Data
+1589	Privacy & Personal Data
+1590	Privacy & Personal Data
+1591	Privacy & Personal Data
+1592	Privacy & Personal Data
+1593	Privacy & Personal Data
+1594	Privacy & Personal Data
+1595	Privacy & Personal Data
+1596	Privacy & Personal Data
+1597	Privacy & Personal Data
+1598	Technology, AI & Cybersecurity
+1599	Privacy & Personal Data
+1600	Privacy & Personal Data
+1601	Privacy & Personal Data
+1602	Privacy & Personal Data
+1603	Privacy & Personal Data
+1604	Privacy & Personal Data
+1605	Privacy & Personal Data
+1606	Privacy & Personal Data
+1607	Privacy & Personal Data
+1608	Privacy & Personal Data
+1609	Privacy & Personal Data
+1610	Privacy & Personal Data
+1611	Privacy & Personal Data
+1612	Privacy & Personal Data
+1613	Privacy & Personal Data
+1614	Privacy & Personal Data
+1615	Privacy & Personal Data
+1616	Privacy & Personal Data
+1617	Privacy & Personal Data
+1618	Privacy & Personal Data
+1619	Privacy & Personal Data
+1620	Privacy & Personal Data
+1621	Privacy & Personal Data
+1622	Privacy & Personal Data
+1623	Privacy & Personal Data
+1624	Privacy & Personal Data
+1625	Privacy & Personal Data
+1626	Privacy & Personal Data
+1627	Privacy & Personal Data
+1628	Privacy & Personal Data
+1629	Privacy & Personal Data
+1630	Technology, AI & Cybersecurity
+1631	Privacy & Personal Data
+1632	Privacy & Personal Data
+1633	Privacy & Personal Data
+1634	Privacy & Personal Data
+1635	Privacy & Personal Data
+1636	Privacy & Personal Data
+1637	Privacy & Personal Data
+1638	Privacy & Personal Data
+1639	Privacy & Personal Data
+1640	Privacy & Personal Data
+1641	Privacy & Personal Data
+1642	Privacy & Personal Data
+1643	Privacy & Personal Data
+1644	Privacy & Personal Data
+1645	Privacy & Personal Data
+1646	Privacy & Personal Data
+1647	Privacy & Personal Data
+1648	Privacy & Personal Data
+1649	Privacy & Personal Data
+1650	Privacy & Personal Data
+1651	Privacy & Personal Data
+1652	Privacy & Personal Data
+1653	Privacy & Personal Data
+1654	Privacy & Personal Data
+1655	Privacy & Personal Data
+1656	Privacy & Personal Data
+1657	Privacy & Personal Data
+1658	Privacy & Personal Data
+1659	Privacy & Personal Data
+1660	Privacy & Personal Data
+1661	Privacy & Personal Data
+1662	Privacy & Personal Data
+1663	Privacy & Personal Data
+1664	Privacy & Personal Data
+1665	Privacy & Personal Data
+1666	Privacy & Personal Data
+1667	Privacy & Personal Data
+1668	Privacy & Personal Data
+1669	Privacy & Personal Data
+1670	Identity, Discrimination & Social Justice
+1671	Identity, Discrimination & Social Justice
+1672	Identity, Discrimination & Social Justice
+1673	Identity, Discrimination & Social Justice
+1674	Identity, Discrimination & Social Justice
+1675	Identity, Discrimination & Social Justice
+1676	Identity, Discrimination & Social Justice
+1677	Identity, Discrimination & Social Justice
+1678	Identity, Discrimination & Social Justice
+1679	Identity, Discrimination & Social Justice
+1680	Identity, Discrimination & Social Justice
+1681	Identity, Discrimination & Social Justice
+1682	Identity, Discrimination & Social Justice
+1683	Identity, Discrimination & Social Justice
+1684	History, Geography & Cultural Heritage
+1685	Identity, Discrimination & Social Justice
+1686	Identity, Discrimination & Social Justice
+1687	Identity, Discrimination & Social Justice
+1688	Identity, Discrimination & Social Justice
+1689	Identity, Discrimination & Social Justice
+1690	Identity, Discrimination & Social Justice
+1691	Identity, Discrimination & Social Justice
+1692	Identity, Discrimination & Social Justice
+1693	Identity, Discrimination & Social Justice
+1694	Identity, Discrimination & Social Justice
+1695	Identity, Discrimination & Social Justice
+1696	Identity, Discrimination & Social Justice
+1697	Identity, Discrimination & Social Justice
+1698	Identity, Discrimination & Social Justice
+1699	Identity, Discrimination & Social Justice
+1700	Arts, Media, Literature & Language
+1701	Arts, Media, Literature & Language
+1702	Lifestyle, Food, Sports & Recreation
+1703	Arts, Media, Literature & Language
+1704	Arts, Media, Literature & Language
+1705	Science, Nature & Environment
+1706	Lifestyle, Food, Sports & Recreation
+1707	Arts, Media, Literature & Language
+1708	Arts, Media, Literature & Language
+1709	History, Geography & Cultural Heritage
+1710	Arts, Media, Literature & Language
+1711	Arts, Media, Literature & Language
+1712	History, Geography & Cultural Heritage
+1713	Science, Nature & Environment
+1714	History, Geography & Cultural Heritage
+1715	Arts, Media, Literature & Language
+1716	Arts, Media, Literature & Language
+1717	Arts, Media, Literature & Language
+1718	Health, Medicine & Mental Health
+1719	Technology, AI & Cybersecurity
+1720	Arts, Media, Literature & Language
+1721	Lifestyle, Food, Sports & Recreation
+1722	Arts, Media, Literature & Language
+1723	Technology, AI & Cybersecurity
+1724	Lifestyle, Food, Sports & Recreation
+1725	Technology, AI & Cybersecurity
+1726	Technology, AI & Cybersecurity
+1727	Health, Medicine & Mental Health
+1728	Arts, Media, Literature & Language
+1729	Arts, Media, Literature & Language
+1730	Arts, Media, Literature & Language
+1731	Health, Medicine & Mental Health
+1732	Arts, Media, Literature & Language
+1733	Arts, Media, Literature & Language
+1734	Drugs, Alcohol & Addiction
+1735	Science, Nature & Environment
+1736	Health, Medicine & Mental Health
+1737	Crime, Fraud & Illicit Activity
+1738	Religion, Philosophy & Ethics
+1739	Arts, Media, Literature & Language
+1740	Science, Nature & Environment
+1741	Health, Medicine & Mental Health
+1742	Health, Medicine & Mental Health
+1743	Religion, Philosophy & Ethics
+1744	Arts, Media, Literature & Language
+1745	Science, Nature & Environment
+1746	History, Geography & Cultural Heritage
+1747	Science, Nature & Environment
+1748	History, Geography & Cultural Heritage
+1749	Health, Medicine & Mental Health
+1750	Science, Nature & Environment
+1751	Politics, Government, Law & International Affairs
+1752	Science, Nature & Environment
+1753	Science, Nature & Environment
+1754	Science, Nature & Environment
+1755	Science, Nature & Environment
+1756	Science, Nature & Environment
+1757	History, Geography & Cultural Heritage
+1758	Health, Medicine & Mental Health
+1759	Science, Nature & Environment
+1760	Health, Medicine & Mental Health
+1761	Science, Nature & Environment
+1762	Health, Medicine & Mental Health
+1763	History, Geography & Cultural Heritage
+1764	Science, Nature & Environment
+1765	History, Geography & Cultural Heritage
+1766	Health, Medicine & Mental Health
+1767	Health, Medicine & Mental Health
+1768	Science, Nature & Environment
+1769	Science, Nature & Environment
+1770	Science, Nature & Environment
+1771	Health, Medicine & Mental Health
+1772	Science, Nature & Environment
+1773	Science, Nature & Environment
+1774	Science, Nature & Environment
+1775	Science, Nature & Environment
+1776	Religion, Philosophy & Ethics
+1777	Arts, Media, Literature & Language
+1778	Science, Nature & Environment
+1779	Science, Nature & Environment
+1780	Health, Medicine & Mental Health
+1781	Health, Medicine & Mental Health
+1782	History, Geography & Cultural Heritage
+1783	Drugs, Alcohol & Addiction
+1784	Science, Nature & Environment
+1785	History, Geography & Cultural Heritage
+1786	Drugs, Alcohol & Addiction
+1787	Science, Nature & Environment
+1788	Science, Nature & Environment
+1789	Health, Medicine & Mental Health
+1790	History, Geography & Cultural Heritage
+1791	Science, Nature & Environment
+1792	Science, Nature & Environment
+1793	Science, Nature & Environment
+1794	Health, Medicine & Mental Health
+1795	History, Geography & Cultural Heritage
+1796	Drugs, Alcohol & Addiction
+1797	History, Geography & Cultural Heritage
+1798	Science, Nature & Environment
+1799	Science, Nature & Environment
+1800	Religion, Philosophy & Ethics
+1801	Drugs, Alcohol & Addiction
+1802	Science, Nature & Environment
+1803	Science, Nature & Environment
+1804	History, Geography & Cultural Heritage
+1805	History, Geography & Cultural Heritage
+1806	History, Geography & Cultural Heritage
+1807	History, Geography & Cultural Heritage
+1808	Science, Nature & Environment
+1809	History, Geography & Cultural Heritage
+1810	Science, Nature & Environment
+1811	Science, Nature & Environment
+1812	Science, Nature & Environment
+1813	Science, Nature & Environment
+1814	Arts, Media, Literature & Language
+1815	Religion, Philosophy & Ethics
+1816	History, Geography & Cultural Heritage
+1817	Science, Nature & Environment
+1818	Science, Nature & Environment
+1819	Health, Medicine & Mental Health
+1820	Science, Nature & Environment
+1821	Science, Nature & Environment
+1822	Drugs, Alcohol & Addiction
+1823	Health, Medicine & Mental Health
+1824	History, Geography & Cultural Heritage
+1825	Sexuality & Adult Content
+1826	Science, Nature & Environment
+1827	Relationships, Family & Personal Life
+1828	Sexuality & Adult Content
+1829	Sexuality & Adult Content
+1830	Sexuality & Adult Content
+1831	Sexuality & Adult Content
+1832	Arts, Media, Literature & Language
+1833	Relationships, Family & Personal Life
+1834	Relationships, Family & Personal Life
+1835	Arts, Media, Literature & Language
+1836	Sexuality & Adult Content
+1837	Technology, AI & Cybersecurity
+1838	Sexuality & Adult Content
+1839	Violence, Weapons & Physical Safety
+1840	Sexuality & Adult Content
+1841	Sexuality & Adult Content
+1842	Identity, Discrimination & Social Justice
+1843	Sexuality & Adult Content
+1844	Violence, Weapons & Physical Safety
+1845	Sexuality & Adult Content
+1846	Crime, Fraud & Illicit Activity
+1847	Sexuality & Adult Content
+1848	Sexuality & Adult Content
+1849	Sexuality & Adult Content
+1850	Sexuality & Adult Content
+1851	Sexuality & Adult Content
+1852	Sexuality & Adult Content
+1853	Privacy & Personal Data
+1854	Technology, AI & Cybersecurity
+1855	Arts, Media, Literature & Language
+1856	Arts, Media, Literature & Language
+1857	Sexuality & Adult Content
+1858	Health, Medicine & Mental Health
+1859	Technology, AI & Cybersecurity
+1860	Sexuality & Adult Content
+1861	Arts, Media, Literature & Language
+1862	Sexuality & Adult Content
+1863	No Discernible Subject
+1864	Sexuality & Adult Content
+1865	Sexuality & Adult Content
+1866	Sexuality & Adult Content
+1867	Sexuality & Adult Content
+1868	Sexuality & Adult Content
+1869	Identity, Discrimination & Social Justice
+1870	Sexuality & Adult Content
+1871	Sexuality & Adult Content
+1872	Privacy & Personal Data
+1873	Sexuality & Adult Content
+1874	Violence, Weapons & Physical Safety
+1875	Sexuality & Adult Content
+1876	Technology, AI & Cybersecurity
+1877	Sexuality & Adult Content
+1878	Relationships, Family & Personal Life
+1879	Identity, Discrimination & Social Justice
+1880	Sexuality & Adult Content
+1881	Arts, Media, Literature & Language
+1882	Relationships, Family & Personal Life
+1883	Sexuality & Adult Content
+1884	Violence, Weapons & Physical Safety
+1885	Relationships, Family & Personal Life
+1886	Sexuality & Adult Content
+1887	Sexuality & Adult Content
+1888	Drugs, Alcohol & Addiction
+1889	Sexuality & Adult Content
+1890	Arts, Media, Literature & Language
+1891	Sexuality & Adult Content
+1892	Sexuality & Adult Content
+1893	Sexuality & Adult Content
+1894	Technology, AI & Cybersecurity
+1895	Sexuality & Adult Content
+1896	Technology, AI & Cybersecurity
+1897	Lifestyle, Food, Sports & Recreation
+1898	Arts, Media, Literature & Language
+1899	Arts, Media, Literature & Language
+1900	Science, Nature & Environment
+1901	Lifestyle, Food, Sports & Recreation
+1902	Arts, Media, Literature & Language
+1903	Arts, Media, Literature & Language
+1904	Arts, Media, Literature & Language
+1905	Arts, Media, Literature & Language
+1906	Science, Nature & Environment
+1907	Lifestyle, Food, Sports & Recreation
+1908	Arts, Media, Literature & Language
+1909	Lifestyle, Food, Sports & Recreation
+1910	Lifestyle, Food, Sports & Recreation
+1911	Arts, Media, Literature & Language
+1912	Arts, Media, Literature & Language
+1913	Arts, Media, Literature & Language
+1914	Privacy & Personal Data
+1915	Arts, Media, Literature & Language
+1916	Arts, Media, Literature & Language
+1917	Lifestyle, Food, Sports & Recreation
+1918	Lifestyle, Food, Sports & Recreation
+1919	Arts, Media, Literature & Language
+1920	Arts, Media, Literature & Language
+1921	Arts, Media, Literature & Language
+1922	Arts, Media, Literature & Language
+1923	Science, Nature & Environment
+1924	Arts, Media, Literature & Language
+1925	Lifestyle, Food, Sports & Recreation
+1926	Arts, Media, Literature & Language
+1927	Arts, Media, Literature & Language
+1928	Lifestyle, Food, Sports & Recreation
+1929	Arts, Media, Literature & Language
+1930	Arts, Media, Literature & Language
+1931	Arts, Media, Literature & Language
+1932	Arts, Media, Literature & Language
+1933	Lifestyle, Food, Sports & Recreation
+1934	Lifestyle, Food, Sports & Recreation
+1935	Science, Nature & Environment
+1936	Arts, Media, Literature & Language
+1937	Lifestyle, Food, Sports & Recreation
+1938	Arts, Media, Literature & Language
+1939	Science, Nature & Environment
+1940	Arts, Media, Literature & Language
+1941	Health, Medicine & Mental Health
+1942	Science, Nature & Environment
+1943	Arts, Media, Literature & Language
+1944	Science, Nature & Environment
+1945	Arts, Media, Literature & Language
+1946	Arts, Media, Literature & Language
+1947	Arts, Media, Literature & Language
+1948	Arts, Media, Literature & Language
+1949	Lifestyle, Food, Sports & Recreation
+1950	Arts, Media, Literature & Language
+1951	Arts, Media, Literature & Language
+1952	Science, Nature & Environment
+1953	Lifestyle, Food, Sports & Recreation
+1954	Science, Nature & Environment
+1955	Lifestyle, Food, Sports & Recreation
+1956	Technology, AI & Cybersecurity
+1957	Science, Nature & Environment
+1958	Arts, Media, Literature & Language
+1959	Lifestyle, Food, Sports & Recreation
+1960	Arts, Media, Literature & Language
+1961	Arts, Media, Literature & Language
+1962	Science, Nature & Environment
+1963	Arts, Media, Literature & Language
+1964	Science, Nature & Environment
+1965	Health, Medicine & Mental Health
+1966	Arts, Media, Literature & Language
+1967	Arts, Media, Literature & Language
+1968	Lifestyle, Food, Sports & Recreation
+1969	Finance, Business & Economics
+1970	Arts, Media, Literature & Language
+1971	Arts, Media, Literature & Language
+1972	Arts, Media, Literature & Language
+1973	Lifestyle, Food, Sports & Recreation
+1974	Politics, Government, Law & International Affairs
+1975	Arts, Media, Literature & Language
+1976	Science, Nature & Environment
+1977	History, Geography & Cultural Heritage
+1978	Arts, Media, Literature & Language
+1979	Religion, Philosophy & Ethics
+1980	Finance, Business & Economics
+1981	Science, Nature & Environment
+1982	Science, Nature & Environment
+1983	Arts, Media, Literature & Language
+1984	Science, Nature & Environment
+1985	Science, Nature & Environment
+1986	Technology, AI & Cybersecurity
+1987	Science, Nature & Environment
+1988	Arts, Media, Literature & Language
+1989	Arts, Media, Literature & Language
+1990	History, Geography & Cultural Heritage
+1991	Arts, Media, Literature & Language
+1992	Arts, Media, Literature & Language
+1993	Arts, Media, Literature & Language
+1994	Science, Nature & Environment
+1995	Technology, AI & Cybersecurity
+1996	History, Geography & Cultural Heritage
+1997	Education, Employment & Workplace
+1998	Technology, AI & Cybersecurity
+1999	History, Geography & Cultural Heritage
+2000	Privacy & Personal Data
+2001	Arts, Media, Literature & Language
+2002	Science, Nature & Environment
+2003	Arts, Media, Literature & Language
+2004	Politics, Government, Law & International Affairs
+2005	Arts, Media, Literature & Language
+2006	Arts, Media, Literature & Language
+2007	Arts, Media, Literature & Language
+2008	Science, Nature & Environment
+2009	Science, Nature & Environment
+2010	Lifestyle, Food, Sports & Recreation
+2011	Politics, Government, Law & International Affairs
+2012	Science, Nature & Environment
+2013	Arts, Media, Literature & Language
+2014	Arts, Media, Literature & Language
+2015	Arts, Media, Literature & Language
+2016	History, Geography & Cultural Heritage
+2017	Arts, Media, Literature & Language
+2018	Technology, AI & Cybersecurity
+2019	Technology, AI & Cybersecurity
+2020	Science, Nature & Environment
+2021	Technology, AI & Cybersecurity
+2022	Arts, Media, Literature & Language
+2023	Technology, AI & Cybersecurity
+2024	Science, Nature & Environment
+2025	Technology, AI & Cybersecurity
+2026	Lifestyle, Food, Sports & Recreation
+2027	Politics, Government, Law & International Affairs
+2028	Finance, Business & Economics
+2029	Arts, Media, Literature & Language
+2030	Lifestyle, Food, Sports & Recreation
+2031	Arts, Media, Literature & Language
+2032	Arts, Media, Literature & Language
+2033	Technology, AI & Cybersecurity
+2034	Finance, Business & Economics
+2035	Technology, AI & Cybersecurity
+2036	Finance, Business & Economics
+2037	Finance, Business & Economics
+2038	Science, Nature & Environment
+2039	Lifestyle, Food, Sports & Recreation
+2040	Politics, Government, Law & International Affairs
+2041	Finance, Business & Economics
+2042	Arts, Media, Literature & Language
+2043	Science, Nature & Environment
+2044	Science, Nature & Environment
+2045	Finance, Business & Economics
+2046	Politics, Government, Law & International Affairs
+2047	Lifestyle, Food, Sports & Recreation
+2048	Science, Nature & Environment
+2049	Science, Nature & Environment
+2050	Technology, AI & Cybersecurity
+2051	Arts, Media, Literature & Language
+2052	Technology, AI & Cybersecurity
+2053	Finance, Business & Economics

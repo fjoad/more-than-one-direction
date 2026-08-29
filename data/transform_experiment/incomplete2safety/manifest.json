@@ -1,0 +1,7 @@
+{
+  "pool": "incomplete2safety",
+  "n_h": 32,
+  "n_b": 32,
+  "b_source": "per_split_simple/WildGuard_all/B.json (shared)",
+  "h_source": "authored transform table -> ## Table B"
+}

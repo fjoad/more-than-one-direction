@@ -58,3 +58,5 @@ dist/
 
 # Internal-only files (don't ship to release)
 MAPPING.md
+results/
+smoke*-*.out

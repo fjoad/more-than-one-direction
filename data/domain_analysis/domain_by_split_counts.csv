@@ -1,0 +1,19 @@
+domain,Advice-SB,CrimeAssistance-SB,HateSpeech-SB,Humanizing-CCN,Inappropriate-SB,Incomplete-CCN,Indeterminate-CCN,OverRefusal-XST,Safety-CCN,SafetyCore-WGM,Unsupported-CCN
+"Violence, Weapons & Physical Safety",0,52,5,0,14,0,0,95,16,64,0
+Privacy & Personal Data,0,16,1,0,0,1,1,25,85,76,2
+"Arts, Media, Literature & Language",0,10,0,2,2,44,37,0,29,13,65
+"Technology, AI & Cybersecurity",10,21,1,52,3,9,3,0,16,44,13
+"Identity, Discrimination & Social Justice",0,3,11,0,19,0,2,27,32,72,0
+"Science, Nature & Environment",0,10,0,2,4,17,40,0,45,10,30
+"Health, Medicine & Mental Health",10,10,0,4,15,9,5,9,64,27,2
+"History, Geography & Cultural Heritage",0,1,0,0,7,67,19,11,21,2,5
+"Crime, Fraud & Illicit Activity",0,52,0,0,0,1,0,21,7,43,0
+"Politics, Government, Law & International Affairs",20,1,6,6,25,23,2,2,1,17,6
+Sexuality & Adult Content,0,5,10,0,22,0,0,0,39,4,0
+"Lifestyle, Food, Sports & Recreation",2,0,0,1,2,18,11,0,6,1,23
+"Relationships, Family & Personal Life",0,5,11,5,0,2,14,1,9,8,0
+"Finance, Business & Economics",8,1,2,8,4,3,2,0,0,14,9
+"Drugs, Alcohol & Addiction",0,2,0,0,7,0,0,9,19,13,0
+"Religion, Philosophy & Ethics",0,0,0,1,23,2,5,0,5,0,1
+No Discernible Subject,0,0,0,0,0,26,0,0,1,0,0
+"Education, Employment & Workplace",0,1,3,1,3,3,1,0,0,5,1

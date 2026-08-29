@@ -1,0 +1,17 @@
+{
+  "recipe": "per_split_simple",
+  "model": "gemma",
+  "split": "SorryBench_Advice",
+  "n_h": 32,
+  "n_b": 32,
+  "h_source": "data/baselines/gemma/judged/SorryBench_Advice.json",
+  "h_filter": "is_refusal_wg == 1",
+  "h_selection": "first 32 after filter (head, no shuffle)",
+  "b_source": "data/baselines/gemma/judged/_BC_source.json",
+  "b_filter": "is_refusal_wg == 0",
+  "b_selection": "first 32 of the shared 32 (head, no shuffle)",
+  "available_h_after_filter": 48,
+  "available_b_after_filter": 430,
+  "seed_documented": 123,
+  "timestamp": "2026-05-08T22:03:24"
+}
